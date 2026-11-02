@@ -1,0 +1,514 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Connected dot plot comparing Australia-only and elsewhere-occurring bird species across five displayed primary habitats. Artificial habitats (one species in each group) are omitted to avoid overlapping dots; its source data remains in the CSV. Rocky and arid: elsewhere-occurring group is 0 of 296 selected species (0%), shown explicitly.",
+  "data": {
+    "url": "data/08_habitat_comparison_summary.csv"
+  },
+  "spacing": 8,
+  "bounds": "flush",
+  "config": {
+    "view": {
+      "stroke": null
+    },
+    "axis": {
+      "labelFont": "DM Sans",
+      "titleFont": "DM Sans"
+    },
+    "text": {
+      "font": "DM Sans"
+    },
+    "legend": {
+      "labelFont": "DM Sans",
+      "titleFont": "DM Sans",
+      "labelFontSize": 11,
+      "titleFontSize": 14
+    }
+  },
+  "hconcat": [
+    {
+      "width": 135,
+      "height": {
+        "step": 50
+      },
+      "transform": [
+        {
+          "filter": "datum.habitat !== 'Artificial habitats'"
+        },
+        {
+          "calculate": "datum.habitat === 'Open landscapes' ? 'Open\\nlandscapes' : datum.habitat === 'Seas and coasts' ? 'Seas &\\ncoasts' : datum.habitat === 'Wetlands and rivers' ? 'Wetlands &\\nrivers' : datum.habitat === 'Rocky and arid' ? 'Rocky &\\narid' : datum.habitat",
+          "as": "habitat_wrapped"
+        }
+      ],
+      "layer": [
+        {
+          "mark": {
+            "type": "text",
+            "align": "left",
+            "baseline": "middle",
+            "dx": 2,
+            "lineBreak": "\n",
+            "font": "DM Sans",
+            "fontSize": 12,
+            "fontWeight": 500,
+            "color": "#17384F"
+          },
+          "encoding": {
+            "y": {
+              "field": "habitat",
+              "type": "nominal",
+              "sort": [
+                "Open landscapes",
+                "Forests",
+                "Seas and coasts",
+                "Wetlands and rivers",
+                "Rocky and arid"
+              ],
+              "axis": null,
+              "scale": {
+                "domain": [
+                  "Open landscapes",
+                  "Forests",
+                  "Seas and coasts",
+                  "Wetlands and rivers",
+                  "Rocky and arid"
+                ],
+                "paddingInner": 0,
+                "paddingOuter": 0
+              }
+            },
+            "x": {
+              "value": 0
+            },
+            "text": {
+              "field": "habitat_wrapped"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "width": 395,
+      "height": {
+        "step": 50
+      },
+      "transform": [
+        {
+          "filter": "datum.habitat !== 'Artificial habitats'"
+        },
+        {
+          "calculate": "datum.habitat === 'Rocky and arid' || abs(datum.australia_only_pct - datum.elsewhere_pct) < 0.05 ? '' : format(datum.australia_only_pct, '.1f') + '%'",
+          "as": "only_label"
+        },
+        {
+          "calculate": "datum.habitat === 'Rocky and arid' || abs(datum.australia_only_pct - datum.elsewhere_pct) < 0.05 ? '' : format(datum.elsewhere_pct, '.1f') + '%'",
+          "as": "else_label"
+        }
+      ],
+      "layer": [
+        {
+          "mark": {
+            "type": "rule",
+            "color": "#D4DFE8",
+            "strokeWidth": 1.4
+          },
+          "encoding": {
+            "y": {
+              "field": "habitat",
+              "type": "nominal",
+              "sort": [
+                "Open landscapes",
+                "Forests",
+                "Seas and coasts",
+                "Wetlands and rivers",
+                "Rocky and arid"
+              ],
+              "axis": {
+                "title": null,
+                "labels": false,
+                "ticks": false,
+                "domain": true,
+                "domainColor": "#B9C8D4",
+                "domainWidth": 1.3
+              },
+              "scale": {
+                "domain": [
+                  "Open landscapes",
+                  "Forests",
+                  "Seas and coasts",
+                  "Wetlands and rivers",
+                  "Rocky and arid"
+                ],
+                "paddingInner": 0,
+                "paddingOuter": 0
+              }
+            },
+            "x": {
+              "field": "australia_only_pct",
+              "type": "quantitative",
+              "scale": {
+                "domain": [
+                  0,
+                  55
+                ],
+                "nice": false
+              },
+              "axis": {
+                "title": "Percentage of species",
+                "titleFont": "DM Sans",
+                "titleFontSize": 12,
+                "titleFontWeight": 700,
+                "titleColor": "#17384F",
+                "titlePadding": 14,
+                "labelFont": "DM Sans",
+                "labelFontSize": 11,
+                "labelColor": "#3C5770",
+                "labelPadding": 7,
+                "values": [
+                  0,
+                  10,
+                  20,
+                  30,
+                  40,
+                  50
+                ],
+                "labelExpr": "datum.value + '%'",
+                "grid": false,
+                "domain": true,
+                "domainColor": "#AFBFCC",
+                "domainWidth": 1.3,
+                "tickColor": "#AFBFCC",
+                "tickSize": 5,
+                "labelOverlap": false
+              }
+            },
+            "x2": {
+              "field": "elsewhere_pct"
+            }
+          }
+        },
+        {
+          "mark": {
+            "type": "point",
+            "filled": true,
+            "size": 170,
+            "color": "#8A4C79",
+            "stroke": "#FFFFFF",
+            "strokeWidth": 1.6,
+            "fill": "#8A4C79",
+            "opacity": 1,
+            "fillOpacity": 1
+          },
+          "encoding": {
+            "y": {
+              "field": "habitat",
+              "type": "nominal",
+              "sort": [
+                "Open landscapes",
+                "Forests",
+                "Seas and coasts",
+                "Wetlands and rivers",
+                "Rocky and arid"
+              ],
+              "scale": {
+                "domain": [
+                  "Open landscapes",
+                  "Forests",
+                  "Seas and coasts",
+                  "Wetlands and rivers",
+                  "Rocky and arid"
+                ],
+                "paddingInner": 0,
+                "paddingOuter": 0
+              }
+            },
+            "x": {
+              "field": "australia_only_pct",
+              "type": "quantitative"
+            },
+            "tooltip": [
+              {
+                "field": "habitat",
+                "type": "nominal",
+                "title": "Habitat"
+              },
+              {
+                "field": "australia_only_count",
+                "type": "quantitative",
+                "title": "Australia-only species in this habitat"
+              },
+              {
+                "field": "australia_only_total",
+                "type": "quantitative",
+                "title": "Total Australia-only species"
+              },
+              {
+                "field": "australia_only_pct",
+                "type": "quantitative",
+                "title": "Share of group (%)",
+                "format": ".1f"
+              }
+            ]
+          }
+        },
+        {
+          "mark": {
+            "type": "point",
+            "filled": true,
+            "size": 170,
+            "color": "#426B92",
+            "stroke": "#FFFFFF",
+            "strokeWidth": 1.6,
+            "fill": "#426B92",
+            "opacity": 1,
+            "fillOpacity": 1
+          },
+          "encoding": {
+            "y": {
+              "field": "habitat",
+              "type": "nominal",
+              "sort": [
+                "Open landscapes",
+                "Forests",
+                "Seas and coasts",
+                "Wetlands and rivers",
+                "Rocky and arid"
+              ],
+              "scale": {
+                "domain": [
+                  "Open landscapes",
+                  "Forests",
+                  "Seas and coasts",
+                  "Wetlands and rivers",
+                  "Rocky and arid"
+                ],
+                "paddingInner": 0,
+                "paddingOuter": 0
+              }
+            },
+            "x": {
+              "field": "elsewhere_pct",
+              "type": "quantitative"
+            },
+            "tooltip": [
+              {
+                "field": "habitat",
+                "type": "nominal",
+                "title": "Habitat"
+              },
+              {
+                "field": "elsewhere_count",
+                "type": "quantitative",
+                "title": "Elsewhere-occurring species in this habitat"
+              },
+              {
+                "field": "elsewhere_total",
+                "type": "quantitative",
+                "title": "Total species also found elsewhere"
+              },
+              {
+                "field": "elsewhere_pct",
+                "type": "quantitative",
+                "title": "Share of group (%)",
+                "format": ".1f"
+              }
+            ]
+          }
+        },
+        {
+          "transform": [
+            {
+              "filter": "datum.only_label !== ''"
+            }
+          ],
+          "mark": {
+            "type": "text",
+            "dy": -15,
+            "color": "#8A4C79",
+            "font": "DM Sans",
+            "fontSize": 11,
+            "fontWeight": 700,
+            "baseline": "middle",
+            "align": "center"
+          },
+          "encoding": {
+            "y": {
+              "field": "habitat",
+              "type": "nominal",
+              "sort": [
+                "Open landscapes",
+                "Forests",
+                "Seas and coasts",
+                "Wetlands and rivers",
+                "Rocky and arid"
+              ],
+              "scale": {
+                "domain": [
+                  "Open landscapes",
+                  "Forests",
+                  "Seas and coasts",
+                  "Wetlands and rivers",
+                  "Rocky and arid"
+                ],
+                "paddingInner": 0,
+                "paddingOuter": 0
+              }
+            },
+            "x": {
+              "field": "australia_only_pct",
+              "type": "quantitative"
+            },
+            "text": {
+              "field": "only_label"
+            }
+          }
+        },
+        {
+          "transform": [
+            {
+              "filter": "datum.else_label !== ''"
+            }
+          ],
+          "mark": {
+            "type": "text",
+            "dy": -15,
+            "color": "#426B92",
+            "font": "DM Sans",
+            "fontSize": 11,
+            "fontWeight": 700,
+            "baseline": "middle",
+            "align": "center"
+          },
+          "encoding": {
+            "y": {
+              "field": "habitat",
+              "type": "nominal",
+              "sort": [
+                "Open landscapes",
+                "Forests",
+                "Seas and coasts",
+                "Wetlands and rivers",
+                "Rocky and arid"
+              ],
+              "scale": {
+                "domain": [
+                  "Open landscapes",
+                  "Forests",
+                  "Seas and coasts",
+                  "Wetlands and rivers",
+                  "Rocky and arid"
+                ],
+                "paddingInner": 0,
+                "paddingOuter": 0
+              }
+            },
+            "x": {
+              "field": "elsewhere_pct",
+              "type": "quantitative"
+            },
+            "text": {
+              "field": "else_label"
+            }
+          }
+        },
+        {
+          "transform": [
+            {
+              "filter": "datum.habitat === 'Rocky and arid'"
+            }
+          ],
+          "mark": {
+            "type": "text",
+            "align": "left",
+            "baseline": "bottom",
+            "dy": -13,
+            "dx": 6,
+            "font": "DM Sans",
+            "fontSize": 11,
+            "fontWeight": 700,
+            "color": "#426B92"
+          },
+          "encoding": {
+            "y": {
+              "field": "habitat",
+              "type": "nominal",
+              "sort": [
+                "Open landscapes",
+                "Forests",
+                "Seas and coasts",
+                "Wetlands and rivers",
+                "Rocky and arid"
+              ],
+              "scale": {
+                "domain": [
+                  "Open landscapes",
+                  "Forests",
+                  "Seas and coasts",
+                  "Wetlands and rivers",
+                  "Rocky and arid"
+                ],
+                "paddingInner": 0,
+                "paddingOuter": 0
+              }
+            },
+            "x": {
+              "field": "elsewhere_pct",
+              "type": "quantitative"
+            },
+            "text": {
+              "value": "0%"
+            }
+          }
+        },
+        {
+          "transform": [
+            {
+              "filter": "datum.habitat === 'Rocky and arid'"
+            }
+          ],
+          "mark": {
+            "type": "text",
+            "align": "left",
+            "baseline": "bottom",
+            "dy": -13,
+            "dx": 12,
+            "font": "DM Sans",
+            "fontSize": 11,
+            "fontWeight": 700,
+            "color": "#8A4C79"
+          },
+          "encoding": {
+            "y": {
+              "field": "habitat",
+              "type": "nominal",
+              "sort": [
+                "Open landscapes",
+                "Forests",
+                "Seas and coasts",
+                "Wetlands and rivers",
+                "Rocky and arid"
+              ],
+              "scale": {
+                "domain": [
+                  "Open landscapes",
+                  "Forests",
+                  "Seas and coasts",
+                  "Wetlands and rivers",
+                  "Rocky and arid"
+                ],
+                "paddingInner": 0,
+                "paddingOuter": 0
+              }
+            },
+            "x": {
+              "field": "australia_only_pct",
+              "type": "quantitative"
+            },
+            "text": {
+              "value": "4.3%"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

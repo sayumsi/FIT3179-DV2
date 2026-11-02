@@ -1,0 +1,248 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Chart 10. Choropleth of 2000–2020 average relative-abundance changes for threatened and near-threatened birds monitored in Australia, from the 2023 Threatened Bird Index. NSW and ACT are one reporting region. The map does not show all birds or total population counts.",
+  "background": "#FFFFFF",
+  "width": 365,
+  "height": 285,
+  "padding": {
+    "left": 0,
+    "right": 6,
+    "top": 1,
+    "bottom": 1
+  },
+  "projection": {
+    "type": "conicEqualArea",
+    "rotate": [
+      -134,
+      0,
+      0
+    ],
+    "center": [
+      0,
+      -26
+    ],
+    "parallels": [
+      -18,
+      -36
+    ]
+  },
+  "layer": [
+    {
+      "data": {
+        "url": "data/10_threatened_bird_population_map.geojson",
+        "format": {
+          "type": "json",
+          "property": "features"
+        }
+      },
+      "mark": {
+        "type": "geoshape",
+        "stroke": "#FFFFFF",
+        "strokeWidth": 1.5,
+        "strokeJoin": "round"
+      },
+      "encoding": {
+        "color": {
+          "field": "properties.decline_magnitude",
+          "type": "quantitative",
+          "scale": {
+            "domain": [
+              0,
+              70
+            ],
+            "range": [
+              "#E9F2F8",
+              "#C5DDEC",
+              "#91B9D5",
+              "#5A8FB7",
+              "#255D89"
+            ]
+          },
+          "legend": null
+        },
+        "tooltip": [
+          {
+            "field": "properties.reporting_region",
+            "type": "nominal",
+            "title": "Reporting region"
+          },
+          {
+            "field": "change_label",
+            "type": "nominal",
+            "title": "Average change (2000–2020)"
+          },
+          {
+            "field": "properties.monitored_taxa",
+            "type": "quantitative",
+            "title": "Monitored species/subspecies",
+            "format": ",d"
+          },
+          {
+            "field": "properties.time_series",
+            "type": "quantitative",
+            "title": "Monitoring time series",
+            "format": ",d"
+          }
+        ]
+      },
+      "transform": [
+        {
+          "calculate": "format(datum.properties.percent_change, '+.1f') + '%'",
+          "as": "change_label"
+        }
+      ]
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "abbrev": "WA",
+            "lon": 121.8,
+            "lat": -25.7,
+            "decline_magnitude": 29.9
+          },
+          {
+            "abbrev": "NT",
+            "lon": 133.6,
+            "lat": -20.1,
+            "decline_magnitude": 3.4
+          },
+          {
+            "abbrev": "QLD",
+            "lon": 145.6,
+            "lat": -22.4,
+            "decline_magnitude": 65.7
+          },
+          {
+            "abbrev": "SA",
+            "lon": 135.3,
+            "lat": -30.5,
+            "decline_magnitude": 69.6
+          },
+          {
+            "abbrev": "NSW",
+            "lon": 147.5,
+            "lat": -32.0,
+            "decline_magnitude": 56.3
+          },
+          {
+            "abbrev": "VIC",
+            "lon": 144.3,
+            "lat": -37.25,
+            "decline_magnitude": 47.9
+          },
+          {
+            "abbrev": "TAS",
+            "lon": 146.5,
+            "lat": -42.2,
+            "decline_magnitude": 27.6
+          }
+        ]
+      },
+      "mark": {
+        "type": "text",
+        "font": "DM Sans",
+        "fontWeight": 700,
+        "fontSize": 13,
+        "baseline": "middle",
+        "align": "center"
+      },
+      "encoding": {
+        "longitude": {
+          "field": "lon",
+          "type": "quantitative"
+        },
+        "latitude": {
+          "field": "lat",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "abbrev",
+          "type": "nominal"
+        },
+        "color": {
+          "condition": {
+            "test": "datum.decline_magnitude >= 58",
+            "value": "#FFFFFF"
+          },
+          "value": "#193B53"
+        }
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "start_lon": 149.15,
+            "start_lat": -35.46,
+            "end_lon": 151.3,
+            "end_lat": -36.0
+          }
+        ]
+      },
+      "mark": {
+        "type": "rule",
+        "stroke": "#2B526C",
+        "strokeWidth": 1.1
+      },
+      "encoding": {
+        "longitude": {
+          "field": "start_lon",
+          "type": "quantitative"
+        },
+        "latitude": {
+          "field": "start_lat",
+          "type": "quantitative"
+        },
+        "longitude2": {
+          "field": "end_lon"
+        },
+        "latitude2": {
+          "field": "end_lat"
+        }
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "lon": 151.6,
+            "lat": -35.95,
+            "abbrev": "ACT"
+          }
+        ]
+      },
+      "mark": {
+        "type": "text",
+        "font": "DM Sans",
+        "fontWeight": 700,
+        "fontSize": 12,
+        "baseline": "middle",
+        "align": "left",
+        "color": "#193B53"
+      },
+      "encoding": {
+        "longitude": {
+          "field": "lon",
+          "type": "quantitative"
+        },
+        "latitude": {
+          "field": "lat",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "abbrev",
+          "type": "nominal"
+        }
+      }
+    }
+  ],
+  "config": {
+    "view": {
+      "stroke": null
+    },
+    "text": {
+      "font": "DM Sans"
+    }
+  }
+}

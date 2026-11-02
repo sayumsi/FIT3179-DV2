@@ -1,0 +1,144 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Two-sided butterfly plot, aligned to an accessible HTML percentage scale below its marks. Chart groups are in a separate aligned label column.",
+  "data": {
+    "url": "data/07_bird_group_butterfly.csv"
+  },
+  "transform": [
+    {
+      "calculate": "datum.side === 'Australia-only' ? -toNumber(datum.share_pct) : toNumber(datum.share_pct)",
+      "as": "signed_percentage"
+    }
+  ],
+  "width": 390,
+  "height": {
+    "step": 32
+  },
+  "padding": {
+    "left": 0,
+    "right": 0,
+    "top": 0,
+    "bottom": 0
+  },
+  "layer": [
+    {
+      "mark": {
+        "type": "bar",
+        "size": 24,
+        "cornerRadiusEnd": 2,
+        "clip": true
+      },
+      "encoding": {
+        "y": {
+          "field": "bird_group",
+          "type": "nominal",
+          "sort": [
+            "Parrots & cockatoos",
+            "Perching birds",
+            "Pigeons & doves",
+            "Ducks, geese & swans",
+            "Rails and cranes",
+            "Shorebirds",
+            "Herons, pelicans & ibises",
+            "Petrels and albatrosses"
+          ],
+          "axis": null
+        },
+        "x": {
+          "field": "signed_percentage",
+          "type": "quantitative",
+          "scale": {
+            "domain": [
+              -100,
+              100
+            ],
+            "nice": false
+          },
+          "axis": null
+        },
+        "x2": {
+          "datum": 0
+        },
+        "color": {
+          "field": "side",
+          "type": "nominal",
+          "scale": {
+            "domain": [
+              "Australia-only",
+              "Also found elsewhere"
+            ],
+            "range": [
+              "#8A4C79",
+              "#547F9F"
+            ]
+          },
+          "legend": null
+        },
+        "tooltip": [
+          {
+            "field": "bird_group",
+            "type": "nominal",
+            "title": "Bird group"
+          },
+          {
+            "field": "side",
+            "type": "nominal",
+            "title": "Category"
+          },
+          {
+            "field": "species_count",
+            "type": "quantitative",
+            "title": "Number of species"
+          },
+          {
+            "field": "total_group",
+            "type": "quantitative",
+            "title": "Total species in group"
+          },
+          {
+            "field": "share_pct",
+            "type": "quantitative",
+            "title": "Percentage",
+            "format": ".1f"
+          }
+        ]
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "zero": 0
+          }
+        ]
+      },
+      "mark": {
+        "type": "rule",
+        "color": "#9BAEBB",
+        "strokeWidth": 1.5
+      },
+      "encoding": {
+        "x": {
+          "field": "zero",
+          "type": "quantitative",
+          "scale": {
+            "domain": [
+              -100,
+              100
+            ]
+          },
+          "axis": null
+        }
+      }
+    }
+  ],
+  "config": {
+    "view": {
+      "stroke": null
+    },
+    "axis": {
+      "labelFont": "DM Sans",
+      "titleFont": "DM Sans"
+    }
+  }
+}

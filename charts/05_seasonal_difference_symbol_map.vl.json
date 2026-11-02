@@ -1,0 +1,461 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Chart 5: November-minus-June difference on a proportional-symbol Australia map. State initials and +values are centred within symbols, except ACT initials outside the small circle. Symbol AREA scales linearly from 0 (no circle) to 17 species; data unchanged.",
+  "background": "#FFFFFF",
+  "width": 440,
+  "height": 322,
+  "projection": {
+    "type": "conicEqualArea",
+    "rotate": [
+      -134,
+      0,
+      0
+    ],
+    "center": [
+      0,
+      -26
+    ],
+    "parallels": [
+      -18,
+      -36
+    ]
+  },
+  "layer": [
+    {
+      "data": {
+        "url": "data/australian_states_ala.geojson",
+        "format": {
+          "type": "json",
+          "property": "features"
+        }
+      },
+      "mark": {
+        "type": "geoshape",
+        "fill": "#EDF4F9",
+        "stroke": "#B5CEDF",
+        "strokeWidth": 1.15
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "fromLon": 149.12,
+            "fromLat": -35.44,
+            "toLon": 155.2,
+            "toLat": -36.2
+          }
+        ]
+      },
+      "mark": {
+        "type": "rule",
+        "stroke": "#657B8C",
+        "strokeWidth": 1.15
+      },
+      "encoding": {
+        "longitude": {
+          "field": "fromLon",
+          "type": "quantitative"
+        },
+        "latitude": {
+          "field": "fromLat",
+          "type": "quantitative"
+        },
+        "longitude2": {
+          "field": "toLon",
+          "type": "quantitative"
+        },
+        "latitude2": {
+          "field": "toLat",
+          "type": "quantitative"
+        }
+      }
+    },
+    {
+      "data": {
+        "url": "data/05_birdfact_november_june_by_state.csv",
+        "format": {
+          "type": "csv",
+          "parse": {
+            "november": "number",
+            "june": "number",
+            "difference": "number",
+            "longitude": "number",
+            "latitude": "number",
+            "symbol_longitude": "number",
+            "symbol_latitude": "number",
+            "label_longitude": "number",
+            "label_latitude": "number"
+          }
+        }
+      },
+      "mark": {
+        "type": "circle",
+        "opacity": 0.93,
+        "stroke": "#FFFFFF",
+        "strokeWidth": 1.8,
+        "color": "#8A4C79"
+      },
+      "encoding": {
+        "longitude": {
+          "field": "symbol_longitude",
+          "type": "quantitative"
+        },
+        "latitude": {
+          "field": "symbol_latitude",
+          "type": "quantitative"
+        },
+        "size": {
+          "field": "difference",
+          "type": "quantitative",
+          "scale": {
+            "type": "linear",
+            "domain": [
+              0,
+              17
+            ],
+            "range": [
+              0,
+              1550
+            ],
+            "zero": true
+          },
+          "legend": null
+        },
+        "tooltip": [
+          {
+            "field": "state",
+            "type": "nominal",
+            "title": "State / territory"
+          },
+          {
+            "field": "november",
+            "type": "quantitative",
+            "title": "November (spring)",
+            "format": ",d"
+          },
+          {
+            "field": "june",
+            "type": "quantitative",
+            "title": "June (winter)",
+            "format": ",d"
+          },
+          {
+            "field": "difference",
+            "type": "quantitative",
+            "title": "Difference (species)",
+            "format": "+d"
+          }
+        ]
+      }
+    },
+    {
+      "data": {
+        "url": "data/05_birdfact_november_june_by_state.csv",
+        "format": {
+          "type": "csv",
+          "parse": {
+            "november": "number",
+            "june": "number",
+            "difference": "number",
+            "longitude": "number",
+            "latitude": "number",
+            "symbol_longitude": "number",
+            "symbol_latitude": "number",
+            "label_longitude": "number",
+            "label_latitude": "number"
+          }
+        }
+      },
+      "transform": [
+        {
+          "filter": "datum.abbrev !== 'ACT'"
+        }
+      ],
+      "mark": {
+        "type": "text",
+        "font": "DM Sans",
+        "fontSize": 10,
+        "fontWeight": 700,
+        "color": "#FFFFFF",
+        "baseline": "middle",
+        "align": "center",
+        "dy": -6
+      },
+      "encoding": {
+        "longitude": {
+          "field": "symbol_longitude",
+          "type": "quantitative"
+        },
+        "latitude": {
+          "field": "symbol_latitude",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "abbrev",
+          "type": "nominal"
+        },
+        "tooltip": [
+          {
+            "field": "state",
+            "type": "nominal",
+            "title": "State / territory"
+          },
+          {
+            "field": "november",
+            "type": "quantitative",
+            "title": "November (spring)",
+            "format": ",d"
+          },
+          {
+            "field": "june",
+            "type": "quantitative",
+            "title": "June (winter)",
+            "format": ",d"
+          },
+          {
+            "field": "difference",
+            "type": "quantitative",
+            "title": "Difference (species)",
+            "format": "+d"
+          }
+        ]
+      }
+    },
+    {
+      "data": {
+        "url": "data/05_birdfact_november_june_by_state.csv",
+        "format": {
+          "type": "csv",
+          "parse": {
+            "november": "number",
+            "june": "number",
+            "difference": "number",
+            "longitude": "number",
+            "latitude": "number",
+            "symbol_longitude": "number",
+            "symbol_latitude": "number",
+            "label_longitude": "number",
+            "label_latitude": "number"
+          }
+        }
+      },
+      "transform": [
+        {
+          "filter": "datum.abbrev !== 'ACT'"
+        },
+        {
+          "calculate": "'+' + datum.difference",
+          "as": "label_value"
+        }
+      ],
+      "mark": {
+        "type": "text",
+        "font": "DM Sans",
+        "fontSize": 10,
+        "fontWeight": 700,
+        "color": "#FFFFFF",
+        "baseline": "middle",
+        "align": "center",
+        "dy": 7
+      },
+      "encoding": {
+        "longitude": {
+          "field": "symbol_longitude",
+          "type": "quantitative"
+        },
+        "latitude": {
+          "field": "symbol_latitude",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "label_value",
+          "type": "nominal"
+        },
+        "tooltip": [
+          {
+            "field": "state",
+            "type": "nominal",
+            "title": "State / territory"
+          },
+          {
+            "field": "november",
+            "type": "quantitative",
+            "title": "November (spring)",
+            "format": ",d"
+          },
+          {
+            "field": "june",
+            "type": "quantitative",
+            "title": "June (winter)",
+            "format": ",d"
+          },
+          {
+            "field": "difference",
+            "type": "quantitative",
+            "title": "Difference (species)",
+            "format": "+d"
+          }
+        ]
+      }
+    },
+    {
+      "data": {
+        "url": "data/05_birdfact_november_june_by_state.csv",
+        "format": {
+          "type": "csv",
+          "parse": {
+            "november": "number",
+            "june": "number",
+            "difference": "number",
+            "longitude": "number",
+            "latitude": "number",
+            "symbol_longitude": "number",
+            "symbol_latitude": "number",
+            "label_longitude": "number",
+            "label_latitude": "number"
+          }
+        }
+      },
+      "transform": [
+        {
+          "filter": "datum.abbrev === 'ACT'"
+        },
+        {
+          "calculate": "'+' + datum.difference",
+          "as": "label_value"
+        }
+      ],
+      "mark": {
+        "type": "text",
+        "font": "DM Sans",
+        "fontSize": 9,
+        "fontWeight": 700,
+        "color": "#FFFFFF",
+        "baseline": "middle",
+        "align": "center"
+      },
+      "encoding": {
+        "longitude": {
+          "field": "symbol_longitude",
+          "type": "quantitative"
+        },
+        "latitude": {
+          "field": "symbol_latitude",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "label_value",
+          "type": "nominal"
+        },
+        "tooltip": [
+          {
+            "field": "state",
+            "type": "nominal",
+            "title": "State / territory"
+          },
+          {
+            "field": "november",
+            "type": "quantitative",
+            "title": "November (spring)",
+            "format": ",d"
+          },
+          {
+            "field": "june",
+            "type": "quantitative",
+            "title": "June (winter)",
+            "format": ",d"
+          },
+          {
+            "field": "difference",
+            "type": "quantitative",
+            "title": "Difference (species)",
+            "format": "+d"
+          }
+        ]
+      }
+    },
+    {
+      "data": {
+        "url": "data/05_birdfact_november_june_by_state.csv",
+        "format": {
+          "type": "csv",
+          "parse": {
+            "november": "number",
+            "june": "number",
+            "difference": "number",
+            "longitude": "number",
+            "latitude": "number",
+            "symbol_longitude": "number",
+            "symbol_latitude": "number",
+            "label_longitude": "number",
+            "label_latitude": "number"
+          }
+        }
+      },
+      "transform": [
+        {
+          "filter": "datum.abbrev === 'ACT'"
+        }
+      ],
+      "mark": {
+        "type": "text",
+        "font": "DM Sans",
+        "fontSize": 11,
+        "fontWeight": 700,
+        "color": "#203D56",
+        "baseline": "middle",
+        "align": "left",
+        "dx": 14,
+        "dy": -3
+      },
+      "encoding": {
+        "longitude": {
+          "field": "symbol_longitude",
+          "type": "quantitative"
+        },
+        "latitude": {
+          "field": "symbol_latitude",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "abbrev",
+          "type": "nominal"
+        },
+        "tooltip": [
+          {
+            "field": "state",
+            "type": "nominal",
+            "title": "State / territory"
+          },
+          {
+            "field": "november",
+            "type": "quantitative",
+            "title": "November (spring)",
+            "format": ",d"
+          },
+          {
+            "field": "june",
+            "type": "quantitative",
+            "title": "June (winter)",
+            "format": ",d"
+          },
+          {
+            "field": "difference",
+            "type": "quantitative",
+            "title": "Difference (species)",
+            "format": "+d"
+          }
+        ]
+      }
+    }
+  ],
+  "config": {
+    "view": {
+      "stroke": null
+    },
+    "text": {
+      "font": "DM Sans"
+    }
+  }
+}

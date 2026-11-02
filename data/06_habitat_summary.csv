@@ -1,0 +1,7 @@
+habitat_group,species_count,share_percent,percent_label,source_primary_habitats,source_primary_breakdown,display_order
+Open landscapes,310,31.09328,31.1%,"Grassland, Plains, Savanna, Shrub, Woodland",Grassland: 70; Plains: 13; Savanna: 22; Shrub: 92; Woodland: 113,1
+Forests,294,29.488465,29.5%,Forest,Forest: 294,2
+Seas and coasts,208,20.862588,20.9%,"Coastal, Sea",Coastal: 77; Sea: 131,3
+Wetlands and rivers,154,15.446339,15.4%,"Riparian, Wetland",Riparian: 18; Wetland: 136,4
+Rocky and arid,20,2.006018,2.0%,"Desert, Rocky",Desert: 5; Rocky: 15,5
+Artificial habitats,11,1.10331,1.1%,Artificial,Artificial: 11,6

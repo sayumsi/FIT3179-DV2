@@ -1,0 +1,3372 @@
+/* Birds Across Australia · V42
+   White serif title, navy subtitle and a slightly deeper blue hero. */
+:root {
+  --page-outside: #D8E5EF; /* soft sky-blue outer area */
+  --paper: #F2F8FC;        /* very pale blue main section */
+  --hero: #7396B0;         /* slightly deeper blue to make the white title readable */
+  --section: #F2F8FC;
+  --card: #FFFFFF;         /* pure white */
+  --ink: #243038;          /* charcoal headings */
+  --body-ink: #344A5A;     /* neutral blue-grey body text */
+  --muted: #566E82;
+  --title: #17384F;        /* navy main title */
+  --teal: #426B92;         /* retained for chart links */
+  --accent: #8A4C79;       /* berry-purple accent (not brown) */
+  --lilac: #8A4C79;
+  --line: #91B3CB;
+  --line-soft: #C3D6E5;
+  --map-light: #E3F1F9;
+  --map-mid: #9BBEDF;
+  --map-dark: #426B92;
+  --serif: 'Fraunces', Georgia, 'Times New Roman', serif;
+  --sans: 'DM Sans', Arial, sans-serif;
+  --size-section: 31px;
+  --size-chart: 23px;
+  --size-body: 20px;
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { margin: 0; background: var(--page-outside); color: var(--ink); font: 400 var(--size-body)/1.56 var(--sans); }
+h1,h2,h3,p { margin-top: 0; }
+a { color: var(--teal); text-underline-offset: 3px; }
+a:focus-visible { outline: 3px solid var(--accent); outline-offset: 4px; }
+.skip-link { position:absolute; z-index:15; top:-100px; left:12px; background:white; padding:10px 14px; }
+.skip-link:focus { top:12px; }
+
+/* One connected story page. Header aligns with body content. */
+.page { width:min(100%,1180px); min-height:100vh; margin:0 auto; background:var(--paper); }
+.hero {
+  position:relative;
+  padding:42px clamp(24px,4.8vw,56px) 42px;
+  background:var(--hero);
+  border-bottom:0;
+}
+.hero-inner { width:100%; margin:0; }
+.hero h1 {
+  margin:0 0 12px;
+  text-align:center;
+  color:var(--title);
+  font:650 clamp(53px,5.7vw,82px)/1.14 var(--serif);
+  letter-spacing:-.035em;
+}
+.hero-subtitle {
+  margin:0 0 29px;
+  color:#FFFFFF;  /* white main subtitle */
+  text-align:center;
+  font:700 var(--size-section)/1.24 var(--sans);
+}
+.hero-description {
+  margin:0;
+  max-width:100%;
+  text-align:left;
+  color:#142C3D;
+  font:400 var(--size-body)/1.6 var(--sans);
+}
+/* Exactly ten written words per line on desktop. Mobile wraps naturally. */
+.hero-line { display:block; white-space:nowrap; }
+
+/* Section heading: simple underline, no coloured title panel. */
+.story-section { padding:39px clamp(24px,4.8vw,56px) 48px; }
+.section-heading {
+  margin:0 0 30px;
+  padding:0 0 15px;
+  background:transparent;
+  border:0;
+  border-bottom:1.5px solid var(--line);
+  border-radius:0;
+  color:var(--ink);
+  font:700 var(--size-section)/1.23 var(--sans);
+  letter-spacing:-.018em;
+}
+/* Equal columns. The row height is shared by both sides. */
+.story-grid {
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:clamp(32px,3.8vw,46px);
+  align-items:stretch;
+}
+.visual-card {
+  display:flex; flex-direction:column;
+  margin:0; min-width:0;
+  height:100%;
+  min-height:398px;
+  padding:19px;
+  border:1px solid #C8D9E7;
+  border-radius:15px;
+  background:var(--card);
+  box-shadow:0 7px 18px #3442470D;
+}
+.visual-card h3 { margin:0 0 7px; font:700 var(--size-chart)/1.26 var(--sans); color:var(--ink); }
+.map-body { flex:1; min-width:0; display:grid; grid-template-columns:minmax(0,1fr) 88px; gap:10px; align-items:center; }
+.chart { min-width:0; width:100%; }
+.chart .vega-embed, .chart .vega-embed > div { width:100%; }
+.chart svg { display:block; max-width:100%; height:auto; }
+.chart-error { padding:16px; border-radius:6px; background:#E5EFF8; color:#223E55; }
+
+/* Vertical legend — title uses a numerator/denominator style. */
+.map-legend { margin:0; width:88px; display:flex; flex-direction:column; align-items:center; justify-content:center; }
+.legend-heading { margin:0 0 10px; font:700 13px/1.2 var(--sans); color:var(--ink); text-align:center; letter-spacing:-0.01em; }
+.legend-scale { height:190px; display:flex; align-items:stretch; gap:10px; }
+.legend-ramp {
+  width:18px; height:100%;
+  border:1px solid #D8DFE0;
+  border-radius:3px;
+  background:linear-gradient(to top,#E3F1F9 0%,#C3DBF1 25%,#9BBEDF 50%,#719BBF 75%,#426B92 100%);
+}
+.legend-ticks { display:flex; flex-direction:column; justify-content:space-between; font:500 11px/1.2 var(--sans); font-variant-numeric:tabular-nums; color:var(--ink); }
+
+/* Make the write-up start level with the chart card and keep the full column aligned. */
+.interpretation {
+  min-width:0;
+  min-height:398px;
+  height:100%;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+  gap:18px;
+  padding:0;
+}
+.interpretation p {
+  margin:0;
+  width:100%;
+  max-width:49ch;
+  color:var(--body-ink);
+  font:400 18px/1.45 var(--sans);
+}
+.interpretation p:first-child { margin-top:0; }
+.story-line { display:block; }
+.interpretation p strong { color:#426B92; font-weight:700; font-size:inherit; }
+/* One small supporting fact card, not a card around the whole writeup. */
+.insight-card {
+  display:flex;
+  align-items:center;
+  gap:13px;
+  width:min(100%,410px);
+  padding:10px 14px;
+  margin-top:0;
+  border:1px solid #D7E0E8;
+  border-left:4px solid #8A4C79;
+  border-radius:10px;
+  background:#FFFFFF;
+  color:var(--body-ink);
+}
+.insight-number { flex:none; font:700 28px/1 var(--sans); color:#8A4C79; }
+.insight-explanation { font:500 18px/1.45 var(--sans); }
+
+.site-footer { margin:0 clamp(24px,4.8vw,56px); padding:22px 0 42px; border-top:1px solid var(--line-soft); }
+.site-footer h2 { margin:0 0 8px; font:700 21px/1.3 var(--sans); }
+.site-footer p { margin:0 0 6px; color:var(--muted); font:400 15px/1.55 var(--sans); }
+.site-footer .footer-meta { margin-top:12px; font-size:13px; }
+
+@media (max-width:900px) {
+  :root { --size-section:28px; --size-chart:22px; --size-body:18px; }
+  .hero-line { white-space:normal; }
+  .story-section { padding:35px 30px 48px; }
+  .story-grid { grid-template-columns:1fr; gap:28px; }
+  .visual-card { max-width:750px; width:100%; height:auto; min-height:375px; }
+  .interpretation { height:auto; min-height:0; justify-content:flex-start; gap:16px; padding:0; }
+  .interpretation p { max-width:58ch; }
+  .site-footer { margin:0 30px; }
+}
+@media (max-width:600px) {
+  :root { --size-section:25px; --size-chart:20px; --size-body:17px; }
+  .hero { padding:34px 19px 34px; }
+  .hero h1 { font-size:clamp(38px,8vw,54px); }
+  .hero-subtitle { margin-bottom:22px; }
+  .hero-description { max-width:38ch; }
+  .hero-line { white-space:normal; }
+  .story-section { padding:29px 17px 40px; }
+  .section-heading { padding:0 0 12px; margin-bottom:24px; }
+  .visual-card { padding:17px 11px; height:auto; min-height:0; }
+  .insight-card { padding:11px 13px; }
+  .insight-number { font-size:22px; }
+  .insight-explanation { font-size:17px; }
+  .map-body { grid-template-columns:minmax(0,1fr) 66px; gap:4px; }
+  .map-legend { width:66px; }
+  .legend-heading,.legend-ticks { font-size:11px; }
+  .legend-scale { height:148px; gap:5px; }
+  .legend-ramp { width:13px; }
+  .site-footer { margin:0 17px; }
+}
+
+/* Chart 2 only: same typography and two equal columns as Chart 1. */
+.story-section--followup { padding-top:30px; }
+.interpretation--followup { min-height:372px; gap:18px; justify-content:flex-start; padding-top:0; }
+.interpretation--followup p { max-width:49ch; }
+.insight-card--followup { width:min(100%,410px); }
+.visual-card--lollipop { min-height:372px; }
+.visual-card--lollipop h3 { margin-bottom:3px; }
+.chart-context { margin:0 0 12px; color:var(--muted); font:400 13px/1.4 var(--sans); }
+.chart--lollipop { flex:1; min-height:248px; width:100%; overflow:hidden; }
+.chart--lollipop svg { display:block; max-width:100%; height:auto; }
+.chart-caption { margin-top:6px; font:400 12px/1.4 var(--sans); color:var(--muted); }
+@media (max-width:900px) {
+ .interpretation--followup { min-height:0; gap:16px; }
+ .visual-card--lollipop { max-width:750px; }
+}
+@media (max-width:600px) {
+ .story-section--followup { padding-top:28px; }
+ .chart--lollipop { min-height:248px; }
+}
+
+
+/* Chart 3 only: matches existing two-column story, without altering Charts 1 and 2. */
+.story-section--heatmap { padding-top:30px; }
+.visual-card--heatmap { min-height:424px; }
+.visual-card--heatmap h3 { margin-bottom:3px; }
+.chart--heatmap { flex:1; min-height:312px; display:flex; align-items:center; justify-content:center; overflow:hidden; }
+.chart--heatmap .vega-embed { display:block; max-width:100%; }
+.chart--heatmap svg { max-width:100%; height:auto; }
+.interpretation--heatmap { min-height:424px; gap:17px; }
+.interpretation--heatmap p { max-width:49ch; }
+.interpretation--heatmap .method-note { color:var(--muted); font-size:17px; }
+@media (max-width:900px) {
+  .visual-card--heatmap { min-height:400px; }
+  .interpretation--heatmap { min-height:0; gap:16px; }
+}
+@media (max-width:600px) {
+  .story-section--heatmap { padding-top:28px; }
+  .chart--heatmap { min-height:292px; }
+  .visual-card--heatmap { min-height:0; }
+  .interpretation--heatmap .method-note { font-size:16px; }
+}
+
+/* Chart 3: right-side percentage legend, with sufficient space for row labels. */
+.chart--heatmap { overflow: visible; }
+.chart--heatmap .vega-embed { flex: 0 0 auto; }
+.chart--heatmap .vega-embed > div { width: auto; }
+.chart--heatmap svg { overflow: visible; }
+@media (max-width: 600px) {
+  .chart--heatmap { justify-content: flex-start; }
+}
+
+/* V49: Chart 3 only. Give the matrix more space without changing Charts 1 or 2. */
+@media (min-width:901px) {
+  .story-section--heatmap .story-grid { grid-template-columns:minmax(0,1.16fr) minmax(0,0.84fr); gap:35px; }
+}
+.story-section--heatmap .visual-card--heatmap { min-height:480px; padding:18px 17px 16px; }
+.heatmap-figure { display:flex; width:100%; align-items:center; justify-content:space-between; gap:24px; min-height:370px; }
+.chart--heatmap { min-width:0; flex:1 1 auto; min-height:340px; display:flex; align-items:center; justify-content:flex-start; overflow:visible; }
+.chart--heatmap .vega-embed { display:block; width:auto; max-width:100%; flex:0 0 auto; }
+.chart--heatmap .vega-embed > div { width:auto; }
+.chart--heatmap svg { max-width:100%; height:auto; overflow:visible; }
+.heatmap-legend { flex:0 0 83px; width:83px; margin-left:8px; align-self:center; display:flex; flex-direction:column; align-items:flex-start; justify-content:center; color:#203F58; }
+.heatmap-legend-heading { font:700 12px/1.18 var(--sans); white-space:nowrap; margin:0 0 10px 0; text-align:left; }
+.heatmap-legend-scale { display:flex; align-items:stretch; height:286px; gap:9px; }
+.heatmap-legend-ramp { width:20px; border-radius:2px; border:1px solid #DCE8F0; background:linear-gradient(to top,#EFF7FB 0%,#D6E7F1 25%,#A6C5DA 50%,#678FB1 75%,#285477 100%); }
+.heatmap-legend-ticks { display:flex; flex-direction:column; justify-content:space-between; font:500 12px/1.1 var(--sans); font-variant-numeric:tabular-nums; color:#314D63; }
+.story-section--heatmap .chart-caption--heatmap { font-size:12px; line-height:1.35; margin-top:0; }
+.interpretation--heatmap { min-height:0; height:auto; gap:22px; padding-top:2px; }
+.interpretation--heatmap p { font-size:18px; line-height:1.45; max-width:42ch; }
+.interpretation--heatmap .method-note { font-size:16px; line-height:1.48; }
+@media (max-width:900px) {
+  .story-section--heatmap .visual-card--heatmap { min-height:0; }
+  .heatmap-figure { min-height:370px; justify-content:flex-start; gap:24px; }
+  .heatmap-legend { margin-left:12px; }
+}
+@media (max-width:600px) {
+  .story-section--heatmap .visual-card--heatmap { padding:15px 10px; }
+  .heatmap-figure { gap:8px; min-height:295px; }
+  .chart--heatmap { min-height:290px; }
+  .heatmap-legend { flex:0 0 64px; width:64px; margin-left:0; }
+  .heatmap-legend-heading { font-size:10px; }
+  .heatmap-legend-scale { height:230px; gap:5px; }
+  .heatmap-legend-ramp { width:15px; }
+  .heatmap-legend-ticks { font-size:10px; }
+  .interpretation--heatmap { gap:16px; }
+}
+
+
+/* Chart 3 V50: SAME two equal columns as Charts 1 and 2.
+   Compact stepped legend and taller heatmap for clearer differences. */
+@media (min-width:901px) {
+  .story-section--heatmap .story-grid {
+    grid-template-columns:repeat(2,minmax(0,1fr));
+    gap:clamp(32px,3.8vw,46px);
+  }
+}
+.story-section--heatmap .visual-card--heatmap {
+  padding:18px 11px 16px;
+  min-height:510px;
+}
+.story-section--heatmap .visual-card--heatmap h3 { margin-left:3px; }
+.story-section--heatmap .chart-context { margin-left:3px; }
+.story-section--heatmap .heatmap-figure {
+  display:grid;
+  grid-template-columns:minmax(0,1fr) 82px;
+  align-items:center;
+  gap:12px;
+  width:100%;
+  min-height:393px;
+}
+.story-section--heatmap .chart--heatmap {
+  display:block;
+  min-height:355px;
+  flex:none;
+  width:100%;
+  min-width:0;
+  overflow:visible;
+}
+.story-section--heatmap .chart--heatmap .vega-embed,
+.story-section--heatmap .chart--heatmap .vega-embed > div { width:auto; max-width:100%; }
+.story-section--heatmap .heatmap-legend {
+  width:82px;
+  margin:0;
+  align-self:center;
+  display:flex;
+  flex-direction:column;
+  align-items:flex-start;
+  justify-content:center;
+}
+.story-section--heatmap .heatmap-legend-heading {
+  font:700 11px/1.19 var(--sans);
+  letter-spacing:0;
+  white-space:normal;
+  margin:0 0 10px;
+  color:#203F58;
+}
+.story-section--heatmap .heatmap-legend-bands { display:flex; flex-direction:column; width:100%; }
+.story-section--heatmap .heatmap-legend-row {
+  display:flex;
+  align-items:center;
+  gap:6px;
+  height:39px;
+  color:#314D63;
+  font:500 10px/1.1 var(--sans);
+  white-space:nowrap;
+  font-variant-numeric:tabular-nums;
+}
+.story-section--heatmap .heatmap-swatch {
+  display:block;
+  flex:0 0 19px;
+  height:100%;
+  background:var(--swatch);
+  border:1px solid #fff;
+}
+.story-section--heatmap .chart-caption--heatmap {
+  margin:1px 0 0 3px;
+  font-size:12px;
+  line-height:1.4;
+}
+.story-section--heatmap .interpretation--heatmap { min-height:0; gap:19px; padding-top:2px; }
+.story-section--heatmap .interpretation--heatmap p { max-width:49ch; font-size:18px; }
+.story-section--heatmap .interpretation--heatmap .method-note { font-size:16px; }
+@media (max-width:600px) {
+  .story-section--heatmap .visual-card--heatmap { padding:16px 8px 14px; min-height:0; }
+  .story-section--heatmap .heatmap-figure { grid-template-columns:minmax(0,1fr) 70px; gap:5px; min-height:340px; }
+  .story-section--heatmap .chart--heatmap { min-height:320px; }
+  .story-section--heatmap .heatmap-legend { width:70px; }
+  .story-section--heatmap .heatmap-legend-heading { font-size:10px; }
+  .story-section--heatmap .heatmap-legend-row { height:31px; font-size:9px; gap:4px; }
+  .story-section--heatmap .heatmap-swatch { flex-basis:15px; }
+}
+
+
+/* Chart 4: country-level bump chart — months run left to right, rank 1 at top. */
+.story-section--seasonal .story-grid { grid-template-columns:repeat(2,minmax(0,1fr)); }
+.visual-card--seasonal { min-height:490px; padding:18px 15px 16px; }
+.visual-card--seasonal h3 { margin-bottom:3px; }
+.seasonal-subtitle { margin:0 0 10px; color:var(--muted); font:400 12px/1.4 var(--sans); }
+.chart--seasonal { flex:1 1 auto; min-height:325px; width:100%; overflow:visible; display:flex; align-items:center; justify-content:center; }
+.chart--seasonal .vega-embed, .chart--seasonal .vega-embed > div { width:100%; }
+.chart--seasonal svg { width:100%; max-width:100%; height:auto; overflow:visible; }
+.seasonal-legend { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:5px 10px; margin:6px 0 2px; }
+.seasonal-legend span { display:flex; align-items:center; gap:6px; color:#3C586C; font:600 11px/1.35 var(--sans); white-space:normal; }
+.seasonal-legend i { flex:none; width:17px; height:4px; background:var(--key); border-radius:3px; }
+.chart-caption--seasonal { margin:10px 0 0; font-size:12px; line-height:1.4; }
+.interpretation--seasonal { min-height:0; gap:20px; padding-top:1px; }
+.interpretation--seasonal p { max-width:46ch; font-size:18px; }
+.interpretation--seasonal .method-note { font-size:16px; }
+@media(max-width:900px){.visual-card--seasonal{min-height:0}.chart--seasonal{min-height:300px}}
+@media(max-width:600px){.visual-card--seasonal{padding:16px 12px}.seasonal-legend span{font-size:10px}.chart--seasonal{min-height:270px}}
+
+/* V57: radial seasonality calendar; Chart 1/2/3 structural styles untouched. */
+.visual-card--seasonal { min-height:510px; }
+.story-section--seasonal .chart--seasonal { min-height:385px; flex:1; display:flex; align-items:center; justify-content:center; }
+.story-section--seasonal .chart--seasonal .vega-embed { width:auto; max-width:100%; display:block; }
+.story-section--seasonal .chart--seasonal .vega-embed > div { width:auto; }
+.story-section--seasonal .chart--seasonal svg { max-width:100%; height:auto; }
+.story-section--seasonal .seasonal-subtitle { margin-bottom:0; }
+.story-section--seasonal .interpretation--seasonal { min-height:0; gap:21px; }
+.story-section--heatmap .heatmap-legend-heading { font-size:12px; }
+@media(max-width:600px){.story-section--seasonal .chart--seasonal{min-height:295px}.visual-card--seasonal{min-height:0}}
+
+
+/* V58: chart 4 is a line chart. Preserve all Chart 1–3 rules above. */
+.story-section--seasonal .chart--seasonal {
+  display: block;
+  min-height: 325px;
+  width: 100%;
+  padding: 14px 1px 7px;
+  overflow: visible;
+}
+.story-section--seasonal .chart--seasonal .vega-embed,
+.story-section--seasonal .chart--seasonal .vega-embed > div {
+  width: 100%;
+  max-width: 100%;
+}
+.story-section--seasonal .chart--seasonal svg {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+.story-section--seasonal .visual-card--seasonal { min-height: 480px; }
+@media (max-width: 600px) {
+  .story-section--seasonal .visual-card--seasonal { min-height: 0; }
+  .story-section--seasonal .chart--seasonal { min-height: 300px; padding: 12px 0 0; }
+}
+
+
+/* V68: Slightly shorten Charts 3 and 4 toward the marked height.
+   Keep the source data, typography and Charts 1–2 exactly as before. */
+@media (min-width: 901px) {
+  .story-section--heatmap .visual-card--heatmap {
+    min-height: 455px;
+  }
+  .story-section--heatmap .heatmap-figure {
+    min-height: 338px;
+  }
+  .story-section--heatmap .chart--heatmap {
+    min-height: 305px;
+  }
+  .story-section--heatmap .heatmap-legend-row {
+    height: 34px;
+  }
+
+  .story-section--seasonal .visual-card--seasonal {
+    min-height: 435px;
+  }
+  .story-section--seasonal .chart--seasonal {
+    min-height: 283px;
+    padding: 9px 1px 4px;
+  }
+}
+
+
+
+/* V81: One seasonal story with two chart-left, interpretation-right rows. */
+.story-section--seasons .story-grid { grid-template-columns:repeat(2,minmax(0,1fr)); }
+.story-grid--season-detail { margin-top:62px; }
+.story-section--seasons .visual-card { min-height:440px; }
+.visual-card--season-overview { padding:18px 15px 14px; }
+.chart--season-overview { min-height:284px; width:100%; display:flex; justify-content:center; align-items:center; }
+.chart--season-overview .vega-embed {max-width:100%;}
+.chart--season-overview svg {width:100%;max-width:100%;height:auto;}
+.season-group-key { display:flex; flex-wrap:wrap; gap:6px 14px; padding:3px 0 0; }
+.season-group-key span { display:flex; align-items:center; gap:6px; color:#344A5A; font:600 11px/1.28 var(--sans); }
+.season-group-key i { display:inline-block; flex:none; width:12px; height:12px; border-radius:2px; background:var(--key); }
+.story-section--seasons .chart-caption--overview { margin:9px 0 0; font-size:12px; line-height:1.38; }
+.story-section--seasons .visual-card--seasonal {min-height:440px;}
+.story-section--seasons .chart--seasonal {
+  display:block; width:100%; min-height:280px;
+  padding:9px 1px 4px; overflow:visible;
+}
+.story-section--seasons .chart--seasonal .vega-embed,
+.story-section--seasons .chart--seasonal .vega-embed > div {
+  width:100%; max-width:100%;
+}
+.story-section--seasons .chart--seasonal svg {
+  display:block; width:100%; max-width:100%; height:auto; overflow:visible;
+}
+.story-section--seasons .interpretation--season-overview,
+.story-section--seasons .interpretation--seasonal {gap:19px;min-height:0;}
+.story-section--seasons .interpretation--season-overview p,
+.story-section--seasons .interpretation--seasonal p {max-width:49ch;font-size:18px;}
+@media (max-width:900px) {
+  .story-section--seasons .story-grid {grid-template-columns:1fr;}
+  .story-grid--season-detail { margin-top:47px; }
+  .story-section--seasons .visual-card {min-height:0;}
+}
+@media (max-width:600px) {
+  .visual-card--season-overview {padding:16px 10px 14px;}
+  .chart--season-overview {min-height:245px;}
+  .season-group-key span {font-size:10px;}
+}
+
+/* V83: equal-width seasonal cards, explanations below the cards. */
+.story-section--seasons .seasonal-pair {
+  display:grid; grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:clamp(25px,3.4vw,40px); align-items:start;
+}
+.story-section--seasons .season-panel { min-width:0; display:flex; flex-direction:column; gap:21px; }
+.story-section--seasons .seasonal-pair .visual-card {
+  min-height:560px; height:560px; padding:18px 16px 15px;
+}
+.story-section--seasons .seasonal-pair .visual-card h3 { min-height:60px; }
+.story-section--seasons .seasonal-pair .chart--season-overview {
+  flex:1; min-height:390px; width:100%; display:flex;
+  align-items:center; justify-content:center; overflow:visible;
+}
+.story-section--seasons .seasonal-pair .chart--season-overview .vega-embed,
+.story-section--seasons .seasonal-pair .chart--season-overview .vega-embed > div,
+.story-section--seasons .seasonal-pair .chart--seasonal .vega-embed {max-width:100%;}
+.story-section--seasons .seasonal-pair .chart--season-overview svg,
+.story-section--seasons .seasonal-pair .chart--seasonal svg {display:block;max-width:100%;height:auto;overflow:visible;}
+.story-section--seasons .seasonal-pair .chart--seasonal {min-height:390px; flex:1;display:flex;align-items:center;justify-content:center;}
+.story-section--seasons .seasonal-pair .chart-caption {min-height:46px; margin-top:8px; font-size:12px;line-height:1.38;}
+.story-section--seasons .seasonal-pair .interpretation {
+  min-height:0;height:auto;gap:17px;padding:0;
+}
+.story-section--seasons .seasonal-pair .interpretation p {
+  font-size:18px;line-height:1.45;max-width:100%;
+}
+.story-section--seasons .seasonal-pair .insight-card {width:100%;}
+@media(max-width:900px) {
+  .story-section--seasons .seasonal-pair {grid-template-columns:1fr;gap:46px;}
+  .story-section--seasons .seasonal-pair .visual-card {height:auto;min-height:490px;}
+}
+@media(max-width:600px) {
+  .story-section--seasons .seasonal-pair .visual-card {min-height:0;}
+  .story-section--seasons .seasonal-pair .visual-card h3 {min-height:0;}
+  .story-section--seasons .seasonal-pair .chart--season-overview {min-height:355px;}
+  .story-section--seasons .seasonal-pair .chart--seasonal {min-height:290px;}
+  .story-section--seasons .seasonal-pair .chart-caption {min-height:0;}
+  .story-section--seasons .seasonal-pair .interpretation p {font-size:17px;}
+}
+
+
+/* V84: one four-bar seasonal overview. No multiple mini-plots. */
+.story-section--seasons .seasonal-pair .chart--season-overview {
+  min-height:330px;
+  padding:0 3px;
+  align-items:center;
+}
+.story-section--seasons .seasonal-pair .chart-caption--overview {
+  font-size:12px;
+  line-height:1.4;
+}
+@media(max-width:600px){
+  .story-section--seasons .seasonal-pair .chart--season-overview { min-height:290px; }
+}
+
+
+/* Chart 5: proportional symbols with the existing left-map/right-writeup layout. */
+.story-section--difference-map { padding-top:30px; }
+.visual-card--difference-map { min-height:455px; padding:17px 15px 15px; }
+.visual-card--difference-map h3 { margin-bottom:10px; }
+.chart--difference-map { min-height:328px; width:100%; display:flex; justify-content:center; align-items:center; }
+.chart--difference-map .vega-embed { max-width:100%; }
+.chart--difference-map .vega-embed > div { max-width:100%; }
+.chart--difference-map svg { display:block; max-width:100%; height:auto; }
+.chart-caption--difference-map { margin-top:7px; font-size:12px; line-height:1.45; }
+.interpretation--difference-map { min-height:455px; height:auto; gap:20px; }
+.interpretation--difference-map p { max-width:49ch; }
+@media(max-width:900px) {
+ .visual-card--difference-map { min-height:0; }
+ .interpretation--difference-map { min-height:0; }
+}
+@media(max-width:600px) {
+ .visual-card--difference-map { padding:16px 11px 14px; }
+ .chart--difference-map { min-height:278px; }
+}
+
+
+/* V91: charts 4 and 5 share equal columns; map labels are separate from symbols. */
+.story-section--seasonal-pair { padding-top:32px; }
+.story-section--seasonal-pair .seasonal-pair-grid {
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:clamp(25px,3.3vw,38px);
+  align-items:start;
+}
+.story-section--seasonal-pair .seasonal-panel {
+  display:flex;
+  flex-direction:column;
+  gap:22px;
+  min-width:0;
+}
+.story-section--seasonal-pair .visual-card {
+  box-sizing:border-box;
+  width:100%;
+  min-height:430px;
+  height:430px;
+  padding:18px 16px 14px;
+}
+.story-section--seasonal-pair .visual-card h3 {
+  min-height:58px;
+  margin:0 0 4px;
+  font-size:22px;
+  line-height:1.28;
+}
+.story-section--seasonal-pair .chart--seasonal,
+.story-section--seasonal-pair .chart--difference-map {
+  min-height:0;
+  width:100%;
+  flex:1 1 auto;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  overflow:visible;
+  padding:0;
+}
+.story-section--seasonal-pair .chart .vega-embed,
+.story-section--seasonal-pair .chart .vega-embed > div {
+  max-width:100%;
+  width:100%;
+}
+.story-section--seasonal-pair .chart svg {
+  display:block;
+  max-width:100%;
+  width:100%;
+  height:auto;
+  overflow:visible;
+}
+.story-section--seasonal-pair .chart-caption {
+  min-height:42px;
+  margin:7px 0 0;
+  font:400 12px/1.4 var(--sans);
+}
+.story-section--seasonal-pair .interpretation {
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+  gap:16px;
+  min-height:0;
+  height:auto;
+  padding:0;
+}
+.story-section--seasonal-pair .interpretation p {
+  max-width:none;
+  width:100%;
+  font:400 18px/1.45 var(--sans);
+}
+.story-section--seasonal-pair .insight-card {
+  width:100%;
+  min-height:88px;
+  padding:13px 15px;
+}
+.story-section--seasonal-pair .insight-explanation { font-size:17px; line-height:1.4; }
+@media (max-width:900px) {
+  .story-section--seasonal-pair .seasonal-pair-grid { grid-template-columns:1fr; gap:46px; }
+  .story-section--seasonal-pair .visual-card {height:auto; min-height:435px;}
+  .story-section--seasonal-pair .chart--seasonal,
+  .story-section--seasonal-pair .chart--difference-map { min-height:310px; }
+}
+@media (max-width:600px) {
+  .story-section--seasonal-pair .visual-card { min-height:0; padding:16px 12px; }
+  .story-section--seasonal-pair .visual-card h3 { min-height:0; font-size:20px; }
+  .story-section--seasonal-pair .chart--seasonal,
+  .story-section--seasonal-pair .chart--difference-map { min-height:260px; }
+  .story-section--seasonal-pair .interpretation p { font-size:17px; }
+  .story-section--seasonal-pair .chart-caption {min-height:0;}
+}
+
+/* Chart 6: habitat proportions. Shared DM Sans font and card styles from Charts 1–5. */
+.story-section--habitat { padding-top:34px; }
+.visual-card--habitat { min-height:410px; padding:18px 16px 14px; }
+.visual-card--habitat h3 { margin-bottom:16px; }
+.habitat-figure { display:grid; grid-template-columns:minmax(0,1.1fr) minmax(0,.95fr); gap:13px; align-items:center; flex:1; }
+.chart--habitat { display:flex; align-items:center; justify-content:center; overflow:visible; }
+.chart--habitat .vega-embed, .chart--habitat .vega-embed>div { width:100%; max-width:100%; }
+.chart--habitat svg { display:block; max-width:100%; height:auto; }
+.habitat-key { display:flex; flex-direction:column; gap:13px; }
+.habitat-key-row { display:grid; grid-template-columns:13px minmax(0,1fr) 35px; column-gap:7px; align-items:center; font:500 13px/1.3 var(--sans); color:var(--body-ink); }
+.habitat-key-row strong { text-align:right; font:700 13px/1.3 var(--sans); color:var(--title); }
+.habitat-swatch { display:inline-block; width:13px; height:13px; border-radius:3px; background:var(--habitat-color); }
+.chart-caption--habitat { margin-top:11px; line-height:1.45; font-size:12px; }
+.interpretation--habitat { gap:18px; min-height:405px; }
+.interpretation--habitat p { max-width:45ch; }
+.interpretation--habitat .insight-card { width:100%; }
+.interpretation--habitat .habitat-bridge { color:var(--muted); font-size:16px; }
+@media(max-width:900px){ .habitat-figure{grid-template-columns:minmax(0,1fr) minmax(0,.9fr);gap:10px} .habitat-key-row{font-size:12px;grid-template-columns:12px minmax(0,1fr) 32px} .habitat-key-row strong{font-size:12px} }
+@media(max-width:600px){.habitat-figure{grid-template-columns:1fr;gap:12px}.habitat-key{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px 8px}.interpretation--habitat{min-height:0}.visual-card--habitat{min-height:0}}
+
+/* Chart 6, 2025 primary habitats (same DM Sans/Fraunces site fonts). */
+.story-section--habitat .habitat-figure { grid-template-columns:minmax(0,1.12fr) minmax(0,0.91fr);gap:12px; }
+.story-section--habitat .habitat-key {gap:11px;}
+.story-section--habitat .habitat-key-row {grid-template-columns:13px minmax(0,1fr) 52px;gap:7px;font:500 13px/1.33 var(--sans);}
+.story-section--habitat .habitat-key-row strong {font:700 13px/1.33 var(--sans);text-align:right;}
+.story-section--habitat .visual-card {min-height:430px;}
+.story-section--habitat .interpretation--habitat {min-height:0;}
+@media(max-width:900px){.story-section--habitat .habitat-key-row{grid-template-columns:13px minmax(0,1fr) 50px;gap:5px;}}
+@media(max-width:600px){.story-section--habitat .habitat-figure{grid-template-columns:1fr;}.story-section--habitat .habitat-key{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px 12px;}.story-section--habitat .visual-card{min-height:0;}}
+
+/* Chart 6 horizontal bars: no legend needed; category names are the y-axis labels. */
+.story-section--habitat .visual-card--habitat { min-height:440px; padding:18px 16px 14px; }
+.story-section--habitat .visual-card--habitat h3 { margin-bottom:22px; }
+.story-section--habitat .chart--habitat {
+  display:flex; width:100%; flex:1; align-items:center; justify-content:flex-start;
+  min-height:332px; overflow:visible;
+}
+.story-section--habitat .chart--habitat .vega-embed,
+.story-section--habitat .chart--habitat .vega-embed > div { width:100%; max-width:100%; }
+.story-section--habitat .chart--habitat svg { display:block; max-width:100%; height:auto; overflow:visible; }
+.story-section--habitat .chart-caption--habitat { font-size:12px; line-height:1.4; margin-top:0; }
+.story-section--habitat .interpretation--habitat { min-height:0; gap:20px; }
+.story-section--habitat .interpretation--habitat .habitat-bridge { font-size:15px; }
+@media (max-width:600px) {
+ .story-section--habitat .visual-card--habitat { min-height:0; padding:16px 12px 14px; }
+ .story-section--habitat .chart--habitat { min-height:310px; }
+ .story-section--habitat .visual-card--habitat h3 { margin-bottom:16px; }
+}
+
+
+/* Chart 7: neat population-pyramid-style butterfly layout */
+.story-section--uniqueness {padding-top:34px;}
+.visual-card--uniqueness {min-height:435px; padding:18px 16px 14px;}
+.visual-card--uniqueness h3 {margin-bottom:12px;}
+.butterfly-key {display:flex; align-items:center; gap:22px; flex-wrap:wrap; font:600 12px/1.4 var(--sans); margin:0 0 11px; color:var(--body-ink);}
+.butterfly-key-item {display:inline-flex; align-items:center; gap:6px;}
+.butterfly-swatch {width:11px; height:11px; display:inline-block; border-radius:2px;}
+.butterfly-swatch--only {background:#8A4C79;}
+.butterfly-swatch--elsewhere {background:#547F9F;}
+.chart--uniqueness {width:100%; display:flex; align-items:center; justify-content:center; min-height:340px; overflow:visible;}
+.chart--uniqueness .vega-embed, .chart--uniqueness .vega-embed > div {width:100%; max-width:100%;}
+.chart--uniqueness svg {display:block; max-width:100%; height:auto; overflow:visible;}
+.visual-card--uniqueness .chart-caption {margin-top:8px; font-size:12px; line-height:1.4;}
+.interpretation--uniqueness {min-height:0; gap:18px;}
+.interpretation--uniqueness .uniqueness-bridge {color:var(--muted);font-size:15px;}
+@media (max-width:600px) {
+ .visual-card--uniqueness{min-height:0;padding:15px 10px 12px;}
+ .butterfly-key{font-size:11px;gap:12px;}
+ .chart--uniqueness{min-height:290px;}
+}
+
+
+/* Chart 7 final layout: one evenly-spaced row per bird group, with two-line names. */
+.story-section--uniqueness .butterfly-layout {
+  display: grid;
+  grid-template-columns: 142px minmax(0, 1fr);
+  gap: 8px;
+  align-items: start;
+  width: 100%;
+}
+.story-section--uniqueness .butterfly-label-column {
+  display: grid;
+  grid-template-rows: repeat(8, 44px);
+  padding-top: 0;
+  min-width: 0;
+}
+.story-section--uniqueness .butterfly-label {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  text-align: right;
+  font: 500 12px/1.16 var(--sans);
+  color: #163B54;
+  padding-right: 2px;
+  white-space: nowrap;
+}
+.story-section--uniqueness .chart--uniqueness {
+  justify-content: flex-start;
+  align-items: flex-start;
+  min-height: 0;
+  width: 100%;
+}
+.story-section--uniqueness .chart--uniqueness .vega-embed {
+  width: 100%;
+}
+.story-section--uniqueness .visual-card--uniqueness {
+  min-height: 0;
+}
+.story-section--uniqueness .visual-card--uniqueness .chart-caption {
+  margin-top: 4px;
+}
+@media (max-width: 600px) {
+  .story-section--uniqueness .butterfly-layout {grid-template-columns: 109px minmax(0, 1fr); gap: 5px;}
+  .story-section--uniqueness .butterfly-label {font-size: 10px; line-height: 1.16;}
+}
+
+
+/* Chart 7 refinements: left-aligned labels, wider butterfly and a guaranteed visible x-axis. */
+.story-section--uniqueness .butterfly-layout,
+.story-section--uniqueness .butterfly-axis-row {
+  display:grid;
+  grid-template-columns: 120px minmax(0,1fr);
+  column-gap:6px;
+  width:100%;
+}
+.story-section--uniqueness .butterfly-label-column {
+  grid-template-rows:repeat(8,44px);
+}
+.story-section--uniqueness .butterfly-label {
+  justify-content:center;
+  align-items:flex-start;
+  text-align:left;
+  padding:0;
+  font:500 12px/1.16 var(--sans);
+  white-space:normal;
+}
+.story-section--uniqueness .chart--uniqueness {
+  min-height:352px;
+  width:100%;
+  justify-content:flex-start;
+  align-items:flex-start;
+}
+.story-section--uniqueness .butterfly-axis-row {margin-top:3px;}
+.story-section--uniqueness .butterfly-axis {min-width:0; padding:0 4px;}
+.story-section--uniqueness .butterfly-axis-scale {
+  position:relative;
+  height:27px;
+  border-top:1px solid #ABBFCF;
+}
+.story-section--uniqueness .butterfly-axis-tick {
+  position:absolute;
+  top:5px;
+  transform:translateX(-50%);
+  font:500 11px/1.3 var(--sans);
+  color:#506B82;
+}
+.story-section--uniqueness .butterfly-axis-tick::before {
+  content:"";
+  position:absolute;
+  left:50%;
+  top:-6px;
+  width:1px;
+  height:5px;
+  background:#ABBFCF;
+}
+.story-section--uniqueness .butterfly-axis-title {
+  color:#173D56;
+  font:600 13px/1.3 var(--sans);
+  text-align:center;
+  padding-top:3px;
+}
+.story-section--uniqueness .visual-card--uniqueness .chart-caption {
+  margin-top:12px;
+}
+@media (max-width:600px) {
+  .story-section--uniqueness .butterfly-layout,
+  .story-section--uniqueness .butterfly-axis-row {
+    grid-template-columns:96px minmax(0,1fr);
+    gap:5px;
+  }
+  .story-section--uniqueness .butterfly-label {font-size:10px;line-height:1.15;}
+  .story-section--uniqueness .butterfly-axis-tick {font-size:10px;}
+  .story-section--uniqueness .butterfly-axis-title {font-size:11px;}
+}
+
+
+/* Chart 8: connected dot plot (same fonts and palette as the other charts). */
+.story-section--habitat-compare { padding-top:35px; }
+.visual-card--habitat-compare { min-height:460px; padding:18px 16px 14px; }
+.visual-card--habitat-compare h3 { margin-bottom:13px; }
+.habitat-compare-legend { display:flex; flex-wrap:wrap; align-items:center; gap:8px 17px; margin:0 0 7px; }
+.habitat-compare-legend-item { display:inline-flex; align-items:center; gap:7px; color:var(--title); font:600 13px/1.25 var(--sans); }
+.habitat-compare-dot { width:11px; height:11px; border-radius:50%; flex:none; }
+.habitat-compare-dot--only { background:#8A4C79; }
+.habitat-compare-dot--elsewhere { background:#77B6C1; }
+.chart--habitat-compare { display:flex; justify-content:flex-start; align-items:center; min-height:334px; overflow:visible; }
+.chart--habitat-compare .vega-embed,
+.chart--habitat-compare .vega-embed > div { width:100%; max-width:100%; }
+.chart--habitat-compare svg { display:block; max-width:100%; height:auto; overflow:visible; }
+.chart-caption--habitat-compare { margin-top:4px; font:400 12px/1.4 var(--sans); color:var(--muted); }
+.interpretation--habitat-compare { min-height:460px; gap:19px; }
+.interpretation--habitat-compare .habitat-compare-bridge { color:var(--muted); font-size:16px; }
+@media(max-width:900px){
+  .visual-card--habitat-compare { min-height:0; }
+  .interpretation--habitat-compare { min-height:0; }
+}
+@media(max-width:600px){
+  .visual-card--habitat-compare { min-height:0; padding:16px 12px 14px; }
+  .chart--habitat-compare { min-height:305px; }
+  .habitat-compare-legend-item { font-size:12px; }
+}
+
+
+/* FINAL TYPOGRAPHY SYSTEM · Charts 1–8
+   One serif heading (h1). All remaining text uses DM Sans.
+   Desktop hierarchy: hero 82 max > subtitle 33 > sections 31 > chart titles 23 > explanatory text 18.
+   Legends: 14px heading > 12px labels; small tick labels remain secondary.
+   Source notes and chart footnotes remain smaller on purpose.
+*/
+:root {
+  --type-subtitle: 33px;
+  --type-legend-title: 14px;
+  --type-legend-label: 12px;
+}
+.hero h1 { font-family: var(--serif); }
+.hero-subtitle { font: 700 var(--type-subtitle)/1.24 var(--sans); }
+.hero-description { font-family: var(--sans); }
+.section-heading { font: 700 var(--size-section)/1.23 var(--sans); }
+.visual-card h3,
+.story-section--seasonal-pair .visual-card h3 { font: 700 var(--size-chart)/1.26 var(--sans); }
+.interpretation p,
+.story-section--seasonal-pair .interpretation p { font: 400 18px/1.45 var(--sans); }
+.interpretation p strong { font-weight: 700; }
+.legend-heading,
+.story-section--heatmap .heatmap-legend-heading {
+  font: 700 var(--type-legend-title)/1.22 var(--sans);
+}
+.legend-ticks { font: 500 11px/1.2 var(--sans); }
+.story-section--heatmap .heatmap-legend-row { font: 500 10px/1.1 var(--sans); }
+.chart-legend-group { margin: 0 0 10px; }
+.chart-legend-title {
+  margin: 0 0 5px;
+  color: var(--title);
+  font: 700 var(--type-legend-title)/1.23 var(--sans);
+}
+.chart-legend-group .butterfly-key,
+.chart-legend-group .habitat-compare-legend {
+  font: 600 var(--type-legend-label)/1.35 var(--sans);
+  margin: 0;
+}
+.chart-legend-group .habitat-compare-legend-item {
+  font: 600 var(--type-legend-label)/1.35 var(--sans);
+}
+@media (max-width: 900px) {
+  :root { --type-subtitle: 30px; --type-legend-title: 14px; --type-legend-label: 12px; }
+}
+@media (max-width: 600px) {
+  :root { --type-subtitle: 26px; --type-legend-title: 13px; --type-legend-label: 11px; }
+  .story-section--seasonal-pair .visual-card h3 { font-size: var(--size-chart); }
+  .interpretation p,
+  .story-section--seasonal-pair .interpretation p { font-size: 17px; }
+  .story-section--heatmap .heatmap-legend-heading { font-size: 12px; }
+  .story-section--heatmap .heatmap-legend-row { font-size: 9px; }
+  .legend-heading { font-size: 12px; }
+  .legend-ticks { font-size: 10px; }
+}
+
+
+/* EDITORIAL REFINEMENT · observations first, evidence card second, implications last.
+   Use flexible vertical rhythm to align narrative with its chart, never filler text.
+   Stat numbers intentionally smaller than section headings. */
+:root { --size-explanation:17px; }
+@media(min-width:901px) {
+  .story-section .story-grid > .interpretation {
+    height:100%;
+    min-height:0;
+    justify-content:space-between;
+    gap:14px;
+    padding:0;
+  }
+}
+.story-section .interpretation p,
+.story-section--seasonal-pair .interpretation p,
+.story-section--heatmap .interpretation p {
+  font:400 var(--size-explanation)/1.51 var(--sans);
+  max-width:49ch;
+  color:var(--body-ink);
+}
+.story-section .interpretation p strong { color:#426B92; font-weight:700; }
+.story-section .interpretation .story-bridge {
+  font:600 16px/1.43 var(--sans);
+  color:#426B92;
+  max-width:48ch;
+}
+.story-section .insight-number {
+  font:700 26px/1.04 var(--sans);
+  color:var(--accent);
+}
+.story-section .insight-explanation {
+  font:500 16px/1.4 var(--sans);
+}
+.story-section .insight-card {
+  max-width:100%;
+  padding:12px 14px;
+  gap:13px;
+  min-height:72px;
+}
+/* Seasonal charts use separate columns below each graphic, so keep compact sequential copy. */
+.story-section--seasonal-pair .interpretation {
+  justify-content:flex-start;
+  gap:14px;
+  height:auto;
+}
+@media (max-width:900px) {
+  .story-section .story-grid > .interpretation { justify-content:flex-start; gap:15px; }
+  .story-section .insight-card { max-width:100%; }
+}
+@media (max-width:600px) {
+  :root { --size-explanation:16px; }
+  .story-section .insight-number { font-size:25px; }
+  .story-section .insight-explanation { font-size:15px; }
+  .story-section .interpretation .story-bridge { font-size:15px; }
+}
+
+
+/* ================================================================
+   EDITORIAL + GROUPED CHARTS · FINAL INTEGRATED LAYOUT
+   Charts 6 and 7 form a paired feature, Chart 8 builds on both.
+   The white cards do not shrink; only drawings within them do.
+   ================================================================ */
+:root { --copy-text: 17px; }
+
+/* Keep every authored editorial line at nine words or fewer. */
+.interpretation p .editorial-line { display:block; }
+.story-section .interpretation p {
+  font: 400 var(--copy-text)/1.46 var(--sans);
+  max-width: 42ch;
+}
+.story-section .interpretation .editorial-line strong { font-weight:700; }
+.story-section .insight-explanation { max-width:32ch; }
+
+/* Avoid giant spaces generated by justify-content:space-between. */
+.story-section .story-grid > .interpretation,
+.story-section--heatmap .story-grid > .interpretation {
+  justify-content: space-evenly;
+  gap: 16px;
+}
+.story-section--seasonal-pair .interpretation {
+  justify-content: flex-start;
+  gap: 16px;
+}
+.story-section--seasonal-pair .visual-card .chart {
+  padding: 8px 12px 0;
+}
+.story-section--seasonal-pair .visual-card {
+  min-height: 440px;
+}
+
+/* Bridge the habitat breakdown with Australia's distinctive birds. */
+.story-section--bird-context { padding-top:32px; }
+.bird-context-grid {
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:clamp(28px,3.3vw,40px);
+  align-items:start;
+}
+.bird-context-panel {
+  display:flex;
+  min-width:0;
+  flex-direction:column;
+  align-items:stretch;
+  gap:0;
+}
+.bird-context-question {
+  min-height:70px;
+  margin:0;
+  font:700 25px/1.25 var(--sans);
+  color:var(--ink);
+  letter-spacing:-.015em;
+  max-width:25ch;
+}
+.bird-context-panel .visual-card {
+  height:500px;
+  min-height:500px;
+  padding:18px 15px 13px;
+}
+.bird-context-panel .visual-card .bird-context-chart-title {
+  font:700 21px/1.24 var(--sans);
+  color:var(--ink);
+  margin:0 0 10px;
+  min-height:28px;
+}
+.bird-context-panel .interpretation {
+  height:auto;
+  min-height:0;
+  gap:16px;
+  padding-top:22px;
+  justify-content:flex-start;
+}
+.bird-context-panel .interpretation p {
+  font:400 17px/1.44 var(--sans);
+  max-width:39ch;
+}
+.bird-context-panel .interpretation .story-bridge {
+  margin-top:6px;
+}
+.bird-context-panel .insight-card {
+  width:100%;
+  min-height:70px;
+}
+
+/* Chart 6: left labels and full 0–40% scale fit the smaller drawing. */
+.story-section--bird-context .visual-card--habitat {
+  height:500px;
+  min-height:500px;
+}
+.story-section--bird-context .chart--habitat {
+  min-height:310px;
+  flex:1;
+  justify-content:center;
+  align-items:center;
+}
+.story-section--bird-context .chart--habitat svg {max-width:100%;height:auto;}
+
+/* Chart 7: 37-pixel matching rows leave room for its axis and caption. */
+.story-section--bird-context .butterfly-layout,
+.story-section--bird-context .butterfly-axis-row {
+  grid-template-columns:116px minmax(0,1fr);
+  column-gap:7px;
+}
+.story-section--bird-context .butterfly-label-column {
+  grid-template-rows:repeat(8,37px);
+}
+.story-section--bird-context .butterfly-label {
+  font:500 11px/1.16 var(--sans);
+}
+.story-section--bird-context .chart--uniqueness {
+  min-height:296px;
+}
+.story-section--bird-context .chart--uniqueness .vega-embed,
+.story-section--bird-context .chart--uniqueness .vega-embed > div {
+  width:100%;
+}
+.story-section--bird-context .butterfly-axis-row {margin-top:2px;}
+.story-section--bird-context .butterfly-axis-title {font-size:12px;}
+.story-section--bird-context .visual-card--uniqueness .chart-caption {
+  margin-top:5px;
+}
+.story-section--bird-context .chart-legend-group {margin-bottom:5px;}
+
+/* Chart 8 continues this feature, rather than starting an unrelated topic. */
+.story-section--habitat-compare {padding-top:12px;}
+.habitat-compare-dot--elsewhere {background:#547F9F;}
+
+@media (max-width:900px) {
+  .bird-context-grid {grid-template-columns:1fr;gap:36px;}
+  .bird-context-question {min-height:0;margin-bottom:14px;max-width:none;}
+  .bird-context-panel .visual-card {height:auto;min-height:465px;}
+  .bird-context-panel .interpretation {padding-top:16px;}
+  .story-section .story-grid > .interpretation {justify-content:flex-start;gap:18px;}
+}
+@media (max-width:600px) {
+  :root {--copy-text:16px;}
+  .bird-context-question {font-size:22px;}
+  .bird-context-panel .visual-card {height:auto;min-height:0;}
+  .bird-context-panel .interpretation p {font-size:16px;}
+  .story-section--bird-context .butterfly-layout,
+  .story-section--bird-context .butterfly-axis-row {grid-template-columns:96px minmax(0,1fr);gap:5px;}
+  .story-section--bird-context .butterfly-label {font-size:10px;}
+  .story-section--bird-context .chart--habitat {min-height:294px;}
+}
+
+/* Editorial captions stay compact and respect the nine-word line rule. */
+.chart-caption-line {display:block;}
+.story-section--bird-context .bird-context-panel .chart-caption-line {font-size:12px;line-height:1.38;}
+
+/* Compact captions with separately authored, short lines. */
+.chart-caption-line {display:block;}
+.story-section--bird-context .bird-context-panel .chart-caption-line {font-size:12px;line-height:1.38;}
+
+
+/* FINAL COPY RHYTHM · November 2026
+   Natural wrapping, no forced one-sentence lines, no space-evenly gaps. */
+.story-section .interpretation,
+.story-section .story-grid > .interpretation,
+.story-section--heatmap .story-grid > .interpretation,
+.story-section--seasonal-pair .interpretation,
+.bird-context-panel .interpretation,
+.story-section .interpretation--habitat-compare {
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start !important;
+  gap:18px !important;
+}
+/* The body width gives approximately 7–9 words per natural line on desktop. */
+.story-section .interpretation p,
+.story-section--heatmap .interpretation p,
+.story-section--seasonal-pair .interpretation p,
+.bird-context-panel .interpretation p {
+  max-width:45ch;
+  font:400 17px/1.5 var(--sans);
+  margin:0;
+}
+.story-section .interpretation .story-bridge,
+.bird-context-panel .interpretation .story-bridge {
+  font:700 17px/1.5 var(--sans);
+  color:#426B92;
+  margin:0;
+  max-width:45ch;
+}
+/* Inline prose can wrap naturally without manual breaks. */
+.story-section .interpretation p .editorial-line { display:inline; }
+.story-section .interpretation p .editorial-line + .editorial-line::before { content:' '; }
+.bird-context-panel .interpretation {padding-top:16px;}
+@media(max-width:900px) {
+  .story-section .interpretation,
+  .story-section .story-grid > .interpretation,
+  .bird-context-panel .interpretation {gap:16px !important;}
+  .story-section .interpretation p,
+  .bird-context-panel .interpretation p {max-width:52ch;}
+}
+@media(max-width:600px) {
+  .story-section .interpretation p,
+  .story-section .interpretation .story-bridge,
+  .bird-context-panel .interpretation p {font-size:16px;}
+}
+
+
+/* CHARTS 1–8 · layout corrections (01 Nov 2026)
+   Preserve the original Chart 1 map size and white card dimensions. */
+
+/* Set a genuine <=10-word target line length without forced short lines.
+   Approx. 34–37 characters naturally fits 7–9 English words in DM Sans.
+   Allow free browser wrapping on smaller screens. */
+@media (min-width:901px) {
+  .story-section .interpretation p,
+  .story-section--heatmap .interpretation p,
+  .story-section--seasonal-pair .interpretation p,
+  .bird-context-panel .interpretation p,
+  .story-section .interpretation .story-bridge {
+    max-width: 37ch !important;
+    width: min(100%, 37ch);
+  }
+}
+.story-section .interpretation,
+.story-section .story-grid > .interpretation,
+.bird-context-panel .interpretation,
+.story-section--seasonal-pair .interpretation {
+  justify-content: flex-start !important;
+  gap: 15px !important;
+}
+
+/* The paired charts keep their white-card dimensions, but drawings sit
+   slightly smaller within them. */
+.story-section--seasonal-pair .chart--seasonal svg,
+.story-section--seasonal-pair .chart--difference-map svg {
+  width: auto !important;
+  max-width: 93% !important;
+  height: auto !important;
+  max-height: 290px;
+  margin-inline:auto;
+}
+.story-section--bird-context .chart--habitat svg {
+  width: auto !important;
+  max-width: 95% !important;
+  max-height: 325px;
+  margin-inline:auto;
+}
+
+/* Crucial fix: these labels live within --bird-context now, not inside
+   --uniqueness. The prior selector failed and stacked all labels ABOVE bars. */
+.story-section--bird-context .butterfly-layout,
+.story-section--bird-context .butterfly-axis-row {
+  display: grid !important;
+  grid-template-columns: 109px minmax(0,1fr) !important;
+  column-gap: 6px !important;
+  width: 100%;
+  align-items:start;
+}
+.story-section--bird-context .butterfly-label-column {
+  display:grid !important;
+  grid-template-rows:repeat(8,30px) !important;
+  padding:0 !important;
+  margin:0 !important;
+  min-width:0;
+}
+.story-section--bird-context .butterfly-label {
+  display:flex !important;
+  flex-direction:column !important;
+  align-items:flex-start !important;
+  justify-content:center !important;
+  text-align:left !important;
+  white-space:normal !important;
+  padding:0 !important;
+  margin:0 !important;
+  font:500 11px/1.08 var(--sans) !important;
+  overflow:visible;
+}
+.story-section--bird-context .butterfly-label span { display:block; }
+.story-section--bird-context .chart--uniqueness {
+  display:flex;
+  min-height:0 !important;
+  height:240px !important;
+  width:100%;
+  overflow:visible;
+  align-items:flex-start !important;
+  justify-content:center !important;
+  padding:0;
+}
+.story-section--bird-context .chart--uniqueness .vega-embed,
+.story-section--bird-context .chart--uniqueness .vega-embed > div {
+  width:100%;
+  max-width:100%;
+  min-height:0;
+  height:auto;
+}
+.story-section--bird-context .chart--uniqueness svg {
+  display:block;
+  max-width:100%;
+  width:100%;
+  height:auto;
+}
+.story-section--bird-context .butterfly-axis-row {
+  margin:4px 0 0 !important;
+}
+.story-section--bird-context .butterfly-axis-space {min-width:0;}
+.story-section--bird-context .butterfly-axis {padding:0 3px;}
+.story-section--bird-context .butterfly-axis-title {font-size:12px;}
+.story-section--bird-context .visual-card--uniqueness .chart-caption {margin-top:8px;}
+.story-section--bird-context .visual-card--uniqueness .butterfly-key {margin-bottom:8px;}
+.story-section--bird-context .bird-context-chart-title {margin-bottom:7px;}
+
+@media(max-width:900px) {
+  .story-section--bird-context .butterfly-layout,
+  .story-section--bird-context .butterfly-axis-row {
+    grid-template-columns: 109px minmax(0,1fr) !important;
+    column-gap: 6px !important;
+  }
+}
+@media(max-width:600px) {
+  .story-section--bird-context .butterfly-layout,
+  .story-section--bird-context .butterfly-axis-row {
+    grid-template-columns: 95px minmax(0,1fr) !important;
+    column-gap: 5px !important;
+  }
+  .story-section--bird-context .butterfly-label {font-size:10px !important;}
+}
+
+
+/* STABLE SECTION LAYOUT (Charts 6–8) · Nov 2026
+   One combined habitat/uniqueness chapter, three full-width narrative rows.
+   Avoid legacy paired selectors by overriding them here. */
+.story-section--bird-context .bird-context-grid {
+  display:flex;
+  flex-direction:column;
+  gap:42px;
+  align-items:stretch;
+}
+.story-section--bird-context .bird-context-panel {
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  column-gap:clamp(30px,3.8vw,45px);
+  row-gap:16px;
+  align-items:start;
+  min-width:0;
+}
+.story-section--bird-context .bird-context-question {
+  grid-column:1/-1;
+  max-width:none;
+  min-height:0;
+  margin:0;
+  font:700 26px/1.25 var(--sans);
+}
+.story-section--bird-context .bird-context-panel .visual-card {
+  grid-column:1;
+  height:auto !important;
+  min-height:0 !important;
+  width:100%;
+  align-self:start;
+  padding:18px 17px 15px;
+}
+.story-section--bird-context .bird-context-panel .interpretation {
+  grid-column:2;
+  padding-top:0;
+  min-height:0;
+  height:auto;
+  width:100%;
+  justify-content:flex-start !important;
+  gap:16px !important;
+  align-self:start;
+}
+.story-section--bird-context .bird-context-panel .interpretation p {max-width:49ch;}
+.story-section--bird-context .bird-context-chart-title {
+  font:700 22px/1.26 var(--sans);
+  min-height:0;
+  margin:0 0 10px;
+}
+.story-section--bird-context .chart--habitat {min-height:365px; flex:0 0 auto;}
+.story-section--bird-context .chart--habitat svg {max-height:375px; width:auto; margin:auto;}
+
+/* Chart 7: labels and marks share exactly eight 34px rows.
+   Now that the plot is full column width the labels may be more readable. */
+.story-section--bird-context .butterfly-layout,
+.story-section--bird-context .butterfly-axis-row {
+  display:grid !important;
+  grid-template-columns:128px minmax(0,1fr) !important;
+  column-gap:8px !important;
+  align-items:start;
+}
+.story-section--bird-context .butterfly-label-column {
+  grid-template-rows:repeat(8,34px) !important;
+}
+.story-section--bird-context .butterfly-label {font-size:12px !important;line-height:1.1 !important;}
+.story-section--bird-context .chart--uniqueness {
+  height:272px !important;
+  min-height:272px !important;
+  width:100%;
+  justify-content:flex-start !important;
+}
+.story-section--bird-context .chart--uniqueness svg {width:100%;max-width:100%;height:auto;}
+.story-section--bird-context .butterfly-axis-tick {font-size:12px !important;}
+.story-section--bird-context .butterfly-axis-title {font-size:12px !important;}
+.story-section--bird-context .visual-card--uniqueness .chart-caption {margin-top:10px;}
+
+/* Chart 8 is the final row of the SAME chapter, not a new full story section. */
+.story-section--bird-context .bird-context-subsection {margin-top:44px;}
+.story-section--bird-context .bird-context-subsection > .bird-context-question {
+  margin-bottom:17px;
+}
+.story-section--bird-context .bird-context-subsection .story-grid {
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:clamp(30px,3.8vw,45px);
+  align-items:start;
+}
+.story-section--bird-context .bird-context-subsection .visual-card {
+  height:auto;min-height:0;padding:18px 17px 15px;
+}
+.story-section--bird-context .bird-context-subsection .interpretation {
+  height:auto;min-height:0;justify-content:flex-start !important;
+  gap:16px !important;
+}
+
+/* Chart 1: independent card height. The map remains 285px as in the original. */
+.story-section:first-of-type .story-grid {align-items:start;}
+.story-section:first-of-type .visual-card--intro-map {
+  height:395px !important;
+  min-height:395px !important;
+  max-height:395px;
+  align-self:start;
+}
+.story-section:first-of-type .visual-card--intro-map .map-body {flex:1;min-height:0;}
+.story-section:first-of-type .visual-card--intro-map #chart01 svg {
+  max-height:285px;
+  height:auto;
+}
+
+@media (max-width:900px) {
+  .story-section--bird-context .bird-context-panel,
+  .story-section--bird-context .bird-context-subsection .story-grid {
+    grid-template-columns:1fr;
+    gap:18px;
+  }
+  .story-section--bird-context .bird-context-panel .visual-card,
+  .story-section--bird-context .bird-context-panel .interpretation {grid-column:1;}
+  .story-section--bird-context .bird-context-grid {gap:36px;}
+  .story-section--bird-context .bird-context-subsection {margin-top:36px;}
+}
+@media (max-width:600px) {
+  .story-section--bird-context .bird-context-question {font-size:22px;}
+  .story-section--bird-context .butterfly-layout,
+  .story-section--bird-context .butterfly-axis-row {
+    grid-template-columns:102px minmax(0,1fr) !important;
+    column-gap:5px !important;
+  }
+  .story-section--bird-context .butterfly-label {font-size:10px !important;}
+  .story-section:first-of-type .visual-card--intro-map {
+    height:auto !important;min-height:350px !important;max-height:none;
+  }
+}
+
+
+/* FINAL STORY + COMPACT CHART POLISH · 1 November 2026 */
+/* All write-ups are short, connected paragraphs; chart height drives layout,
+   never artificial full-height spacing. */
+.story-section .interpretation,
+.story-section .story-grid > .interpretation,
+.story-section--seasonal-pair .interpretation,
+.story-section--bird-context .bird-context-panel .interpretation,
+.story-section--bird-context .bird-context-subsection .interpretation {
+  min-height:0 !important; height:auto !important;
+  padding-top:0 !important;
+  gap:13px !important;
+  justify-content:flex-start !important;
+  align-self:start;
+}
+.story-section .interpretation p,
+.story-section--bird-context .interpretation p,
+.story-section--seasonal-pair .interpretation p,
+.story-section .interpretation .story-bridge {
+  max-width:41ch !important;
+  width:100%;
+  margin:0 !important;
+  font:400 17px/1.52 var(--sans) !important;
+  color:var(--body-ink);
+}
+.story-section .interpretation p strong {color:#426B92; font-weight:700;}
+.story-section .interpretation .story-bridge {
+  font-weight:700 !important;
+  color:#426B92;
+}
+.story-section .insight-card {
+  width:min(100%,410px);
+  margin:2px 0;
+}
+.story-section .insight-card .insight-number {font-size:26px;}
+.story-section .insight-card .insight-explanation {font-size:16px;line-height:1.4;}
+
+/* Chart 1: preserve the user-approved compact map. */
+.story-section:first-of-type .visual-card--intro-map {
+  height:395px !important; min-height:395px !important; max-height:395px !important;
+}
+
+/* Cards 2 and 3: remove redundant captions and avoid empty card bottoms. */
+.story-section--followup .visual-card--lollipop {
+  height:auto !important; min-height:0 !important;
+  padding-bottom:12px !important;
+}
+.story-section--heatmap .visual-card--heatmap {
+  height:auto !important; min-height:0 !important;
+  padding-bottom:12px !important;
+}
+.story-section--heatmap .chart-caption--heatmap {margin:5px 0 0; font-size:12px;}
+.story-section--heatmap .heatmap-figure {min-height:0;}
+
+/* Charts 4/5: white cards preserved; tiny editorial summaries below. */
+.story-section--seasonal-pair .interpretation {gap:0 !important;min-height:0 !important;}
+.story-section--seasonal-pair .interpretation p {max-width:47ch !important;font-size:16px !important;line-height:1.48 !important;}
+.story-section--seasonal-pair .seasonal-panel {gap:11px !important;}
+.story-section--seasonal-pair .visual-card {height:auto;min-height:0;}
+
+/* Chart 6: align six short habitat labels with the six y-bands and free plot width. */
+.story-section--bird-context .visual-card--habitat {height:auto !important; min-height:0 !important;padding-bottom:13px;}
+.story-section--bird-context .habitat-bars-layout {
+  display:grid;grid-template-columns:122px minmax(0,1fr);
+  column-gap:9px;align-items:start;min-width:0;width:100%;
+}
+.story-section--bird-context .habitat-bars-labels {
+  display:grid;grid-template-rows:repeat(6,46px);
+  width:100%; min-width:0;
+}
+.story-section--bird-context .habitat-bars-label {
+  display:flex;flex-direction:column;
+  align-items:flex-start;justify-content:center;
+  font:600 12px/1.18 var(--sans);color:#17384F;
+}
+.story-section--bird-context .habitat-bars-label span {display:block;}
+.story-section--bird-context .chart--habitat {
+  flex:none !important;
+  min-height:0 !important;
+  height:auto !important;
+  align-items:flex-start !important;
+  justify-content:flex-start !important;
+  overflow:visible;
+}
+.story-section--bird-context .chart--habitat .vega-embed,
+.story-section--bird-context .chart--habitat .vega-embed>div {width:100%;max-width:100%;}
+.story-section--bird-context .chart--habitat svg {
+  width:100% !important;max-width:100% !important;height:auto !important;
+  max-height:none !important; margin:0 !important;
+}
+
+/* Chart 7: native Vega-Lite axis, consistently aligned with the bars. */
+.story-section--bird-context .butterfly-axis-row {display:none !important;}
+.story-section--bird-context .butterfly-layout {
+  display:grid !important;
+  grid-template-columns:125px minmax(0,1fr) !important;
+  gap:9px !important;
+  align-items:start;
+}
+.story-section--bird-context .butterfly-label-column {grid-template-rows:repeat(8,34px) !important;}
+.story-section--bird-context .butterfly-label {
+  font:500 12px/1.12 var(--sans) !important;
+  justify-content:center !important;
+  margin:0 !important;padding:0 !important;
+}
+.story-section--bird-context .chart--uniqueness {
+  min-height:0 !important;height:auto !important;
+  width:100% !important;
+  display:flex;justify-content:flex-start !important;align-items:flex-start !important;
+}
+.story-section--bird-context .chart--uniqueness svg {
+  width:100% !important;max-width:100% !important;height:auto !important;
+}
+.story-section--bird-context .visual-card--uniqueness {min-height:0 !important;height:auto !important;}
+
+/* Chart 8: denser rows + darker points identical to the blue legend. */
+.story-section--bird-context .chart--habitat-compare {min-height:0 !important;height:auto !important;}
+.story-section--bird-context .chart--habitat-compare svg {max-width:100%;height:auto;}
+.habitat-compare-dot--elsewhere {background:#547F9F !important;}
+
+@media (max-width:900px) {
+  .story-section .interpretation p,
+  .story-section--bird-context .interpretation p,
+  .story-section .interpretation .story-bridge {max-width:48ch !important;}
+  .story-section--bird-context .habitat-bars-layout {grid-template-columns:122px minmax(0,1fr);}
+}
+@media (max-width:600px) {
+  .story-section:first-of-type .visual-card--intro-map {height:auto !important;min-height:350px !important;max-height:none !important;}
+  .story-section .interpretation p,
+  .story-section--bird-context .interpretation p,
+  .story-section .interpretation .story-bridge {font-size:16px !important;max-width:100% !important;}
+  .story-section--bird-context .habitat-bars-layout {grid-template-columns:105px minmax(0,1fr);gap:5px;}
+  .story-section--bird-context .habitat-bars-label {font-size:11px;}
+  .story-section--bird-context .butterfly-layout {grid-template-columns:100px minmax(0,1fr) !important;gap:5px !important;}
+  .story-section--bird-context .butterfly-label {font-size:10px !important;}
+}
+
+/* Keep the heatmap only as tall as its six data rows require. */
+.story-section--heatmap .heatmap-figure {min-height:318px !important;}
+.story-section--heatmap .chart--heatmap {min-height:310px !important;}
+
+/* Keep Chart 6 SVG at its native width so its six bands align with HTML labels. */
+.story-section--bird-context .chart--habitat svg {width:auto !important;max-width:100% !important;}
+
+/* NOV 1 — final compact editorial layout; overrides old experimental rules above. */
+/* Preserve chart drawing sizes while eliminating unused fixed-height whitespace. */
+.story-section {padding-bottom:30px;}
+.story-section .story-grid {align-items:start;}
+.story-section .visual-card {align-self:start;}
+.story-section .interpretation,
+.story-section--bird-context .interpretation,
+.story-section--seasonal-pair .interpretation {
+  justify-content:flex-start !important;
+  align-self:start !important;
+  height:auto !important;
+  min-height:0 !important;
+  gap:15px !important;
+}
+.story-section .interpretation p,
+.story-section .interpretation .story-bridge {
+  max-width:40ch !important;
+  line-height:1.5 !important;
+  margin:0 !important;
+}
+.story-section .insight-card {margin:1px 0 !important;}
+.story-section .story-bridge {margin-top:1px !important;}
+
+/* First map remains the same physical drawing size, but its white card is shorter. */
+.story-section:first-of-type .visual-card--intro-map {
+  height:372px !important;
+  min-height:372px !important;
+  max-height:372px !important;
+  padding-bottom:12px;
+}
+.story-section:first-of-type .map-body {min-height:0;}
+
+/* Lollipop and heatmap: no blank reserved space after marks. */
+.story-section--followup .visual-card--lollipop,
+.story-section--heatmap .visual-card--heatmap {
+  height:auto !important;
+  min-height:0 !important;
+  padding-bottom:12px !important;
+}
+.story-section--followup .chart--lollipop {
+  flex:initial !important;
+  min-height:0 !important;
+}
+.story-section--heatmap .heatmap-figure {
+  min-height:0 !important;
+  align-items:start;
+}
+.story-section--heatmap .chart--heatmap {
+  flex:initial !important;
+  min-height:0 !important;
+  align-items:flex-start !important;
+}
+.story-section--heatmap .chart-caption--heatmap {margin-top:5px;}
+
+/* Both seasonal white cards have the SAME height, independent of chart type. */
+.story-section--seasonal-pair .seasonal-pair-grid {align-items:stretch;}
+.story-section--seasonal-pair .seasonal-panel {gap:11px !important;}
+.story-section--seasonal-pair .visual-card {
+  height:382px !important;
+  min-height:382px !important;
+  max-height:382px !important;
+  padding:17px 14px 11px !important;
+}
+.story-section--seasonal-pair .visual-card h3 {min-height:56px;}
+.story-section--seasonal-pair .chart--seasonal,
+.story-section--seasonal-pair .chart--difference-map {
+  min-height:0 !important;
+  height:285px !important;
+  flex:1 1 auto !important;
+  padding:0 !important;
+}
+.story-section--seasonal-pair .chart svg {max-height:282px !important;width:auto !important;max-width:100% !important;margin:auto;}
+.story-section--seasonal-pair .interpretation p {max-width:42ch !important;}
+
+/* Individual rows for habitat, butterfly and connected dots: fit content. */
+.story-section--bird-context .bird-context-grid {gap:25px !important;}
+.story-section--bird-context .bird-context-panel {row-gap:11px;}
+.story-section--bird-context .bird-context-question {font-size:25px;}
+.story-section--bird-context .bird-context-panel .visual-card,
+.story-section--bird-context .bird-context-subsection .visual-card {
+  height:auto !important;
+  min-height:0 !important;
+  max-height:none !important;
+  padding:16px 17px 13px !important;
+}
+.story-section--bird-context .bird-context-subsection {margin-top:28px !important;}
+.story-section--bird-context .chart--habitat {height:auto !important;min-height:0 !important;}
+.story-section--bird-context .habitat-bars-labels {grid-template-rows:repeat(6,46px) !important;}
+.story-section--bird-context .habitat-bars-layout {grid-template-columns:114px minmax(0,1fr) !important;}
+.story-section--bird-context .chart--habitat svg {max-height:310px !important;}
+
+/* Eight mirrored marks and wrapped names share exactly eight 32px rows. */
+.story-section--bird-context .butterfly-layout {
+  display:grid !important;
+  grid-template-columns:118px minmax(0,1fr) !important;
+  gap:8px !important;
+  align-items:start;
+}
+.story-section--bird-context .butterfly-label-column {
+  display:grid !important;
+  grid-template-rows:repeat(8,32px) !important;
+  min-height:0 !important;
+}
+.story-section--bird-context .butterfly-label {
+  font:500 11px/1.12 var(--sans) !important;
+  align-items:flex-start !important;
+  justify-content:center !important;
+}
+.story-section--bird-context .butterfly-plot-area {width:100%;min-width:0;}
+.story-section--bird-context .chart--uniqueness {
+  width:100% !important;
+  height:256px !important;
+  min-height:256px !important;
+  max-height:256px !important;
+  display:block !important;
+  overflow:visible !important;
+}
+.story-section--bird-context .chart--uniqueness .vega-embed,
+.story-section--bird-context .chart--uniqueness .vega-embed>div,
+.story-section--bird-context .chart--uniqueness svg {
+  width:100% !important;
+  height:auto !important;
+  max-width:100% !important;
+  max-height:256px !important;
+}
+/* The Vega bars and accessible HTML scale use precisely one plot column. */
+.story-section--bird-context .butterfly-scale {
+  display:block;
+  width:100%;
+  position:relative;
+  height:29px;
+  border-top:1px solid #9EB3C3;
+  margin:4px 0 0;
+  color:#3C5770;
+  font:500 12px/1.2 var(--sans);
+}
+.story-section--bird-context .butterfly-scale-tick {
+  position:absolute;
+  top:6px;
+  transform:translateX(-50%);
+  white-space:nowrap;
+}
+.story-section--bird-context .butterfly-scale-tick::before {
+  content:'';position:absolute;left:50%;top:-7px;height:5px;border-left:1px solid #9EB3C3;
+}
+.story-section--bird-context .butterfly-scale-tick:first-child {transform:none;}
+.story-section--bird-context .butterfly-scale-tick:last-child {transform:translateX(-100%);}
+.story-section--bird-context .butterfly-scale-title {
+  font:700 12px/1.2 var(--sans);
+  text-align:center;
+  color:#17384F;
+  margin:1px 0 3px;
+}
+.story-section--bird-context .visual-card--uniqueness {padding-bottom:10px !important;}
+
+/* Chart 8: short y bands, fully opaque colours, no wasted chart bottom. */
+.story-section--bird-context .chart--habitat-compare {
+  height:auto !important;min-height:0 !important;
+  align-items:flex-start !important;
+  padding:0 !important;
+}
+.story-section--bird-context .chart--habitat-compare svg {
+  height:auto !important;
+  max-width:100% !important;
+  opacity:1 !important;
+}
+.story-section--bird-context .habitat-compare-dot--only {background:#8A4C79 !important;}
+.story-section--bird-context .habitat-compare-dot--elsewhere {background:#426B92 !important;}
+.story-section--bird-context .butterfly-swatch--elsewhere {background:#426B92 !important;}
+
+@media (max-width:900px) {
+  .story-section--bird-context .bird-context-grid {gap:24px !important;}
+  .story-section--bird-context .butterfly-layout {grid-template-columns:116px minmax(0,1fr) !important;}
+  .story-section--seasonal-pair .visual-card {max-height:none !important;}
+}
+@media (max-width:600px) {
+  .story-section:first-of-type .visual-card--intro-map {height:auto !important;min-height:350px !important;max-height:none !important;}
+  .story-section--seasonal-pair .visual-card {height:auto !important;min-height:0 !important;max-height:none !important;}
+  .story-section--seasonal-pair .chart--seasonal,
+  .story-section--seasonal-pair .chart--difference-map {height:auto !important;min-height:248px !important;}
+  .story-section--bird-context .butterfly-layout {grid-template-columns:96px minmax(0,1fr) !important;gap:6px !important;}
+  .story-section--bird-context .butterfly-label {font-size:10px !important;}
+  .story-section--bird-context .habitat-bars-layout {grid-template-columns:97px minmax(0,1fr) !important;}
+  .story-section--bird-context .butterfly-scale {font-size:10px;}
+}
+
+
+/* November 1 refinement: natural paragraph flow and consistent chart 8 bands. */
+.story-section .interpretation p,
+.story-section--bird-context .interpretation p {
+  max-width:39ch !important;
+  line-height:1.46 !important;
+}
+.story-section .interpretation,
+.story-section--bird-context .interpretation {gap:12px !important;}
+.story-section--bird-context .chart--habitat-compare {overflow:visible !important;}
+
+
+/* Editorial polish: one heading level for each chart inside the shared chapter. */
+.story-section--bird-context .bird-context-grid {gap:26px !important;}
+.story-section--bird-context .bird-context-subsection {margin-top:26px !important;}
+.story-section--bird-context .bird-context-panel {row-gap:0 !important;}
+.story-section--bird-context .bird-context-chart-title,
+.story-section--bird-context .visual-card--habitat-compare > h3 {
+  font:700 22px/1.26 var(--sans) !important;
+  letter-spacing:normal;
+  margin:0 0 10px !important;
+  min-height:0 !important;
+}
+/* Keep body-copy lines near 7–9 words, without inserting abrupt hard breaks. */
+.story-section .interpretation p,
+.story-section .interpretation .story-bridge,
+.story-section--bird-context .interpretation p {
+  max-width:35ch !important;
+  width:100% !important;
+  line-height:1.49 !important;
+}
+/* The short captions below the seasonal charts stay compact and readable. */
+.story-section--seasonal-pair .interpretation p {max-width:37ch !important;}
+@media (max-width:900px) {
+  .story-section .interpretation p,
+  .story-section .interpretation .story-bridge,
+  .story-section--bird-context .interpretation p {max-width:37ch !important;}
+}
+@media (max-width:600px) {
+  .story-section .interpretation p,
+  .story-section .interpretation .story-bridge,
+  .story-section--bird-context .interpretation p {max-width:100% !important;}
+}
+
+/* November 1 — balanced editorial gutters and fuller nine-word lines.
+   The earlier 35ch cap left too much unused space to the right of the copy.
+   A 44ch target better uses the second column at desktop size while keeping
+   the text readable. Narrower copy applies to one longer heatmap paragraph. */
+@media (min-width:901px) {
+  .story-section .story-grid {
+    column-gap:42px;
+  }
+  .story-section .interpretation p,
+  .story-section .interpretation .story-bridge,
+  .story-section--bird-context .interpretation p,
+  .story-section--seasonal-pair .interpretation p {
+    max-width:44ch !important;
+    width:100% !important;
+  }
+  .story-section--heatmap .interpretation p:nth-of-type(3) {
+    max-width:40ch !important;
+  }
+  /* Keep each insight box aligned with the same right-hand grid column. */
+  .story-section .insight-card {
+    width:min(100%,465px) !important;
+  }
+  /* Slightly more air between each of the three habitat-related charts. */
+  .story-section--bird-context .bird-context-grid {
+    gap:43px !important;
+  }
+  .story-section--bird-context .bird-context-subsection {
+    margin-top:43px !important;
+  }
+  .story-section--bird-context .bird-context-panel,
+  .story-section--bird-context .bird-context-subsection .story-grid {
+    column-gap:42px !important;
+  }
+}
+@media (min-width:601px) and (max-width:900px) {
+  .story-section .interpretation p,
+  .story-section .interpretation .story-bridge,
+  .story-section--bird-context .interpretation p,
+  .story-section--seasonal-pair .interpretation p {
+    max-width:44ch !important;
+  }
+  .story-section--bird-context .bird-context-grid {gap:35px !important;}
+  .story-section--bird-context .bird-context-subsection {margin-top:35px !important;}
+}
+
+/* Maintain the reading measure at tablet and wide-mobile sizes too.
+   Narrow phones naturally wrap sooner than the target width. */
+@media (max-width:900px) {
+  .story-section--heatmap .interpretation p:nth-of-type(3) {
+    max-width:40ch !important;
+  }
+}
+@media (max-width:600px) {
+  .story-section .interpretation p,
+  .story-section .interpretation .story-bridge,
+  .story-section--bird-context .interpretation p,
+  .story-section--seasonal-pair .interpretation p {
+    max-width:44ch !important;
+  }
+}
+
+
+/* Final readable line-length correction.
+   Override all earlier wide-column rules, without forced line breaks. */
+.story-section .interpretation p,
+.story-section .interpretation .story-bridge,
+.story-section--heatmap .interpretation p,
+.story-section--seasonal-pair .interpretation p,
+.story-section--bird-context .interpretation p,
+.story-section--bird-context .interpretation .story-bridge {
+  max-width: min(100%, 37ch) !important;
+  width: 100% !important;
+  overflow-wrap: normal;
+  word-break: normal;
+}
+@media (max-width:600px) {
+  .story-section .interpretation p,
+  .story-section .interpretation .story-bridge,
+  .story-section--heatmap .interpretation p,
+  .story-section--seasonal-pair .interpretation p,
+  .story-section--bird-context .interpretation p {
+    max-width: min(100%, 36ch) !important;
+  }
+}
+
+
+/* Chart 9 — conservation chapter: compact slope chart and balanced two-column copy. */
+.story-section--conservation {padding-top:46px !important;}
+.story-section--conservation .story-grid {align-items:start;}
+.story-section--conservation .visual-card--threat-slope {
+  min-height:0 !important;
+  height:auto !important;
+  padding:19px 20px 13px !important;
+}
+.story-section--conservation .visual-card--threat-slope h3 {
+  font:700 22px/1.26 var(--sans) !important;
+  margin-bottom:15px !important;
+}
+.story-section--conservation .chart--threat-slope {
+  min-height:0 !important;
+  padding:2px 0 0;
+  overflow:visible;
+}
+.story-section--conservation .chart--threat-slope .vega-embed,
+.story-section--conservation .chart--threat-slope .vega-embed > div,
+.story-section--conservation .chart--threat-slope svg {
+  width:100% !important;
+  max-width:100% !important;
+  height:auto !important;
+  overflow:visible;
+}
+.threat-chart-legend {
+  display:flex; flex-wrap:wrap; gap:6px 15px;
+  margin:1px 0 12px; align-items:center;
+  font:600 12px/1.35 var(--sans); color:#344A5A;
+}
+.threat-key {display:inline-flex;gap:7px; align-items:center;white-space:nowrap;}
+.threat-swatch {display:inline-block; flex:none; width:10px;height:10px;border-radius:50%;}
+.threat-swatch--vulnerable {background:#5785A5;}
+.threat-swatch--endangered {background:#8A4C79;}
+.threat-swatch--critical {background:#4F6B78;}
+.threat-chart-note {display:none;}
+.story-section--conservation .interpretation--threat-slope {
+  min-height:0 !important;
+  height:auto !important;
+  justify-content:flex-start !important;
+  gap:17px !important;
+}
+.story-section--conservation .interpretation--threat-slope p {
+  max-width:min(100%,37ch) !important;
+  font:400 17px/1.47 var(--sans) !important;
+}
+.story-section--conservation .insight-card {max-width:100%; min-height:68px;}
+@media(max-width:900px) {
+  .story-section--conservation .story-grid {row-gap:24px;}
+  .story-section--conservation .visual-card--threat-slope {max-width:620px;}
+}
+@media(max-width:600px) {
+  .story-section--conservation {padding-top:32px !important;}
+  .story-section--conservation .visual-card--threat-slope {padding:17px 12px !important;}
+  .threat-chart-legend {font-size:11px;gap:7px 10px;}
+  .story-section--conservation .interpretation--threat-slope p {font-size:16px !important;}
+}
+
+
+/* Chart 9 final spacing correction. The columns share the same section gutters.
+   Keep a narrow reading measure inside the second column: never widen paragraphs
+   to the full card width just to fill space. This avoids 12-13 words per line. */
+@media (min-width: 901px) {
+  .story-section--conservation .story-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    column-gap: 42px !important;
+    align-items: start !important;
+  }
+  .story-section--conservation .story-grid > .visual-card,
+  .story-section--conservation .story-grid > .interpretation {
+    box-sizing: border-box;
+    width: 100%;
+    min-width: 0;
+  }
+}
+.story-section--conservation .interpretation--threat-slope {
+  gap: 14px !important;
+  margin: 0 !important;
+  /* Mirror the 20px inset inside the chart card. */
+  padding: 18px 20px 0 !important;
+  min-height: 0 !important;
+  height: auto !important;
+}
+.story-section--conservation .interpretation--threat-slope p {
+  max-width: min(100%, 37ch) !important;
+  font: 400 17px/1.45 var(--sans) !important;
+  margin: 0 !important;
+}
+.story-section--conservation .insight-card {
+  box-sizing: border-box;
+  width: 100% !important;
+  max-width: none !important;
+  min-height: 68px;
+}
+.story-section--conservation .visual-card--threat-slope {
+  min-height: 0 !important;
+  height: auto !important;
+}
+@media (max-width: 600px) {
+  .story-section--conservation .interpretation--threat-slope p {
+    max-width: min(100%, 36ch) !important;
+  }
+}
+
+@media (max-width: 900px) {
+  /* On a single-column screen the explanation is its own block. */
+  .story-section--conservation .interpretation--threat-slope {
+    padding: 0 !important;
+  }
+}
+
+
+/* ================================================================
+   Charts 1–8 · Chart 9 editorial alignment (Nov 2026)
+   The graph data and chart drawing dimensions are unchanged.
+   Match the two-column page gutters and the 18–20px content inset.
+   Keep prose at a narrow natural reading measure (about 7–9 words).
+   ================================================================ */
+@media (min-width: 901px) {
+  /* Charts 1–3 and Chart 8: same horizontal chart-to-story gap as Chart 9.
+     Chart 3 retains its wider chart column for the matrix and legend. */
+  .story-section:not(.story-section--conservation) > .story-grid,
+  .story-section--bird-context .bird-context-subsection > .story-grid {
+    column-gap: 42px !important;
+    align-items: start !important;
+  }
+  .story-section--bird-context .bird-context-panel {
+    column-gap: 42px !important;
+    align-items: start !important;
+  }
+}
+/* All single-chart explanation columns begin with the same inset used
+   by Chart 9. 100% width is the grid column, not the paragraph. */
+.story-section:not(.story-section--conservation) .story-grid > .interpretation,
+.story-section--bird-context .bird-context-panel > .interpretation,
+.story-section--bird-context .bird-context-subsection .story-grid > .interpretation {
+  box-sizing: border-box;
+  width: 100% !important;
+  min-width: 0;
+  min-height: 0 !important;
+  height: auto !important;
+  padding: 18px 20px 0 !important;
+  margin: 0 !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start !important;
+  gap: 14px !important;
+  align-self: start;
+}
+.story-section:not(.story-section--conservation) .story-grid > .interpretation p,
+.story-section--bird-context .bird-context-panel > .interpretation p,
+.story-section--bird-context .bird-context-subsection .story-grid > .interpretation p {
+  max-width: min(100%, 37ch) !important;
+  width: 100% !important;
+  font: 400 17px/1.45 var(--sans) !important;
+  margin: 0 !important;
+  overflow-wrap: normal;
+  word-break: normal;
+}
+.story-section:not(.story-section--conservation) .story-grid > .interpretation .insight-card,
+.story-section--bird-context .bird-context-panel > .interpretation .insight-card,
+.story-section--bird-context .bird-context-subsection .story-grid > .interpretation .insight-card {
+  box-sizing: border-box;
+  width: 100% !important;
+  max-width: none !important;
+  min-height: 68px !important;
+  margin: 0 !important;
+}
+/* Side-by-side seasonal cards keep their short notes directly below,
+   aligned with chart-card content but without adding another tall row. */
+.story-section--seasonal-pair .seasonal-panel > .interpretation {
+  box-sizing: border-box;
+  padding: 2px 20px 0 !important;
+  gap: 0 !important;
+  min-height: 0 !important;
+  height: auto !important;
+}
+.story-section--seasonal-pair .seasonal-panel > .interpretation p {
+  max-width: min(100%, 37ch) !important;
+  margin: 0 !important;
+  font: 400 16px/1.45 var(--sans) !important;
+}
+@media (max-width: 900px) {
+  /* Mobile has a stacked layout; avoid spending horizontal space on the inset. */
+  .story-section:not(.story-section--conservation) .story-grid > .interpretation,
+  .story-section--bird-context .bird-context-panel > .interpretation,
+  .story-section--bird-context .bird-context-subsection .story-grid > .interpretation,
+  .story-section--seasonal-pair .seasonal-panel > .interpretation {
+    padding: 0 !important;
+  }
+}
+@media (max-width: 600px) {
+  .story-section:not(.story-section--conservation) .story-grid > .interpretation p,
+  .story-section--bird-context .bird-context-panel > .interpretation p,
+  .story-section--bird-context .bird-context-subsection .story-grid > .interpretation p {
+    max-width: min(100%, 36ch) !important;
+    font-size: 16px !important;
+  }
+}
+
+
+/* =======================================================================
+   FINAL CONSISTENCY PASS: Charts 1–9, Nov 2026.
+   This block is deliberately LAST because older per-chart rules otherwise
+   overrule alignment. A single shared 20px inset gives an even margin
+   inside both visual cards and their adjacent editorial columns.
+   ======================================================================= */
+@media (min-width: 901px) {
+  /* All chart-left / prose-right rows start at the same baseline. */
+  .story-section > .story-grid,
+  .story-section--bird-context .bird-context-panel,
+  .story-section--bird-context .bird-context-subsection > .story-grid {
+    align-items: start !important;
+    column-gap: 42px !important;
+  }
+  .story-section:not(.story-section--conservation) > .story-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  }
+  /* The heatmap needs slightly more plot width for 8 columns and its legend. */
+  .story-section--heatmap > .story-grid {
+    grid-template-columns: minmax(0,1.09fr) minmax(0,0.91fr) !important;
+  }
+  .story-section--bird-context .bird-context-panel,
+  .story-section--bird-context .bird-context-subsection > .story-grid {
+    grid-template-columns: repeat(2, minmax(0,1fr)) !important;
+  }
+}
+/* Apply the precise Chart 9 content inset and typography to EVERY
+   article beside a chart. Seasonal note paragraphs intentionally stay
+   below their side-by-side cards, not next to them. */
+.story-section .story-grid > .interpretation,
+.story-section--bird-context .bird-context-panel > .interpretation,
+.story-section--bird-context .bird-context-subsection .story-grid > .interpretation {
+  box-sizing: border-box !important;
+  padding: 18px 20px 0 !important;
+  margin: 0 !important;
+  min-height: 0 !important;
+  height: auto !important;
+  width: 100% !important;
+  align-self: start !important;
+  justify-content: flex-start !important;
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 14px !important;
+}
+.story-section .story-grid > .interpretation p,
+.story-section--bird-context .bird-context-panel > .interpretation p,
+.story-section--bird-context .bird-context-subsection .story-grid > .interpretation p {
+  max-width: min(100%,37ch) !important;
+  font: 400 17px/1.45 var(--sans) !important;
+  margin: 0 !important;
+  width: 100% !important;
+}
+.story-section .story-grid > .interpretation .insight-card,
+.story-section--bird-context .bird-context-panel > .interpretation .insight-card,
+.story-section--bird-context .bird-context-subsection .story-grid > .interpretation .insight-card {
+  box-sizing: border-box !important;
+  width: 100% !important;
+  min-height: 68px !important;
+  max-width: none !important;
+  margin: 0 !important;
+}
+/* The 2-up seasonal cards: tops, plot areas and story notes align by row. */
+.story-section--seasonal-pair .seasonal-pair-grid {
+  align-items: start !important;
+}
+.story-section--seasonal-pair .seasonal-panel {
+  display:grid !important;
+  grid-template-rows: auto auto !important;
+  align-content: start !important;
+  row-gap: 11px !important;
+}
+.story-section--seasonal-pair .seasonal-panel > .visual-card {
+  height: 382px !important;
+  min-height: 382px !important;
+  max-height: 382px !important;
+  align-self: start !important;
+}
+.story-section--seasonal-pair .seasonal-panel > .interpretation {
+  box-sizing: border-box !important;
+  margin: 0 !important;
+  padding: 0 18px !important;
+  min-height: 0 !important;
+  height: auto !important;
+  align-self: start !important;
+  gap: 0 !important;
+}
+.story-section--seasonal-pair .seasonal-panel > .interpretation p {
+  max-width: min(100%,37ch) !important;
+  font: 400 16px/1.45 var(--sans) !important;
+  margin: 0 !important;
+}
+/* Put the map drawing at the top of its reserved plotting area rather than
+   centring it vertically in a taller flex box. */
+.story-section--seasonal-pair .chart--difference-map {
+  align-items: flex-start !important;
+  justify-content: center !important;
+}
+.story-section--seasonal-pair .chart--difference-map .vega-embed { margin-top: 0 !important; }
+@media (max-width:900px) {
+  /* At a single-column breakpoint prose sits BELOW the chart naturally. */
+  .story-section .story-grid > .interpretation,
+  .story-section--bird-context .bird-context-panel > .interpretation,
+  .story-section--bird-context .bird-context-subsection .story-grid > .interpretation {
+    padding: 0 !important;
+  }
+  .story-section--seasonal-pair .seasonal-panel > .interpretation {
+    padding: 0 5px !important;
+  }
+}
+@media (max-width:600px) {
+  .story-section .story-grid > .interpretation p,
+  .story-section--bird-context .bird-context-panel > .interpretation p,
+  .story-section--bird-context .bird-context-subsection .story-grid > .interpretation p {
+    max-width: min(100%,36ch) !important;
+    font-size: 16px !important;
+  }
+  .story-section--seasonal-pair .seasonal-panel > .visual-card {
+    height: auto !important;
+    min-height: 0 !important;
+    max-height: none !important;
+  }
+}
+
+
+/* Chart 10: compact choropleth, matched Chart 9 editorial rhythm. */
+.story-section--conservation-map { padding-top: 34px !important; }
+.story-section--conservation-map .story-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  column-gap: 42px !important;
+  align-items: start !important;
+}
+.story-section--conservation-map .visual-card--threat-map {
+  min-height: 0 !important;
+  height: auto !important;
+  padding: 19px 20px 16px !important;
+}
+.story-section--conservation-map .visual-card--threat-map h3 {
+  font: 700 21px/1.27 var(--sans) !important;
+  margin-bottom: 8px !important;
+}
+.story-section--conservation-map .chart--threat-map {
+  min-height: 0 !important;
+  padding: 0 !important;
+  width: 100%;
+  overflow: visible !important;
+}
+.story-section--conservation-map .chart--threat-map .vega-embed,
+.story-section--conservation-map .chart--threat-map .vega-embed > div,
+.story-section--conservation-map .chart--threat-map svg {
+  display: block;
+  width: 100% !important;
+  height: auto !important;
+  max-width: 100% !important;
+}
+.threat-map-key { margin: -4px auto 0; width: min(100%,260px); }
+.threat-map-key-bar {
+  height: 11px;
+  border-radius: 3px;
+  border: 1px solid #CAD6E0;
+  background: linear-gradient(to right, #E9F2F8, #C5DDEC, #91B9D5, #5A8FB7, #255D89);
+}
+.threat-map-key-ticks {
+  display: flex; justify-content: space-between;
+  margin-top: 3px;
+  color: #415A70;
+  font: 500 11px/1.3 var(--sans);
+}
+.threat-map-note {
+  margin: 10px 0 0;
+  color: #60778A;
+  font: 400 12px/1.3 var(--sans);
+  text-align: center;
+}
+.story-section--conservation-map .interpretation--threat-map {
+  box-sizing: border-box !important;
+  width: 100% !important;
+  height: auto !important;
+  min-height: 0 !important;
+  padding: 0 20px 0 !important;
+  margin: 0 !important;
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: flex-start !important;
+  align-self: start !important;
+  gap: 14px !important;
+}
+.story-section--conservation-map .interpretation--threat-map p {
+  width: 100% !important;
+  max-width: min(100%,37ch) !important;
+  margin: 0 !important;
+  font: 400 17px/1.45 var(--sans) !important;
+}
+.story-section--conservation-map .interpretation--threat-map .insight-card {
+  box-sizing: border-box !important;
+  width: 100% !important;
+  max-width: none !important;
+  min-height: 68px !important;
+  margin: 0 !important;
+}
+@media (max-width:900px) {
+  .story-section--conservation-map .story-grid {grid-template-columns: 1fr !important; row-gap: 22px !important;}
+  .story-section--conservation-map .visual-card--threat-map {max-width:620px;}
+  .story-section--conservation-map .interpretation--threat-map {padding:0 !important;}
+}
+@media (max-width:600px) {
+  .story-section--conservation-map .visual-card--threat-map {padding:17px 12px 15px !important;}
+  .story-section--conservation-map .visual-card--threat-map h3 {font-size:20px !important;}
+  .story-section--conservation-map .interpretation--threat-map p {font-size:16px !important;max-width: min(100%,36ch) !important;}
+}
+
+
+/* Chart 10: MATCH CHART 1 — SAME HEIGHT, VERTICAL LEGEND ON THE RIGHT.
+   Explicit final overrides for earlier horizontal-legend rules. */
+.story-section--conservation-map .visual-card--threat-map {
+  height:372px !important;
+  min-height:372px !important;
+  max-height:372px !important;
+  padding:19px 18px 12px !important;
+  overflow:visible;
+}
+.story-section--conservation-map .visual-card--threat-map h3 {
+  font:700 21px/1.26 var(--sans) !important;
+  margin:0 0 8px !important;
+  min-height:0 !important;
+}
+.story-section--conservation-map .threat-map-body {
+  flex:1 1 auto;
+  display:grid;
+  grid-template-columns:minmax(0,1fr) 88px;
+  align-items:center;
+  column-gap:8px;
+  min-height:0;
+  width:100%;
+}
+.story-section--conservation-map .chart--threat-map {
+  flex:1 1 auto;
+  align-self:center;
+  min-width:0 !important;
+  width:100% !important;
+  margin:0 !important;
+}
+.story-section--conservation-map .chart--threat-map .vega-embed,
+.story-section--conservation-map .chart--threat-map .vega-embed > div,
+.story-section--conservation-map .chart--threat-map svg {
+  display:block;
+  width:100% !important;
+  max-width:100% !important;
+  height:auto !important;
+}
+.story-section--conservation-map .threat-map-legend {
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  width:88px;
+  margin:0;
+  color:#193B53;
+}
+.story-section--conservation-map .threat-map-legend-heading {
+  margin:0 0 10px;
+  font:700 13px/1.2 var(--sans);
+  text-align:center;
+}
+.story-section--conservation-map .threat-map-legend-scale {
+  display:flex;
+  align-items:stretch;
+  height:190px;
+  gap:10px;
+}
+.story-section--conservation-map .threat-map-legend-ramp {
+  width:18px;
+  height:100%;
+  border:1px solid #D8E2EA;
+  border-radius:3px;
+  background:linear-gradient(to top,#E9F2F8 0%,#C5DDEC 25%,#91B9D5 50%,#5A8FB7 75%,#255D89 100%);
+}
+.story-section--conservation-map .threat-map-legend-ticks {
+  display:flex;
+  flex-direction:column;
+  justify-content:space-between;
+  color:#193B53;
+  font:500 11px/1.2 var(--sans);
+  font-variant-numeric:tabular-nums;
+}
+.story-section--conservation-map .threat-map-note {
+  margin:1px 0 0 !important;
+  padding:0 !important;
+  text-align:center;
+  color:#60778A;
+  font:400 11px/1.25 var(--sans);
+}
+@media (max-width:600px) {
+  .story-section--conservation-map .visual-card--threat-map {
+    height:auto !important;
+    min-height:330px !important;
+    max-height:none !important;
+    padding:17px 12px 12px !important;
+  }
+  .story-section--conservation-map .threat-map-body {
+    grid-template-columns:minmax(0,1fr) 66px;
+    gap:4px;
+  }
+  .story-section--conservation-map .threat-map-legend {width:66px;}
+  .story-section--conservation-map .threat-map-legend-scale {height:154px;gap:6px;}
+  .story-section--conservation-map .threat-map-legend-ramp {width:14px;}
+  .story-section--conservation-map .threat-map-legend-heading {font-size:11px;}
+  .story-section--conservation-map .threat-map-legend-ticks {font-size:10px;}
+  .story-section--conservation-map .threat-map-note {font-size:10px;}
+}
+
+
+/* CHART 10 — definitive alignment + prevent map footer clipping.
+   The id-based selector overrides earlier generic !important story padding.
+   Let the card fit its contents even when the title wraps at narrower widths. */
+#section-ten-title + .story-grid > article.interpretation--threat-map {
+  padding-top: 0 !important;
+  padding-right: 20px !important;
+  padding-bottom: 0 !important;
+  padding-left: 20px !important;
+  margin-top: 0 !important;
+  align-self: start !important;
+}
+#section-ten-title + .story-grid > figure.visual-card--threat-map {
+  height: auto !important;
+  min-height: 372px !important;
+  max-height: none !important;
+  overflow: visible !important;
+}
+#section-ten-title + .story-grid .threat-map-body {
+  flex: 0 0 auto !important;
+}
+#section-ten-title + .story-grid .threat-map-note {
+  position: relative;
+  margin-top: 5px !important;
+  white-space: normal;
+}
+@media (max-width: 900px) {
+  #section-ten-title + .story-grid > article.interpretation--threat-map {
+    padding: 0 !important;
+  }
+}
+
+
+/* CHART 11 — two-category Vega-Lite waffle chart, 1990–2020. */
+.story-section--recovery { padding-top: 35px !important; }
+.story-section--recovery .story-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  gap: 42px !important;
+  align-items: start !important;
+}
+.story-section--recovery .visual-card--recovery {
+  box-sizing: border-box !important;
+  height: auto !important; min-height: 0 !important;
+  max-height: none !important;
+  padding: 19px 20px 16px !important;
+}
+.story-section--recovery .visual-card--recovery h3 {
+  color: var(--ink); font: 700 21px/1.26 var(--sans) !important;
+  margin: 0 0 14px !important;
+}
+.recovery-legend {
+  display: flex; gap: 8px 18px; flex-wrap: wrap;
+  color: #344A5A; font: 600 12px/1.3 var(--sans);
+  margin: 0 0 8px;
+}
+.recovery-legend span { display: inline-flex; gap: 7px; align-items: center; }
+.recovery-swatch {
+  display: inline-block; width: 12px; height: 12px;
+  border-radius: 3px; flex: none;
+}
+.recovery-swatch--improved { background: #8A4C79; }
+.recovery-swatch--not-improved { background: #547F9F; border: 1px solid #547F9F; }
+.story-section--recovery .chart--recovery-waffle {
+  box-sizing: border-box;
+  width: min(100%, 320px);
+  margin: 0 auto 8px;
+  min-height: 294px;
+  display: flex; justify-content: center; align-items: center;
+}
+.story-section--recovery .chart--recovery-waffle .vega-embed { width: auto; max-width: 100%; }
+.story-section--recovery .chart--recovery-waffle .vega-embed svg { display:block; max-width:100%; height:auto; }
+.recovery-readout {
+  margin: 0 0 5px; text-align: center;
+  font: 600 13px/1.35 var(--sans); color: #284760;
+}
+.recovery-method {
+  margin: 0; text-align: center;
+  font: 400 12px/1.4 var(--sans); color: #60778A;
+}
+#section-twelve-title + .story-grid > article.interpretation--recovery {
+  box-sizing: border-box !important; margin: 0 !important;
+  padding: 0 20px !important; min-height: 0 !important;
+  height: auto !important; align-self: start !important;
+  justify-content: flex-start !important; gap: 17px !important;
+}
+#section-twelve-title + .story-grid > article.interpretation--recovery p {
+  margin: 0 !important; max-width: min(100%, 37ch) !important;
+  font: 400 17px/1.45 var(--sans) !important;
+}
+#section-twelve-title + .story-grid > article.interpretation--recovery .insight-card {
+  box-sizing: border-box; width: 100%; max-width: none !important;
+  min-height: 68px; margin: 0;
+}
+@media (max-width: 900px) {
+  .story-section--recovery .story-grid { grid-template-columns: 1fr !important; gap: 22px !important; }
+  .story-section--recovery .visual-card--recovery { max-width: 620px; }
+  #section-twelve-title + .story-grid > article.interpretation--recovery { padding: 0 !important; }
+}
+@media (max-width: 600px) {
+  .story-section--recovery .visual-card--recovery { padding: 17px 12px 15px !important; }
+  .story-section--recovery .chart--recovery-waffle { min-height: 265px; }
+  #section-twelve-title + .story-grid > article.interpretation--recovery p { font-size: 16px !important; }
+}
+
+
+/* CHART 11 — national funded threatened-bird projects dot map */
+.story-section--bird-project-map { padding-top: 35px !important; }
+.story-section--bird-project-map .story-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  gap: 42px !important; align-items: start !important;
+}
+.story-section--bird-project-map .visual-card--bird-project-map {
+  box-sizing: border-box !important;
+  min-height: 0 !important; height: auto !important; max-height:none !important;
+  padding: 19px 20px 16px !important;
+}
+.story-section--bird-project-map .visual-card--bird-project-map h3 {
+  color: var(--ink); font: 700 20px/1.25 var(--sans) !important;
+  margin: 0 0 10px !important;
+}
+.bird-project-legend { display:flex; flex-wrap:wrap; gap:7px 16px; align-items:center;
+  color:#344A5A; font:600 12px/1.35 var(--sans); margin:0 0 9px; }
+.bird-project-legend span { display: inline-flex; align-items:center; gap:7px; }
+.bird-project-swatch { flex:none; width:11px; height:11px; border-radius:100%; display:inline-block; }
+.bird-project-swatch--bird { background:#8A4C79; }
+.bird-project-swatch--mixed { background:#547F9F; }
+.story-section--bird-project-map .chart--bird-project-map {
+  box-sizing:border-box; width:100%; min-height:300px; display:flex;
+  justify-content:center; align-items:center; overflow:visible; margin:0 auto 3px;
+}
+.story-section--bird-project-map .chart--bird-project-map .vega-embed { max-width:100%; }
+.story-section--bird-project-map .chart--bird-project-map svg { max-width:100%; height:auto; display:block; }
+.bird-project-caption { font:600 12px/1.45 var(--sans); color:#284760; text-align:center; margin:3px 0 4px; }
+.bird-project-caveat {font:400 12px/1.4 var(--sans); color:#60778A; text-align:center; margin:0; }
+.story-section--bird-project-map .interpretation--bird-project-map {
+  box-sizing:border-box !important; padding:0 20px !important; margin:0 !important;
+  height:auto !important; min-height:0 !important; justify-content:flex-start !important;
+}
+@media (max-width:900px) {
+  .story-section--bird-project-map .story-grid { grid-template-columns:1fr !important; gap:24px !important; }
+  .story-section--bird-project-map .interpretation--bird-project-map { padding:0 !important; }
+  .story-section--bird-project-map .visual-card--bird-project-map { max-width:650px !important; }
+}
+
+/* Chart 11: monitoring-dot map, unobtrusive single-category legend. */
+.story-section--bird-project-map .bird-project-legend { margin-bottom: 6px; }
+.story-section--bird-project-map .bird-project-caption { margin-top: 0; }
+.story-section--bird-project-map .bird-project-caveat { max-width: 41ch; margin-left:auto; margin-right:auto; }
+
+/* Chart 11: true seabird colony-location dot map */
+.story-section--seabird-sites { padding-top:24px; }
+.story-section--seabird-sites .story-grid { grid-template-columns:minmax(0,1fr) minmax(0,0.82fr); gap:30px; align-items:start; }
+.visual-card--seabird-sites { min-width:0; }
+.chart--seabird-sites { min-height:315px; display:flex; align-items:center; justify-content:center; }
+.chart--seabird-sites svg { max-width:100%; height:auto; }
+.bird-map-control { display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:10px; margin:12px 0 6px; }
+.bird-map-control label { font-size:13px; font-weight:600; color:#345164; }
+.bird-map-control select { min-width:185px; max-width:100%; border:1px solid #C7D5DF; border-radius:6px; padding:7px 10px; color:#193C55; font:inherit; font-size:13px; background:#fff; }
+.seabird-map-caption,.seabird-source { font-size:11px; color:#5C7484; line-height:1.45; margin-top:7px; }
+.seabird-data-warning { font-size:13px; }
+@media (max-width:760px){.story-section--seabird-sites .story-grid{grid-template-columns:1fr;gap:16px;}}
+
+
+/* Chart 11 – equal-area hexagon bin map of Australia-only species records */
+.story-section--endemism-bin { padding-top:24px; }
+.story-section--endemism-bin .story-grid { grid-template-columns:minmax(0,1fr) minmax(0,0.85fr); gap:30px; align-items:start; }
+.visual-card--endemism-bin { min-width:0; }
+.chart--endemism-bin { min-height:315px; display:flex; align-items:center; justify-content:center; }
+.chart--endemism-bin .vega-embed { max-width:100%; }
+.chart--endemism-bin svg { max-width:100%; height:auto; }
+.endemic-map-legend { margin:10px auto 0; max-width:260px; display:flex; flex-direction:column; gap:3px; }
+.endemic-map-legend-heading { font-size:12px; font-weight:700; color:#284760; }
+.endemic-map-legend-gradient { height:12px; border-radius:3px; background:linear-gradient(90deg,#DCE7ED 0%,#A4C7DC 33%,#547F9F 66%,#8A4C79 100%); border:1px solid #CCDBE4; }
+.endemic-map-legend-ticks { display:flex; justify-content:space-between; font-size:10px; color:#5C7484; }
+.endemic-bin-caption,.endemic-bin-source { font-size:11px; line-height:1.45; color:#5C7484; margin:7px 0 0; }
+.endemic-bin-caveat { font-size:14px; }
+@media(max-width:760px){.story-section--endemism-bin .story-grid{grid-template-columns:1fr;gap:16px;}}
+
+/* Chart 11: actual observation-coordinate dot map with group dropdown */
+.story-section--bird-dot-map .story-grid {grid-template-columns:minmax(0,1fr) minmax(0,.95fr); gap:30px; align-items:start;}
+.visual-card--bird-dot-map {min-width:0;}
+.bird-dot-filter {display:flex;justify-content:space-between;align-items:center;gap:12px;margin:12px 0 7px;}
+.bird-dot-filter label {color:#284760;font-size:13px;font-weight:700;white-space:nowrap;}
+.bird-dot-filter select {font:500 13px 'DM Sans',sans-serif;border:1px solid #A9C4D8;border-radius:8px;color:#183A54;background:#FFFFFF;padding:9px 25px 9px 10px;max-width:60%;}
+.bird-dot-legend {display:flex;align-items:center;gap:6px;font-size:11px;color:#466780;margin:6px 0 0;}
+.bird-dot-swatch {display:inline-block;width:10px;height:10px;border-radius:50%;background:#8A4C79;}
+.chart--bird-dot-map {min-height:325px;display:flex;align-items:center;justify-content:center;}
+.chart--bird-dot-map canvas {max-width:100%;height:auto;}
+.bird-dot-caption,.bird-dot-source {font-size:11px;line-height:1.5;color:#597789;margin:8px 0 0;}
+@media(max-width:760px){.story-section--bird-dot-map .story-grid {grid-template-columns:1fr;gap:18px;}}
+
+/* Focused NSW conservation-context location map */
+.story-section--bird-dot-map .chart--bird-dot-map{min-height:370px;}
+.story-section--bird-dot-map .bird-dot-legend{margin:10px 0 6px;}
+.story-section--bird-dot-map .bird-dot-swatch{height:12px;width:12px;}
+.story-section--bird-dot-map .chart--bird-dot-map svg{max-width:100%;height:auto;}
+
+
+/* FINAL CONSERVATION CHAPTER: four linked findings, one section heading.
+   Keep chart and interpretation side by side, but preserve generous plot width. */
+.story-chapter {
+  padding: 44px clamp(24px,4.8vw,56px) 48px;
+}
+.story-chapter .chapter-header { margin-bottom: 32px; }
+.story-chapter .chapter-header .section-heading { margin:0 0 14px; padding-bottom:15px; }
+.story-chapter .chapter-intro {
+  margin:0;max-width:72ch;color:#304C63;
+  font:400 17px/1.55 var(--sans);
+}
+.story-chapter > .story-section { padding:0 !important; margin:0; }
+.story-chapter > .story-section + .story-section {
+  border-top:1px solid #CFDBE6;
+  margin-top:36px;
+  padding-top:32px !important;
+}
+.story-chapter .chapter-question {
+  margin:0 0 19px; padding:0;
+  border:0; color:var(--ink);
+  font:700 24px/1.3 var(--sans);
+  letter-spacing:-.012em;
+}
+/* Keep the existing plot card + short takeaway next to each other.
+   Whole rows, rather than four tiny cards in a 2x2 grid. */
+.story-chapter .story-grid { align-items:start; }
+.story-chapter .story-grid > .interpretation { height:auto !important; min-height:0 !important; }
+@media (max-width:900px) {
+  .story-chapter { padding:35px 30px 44px; }
+  .story-chapter .chapter-question { font-size:22px; }
+  .story-chapter > .story-section + .story-section { margin-top:30px; padding-top:26px !important; }
+}
+@media (max-width:600px) {
+  .story-chapter { padding:30px 17px 38px; }
+  .story-chapter .chapter-question { font-size:20px; margin-bottom:15px; }
+  .story-chapter .chapter-intro { font-size:16px; }
+  .story-chapter > .story-section + .story-section { margin-top:25px; padding-top:22px !important; }
+}
+
+/* Accessible, visually consistent inner chart headings. */
+.story-chapter .visual-card > h4 {
+  margin:0 0 9px;color:var(--ink);
+  font:700 21px/1.26 var(--sans);
+}
+@media(max-width:600px) {
+  .story-chapter .visual-card > h4 {font-size:20px;}
+}
+
+/* Final conservation layout: one heading, four uninterrupted chart / interpretation pairs. */
+.story-chapter .chapter-header {margin-bottom:24px !important;}
+.story-chapter > .story-section + .story-section {margin-top:26px !important;padding-top:26px !important;}
+.story-chapter .story-grid {align-items:start;}
+@media (max-width: 760px) {
+  .story-chapter > .story-section + .story-section {margin-top:22px !important;padding-top:22px !important;}
+}
+
+
+/* Conservation section – one chapter heading, two maps side by side.
+   Separate final waffle section and no dividers between chart rows. */
+.story-chapter > .story-section + .story-section,
+.story-chapter .story-section + .story-section {
+  border-top:0 !important;
+}
+.story-chapter .chapter-header {margin-bottom:26px !important;}
+.story-chapter > .story-section {margin-bottom:30px !important;}
+.conservation-map-pair {
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  column-gap:30px;
+  align-items:start;
+  margin:22px 0 0;
+}
+/* A panel = map card on top and its own interpretation below. */
+.story-chapter .conservation-map-pair > .story-section {
+  padding:0 !important;
+  margin:0 !important;
+  min-width:0;
+  border:0 !important;
+}
+.story-chapter .conservation-map-pair > .story-section > .story-grid {
+  display:flex !important;
+  flex-direction:column !important;
+  align-items:stretch !important;
+  gap:16px !important;
+  min-width:0;
+}
+.story-chapter .conservation-map-pair .visual-card {
+  width:100% !important;
+  box-sizing:border-box;
+  min-width:0 !important;
+  max-width:none !important;
+  height:480px !important;
+  min-height:480px !important;
+  max-height:none !important;
+  margin:0 !important;
+  padding:18px 18px 14px !important;
+}
+.story-chapter .conservation-map-pair .visual-card--threat-map .threat-map-body {
+  flex:1 1 auto !important;
+  width:100%;
+  min-height:0;
+}
+.story-chapter .conservation-map-pair .chart--threat-map {
+  min-width:0 !important;
+}
+.story-chapter .conservation-map-pair .visual-card--bird-dot-map {
+  justify-content:flex-start;
+}
+.story-chapter .conservation-map-pair .chart--bird-dot-map {
+  flex:1 1 auto;
+  min-height:330px;
+  width:100%;
+}
+.story-chapter .conservation-map-pair .interpretation {
+  padding:0 8px !important;
+  margin:0 !important;
+  width:100% !important;
+  height:auto !important;
+  min-height:0 !important;
+  display:flex !important;
+  gap:13px !important;
+  box-sizing:border-box;
+}
+.story-chapter .conservation-map-pair .interpretation p {
+  width:100% !important;
+  max-width:none !important;
+  font:400 16px/1.48 var(--sans) !important;
+  margin:0 !important;
+}
+.story-chapter .conservation-map-pair .interpretation .insight-card {
+  width:100% !important;
+  max-width:none !important;
+  min-height:64px !important;
+  margin:0 !important;
+}
+.story-chapter .conservation-map-pair .insight-explanation {font-size:16px;}
+#recovery-section {
+  padding:35px clamp(24px,4.8vw,56px) 48px !important;
+  margin:0 !important;
+  border:0 !important;
+}
+#recovery-section > .section-heading {margin:0 0 26px;}
+#recovery-section > .story-grid {align-items:start;}
+@media(max-width:1090px) {
+  .conservation-map-pair {grid-template-columns:1fr;row-gap:32px;}
+  .story-chapter .conservation-map-pair .visual-card {height:auto !important;min-height:440px !important;max-width:600px !important;}
+  .story-chapter .conservation-map-pair .interpretation {max-width:620px;}
+}
+@media(max-width:600px) {
+  #recovery-section {padding:28px 17px 40px !important;}
+  .conservation-map-pair {gap:24px;margin-top:20px;}
+  .story-chapter .conservation-map-pair .visual-card {padding:16px 12px !important;min-height:390px !important;}
+  .story-chapter .conservation-map-pair .chart--bird-dot-map {min-height:315px;}
+}
+
+
+/* FINAL VISUAL AUDIT — alignment and spacing for Charts 1–12 */
+@media (min-width:901px) {
+  /* Start explanatory text at the card's top edge; avoid inherited 18px editorial offset. */
+  .story-section:not(.story-section--seasonal-pair) > .story-grid > article.interpretation,
+  .story-section--bird-context .bird-context-panel > article.interpretation,
+  .story-section--bird-context .bird-context-subsection .story-grid > article.interpretation,
+  #recovery-section > .story-grid > article.interpretation--recovery {
+    padding-top:0 !important;
+  }
+  /* Leave comfortable horizontal inset but no vertical offset. */
+  .story-section:not(.story-section--seasonal-pair) > .story-grid > article.interpretation,
+  .story-section--bird-context .bird-context-panel > article.interpretation,
+  .story-section--bird-context .bird-context-subsection .story-grid > article.interpretation {
+    padding-left:20px !important;
+    padding-right:14px !important;
+  }
+  #recovery-section > .story-grid > article.interpretation--recovery {padding-left:20px !important;padding-right:14px !important;}
+}
+/* Keep each explanation shorter than its chart and avoid excessive paragraph gaps. */
+.story-section > .story-grid > article.interpretation,
+.story-section--bird-context article.interpretation,
+#recovery-section article.interpretation {
+  gap:13px !important;
+}
+.story-section > .story-grid > article.interpretation p,
+.story-section--bird-context article.interpretation p,
+#recovery-section article.interpretation p {
+  line-height:1.43 !important;
+}
+/* The two seasonal cards and their notes use identical widths and left edges. */
+.story-section--seasonal-pair .seasonal-pair-grid {grid-template-columns:repeat(2,minmax(0,1fr)) !important;column-gap:30px !important;}
+.story-section--seasonal-pair .seasonal-panel {width:100% !important;min-width:0 !important;}
+.story-section--seasonal-pair .seasonal-panel > .visual-card {width:100% !important;max-width:none !important;}
+.story-section--seasonal-pair .seasonal-panel > .interpretation {padding-left:0 !important;padding-right:0 !important;width:100% !important;}
+/* Equal vertical separation between Chart 6→7 and Chart 7→8. */
+.story-section--bird-context .bird-context-grid {gap:32px !important;}
+.story-section--bird-context .bird-context-subsection {margin-top:32px !important;}
+/* Exact even row centres for all six categories, no stretched label gaps. */
+.story-section--bird-context .habitat-bars-layout {align-items:start !important;}
+.story-section--bird-context .habitat-bars-labels {display:grid !important;grid-template-rows:repeat(6,46px) !important;row-gap:0 !important;align-content:start !important;}
+.story-section--bird-context .habitat-bars-label {height:46px !important;margin:0 !important;padding:0 !important;justify-content:center !important;line-height:1.18 !important;}
+/* Waffle was unnecessarily tall after its redundant readout. */
+#recovery-section .visual-card--recovery {min-height:0 !important;height:auto !important;padding-bottom:11px !important;}
+#recovery-section .chart--recovery-waffle {min-height:0 !important;margin-bottom:0 !important;}
+@media (max-width:900px) {
+ .story-section--seasonal-pair .seasonal-pair-grid {grid-template-columns:repeat(2,minmax(0,1fr)) !important;}
+ .story-section--bird-context .bird-context-grid {gap:30px !important;}
+ .story-section--bird-context .bird-context-subsection {margin-top:30px !important;}
+}
+@media (max-width:600px) {
+ .story-section--seasonal-pair .seasonal-pair-grid {grid-template-columns:1fr !important;}
+ .story-section--bird-context .bird-context-grid {gap:24px !important;}
+ .story-section--bird-context .bird-context-subsection {margin-top:24px !important;}
+}
+
+
+/* NOV 1 FINAL STORY + CARD ALIGNMENT REVISION (applies after legacy rules) */
+
+/* Chart 5: physically inset/narrow the map CARD and its matching caption.
+   Do not displace the caption on its own. Both line up with the right-side
+   editorial column used by the earlier two-column panels. */
+@media (min-width: 901px) {
+  .story-section--seasonal-pair .seasonal-pair-grid {
+    grid-template-columns: repeat(2, minmax(0,1fr)) !important;
+    column-gap: 30px !important;
+    align-items:start !important;
+  }
+  .story-section--seasonal-pair .seasonal-panel:nth-child(2) {
+    width:calc(100% - 36px) !important;
+    margin-left:36px !important;
+    min-width:0 !important;
+  }
+  .story-section--seasonal-pair .seasonal-panel:nth-child(2) > .visual-card,
+  .story-section--seasonal-pair .seasonal-panel:nth-child(2) > .interpretation {
+    width:100% !important;
+    max-width:100% !important;
+    margin-left:0 !important;
+    box-sizing:border-box !important;
+  }
+  /* Align the short seasonal explanations with the ACTUAL card left edges. */
+  .story-section--seasonal-pair .seasonal-panel > .interpretation {
+    padding:0 !important;
+    width:100% !important;
+  }
+}
+
+/* Charts 6,7,8: equal CARD-to-CARD gaps. The third row used to add
+   another 12px of padding on top of the 32px parent gap. */
+.story-section--bird-context .bird-context-grid {
+  gap:34px !important;
+}
+.story-section--bird-context .bird-context-subsection {
+  margin-top:34px !important;
+  padding-top:0 !important;
+}
+.story-section--bird-context .bird-context-panel,
+.story-section--bird-context .bird-context-subsection > .story-grid {
+  align-items:start !important;
+}
+
+/* Charts 10 & 11: move the ACTUAL NSW card, shrink both cards and keep
+   each accompanying narrative directly aligned under its corresponding card.
+   The right-hand text must never be shifted independently of the card. */
+@media (min-width:1091px) {
+  .conservation-map-pair {
+    grid-template-columns:repeat(2,minmax(0,1fr)) !important;
+    column-gap:36px !important;
+    align-items:start !important;
+  }
+  .story-chapter .conservation-map-pair > .story-section .visual-card {
+    width:calc(100% - 28px) !important;
+    height:452px !important;
+    min-height:452px !important;
+    box-sizing:border-box !important;
+  }
+  .story-chapter .conservation-map-pair > .story-section .interpretation {
+    width:calc(100% - 28px) !important;
+    box-sizing:border-box !important;
+    padding:0 !important;
+    margin:0 !important;
+    gap:13px !important;
+  }
+  .story-chapter .conservation-map-pair > .story-section:nth-child(2) .visual-card,
+  .story-chapter .conservation-map-pair > .story-section:nth-child(2) .interpretation {
+    margin-left:28px !important;
+  }
+}
+.story-chapter .conservation-map-pair .interpretation p {
+  font-size:16px !important;
+  line-height:1.44 !important;
+}
+.story-chapter .conservation-map-pair .visual-card--bird-dot-map .chart--bird-dot-map {
+  min-height:305px !important;
+}
+/* Narrative paragraph count/line lengths are intentionally balanced in HTML. */
+
+/* Chart 12: add a concluding paragraph without spilling outside the card. */
+@media (min-width:901px) {
+  #recovery-section > .story-grid {align-items:start !important;}
+  #recovery-section .visual-card--recovery {
+    min-height:462px !important;
+    height:auto !important;
+    padding-bottom:14px !important;
+  }
+  #recovery-section .interpretation--recovery {
+    padding-top:0 !important;
+    padding-left:20px !important;
+    padding-right:12px !important;
+    gap:12px !important;
+  }
+  #recovery-section .interpretation--recovery p {
+    font-size:17px !important;
+    line-height:1.42 !important;
+  }
+  #recovery-section .interpretation--recovery .insight-card {min-height:66px !important;}
+}
+@media (max-width:1090px) {
+  /* The two maps stack at narrow breakpoints and revert to full width. */
+  .story-chapter .conservation-map-pair > .story-section .visual-card,
+  .story-chapter .conservation-map-pair > .story-section .interpretation {
+    width:100% !important;
+    margin-left:0 !important;
+  }
+}
+@media (max-width:900px) {
+  .story-section--seasonal-pair .seasonal-panel:nth-child(2) {margin-left:0 !important;width:100% !important;}
+}
+@media (max-width:600px) {
+  .story-section--bird-context .bird-context-grid {gap:24px !important;}
+  .story-section--bird-context .bird-context-subsection {margin-top:24px !important;}
+}
+
+
+/* NOVEMBER 1 — CONSERVATION MAPS: two separate full-width story rows.
+   Previously, a 2-column wrapper plus 452px fixed-height cards let the NSW
+   SVG extend below its own card and into the caption. */
+.story-chapter .conservation-map-pair {
+  display:grid !important;
+  grid-template-columns:minmax(0,1fr) !important;
+  row-gap:34px !important;
+  column-gap:0 !important;
+  align-items:start !important;
+  margin-top:24px !important;
+  width:100% !important;
+}
+.story-chapter .conservation-map-pair > .story-section {
+  display:block !important;
+  min-width:0 !important;
+  margin:0 !important;
+  padding:0 !important;
+}
+/* On desktop each map's *own* narrative appears to its right.
+   The NSW map starts on the next row, never beside the national map. */
+.story-chapter .conservation-map-pair > .story-section > .story-grid {
+  display:grid !important;
+  grid-template-columns:minmax(0,1fr) minmax(0,1fr) !important;
+  column-gap:42px !important;
+  row-gap:18px !important;
+  align-items:start !important;
+  width:100% !important;
+  min-width:0 !important;
+}
+.story-chapter .conservation-map-pair > .story-section .visual-card {
+  width:100% !important;
+  max-width:none !important;
+  height:auto !important;
+  min-height:445px !important;
+  max-height:none !important;
+  margin:0 !important;
+  padding:20px 20px 18px !important;
+  box-sizing:border-box !important;
+  overflow:visible !important;
+}
+.story-chapter .conservation-map-pair > .story-section .interpretation {
+  width:100% !important;
+  max-width:none !important;
+  min-width:0 !important;
+  height:auto !important;
+  margin:0 !important;
+  padding:0 !important;
+  box-sizing:border-box !important;
+  gap:14px !important;
+}
+/* Overrides old second-map left shift from the side-by-side layout. */
+.story-chapter .conservation-map-pair > .story-section:nth-child(2) .visual-card,
+.story-chapter .conservation-map-pair > .story-section:nth-child(2) .interpretation {
+  margin-left:0 !important;
+}
+/* Do not give the Vega map a fixed flex height: its actual SVG must
+   participate in the card's natural height calculation. */
+.story-chapter .conservation-map-pair .visual-card--bird-dot-map {
+  display:flex !important;
+  flex-direction:column !important;
+  align-items:stretch !important;
+  justify-content:flex-start !important;
+}
+.story-chapter .conservation-map-pair .chart--bird-dot-map {
+  flex:0 0 auto !important;
+  width:100% !important;
+  min-width:0 !important;
+  max-width:100% !important;
+  min-height:0 !important;
+  height:auto !important;
+  padding:5px 0 9px !important;
+  margin:0 !important;
+  box-sizing:border-box !important;
+  display:flex !important;
+  align-items:center !important;
+  justify-content:center !important;
+}
+.story-chapter .conservation-map-pair .chart--bird-dot-map .vega-embed,
+.story-chapter .conservation-map-pair .chart--bird-dot-map svg {
+  display:block !important;
+  max-width:100% !important;
+  height:auto !important;
+}
+.story-chapter .conservation-map-pair .visual-card--threat-map {
+  max-height:none !important;
+  overflow:visible !important;
+}
+.story-chapter .conservation-map-pair .chart--threat-map svg {max-width:100% !important;height:auto !important;}
+@media (max-width: 760px) {
+  .story-chapter .conservation-map-pair {row-gap:26px !important;}
+  .story-chapter .conservation-map-pair > .story-section > .story-grid {
+    grid-template-columns:minmax(0,1fr) !important;
+    row-gap:18px !important;
+  }
+  .story-chapter .conservation-map-pair > .story-section .visual-card {
+    width:100% !important;
+    min-height:0 !important;
+    padding:16px 14px 14px !important;
+  }
+  .story-chapter .conservation-map-pair > .story-section .interpretation {padding:0 !important;}
+}
+
+
+/* November 2026: clean, readable data-source bibliography and attribution */
+.site-footer {
+  padding-top:34px;
+  padding-bottom:48px;
+}
+.site-footer h2 {
+  margin:0 0 16px;
+  font:600 clamp(30px,3.8vw,43px)/1.2 var(--serif);
+  color:var(--title);
+}
+.site-footer .source-list {
+  list-style:none;
+  counter-reset:source-number;
+  padding:0;
+  margin:0;
+}
+.site-footer .source-list li {
+  counter-increment:source-number;
+  display:grid;
+  grid-template-columns:38px minmax(0,1fr);
+  align-items:start;
+  gap:3px;
+  padding:13px 0;
+  border-bottom:1px solid var(--line-soft);
+  color:var(--body-ink);
+  font:400 15px/1.5 var(--sans);
+  min-width:0;
+}
+.site-footer .source-list li::before {
+  content:counter(source-number) ".";
+  color:var(--accent);
+  font-weight:700;
+  padding-left:3px;
+}
+.site-footer .source-item {min-width:0;overflow-wrap:anywhere;}
+.site-footer .source-label {font-weight:600;color:var(--title);}
+.site-footer .source-author {font-weight:500;}
+.site-footer .source-item a {color:var(--teal);text-decoration-thickness:1px;overflow-wrap:anywhere;}
+.site-footer .source-note {
+  margin:16px 0 0;
+  font-size:14px;
+  line-height:1.5;
+  color:var(--muted);
+}
+.site-footer .source-note code {font-size:13px;}
+.site-footer .footer-publication {
+  margin-top:28px;
+  padding-top:15px;
+  border-top:1px solid var(--line-soft);
+}
+.site-footer .footer-publication p,
+.site-footer .footer-ai-credit {
+  margin:0 0 6px;
+  font:400 15px/1.5 var(--sans);
+  color:var(--body-ink);
+}
+.site-footer .footer-publication strong,
+.site-footer .footer-ai-credit strong {color:var(--title);font-weight:700;}
+.site-footer .footer-ai-credit {margin-top:13px;}
+/* Conservation rows: make explanations readable but keep them no taller
+   than their adjacent card on desktop. Compact wording does the work;
+   do not clip or hide narrative on smaller screens. */
+@media (min-width: 761px) {
+ .story-chapter .conservation-map-pair .interpretation {gap:12px !important;}
+ .story-chapter .conservation-map-pair .interpretation p {
+   font-size:17px !important;
+   line-height:1.44 !important;
+   max-width:none !important;
+ }
+ .story-chapter .conservation-map-pair .interpretation .insight-card {max-width:100% !important;}
+}
+@media (max-width: 600px) {
+ .site-footer .source-list li {font-size:13px;grid-template-columns:27px minmax(0,1fr);padding:12px 0;}
+ .site-footer .footer-publication p,.site-footer .footer-ai-credit {font-size:14px;}
+}
+@media (min-width:761px) and (max-width:900px) {
+  .story-chapter .conservation-map-pair .interpretation {gap:10px !important;}
+  .story-chapter .conservation-map-pair .interpretation p {font-size:16px !important;line-height:1.42 !important;}
+  .story-chapter .conservation-map-pair .insight-explanation {font-size:15px !important;}
+}
+
+
+/* 2 November 2026 — final spacing and bibliography refinements.
+   Previous transition: 48px bottom padding + 35px top padding = 83px.
+   Match the tighter, consistent separation between story rows. */
+.story-chapter { padding-bottom:20px !important; }
+#recovery-section { padding-top:24px !important; }
+@media (max-width:760px) {
+  .story-chapter { padding-bottom:20px !important; }
+  #recovery-section { padding-top:24px !important; }
+}
+/* Use the exact heading/body font family used throughout the visualisation. */
+.site-footer h2 {
+  font:700 clamp(28px,3vw,34px)/1.22 var(--sans) !important;
+  letter-spacing:-0.018em;
+  color:var(--ink);
+}
+.site-footer .source-list li {
+  font-family:var(--sans) !important;
+  font-size:15px;
+  line-height:1.55;
+}
+.site-footer .source-author {font-weight:500;}
+.site-footer .footer-publication {margin-top:25px;}
+
+
+/* NOVEMBER 2026: consistent, medium spacing across major story chapters.
+   Previous gaps ranged from ~44 px to ~90 px. Desktop is now ~64–67 px
+   from the last chart row to the next chapter heading. */
+.story-section--seasonal-pair { padding-bottom:28px !important; }
+.story-section--bird-context { padding-top:39px !important; padding-bottom:29px !important; }
+#conservation-chapter { padding-top:38px !important; padding-bottom:29px !important; }
+#recovery-section { padding-top:35px !important; padding-bottom:32px !important; }
+
+/* A compact end-of-story summary, visually consistent with section headings. */
+.key-takeaways {
+  padding:28px clamp(24px,4.8vw,56px) 44px;
+}
+.key-takeaways > .section-heading { margin-bottom:28px; }
+.takeaway-grid {
+  display:grid;
+  grid-template-columns:repeat(4,minmax(0,1fr));
+  gap:clamp(18px,2.8vw,34px);
+  align-items:start;
+}
+.takeaway-item {min-width:0; text-align:left;}
+.takeaway-icon {
+  width:68px;
+  height:68px;
+  margin:0 auto 15px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  border-radius:18px;
+  color:var(--teal);
+  background:#E2EEF6;
+}
+.takeaway-icon svg {display:block;width:40px;height:40px;}
+.takeaway-item h3 {
+  margin:0 0 8px;
+  color:var(--teal);
+  font:700 17px/1.3 var(--sans);
+}
+.takeaway-item p {
+  margin:0;
+  color:var(--body-ink);
+  font:400 16px/1.53 var(--sans);
+}
+@media (max-width:900px) {
+  .takeaway-grid {grid-template-columns:repeat(2,minmax(0,1fr));row-gap:28px;}
+  .key-takeaways {padding:26px 30px 40px;}
+}
+@media (max-width:760px) {
+  .story-section--seasonal-pair {padding-bottom:22px !important;}
+  .story-section--bird-context {padding-top:30px !important;padding-bottom:23px !important;}
+  #conservation-chapter {padding-top:30px !important;padding-bottom:25px !important;}
+  #recovery-section {padding-top:30px !important;padding-bottom:28px !important;}
+}
+@media (max-width:600px) {
+  .key-takeaways {padding:24px 17px 33px;}
+  .key-takeaways > .section-heading {margin-bottom:24px;}
+  .takeaway-grid {grid-template-columns:repeat(2,minmax(0,1fr));gap:26px 16px;}
+  .takeaway-icon {width:56px;height:56px;border-radius:15px;margin-bottom:12px;}
+  .takeaway-icon svg {width:33px;height:33px;}
+  .takeaway-item h3 {font-size:15px;}
+  .takeaway-item p {font-size:14px;line-height:1.48;}
+}
+@media (max-width:370px) {
+  .takeaway-grid {grid-template-columns:1fr;gap:22px;}
+}
+
+/* Heatmap: accessible dropdown for raw records vs comparable state-normalised counts. */
+.heatmap-controls {
+  display:flex;
+  align-items:center;
+  flex-wrap:wrap;
+  gap:8px;
+  margin:8px 3px 9px;
+  color:var(--body-ink);
+  font:600 12px/1.4 var(--sans);
+}
+.heatmap-controls select {
+  max-width:100%;
+  min-width:0;
+  padding:7px 29px 7px 10px;
+  border:1px solid #9DB9CE;
+  border-radius:7px;
+  background:#fff;
+  color:var(--title);
+  font:600 12px/1.4 var(--sans);
+  cursor:pointer;
+}
+.heatmap-controls select:focus-visible {outline:2px solid var(--accent);outline-offset:2px;}
+/* Centred icon artwork, while all headings and conclusions stay left-aligned. */
+.takeaway-grid .takeaway-item .takeaway-icon {
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  margin-left:auto;
+  margin-right:auto;
+}
+.takeaway-grid .takeaway-icon svg {display:block;margin:auto;}
+@media(max-width:600px){
+  .heatmap-controls{gap:6px;margin:5px 1px 8px;font-size:11px;}
+  .heatmap-controls select{font-size:11px;padding:6px 23px 6px 8px;}
+}
+
+
+/* FINAL ALIGNMENT: centre icon, heading and conclusion in the SAME column. */
+.key-takeaways .takeaway-grid > .takeaway-item {
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  text-align:center;
+}
+.key-takeaways .takeaway-item h3,
+.key-takeaways .takeaway-item p { text-align:center; width:100%; }
+.key-takeaways .takeaway-item p { max-width:28ch; }
+.key-takeaways .takeaway-item .takeaway-icon { flex-shrink:0; }
+
+/* The heatmap dropdown selects real species, not invented year categories. */
+.story-section--heatmap .heatmap-controls select {
+  width:min(240px,100%);
+  font:600 12px/1.4 var(--sans);
+}
+
+
+/* November 2026: meaningful month/difference filter for the seasonal map.
+   The April 2025 heatmap is an uncluttered overview (no redundant highlight). */
+.story-section--seasonal-pair .seasonal-map-controls {
+  display:flex; align-items:center; flex-wrap:wrap; gap:9px;
+  margin:5px 0 3px; font:600 12px/1.45 var(--sans);
+  color:var(--body-ink);
+}
+.story-section--seasonal-pair .seasonal-map-controls select {
+  min-width:0; max-width:100%; width:min(235px,100%);
+  padding:6px 28px 6px 10px; border:1px solid #9DB9CE;
+  border-radius:7px; background:#fff; color:var(--title);
+  font:600 12px/1.45 var(--sans); cursor:pointer;
+}
+.story-section--seasonal-pair .seasonal-map-controls select:focus-visible {
+  outline:2px solid var(--accent); outline-offset:2px;
+}
+.story-section--seasonal-pair .seasonal-map-caption {
+  margin:3px 0 0; padding:0; color:var(--muted,#56718A);
+  font:400 11px/1.4 var(--sans); text-align:left;
+}
+.story-section--seasonal-pair .visual-card--difference-map {
+  justify-content:flex-start;
+}
+@media (max-width:600px) {
+  .story-section--seasonal-pair .seasonal-map-controls {font-size:11px;gap:6px;}
+  .story-section--seasonal-pair .seasonal-map-controls select {font-size:11px;width:min(225px,100%);}
+}
+
+/* Allow the two seasonal chart cards a little extra room for the state-map selector,
+   preserving EXACTLY equal heights and the same aligned top/bottom edges. */
+@media (min-width:601px) {
+  .story-section--seasonal-pair .seasonal-panel > .visual-card {
+    height:416px !important;
+    min-height:416px !important;
+    max-height:416px !important;
+  }
+}
+
+
+/* Soft geometric header decoration */
+
+.hero {
+  position: relative;
+  overflow: hidden;
+  isolation: isolate;
+}
+
+.hero-inner {
+  position: relative;
+  z-index: 2;
+}
+
+/* Large soft shape in the upper-right */
+.hero::before {
+  content: "";
+  position: absolute;
+  width: 440px;
+  height: 440px;
+  right: -190px;
+  top: -190px;
+  border-radius: 50%;
+  background: rgba(204, 226, 236, 0.32);
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* Smaller offset shape in the lower-right */
+.hero::after {
+  content: "";
+  position: absolute;
+  width: 290px;
+  height: 290px;
+  right: -125px;
+  bottom: -155px;
+  border-radius: 46% 54% 58% 42%;
+  transform: rotate(-20deg);
+  background: rgba(103, 75, 115, 0.22);
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* Keep smaller screens clean */
+@media (max-width: 850px) {
+  .hero::before,
+  .hero::after {
+    display: none;
+  }
+}
+
+.hero {
+  background-image:
+    radial-gradient(
+      circle 270px at -55px -65px,
+      rgba(204, 226, 236, 0.30) 99%,
+      transparent 100%
+    );
+}
+
+
+.hero-description {
+  max-width: 680px;
+  width: 100%;
+  white-space: normal;
+  overflow-wrap: normal;
+}
+
+.hero-description .hero-line {
+  display: inline;
+}

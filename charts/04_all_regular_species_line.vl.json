@@ -1,0 +1,225 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Chart 4: counts of all regularly recorded bird species (residents and visitors) on Birdfact selected Australian list, monthly (2019–2024). November 104, June 83.",
+  "background": "#FFFFFF",
+  "width": 425,
+  "height": 296,
+  "data": {
+    "url": "data/04_birdfact_all_regular_species_by_month.csv",
+    "format": {
+      "type": "csv",
+      "parse": {
+        "month_number": "number",
+        "regular_species_total": "number"
+      }
+    }
+  },
+  "encoding": {
+    "x": {
+      "field": "month",
+      "type": "ordinal",
+      "sort": [
+        "Jan",
+        "Feb",
+        "Mar",
+        "Apr",
+        "May",
+        "Jun",
+        "Jul",
+        "Aug",
+        "Sep",
+        "Oct",
+        "Nov",
+        "Dec"
+      ],
+      "title": null,
+      "axis": {
+        "labelAngle": 0,
+        "labelColor": "#314F65",
+        "labelFontSize": 11,
+        "labelFontWeight": 500,
+        "labelPadding": 10,
+        "labelOverlap": false,
+        "tickSize": 0,
+        "domain": false,
+        "grid": false
+      }
+    },
+    "y": {
+      "field": "regular_species_total",
+      "type": "quantitative",
+      "title": "Regularly recorded species",
+      "scale": {
+        "domain": [
+          50,
+          110
+        ],
+        "nice": false,
+        "zero": false
+      },
+      "axis": {
+        "values": [
+          50,
+          70,
+          90,
+          110
+        ],
+        "labelColor": "#314F65",
+        "labelFontSize": 11,
+        "titleColor": "#193D58",
+        "titleFontSize": 12,
+        "titlePadding": 13,
+        "tickSize": 0,
+        "domain": false,
+        "grid": true,
+        "gridColor": "#E4ECF2",
+        "gridWidth": 1,
+        "labelPadding": 7
+      }
+    }
+  },
+  "layer": [
+    {
+      "mark": {
+        "type": "line",
+        "interpolate": "monotone",
+        "color": "#2E678F",
+        "strokeWidth": 3.25
+      },
+      "encoding": {
+        "tooltip": [
+          {
+            "field": "month_name",
+            "type": "nominal",
+            "title": "Month"
+          },
+          {
+            "field": "regular_species_total",
+            "type": "quantitative",
+            "title": "Regularly recorded species",
+            "format": ",d"
+          }
+        ]
+      }
+    },
+    {
+      "mark": {
+        "type": "point",
+        "filled": true,
+        "color": "#2E678F",
+        "size": 65,
+        "stroke": "#FFFFFF",
+        "strokeWidth": 1.4
+      },
+      "encoding": {
+        "tooltip": [
+          {
+            "field": "month_name",
+            "type": "nominal",
+            "title": "Month"
+          },
+          {
+            "field": "regular_species_total",
+            "type": "quantitative",
+            "title": "Regularly recorded species",
+            "format": ",d"
+          }
+        ]
+      }
+    },
+    {
+      "transform": [
+        {
+          "filter": "datum.month == 'Nov'"
+        }
+      ],
+      "mark": {
+        "type": "point",
+        "filled": true,
+        "size": 145,
+        "color": "#925080",
+        "stroke": "white",
+        "strokeWidth": 1.4
+      }
+    },
+    {
+      "transform": [
+        {
+          "filter": "datum.month == 'Jun'"
+        }
+      ],
+      "mark": {
+        "type": "point",
+        "filled": true,
+        "size": 145,
+        "color": "#3D769C",
+        "stroke": "white",
+        "strokeWidth": 1.4
+      }
+    },
+    {
+      "transform": [
+        {
+          "filter": "datum.month == 'Nov'"
+        },
+        {
+          "calculate": "'104 · peak'",
+          "as": "label"
+        }
+      ],
+      "mark": {
+        "type": "text",
+        "align": "right",
+        "dx": -9,
+        "dy": -14,
+        "fontSize": 11,
+        "fontWeight": 700,
+        "color": "#925080"
+      },
+      "encoding": {
+        "text": {
+          "field": "label",
+          "type": "nominal"
+        }
+      }
+    },
+    {
+      "transform": [
+        {
+          "filter": "datum.month == 'Jun'"
+        },
+        {
+          "calculate": "'83 · low'",
+          "as": "label"
+        }
+      ],
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "dx": 8,
+        "dy": 18,
+        "fontSize": 11,
+        "fontWeight": 700,
+        "color": "#3D769C"
+      },
+      "encoding": {
+        "text": {
+          "field": "label",
+          "type": "nominal"
+        }
+      }
+    }
+  ],
+  "config": {
+    "view": {
+      "stroke": null
+    },
+    "axis": {
+      "labelFont": "DM Sans",
+      "titleFont": "DM Sans"
+    },
+    "text": {
+      "font": "DM Sans"
+    }
+  }
+}

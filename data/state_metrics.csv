@@ -1,0 +1,9 @@
+state,records,species,families,abbrev,longitude,latitude,identified_records,species_at_500
+Australian Capital Territory,533,96,36,ACT,149.1,-35.3,533,93.6
+New South Wales,23626,344,83,NSW,147.6,-32.5,23624,154.6
+Northern Territory,827,89,36,NT,133.0,-19.6,827,76.7
+Queensland,10782,359,78,QLD,145.3,-21.6,10757,169.6
+South Australia,7756,265,69,SA,135.1,-30.4,7756,140.8
+Tasmania,6416,141,56,TAS,146.7,-42.1,6416,88.1
+Victoria,19826,272,71,VIC,144.5,-37.0,19826,129.9
+Western Australia,10502,236,63,WA,122.4,-26.2,10502,118.5

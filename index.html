@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="Explore Australian bird records, seasonal patterns, habitats and the evidence on threatened birds and conservation." name="description"/>
+<title>Birds Across Australia</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&amp;family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&amp;display=swap" rel="stylesheet"/>
+<link href="style.css" rel="stylesheet"/>
+<script defer="" src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+<script defer="" src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
+<script defer="" src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+<script defer="" src="js/charts.js"></script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to main content</a>
+<main class="page" id="main">
+<header class="hero">
+<div class="hero-inner">
+<h1>Birds Across Australia</h1>
+<p class="hero-subtitle">What do Australia's bird records reveal?</p>
+
+<p class="hero-description">
+  Explore where birds are recorded across Australian states and seasons.
+  Discover their habitats, species and their conservation challenges. 
+</p>
+
+</div>
+</header>
+<section aria-labelledby="section-title" class="story-section">
+<h2 class="section-heading" id="section-title">
+        Where was the widest variety of birds recorded?
+      </h2>
+<div class="story-grid">
+<figure class="visual-card visual-card--intro-map">
+<h3>Bird variety from 500 records per state</h3>
+<div class="map-body">
+<div aria-label="Interactive choropleth map showing expected distinct bird species from an equal sample of 500 April 2025 occurrence records per state." class="chart" id="chart01"></div>
+<figcaption aria-label="Colour scale for expected distinct species per 500 records: minimum 76.7, midpoint 123.2, maximum 169.6" class="map-legend">
+<span class="legend-heading">Species per<br/>500 records</span>
+<div class="legend-scale">
+<div aria-hidden="true" class="legend-ramp"></div>
+<div aria-hidden="true" class="legend-ticks">
+<span>170</span><span>123</span><span>77</span>
+</div>
+</div>
+</figcaption>
+</div>
+</figure>
+<article aria-label="Map interpretation" class="interpretation"><p><strong>Queensland stands out even after we level the comparison.</strong> Looking at 500 records per state, it shows the widest variety of recorded birds.</p><aside aria-label="About 170 species per 500 Queensland records" class="insight-card"><strong class="insight-number">170</strong><span class="insight-explanation">species expected from 500 Queensland records</span></aside><p>NSW follows at <strong>about 155 species</strong>. That gap matters because seeing the same bird repeatedly adds reports, not new species.</p><p>Results still depend on where birds were recorded.</p><p>So variety and recording effort tell different stories. <strong>Which state submitted the most records?</strong></p></article>
+</div>
+</section>
+<!-- CHART 2: Horizontal lollipop showing recorded observations -->
+<section aria-labelledby="section-two-title" class="story-section story-section--followup">
+<h2 class="section-heading" id="section-two-title">
+        Did more bird records mean more bird species?
+      </h2>
+<div class="story-grid">
+<figure class="visual-card visual-card--lollipop">
+<h3>Bird occurrence records by state</h3>
+<div aria-label="Horizontal lollipop plot of April 2025 bird occurrence records across states and territories, with a line and dot for every state." class="chart chart--lollipop" id="chart02"></div>
+</figure>
+<article aria-label="What bird observation counts reveal" class="interpretation interpretation--followup"><p><strong>Counting reports changes the picture.</strong> NSW submitted far more sightings than Queensland, despite Queensland's richer 500-record sample.</p><aside aria-label="NSW submitted 2.2 times as many reports as Queensland" class="insight-card insight-card--followup"><strong class="insight-number">2.2×</strong><span class="insight-explanation">as many bird records in NSW as Queensland</span></aside><p>Victoria also logged <strong>19,826 records</strong>. Repeated sightings of familiar birds can make a state look busier without adding more kinds of birds.</p><p>These totals reflect reporting activity as well as which birds people happened to observe.</p><p><strong>So which species account for those reports?</strong></p></article>
+</div>
+</section>
+<!-- CHART 3: raw ALA bird observation counts, April 2025. -->
+<section aria-labelledby="section-three-title" class="story-section story-section--followup story-section--heatmap">
+<h2 class="section-heading" id="section-three-title">Were the same birds recorded frequently in every state?</h2>
+<div class="story-grid">
+<figure class="visual-card visual-card--heatmap">
+<h3>Which birds had the most recorded sightings?</h3>
+<div class="heatmap-figure">
+<div aria-label="Heatmap showing raw April 2025 bird observation counts for six selected species in each Australian state. Darker blue means more observation records, not more birds living there." class="chart chart--heatmap" id="chart03"></div>
+<div aria-label="Raw species observations in each state, from none to six hundred or more. Darkest blue means six hundred or more records, not a greater population density." class="heatmap-legend" role="img">
+<div class="heatmap-legend-heading">Bird sighting<br/>records</div>
+<div aria-hidden="true" class="heatmap-legend-bands">
+<div class="heatmap-legend-row"><span class="heatmap-swatch" style="--swatch:#174F79"></span><span>600+</span></div>
+<div class="heatmap-legend-row"><span class="heatmap-swatch" style="--swatch:#376F9B"></span><span>400–599</span></div>
+<div class="heatmap-legend-row"><span class="heatmap-swatch" style="--swatch:#6099BF"></span><span>250–399</span></div>
+<div class="heatmap-legend-row"><span class="heatmap-swatch" style="--swatch:#86B3D0"></span><span>100–249</span></div>
+<div class="heatmap-legend-row"><span class="heatmap-swatch" style="--swatch:#B2D3E7"></span><span>25–99</span></div>
+<div class="heatmap-legend-row"><span class="heatmap-swatch" style="--swatch:#DCECF5"></span><span>1–24</span></div>
+<div class="heatmap-legend-row"><span class="heatmap-swatch" style="--swatch:#F8FAFC"></span><span>0</span></div>
+</div>
+</div>
+</div>
+<figcaption class="chart-caption chart-caption--heatmap" id="heatmap-caption">Hover for exact counts. Darker tiles show more sighting records.</figcaption>
+</figure>
+<article aria-label="Interpreting counts by state and bird species" class="interpretation interpretation--heatmap"><p><strong>Every state has its own mix of recorded birds.</strong> Australian Magpies feature strongly in Victoria and NSW. Tasmania's story looks different.</p><aside aria-label="336 Forest Raven records in Tasmania compared with four in NSW" class="insight-card"><strong class="insight-number">336</strong><span class="insight-explanation">Forest Raven records in Tasmania, versus just 4 in NSW</span></aside><p>Western Australia tells another story, with <strong>434 Australian Raven records</strong>. The same species do not dominate every state's sightings.</p><p>These six familiar species show how different the state patterns can be. They are a selected comparison, not a complete bird checklist.</p><p>Even pale tiles need care: few recorded sightings do not prove a bird was absent. <strong>Would these patterns change with the seasons?</strong></p></article>
+</div>
+</section>
+<!-- CHARTS 4 AND 5: one shared story, two equal-width cards -->
+<section aria-labelledby="section-four-five-title" class="story-section story-section--followup story-section--seasonal-pair">
+<h2 class="section-heading" id="section-four-five-title">
+    How does Australia's bird calendar change throughout the year?
+  </h2>
+<div class="seasonal-pair-grid">
+<!-- Chart 4: when across the year? -->
+<div class="seasonal-panel">
+<figure class="visual-card visual-card--seasonal">
+<h3>How many bird species are recorded each month?</h3>
+<div aria-label="Monthly regularly recorded species from Birdfact's selected Australian bird list. November has 104, the highest count, while June has 83, the lowest." class="chart chart--seasonal" id="chart04"></div>
+</figure>
+<article aria-label="Monthly seasonal pattern explanation" class="interpretation interpretation--seasonal"><p><strong>Bird sightings change with the seasons.</strong> On Birdfact’s selected list, November had <strong>104</strong> regularly recorded species, while June had <strong>83</strong>.</p></article>
+</div>
+<!-- Chart 5: where is the change largest? -->
+<div class="seasonal-panel">
+<figure class="visual-card visual-card--difference-map">
+<h3>How do June and November differ across states?</h3>
+<div class="seasonal-map-controls">
+  <label for="seasonal-map-view">Show:</label>
+  <select id="seasonal-map-view" aria-controls="chart05" aria-describedby="seasonal-map-insight">
+    <option value="difference">Change (November − June)</option>
+    <option value="june">June (winter)</option>
+    <option value="november">November (spring)</option>
+  </select>
+</div>
+<div aria-label="Proportional-symbol map of the selected Birdfact species count or November minus June change by state. Circle area represents the selected value; hover for all three values." class="chart chart--difference-map" id="chart05"></div>
+</figure>
+<article aria-label="State differences explanation" class="interpretation interpretation--difference-map"><p id="seasonal-map-insight" aria-live="polite"><strong>That seasonal rise was not equal everywhere.</strong> NSW had <strong>17 more</strong> regularly recorded species in November than June, but ACT had only <strong>four more</strong>.</p></article>
+</div>
+</div>
+</section>
+<section aria-labelledby="section-six-seven-title" class="story-section story-section--bird-context"><h2 class="section-heading" id="section-six-seven-title">Beyond sightings: habitats and Australia-only birds</h2><div class="bird-context-grid"><div class="bird-context-panel bird-context-panel--habitat"><figure class="visual-card visual-card--habitat">
+<h3 class="bird-context-chart-title">Which primary habitats are most common?</h3>
+<div class="habitat-bars-layout"><div aria-hidden="true" class="habitat-bars-labels"><div class="habitat-bars-label"><span>Open</span><span>landscapes</span></div><div class="habitat-bars-label"><span>Forests</span></div><div class="habitat-bars-label"><span>Seas &amp;</span><span>coasts</span></div><div class="habitat-bars-label"><span>Wetlands &amp;</span><span>rivers</span></div><div class="habitat-bars-label"><span>Rocky &amp;</span><span>arid</span></div><div class="habitat-bars-label"><span>Artificial</span><span>habitats</span></div></div><div aria-label="Horizontal bar chart comparing primary-habitat groups for bird species on the Australian checklist. Open landscapes 310 species (31.1%), forests 294 (29.5%), seas and coasts 208 (20.9%), wetlands and rivers 154 (15.4%), rocky and arid 20 (2.0%), artificial habitats 11 (1.1%)." class="chart chart--habitat" id="chart06"></div></div>
+</figure><article aria-label="Australian bird habitat explanation" class="interpretation interpretation--habitat"><p><strong>Where birds live adds another layer to the story.</strong> Open landscapes lead the species checklist, with forests close behind.</p><aside aria-label="60.6 percent of selected species have open landscapes or forests as their primary habitat" class="insight-card"><strong class="insight-number">60.6%</strong><span class="insight-explanation">of listed species are associated with open landscapes or forests</span></aside><p>Coasts, wetlands and rivers also account for many species. Each bird is counted under its main habitat here, showing how varied these environments are.</p><p>This mix of habitats is only part of the story. Some birds are found across the world, while others occur only in Australia.</p><p><strong>Which of these birds occur only in Australia?</strong></p></article></div><div class="bird-context-panel bird-context-panel--uniqueness"><figure class="visual-card visual-card--uniqueness">
+<h3 class="bird-context-chart-title">Which groups have more Australia-only species?</h3>
+<div aria-label="Butterfly chart legend" class="chart-legend-group"><div class="chart-legend-title">Where species occur</div><div class="butterfly-key"><span class="butterfly-key-item"><span aria-hidden="true" class="butterfly-swatch butterfly-swatch--only"></span>Australia-only</span><span class="butterfly-key-item"><span aria-hidden="true" class="butterfly-swatch butterfly-swatch--elsewhere"></span>Also found elsewhere</span></div></div>
+<div class="butterfly-layout">
+<div aria-hidden="true" class="butterfly-label-column"><div class="butterfly-label"><span>Parrots &amp;</span><span>cockatoos</span></div><div class="butterfly-label"><span>Perching birds</span></div><div class="butterfly-label"><span>Pigeons &amp;</span><span>doves</span></div><div class="butterfly-label"><span>Ducks, geese &amp;</span><span>swans</span></div><div class="butterfly-label"><span>Rails &amp;</span><span>cranes</span></div><div class="butterfly-label"><span>Shorebirds</span></div><div class="butterfly-label"><span>Herons, pelicans</span><span>&amp; ibises</span></div><div class="butterfly-label"><span>Petrels &amp;</span><span>albatrosses</span></div></div>
+<div class="butterfly-plot-area"><div aria-label="Butterfly chart showing eight bird groups. Purple bars represent the percentage of species found only in Australia. Blue bars represent species also found elsewhere. Categories, from top to bottom: parrots and cockatoos, perching birds, pigeons and doves, ducks geese and swans, rails and cranes, shorebirds, herons pelicans and ibises, petrels and albatrosses." class="chart chart--uniqueness" id="chart07"></div><div aria-label="Percentage of species in each bird group: 100%, 50%, 0%, 50%, 100% from left to right." class="butterfly-scale" role="img"><span class="butterfly-scale-tick" style="left:0%;">100%</span><span class="butterfly-scale-tick" style="left:25%;">50%</span><span class="butterfly-scale-tick" style="left:50%;">0%</span><span class="butterfly-scale-tick" style="left:75%;">50%</span><span class="butterfly-scale-tick" style="left:100%;">100%</span></div><div class="butterfly-scale-title">Percentage of species in each bird group</div></div></div>
+</figure><article aria-label="Australia-only bird species explanation" class="interpretation interpretation--uniqueness"><p><strong>Bird groups differ greatly in where they occur.</strong> Many selected parrots and cockatoos occur only here, while shorebirds often range farther.</p><aside aria-label="78.9 percent of 57 selected parrot and cockatoo species occur only in Australia" class="insight-card"><strong class="insight-number">78.9%</strong><span class="insight-explanation">of 57 selected parrot and cockatoo species occur only in Australia</span></aside><p>Perching birds also show a high Australia-only share. By contrast, none of the <strong>50 selected petrels and albatrosses</strong> was classified as Australia-only.</p><p>Being recorded in Australia does not always mean a bird is unique to Australia. Some groups have a much wider reach.</p><p>That raises another question: <strong>do birds found only here have different main habitats?</strong></p></article></div></div>
+<div class="bird-context-subsection story-section--habitat-compare">
+<div class="story-grid">
+<figure class="visual-card visual-card--habitat-compare">
+<h3>Do Australia-only birds favour different habitats?</h3>
+<div aria-label="Connected dot plot legend" class="chart-legend-group"><div class="chart-legend-title">Where species occur</div><div class="habitat-compare-legend">
+<span class="habitat-compare-legend-item"><span aria-hidden="true" class="habitat-compare-dot habitat-compare-dot--only"></span>Australia-only</span>
+<span class="habitat-compare-legend-item"><span aria-hidden="true" class="habitat-compare-dot habitat-compare-dot--elsewhere"></span>Also found elsewhere</span>
+</div></div>
+<div aria-label="Connected dot plot comparing five displayed habitats. Purple dots show Australia-only species and blue dots show species also found elsewhere. Open landscapes: 50.2 versus 18.6 percent. Seas and coasts: 2.8 versus 32.4 percent. Artificial habitats is omitted because both shares were 0.3 percent. In rocky and arid habitats, zero of the 296 selected species also found elsewhere have that primary habitat." class="chart chart--habitat-compare" id="chart08" role="img"></div>
+</figure>
+<article aria-label="Differences in bird habitats explanation" class="interpretation interpretation--habitat-compare"><p><strong>Habitat reveals a clear contrast between the groups.</strong> Open landscapes feature far more among Australia-only species than among species also found elsewhere.</p><aside aria-label="31.6 percentage-point difference in the open-landscape share" class="insight-card"><strong class="insight-number">31.6</strong><span class="insight-explanation">percentage-point difference between the two species groups</span></aside><p><strong>At the coast, the pattern reverses.</strong> Seas and coasts are the main habitat for <strong>32.4%</strong> of elsewhere-occurring species, versus <strong>2.8%</strong> of Australia-only species.</p><p>The 0% for rocky and arid habitats means that none of the 296 selected species also found elsewhere has this as its main habitat.</p><p>It does not mean that no birds live in these places. <strong>What threats do these birds face?</strong></p></article>
+</div>
+</div>
+</section>
+<section aria-labelledby="conservation-chapter-title" class="story-chapter" id="conservation-chapter"><header class="chapter-header"><h2 class="section-heading" id="conservation-chapter-title">Threatened birds: risk across Australia</h2></header><section aria-label="How has Australia's threatened bird list changed?" class="story-section story-section--conservation">
+<div class="story-grid">
+<figure class="visual-card visual-card--threat-slope">
+<h4>Threatened bird species and subspecies by risk category, 2010–2020</h4>
+<div aria-label="Conservation risk categories" class="threat-chart-legend">
+<span class="threat-key"><span aria-hidden="true" class="threat-swatch threat-swatch--vulnerable"></span>Vulnerable</span>
+<span class="threat-key"><span aria-hidden="true" class="threat-swatch threat-swatch--endangered"></span>Endangered</span>
+<span class="threat-key"><span aria-hidden="true" class="threat-swatch threat-swatch--critical"></span>Critically Endangered</span>
+</div>
+<div aria-label="Slope chart comparing assessed Australian threatened bird species in 2010 and 2020. Vulnerable: 68 to 87. Endangered: 60 to 76. Critically Endangered: 20 to 21." class="chart chart--threat-slope" id="chart09" role="img"></div>
+</figure>
+<article aria-label="Threatened bird conservation story" class="interpretation interpretation--threat-slope">
+<p><strong>A familiar habitat does not guarantee a safe future.</strong> By 2020, more Australian bird species appeared in threatened categories. The growing list raises wider conservation concerns.</p>
+<aside aria-label="36 more assessed threatened bird species in 2020 than in 2010" class="insight-card">
+<strong class="insight-number">+36</strong>
+<span class="insight-explanation">more assessed threatened species and subspecies than in 2010</span>
+</aside>
+<p><strong>Vulnerable</strong> rose from <strong>68 to 87</strong>, while <strong>Endangered</strong> climbed from <strong>60 to 76</strong>. <strong>Critically Endangered</strong> changed very little, moving from <strong>20 to 21</strong>. These categories did not grow equally.</p>
+<p>These figures describe changes in assessments, not counts of individual birds. To understand what has happened to monitored bird populations, we need to look at their <strong>relative abundance across regions.</strong></p>
+</article>
+</div>
+</section><div aria-label="Population declines and recorded threatened birds in NSW" class="conservation-map-pair"><section aria-label="Where are threatened bird populations declining most?" class="story-section story-section--conservation-map">
+<div class="story-grid">
+<figure class="visual-card visual-card--threat-map">
+<h4>20-year bird population declines (2000–2020)</h4>
+<div class="threat-map-body">
+<div aria-label="Choropleth map of changes in the relative abundance of monitored threatened and near-threatened birds, 2000 to 2020. South Australia declined by 69.6 percent; Queensland 65.7 percent; New South Wales and ACT combined 56.3 percent; Victoria 47.9 percent; Western Australia 29.9 percent; Tasmania 27.6 percent; Northern Territory 3.4 percent. NSW and ACT are separately labelled but use the same reported estimate." class="chart chart--threat-map" id="chart10" role="img"></div>
+<figcaption aria-label="Sequential blue colour legend for relative abundance decline from 0 percent to 70 percent, 2000 to 2020" class="threat-map-legend">
+<span class="threat-map-legend-heading">Relative decline<br/>2000–2020</span>
+<div class="threat-map-legend-scale">
+<div aria-hidden="true" class="threat-map-legend-ramp"></div>
+<div aria-hidden="true" class="threat-map-legend-ticks"><span>70%</span><span>35%</span><span>0%</span></div>
+</div>
+</figcaption>
+</div>
+</figure>
+<article aria-label="State-level threatened bird population decline explanation" class="interpretation interpretation--threat-map">
+<p><strong>Bird declines were widespread but uneven.</strong> Every reporting region saw falling relative abundance among monitored threatened and near-threatened birds from 2000 to 2020.</p>
+<aside aria-label="South Australia had a 69.6 percent average decline in monitored threatened and near-threatened bird relative abundance from 2000 to 2020" class="insight-card"><strong class="insight-number">−69.6%</strong><span class="insight-explanation">average decline among monitored birds in South Australia</span></aside>
+<p>Queensland followed at <strong>65.7%</strong> and NSW with the ACT at <strong>56.3%</strong>. The Northern Territory recorded a smaller <strong>3.4%</strong> decline.</p>
+<p>These are changes in monitored bird abundance, not counts of birds lost. <strong>Where were threatened birds recorded?</strong> NSW offers a closer look.</p></article>
+</div>
+</section><section aria-label="Where were threatened birds recorded within NSW?" class="story-section story-section--bird-dot-map">
+<div class="story-grid">
+<figure class="visual-card visual-card--bird-dot-map">
+<h4>Threatened-bird records in NSW, April 2025</h4>
+<div class="bird-dot-legend"><span aria-hidden="true" class="bird-dot-swatch"></span>Documented recording locations</div>
+<div aria-label="A NSW location dot map of April 2025 ALA records matching bird species listed as threatened in NSW in the 2015 Garnett dataset. One source coordinate is retained for every occupied 0.48-degree area." class="chart chart--bird-dot-map" id="chart11" role="img"></div>
+</figure>
+<article aria-label="NSW threatened bird records explanation" class="interpretation interpretation--bird-dot-map">
+<p><strong>From regional trends to recorded sightings.</strong> These April 2025 NSW observations involve birds classified as threatened in a <strong>2015 assessment</strong>.</p>
+<aside class="insight-card"><strong class="insight-number">475</strong><span class="insight-explanation">source records across 41 matched species in NSW</span></aside>
+<p>Only <strong>100 recorded locations</strong> are plotted, with one point per small area to make overlapping sightings easier to see.</p>
+<p>Many points appear in eastern NSW, but this also reflects recording activity. <strong>Dots show sightings, not population size.</strong></p>
+<p>Do later assessments show that these birds are recovering? <strong>The final chart looks at extinction risk.</strong></p></article>
+</div>
+</section></div></section><section aria-label="Did extinction risk decrease for Australian birds?" aria-labelledby="recovery-section-heading" class="story-section story-section--recovery" id="recovery-section"><h2 class="section-heading" id="recovery-section-heading">Has extinction risk improved for Australian birds?</h2>
+<div class="story-grid">
+<figure class="visual-card visual-card--recovery">
+<h4>Birds with reduced extinction risk, 1990–2020</h4>
+<div aria-label="Waffle chart categories" class="recovery-legend">
+<span><i aria-hidden="true" class="recovery-swatch recovery-swatch--improved"></i>Improved at least once · 25</span>
+<span><i aria-hidden="true" class="recovery-swatch recovery-swatch--not-improved"></i>No recorded improvement · 174</span>
+</div>
+<div aria-label="100-square waffle showing rounded percentage shares of 199 assessed Australian bird taxa. Purple represents the 25 with at least one recorded reduction in assessed extinction risk; blue represents the other 174." class="chart chart--recovery-waffle" id="chart12" role="img"></div>
+</figure>
+<article aria-label="Extinction risk improvements explanation" class="interpretation interpretation--recovery"><p><strong>Improvement was rare.</strong> Only 25 of 199 eligible Australian bird species and subspecies showed reduced extinction risk in at least one decade between 1990 and 2020.</p><aside aria-label="12.6 percent showed lower risk at least once" class="insight-card"><strong class="insight-number">12.6%</strong><span class="insight-explanation">showed lower extinction risk at least once</span></aside><p>Among the other <strong>174</strong>, 100 faced worsening risk and 74 remained in the same risk category.</p><p>Some improvements were temporary, and not every gain was caused by conservation. A lower risk category in one decade does not guarantee lasting recovery.</p><p>Those purple squares show progress is possible, but they remain a small part of the picture. Protecting these gains is the next challenge.</p></article>
+</div>
+</section>
+<!-- CHART 10: Threatened Bird Index (2023), state and territory changes, 2000–2020. -->
+<!-- CHART 11: Real-source NSW threatened-bird occurrence locations -->
+<!-- FINAL STORY SUMMARY: brief conclusions grounded in the twelve charts. -->
+<section class="key-takeaways" aria-labelledby="key-takeaways-heading">
+  <h2 class="section-heading" id="key-takeaways-heading">Key Takeaways</h2>
+  <div class="takeaway-grid">
+    <article class="takeaway-item">
+      <span class="takeaway-icon" aria-hidden="true">
+        <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M6 14 19 9l10 5 13-5v25l-13 5-10-5-13 5V14Z"/>
+          <path d="M19 9v25M29 14v25"/><circle cx="24" cy="21" r="4" fill="#8A4C79" stroke="none"/>
+        </svg>
+      </span>
+      <h3>Variety and sightings differ</h3>
+      <p>Queensland showed the widest variety in equal-sized samples, although NSW had the most records. The busiest state was not the most diverse in this comparison.</p>
+    </article>
+    <article class="takeaway-item">
+      <span class="takeaway-icon" aria-hidden="true">
+        <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="7" y="11" width="34" height="30" rx="5"/><path d="M15 7v8M33 7v8M7 20h34M14 34l7-8 7 5 7-8"/>
+        </svg>
+      </span>
+      <h3>November brings more birds</h3>
+      <p>Every state and territory had more regularly recorded species in November than in June. NSW showed the largest increase.</p>
+    </article>
+    <article class="takeaway-item">
+      <span class="takeaway-icon" aria-hidden="true">
+        <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M38 7c-15-2-26 5-27 19-1 9 5 15 11 15 14-1 21-19 16-34Z"/>
+          <path d="M8 41c10-13 18-22 28-30M21 26l-1-10M27 20l9 1"/>
+        </svg>
+      </span>
+      <h3>Australia-only birds stand out</h3>
+      <p>Parrots and cockatoos had the highest Australia-only share among the groups shown. Open landscapes were especially common among Australia-only birds.</p>
+    </article>
+    <article class="takeaway-item">
+      <span class="takeaway-icon" aria-hidden="true">
+        <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M24 5c-8 5-14 6-17 7v12c0 10 6 16 17 20 11-4 17-10 17-20V12c-3-1-9-2-17-7Z"/>
+          <path d="M15 25l6 6 12-14"/>
+        </svg>
+      </span>
+      <h3>Recovery remains limited</h3>
+      <p>Threatened-category totals increased, monitored birds declined across regions and relatively few eligible bird taxa showed lower extinction risk.</p>
+    </article>
+  </div>
+</section>
+<footer class="site-footer" aria-label="Data sources and publication details">
+  <h2>Data sources</h2>
+  <ol class="source-list">
+    <li><span class="source-item"><span class="source-author">Atlas of Living Australia (2025)</span> – <a href="https://biocache.ala.org.au/occurrences/search?q=data_resource_uid:dr359" target="_blank" rel="noopener noreferrer">https://biocache.ala.org.au/occurrences/search?q=data_resource_uid:dr359</a></span></li>
+    <li><span class="source-item"><span class="source-author">Birdfact (2025)</span> – <a href="https://www.birdfact.com/birds-in/australia" target="_blank" rel="noopener noreferrer">https://www.birdfact.com/birds-in/australia</a></span></li>
+    <li><span class="source-item"><span class="source-author">eBird Observation Dataset (2019–2024)</span> – <a href="https://www.gbif.org/dataset/4fa7b334-ce0d-4e88-aaae-2e0c138d049e" target="_blank" rel="noopener noreferrer">https://www.gbif.org/dataset/4fa7b334-ce0d-4e88-aaae-2e0c138d049e</a></span></li>
+    <li><span class="source-item"><span class="source-author">Avibase – Australia bird checklist</span> – <a href="https://avibase.bsc-eoc.org/checklist.jsp?lang=EN&amp;list=ebird&amp;region=au" target="_blank" rel="noopener noreferrer">https://avibase.bsc-eoc.org/checklist.jsp?lang=EN&amp;list=ebird&amp;region=au</a></span></li>
+    <li><span class="source-item"><span class="source-author">BIRDBASE (2025)</span> – <a href="https://www.nature.com/articles/s41597-025-05615-3" target="_blank" rel="noopener noreferrer">https://www.nature.com/articles/s41597-025-05615-3</a></span></li>
+    <li><span class="source-item"><span class="source-author">The Whistler (2023)</span> – <a href="https://www.hboc.org.au/wp-content/uploads/HBOC_Whistler17_2023forWEB.pdf" target="_blank" rel="noopener noreferrer">https://www.hboc.org.au/wp-content/uploads/HBOC_Whistler17_2023forWEB.pdf</a></span></li>
+    <li><span class="source-item"><span class="source-author">Threatened Bird Index (2023)</span> – <a href="https://tsx.org.au/wp-content/uploads/2023/11/Threatened_Bird_Index_2023_Trend_Summary_20231130.pdf" target="_blank" rel="noopener noreferrer">https://tsx.org.au/wp-content/uploads/2023/11/Threatened_Bird_Index_2023_Trend_Summary_20231130.pdf</a></span></li>
+    <li><span class="source-item"><span class="source-author">Garnett et al. (2015)</span> – <a href="https://doi.org/10.1038/sdata.2015.61" target="_blank" rel="noopener noreferrer">https://doi.org/10.1038/sdata.2015.61</a></span></li>
+    <li><span class="source-item"><span class="source-author">Garnett et al. (2024)</span> – <a href="https://doi.org/10.1080/01584197.2023.2291140" target="_blank" rel="noopener noreferrer">https://doi.org/10.1080/01584197.2023.2291140</a></span></li>
+  </ol>
+  <div class="footer-publication">
+    <p><strong>Author</strong> – Sayumi Kodituwakku</p>
+    <p><strong>Date</strong> – November 2026</p>
+  </div>
+  <p class="footer-ai-credit"><strong>AI acknowledgement:</strong> Details are included in the accompanying Word document.</p>
+</footer>
+</main>
+</body>
+</html>

@@ -1,0 +1,71 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "NSW-case-study dot-location map of real 2025-04 ALA sightings with exact species-name matches to species classified VU, EN, EN(population) or CR in Garnett et al 2015 NSW status. One unchanged source coordinate per nonempty 0.48 degree cell. Not management sites or evidence of conservation activity.",
+  "width": 390,
+  "height": 390,
+  "background": null,
+  "projection": {
+    "type": "mercator"
+  },
+  "layer": [
+    {
+      "data": {
+        "url": "data/11_nsw_outline.geojson",
+        "format": {
+          "type": "json",
+          "property": "features"
+        }
+      },
+      "mark": {
+        "type": "geoshape",
+        "fill": "#EBF3F7",
+        "stroke": "#A9C7D7",
+        "strokeWidth": 1.25
+      }
+    },
+    {
+      "data": {
+        "url": "data/11_nsw_threatened_bird_sampled_locations.csv"
+      },
+      "mark": {
+        "type": "circle",
+        "filled": true,
+        "size": 53,
+        "color": "#8A4C79",
+        "opacity": 0.88,
+        "stroke": "#FFFFFF",
+        "strokeWidth": 0.55
+      },
+      "encoding": {
+        "longitude": {
+          "field": "longitude",
+          "type": "quantitative"
+        },
+        "latitude": {
+          "field": "latitude",
+          "type": "quantitative"
+        },
+        "tooltip": [
+          {
+            "field": "records_nearby",
+            "title": "Reports within ~0.48\u00b0 grid area",
+            "type": "quantitative",
+            "format": ",d"
+          },
+          {
+            "field": "species_nearby",
+            "title": "Threatened species recorded in area",
+            "type": "quantitative",
+            "format": ",d"
+          }
+        ]
+      }
+    }
+  ],
+  "config": {
+    "view": {
+      "stroke": null
+    },
+    "font": "DM Sans"
+  }
+}

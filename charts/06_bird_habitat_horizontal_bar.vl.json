@@ -1,0 +1,131 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Horizontal bars show the share of 997 matched Australian-checklist bird species by grouped global primary habitat from BIRDBASE v2025.1. Each species is counted exactly once. Avibase checklist includes occasional and introduced birds. See the matched CSV and source notes for original 13 habitat categories.",
+  "data": {
+    "url": "data/06_habitat_summary.csv"
+  },
+  "background": "transparent",
+  "width": 330,
+  "height": {
+    "step": 46
+  },
+  "encoding": {
+    "y": {
+      "field": "habitat_group",
+      "type": "nominal",
+      "sort": [
+        "Open landscapes",
+        "Forests",
+        "Seas and coasts",
+        "Wetlands and rivers",
+        "Rocky and arid",
+        "Artificial habitats"
+      ],
+      "axis": null
+    },
+    "x": {
+      "field": "share_percent",
+      "type": "quantitative",
+      "scale": {
+        "domain": [
+          0,
+          40
+        ],
+        "nice": false
+      },
+      "axis": {
+        "title": "Percentage of species",
+        "titleFont": "DM Sans",
+        "titleFontWeight": 600,
+        "titleFontSize": 12,
+        "titleColor": "#17384F",
+        "titlePadding": 14,
+        "labelFont": "DM Sans",
+        "labelFontSize": 11,
+        "labelColor": "#566E82",
+        "values": [
+          0,
+          10,
+          20,
+          30,
+          40
+        ],
+        "grid": true,
+        "gridColor": "#E6EEF4",
+        "gridWidth": 1,
+        "tickSize": 0,
+        "domain": false
+      }
+    },
+    "tooltip": [
+      {
+        "field": "habitat_group",
+        "type": "nominal",
+        "title": "Grouped habitat"
+      },
+      {
+        "field": "species_count",
+        "type": "quantitative",
+        "format": ",d",
+        "title": "Species"
+      },
+      {
+        "field": "share_percent",
+        "type": "quantitative",
+        "format": ".1f",
+        "title": "Share (%)"
+      },
+      {
+        "field": "source_primary_habitats",
+        "type": "nominal",
+        "title": "Original habitats"
+      }
+    ]
+  },
+  "layer": [
+    {
+      "mark": {
+        "type": "bar",
+        "cornerRadiusEnd": 3,
+        "size": 23
+      },
+      "encoding": {
+        "color": {
+          "condition": {
+            "test": "datum.habitat_group === 'Open landscapes'",
+            "value": "#8A4C79"
+          },
+          "value": "#426B92"
+        }
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "baseline": "middle",
+        "dx": 7,
+        "font": "DM Sans",
+        "fontWeight": 700,
+        "fontSize": 12,
+        "color": "#17384F"
+      },
+      "encoding": {
+        "text": {
+          "field": "percent_label",
+          "type": "nominal"
+        }
+      }
+    }
+  ],
+  "config": {
+    "view": {
+      "stroke": null
+    },
+    "font": "DM Sans",
+    "axis": {
+      "labelFont": "DM Sans",
+      "titleFont": "DM Sans"
+    }
+  }
+}

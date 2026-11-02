@@ -1,0 +1,230 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Chart 9. A two-year slope chart of threatened Australian bird species by assessment risk category. Based on 2010 and 2020 Action Plan comparisons; edition definitions can differ.",
+  "background": "#FFFFFF",
+  "width": 350,
+  "height": 253,
+  "padding": {
+    "left": 2,
+    "top": 20,
+    "right": 8,
+    "bottom": 5
+  },
+  "data": {
+    "values": [
+      {
+        "threat_category": "Vulnerable",
+        "assessment_year": 2010,
+        "taxa_count": 68
+      },
+      {
+        "threat_category": "Vulnerable",
+        "assessment_year": 2020,
+        "taxa_count": 87
+      },
+      {
+        "threat_category": "Endangered",
+        "assessment_year": 2010,
+        "taxa_count": 60
+      },
+      {
+        "threat_category": "Endangered",
+        "assessment_year": 2020,
+        "taxa_count": 76
+      },
+      {
+        "threat_category": "Critically Endangered",
+        "assessment_year": 2010,
+        "taxa_count": 20
+      },
+      {
+        "threat_category": "Critically Endangered",
+        "assessment_year": 2020,
+        "taxa_count": 21
+      }
+    ]
+  },
+  "encoding": {
+    "x": {
+      "field": "assessment_year",
+      "type": "ordinal",
+      "sort": [
+        2010,
+        2020
+      ],
+      "axis": {
+        "title": null,
+        "labelAngle": 0,
+        "labelPadding": 13,
+        "labelFontSize": 13,
+        "labelColor": "#263E53",
+        "labelFontWeight": 700,
+        "domain": false,
+        "grid": true,
+        "tickSize": 0,
+        "gridColor": "#70889D",
+        "gridWidth": 2.0,
+        "gridOpacity": 1
+      }
+    },
+    "y": {
+      "field": "taxa_count",
+      "type": "quantitative",
+      "scale": {
+        "domain": [
+          0,
+          100
+        ],
+        "zero": true
+      },
+      "axis": {
+        "title": "Number of species and subspecies",
+        "values": [
+          0,
+          20,
+          40,
+          60,
+          80,
+          100
+        ],
+        "labelFontSize": 11,
+        "labelColor": "#4E6577",
+        "titleFontSize": 12,
+        "titleColor": "#263E53",
+        "titlePadding": 14,
+        "domain": false,
+        "tickSize": 0,
+        "grid": true,
+        "gridColor": "#E4ECF2",
+        "gridWidth": 1
+      }
+    },
+    "color": {
+      "field": "threat_category",
+      "type": "nominal",
+      "scale": {
+        "domain": [
+          "Vulnerable",
+          "Endangered",
+          "Critically Endangered"
+        ],
+        "range": [
+          "#5785A5",
+          "#8A4C79",
+          "#4F6B78"
+        ]
+      },
+      "legend": null
+    },
+    "detail": {
+      "field": "threat_category",
+      "type": "nominal"
+    },
+    "tooltip": [
+      {
+        "field": "threat_category",
+        "type": "nominal",
+        "title": "Risk category"
+      },
+      {
+        "field": "assessment_year",
+        "type": "ordinal",
+        "title": "Assessment year"
+      },
+      {
+        "field": "taxa_count",
+        "type": "quantitative",
+        "format": ",d",
+        "title": "Assessed species and subspecies"
+      }
+    ]
+  },
+  "layer": [
+    {
+      "mark": {
+        "type": "line",
+        "strokeWidth": 3.25,
+        "strokeCap": "round"
+      },
+      "encoding": {
+        "order": {
+          "field": "assessment_year",
+          "type": "ordinal",
+          "sort": "ascending"
+        }
+      }
+    },
+    {
+      "mark": {
+        "type": "point",
+        "filled": true,
+        "size": 135,
+        "stroke": "#FFFFFF",
+        "strokeWidth": 1.5
+      }
+    },
+    {
+      "transform": [
+        {
+          "filter": "datum.assessment_year == 2010"
+        }
+      ],
+      "mark": {
+        "type": "text",
+        "dx": 13,
+        "dy": -13,
+        "align": "left",
+        "baseline": "middle",
+        "font": "DM Sans",
+        "fontSize": 12,
+        "fontWeight": 700
+      },
+      "encoding": {
+        "text": {
+          "field": "taxa_count",
+          "type": "quantitative",
+          "format": "d"
+        }
+      }
+    },
+    {
+      "transform": [
+        {
+          "filter": "datum.assessment_year == 2020"
+        }
+      ],
+      "mark": {
+        "type": "text",
+        "dx": -13,
+        "dy": -13,
+        "align": "right",
+        "baseline": "middle",
+        "font": "DM Sans",
+        "fontSize": 12,
+        "fontWeight": 700
+      },
+      "encoding": {
+        "text": {
+          "field": "taxa_count",
+          "type": "quantitative",
+          "format": "d"
+        }
+      }
+    }
+  ],
+  "config": {
+    "view": {
+      "stroke": null
+    },
+    "axis": {
+      "labelFont": "DM Sans",
+      "titleFont": "DM Sans"
+    },
+    "text": {
+      "font": "DM Sans"
+    },
+    "legend": {
+      "labelFont": "DM Sans"
+    }
+  }
+}

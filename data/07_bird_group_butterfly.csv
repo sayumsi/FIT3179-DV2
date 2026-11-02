@@ -1,0 +1,17 @@
+bird_group,side,species_count,total_group,share_pct,sort_order
+Parrots & cockatoos,Australia-only,45,57,78.947,1
+Parrots & cockatoos,Also found elsewhere,12,57,21.053,1
+Perching birds,Australia-only,236,341,69.208,2
+Perching birds,Also found elsewhere,105,341,30.792,2
+Pigeons & doves,Australia-only,17,28,60.714,3
+Pigeons & doves,Also found elsewhere,11,28,39.286,3
+"Ducks, geese & swans",Australia-only,8,20,40.0,4
+"Ducks, geese & swans",Also found elsewhere,12,20,60.0,4
+Rails and cranes,Australia-only,4,18,22.222,5
+Rails and cranes,Also found elsewhere,14,18,77.778,5
+Shorebirds,Australia-only,14,86,16.279,6
+Shorebirds,Also found elsewhere,72,86,83.721,6
+"Herons, pelicans & ibises",Australia-only,1,21,4.762,7
+"Herons, pelicans & ibises",Also found elsewhere,20,21,95.238,7
+Petrels and albatrosses,Australia-only,0,50,0.0,8
+Petrels and albatrosses,Also found elsewhere,50,50,100.0,8

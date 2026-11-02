@@ -1,0 +1,622 @@
+common_name,scientific_name,bird_group,status,australia_only
+Magpie Goose,Anseranas semipalmata,"Ducks, geese and swans",,False
+Spotted Whistling-Duck,Dendrocygna guttata,"Ducks, geese and swans",,False
+Plumed Whistling-Duck,Dendrocygna eytoni,"Ducks, geese and swans",Breeding endemic,False
+Wandering Whistling-Duck,Dendrocygna arcuata,"Ducks, geese and swans",,False
+Cape Barren Goose,Cereopsis novaehollandiae,"Ducks, geese and swans",Endemic,True
+Freckled Duck,Stictonetta naevosa,"Ducks, geese and swans",Endemic,True
+Black Swan,Cygnus atratus,"Ducks, geese and swans",Endemic,True
+Radjah Shelduck,Radjah radjah,"Ducks, geese and swans",,False
+Australian Shelduck,Tadorna tadornoides,"Ducks, geese and swans",Breeding endemic,False
+Green Pygmy-Goose,Nettapus pulchellus,"Ducks, geese and swans",,False
+Cotton Pygmy-Goose,Nettapus coromandelianus,"Ducks, geese and swans",,False
+Maned Duck,Chenonetta jubata,"Ducks, geese and swans",Endemic,True
+Australasian Shoveler,Spatula rhynchotis,"Ducks, geese and swans",,False
+Pacific Black Duck,Anas superciliosa,"Ducks, geese and swans",,False
+Gray Teal,Anas gracilis,"Ducks, geese and swans",,False
+Chestnut Teal,Anas castanea,"Ducks, geese and swans",Endemic,True
+Pink-eared Duck,Malacorhynchus membranaceus,"Ducks, geese and swans",Endemic,True
+Hardhead,Aythya australis,"Ducks, geese and swans",,False
+Blue-billed Duck,Oxyura australis,"Ducks, geese and swans",Endemic,True
+Musk Duck,Biziura lobata,"Ducks, geese and swans",Endemic,True
+White-headed Pigeon,Columba leucomela,Pigeons and doves,Endemic,True
+Brown Cuckoo-Dove,Macropygia phasianella,Pigeons and doves,Endemic,True
+Asian Emerald Dove,Chalcophaps indica,Pigeons and doves,,False
+Pacific Emerald Dove,Chalcophaps longirostris,Pigeons and doves,,False
+Norfolk Ground Dove,Pampusana norfolkensis,Pigeons and doves,Endemic,True
+Common Bronzewing,Phaps chalcoptera,Pigeons and doves,Endemic,True
+Brush Bronzewing,Phaps elegans,Pigeons and doves,Endemic,True
+Flock Bronzewing,Phaps histrionica,Pigeons and doves,Endemic,True
+Crested Pigeon,Ocyphaps lophotes,Pigeons and doves,Endemic,True
+Spinifex Pigeon,Geophaps plumifera,Pigeons and doves,Endemic,True
+Squatter Pigeon,Geophaps scripta,Pigeons and doves,Endemic,True
+Partridge Pigeon,Geophaps smithii,Pigeons and doves,Endemic,True
+Chestnut-quilled Rock-Pigeon,Petrophassa rufipennis,Pigeons and doves,Endemic,True
+White-quilled Rock-Pigeon,Petrophassa albipennis,Pigeons and doves,Endemic,True
+Wonga Pigeon,Leucosarcia melanoleuca,Pigeons and doves,Endemic,True
+Diamond Dove,Geopelia cuneata,Pigeons and doves,Endemic,True
+Peaceful Dove,Geopelia placida,Pigeons and doves,,False
+Bar-shouldered Dove,Geopelia humeralis,Pigeons and doves,,False
+Wompoo Fruit-Dove,Megaloprepia magnifica,Pigeons and doves,,False
+Black-banded Fruit-Dove,Ptilinopus alligator,Pigeons and doves,Endemic,True
+Superb Fruit-Dove,Ptilinopus superbus,Pigeons and doves,,False
+Rose-crowned Fruit-Dove,Ptilinopus regina,Pigeons and doves,,False
+Pacific Imperial-Pigeon,Ducula pacifica,Pigeons and doves,,False
+Island Imperial-Pigeon,Ducula pistrinaria,Pigeons and doves,,False
+Christmas Island Imperial-Pigeon,Ducula whartoni,Pigeons and doves,Endemic,True
+Collared Imperial-Pigeon,Ducula mullerii,Pigeons and doves,,False
+Torresian Imperial-Pigeon,Ducula spilorrhoa,Pigeons and doves,,False
+Topknot Pigeon,Lopholaimus antarcticus,Pigeons and doves,Endemic,True
+Lewin's Rail,Lewinia pectoralis,Rails and cranes,,False
+Chestnut Rail,Gallirallus castaneoventris,Rails and cranes,,False
+Lord Howe Rail,Gallirallus sylvestris,Rails and cranes,Endemic Endangered,True
+Buff-banded Rail,Gallirallus philippensis,Rails and cranes,,False
+Black-tailed Nativehen,Tribonyx ventralis,Rails and cranes,Endemic,True
+Tasmanian Nativehen,Tribonyx mortierii,Rails and cranes,Endemic,True
+Australian Crake,Porzana fluminea,Rails and cranes,Endemic,True
+Dusky Moorhen,Gallinula tenebrosa,Rails and cranes,,False
+Eurasian Coot,Fulica atra,Rails and cranes,,False
+Australasian Swamphen,Porphyrio melanotus,Rails and cranes,,False
+White-browed Crake,Poliolimnas cinereus,Rails and cranes,,False
+White-breasted Waterhen,Amaurornis phoenicurus,Rails and cranes,,False
+Pale-vented Bush-hen,Amaurornis moluccana,Rails and cranes,,False
+Red-necked Crake,Rallina tricolor,Rails and cranes,,False
+Baillon's Crake,Zapornia pusilla,Rails and cranes,,False
+Spotless Crake,Zapornia tabuensis,Rails and cranes,,False
+Brolga,Antigone rubicunda,Rails and cranes,,False
+Sarus Crane,Antigone antigone,Rails and cranes,Vulnerable,False
+Beach Thick-knee,Esacus magnirostris,Shorebirds and relatives,Near-threatened,False
+Bush Thick-knee,Burhinus grallarius,Shorebirds and relatives,,False
+Pied Stilt,Himantopus leucocephalus,Shorebirds and relatives,,False
+Banded Stilt,Cladorhynchus leucocephalus,Shorebirds and relatives,Endemic,True
+Red-necked Avocet,Recurvirostra novaehollandiae,Shorebirds and relatives,Endemic,True
+Pied Oystercatcher,Haematopus longirostris,Shorebirds and relatives,,False
+Sooty Oystercatcher,Haematopus fuliginosus,Shorebirds and relatives,Endemic,True
+Black-bellied Plover,Pluvialis squatarola,Shorebirds and relatives,Vulnerable,False
+Pacific Golden-Plover,Pluvialis fulva,Shorebirds and relatives,,False
+Hooded Plover,Thinornis cucullatus,Shorebirds and relatives,Endemic Near-threatened,True
+Black-fronted Dotterel,Thinornis melanops,Shorebirds and relatives,,False
+Banded Lapwing,Vanellus tricolor,Shorebirds and relatives,Endemic,True
+Masked Lapwing,Vanellus miles,Shorebirds and relatives,,False
+Red-kneed Dotterel,Erythrogonys cinctus,Shorebirds and relatives,,False
+Inland Dotterel,Peltohyas australis,Shorebirds and relatives,Endemic,True
+Oriental Plover,Anarhynchus veredus,Shorebirds and relatives,,False
+Siberian Sand-Plover,Anarhynchus mongolus,Shorebirds and relatives,Endangered,False
+Greater Sand-Plover,Anarhynchus leschenaultii,Shorebirds and relatives,,False
+Double-banded Plover,Anarhynchus bicinctus,Shorebirds and relatives,Near-threatened,False
+Red-capped Plover,Anarhynchus ruficapillus,Shorebirds and relatives,,False
+Plains-wanderer,Pedionomus torquatus,Shorebirds and relatives,Endemic Endangered,True
+Australian Painted-Snipe,Rostratula australis,Shorebirds and relatives,Endemic Endangered,True
+Comb-crested Jacana,Irediparra gallinacea,Shorebirds and relatives,,False
+Eurasian Whimbrel,Numenius phaeopus,Shorebirds and relatives,,False
+Little Curlew,Numenius minutus,Shorebirds and relatives,,False
+Far Eastern Curlew,Numenius madagascariensis,Shorebirds and relatives,Endangered,False
+Bar-tailed Godwit,Limosa lapponica,Shorebirds and relatives,Near-threatened,False
+Black-tailed Godwit,Limosa limosa,Shorebirds and relatives,Near-threatened,False
+Asian Dowitcher,Limnodromus semipalmatus,Shorebirds and relatives,Near-threatened,False
+Swinhoe's Snipe,Gallinago megala,Shorebirds and relatives,,False
+Latham's Snipe,Gallinago hardwickii,Shorebirds and relatives,Near-threatened,False
+Red-necked Phalarope,Phalaropus lobatus,Shorebirds and relatives,,False
+Terek Sandpiper,Xenus cinereus,Shorebirds and relatives,,False
+Common Sandpiper,Actitis hypoleucos,Shorebirds and relatives,,False
+Gray-tailed Tattler,Tringa brevipes,Shorebirds and relatives,,False
+Wandering Tattler,Tringa incana,Shorebirds and relatives,,False
+Marsh Sandpiper,Tringa stagnatilis,Shorebirds and relatives,,False
+Wood Sandpiper,Tringa glareola,Shorebirds and relatives,,False
+Common Greenshank,Tringa nebularia,Shorebirds and relatives,,False
+Ruddy Turnstone,Arenaria interpres,Shorebirds and relatives,Near-threatened,False
+Great Knot,Calidris tenuirostris,Shorebirds and relatives,Endangered,False
+Red Knot,Calidris canutus,Shorebirds and relatives,Near-threatened,False
+Ruff,Calidris pugnax,Shorebirds and relatives,,False
+Broad-billed Sandpiper,Calidris falcinellus,Shorebirds and relatives,Vulnerable,False
+Sharp-tailed Sandpiper,Calidris acuminata,Shorebirds and relatives,Vulnerable,False
+Curlew Sandpiper,Calidris ferruginea,Shorebirds and relatives,Vulnerable,False
+Long-toed Stint,Calidris subminuta,Shorebirds and relatives,,False
+Red-necked Stint,Calidris ruficollis,Shorebirds and relatives,Near-threatened,False
+Sanderling,Calidris alba,Shorebirds and relatives,,False
+Pectoral Sandpiper,Calidris melanotos,Shorebirds and relatives,,False
+Red-backed Buttonquail,Turnix maculosus,Shorebirds and relatives,,False
+Little Buttonquail,Turnix velox,Shorebirds and relatives,Endemic,True
+Red-chested Buttonquail,Turnix pyrrhothorax,Shorebirds and relatives,Endemic,True
+Chestnut-backed Buttonquail,Turnix castanotus,Shorebirds and relatives,Endemic,True
+Buff-breasted Buttonquail,Turnix olivii,Shorebirds and relatives,Endemic Critically endangered,True
+Painted Buttonquail,Turnix varius,Shorebirds and relatives,,False
+Black-breasted Buttonquail,Turnix melanogaster,Shorebirds and relatives,Endemic Vulnerable,True
+Australian Pratincole,Glareola isabella,Shorebirds and relatives,Breeding endemic,False
+Oriental Pratincole,Glareola maldivarum,Shorebirds and relatives,,False
+Parasitic Jaeger,Stercorarius parasiticus,Shorebirds and relatives,,False
+Pomarine Jaeger,Stercorarius pomarinus,Shorebirds and relatives,,False
+Brown Skua,Stercorarius antarcticus,Shorebirds and relatives,,False
+Silver Gull,Chroicocephalus novaehollandiae,Shorebirds and relatives,,False
+Pacific Gull,Larus pacificus,Shorebirds and relatives,Endemic,True
+Kelp Gull,Larus dominicanus,Shorebirds and relatives,,False
+Blue-billed White-Tern,Gygis candida,Shorebirds and relatives,,False
+Brown Noddy,Anous stolidus,Shorebirds and relatives,,False
+Lesser Noddy,Anous tenuirostris,Shorebirds and relatives,,False
+Black Noddy,Anous minutus,Shorebirds and relatives,,False
+Gray Noddy,Anous albivitta,Shorebirds and relatives,,False
+Blue-gray Noddy,Anous ceruleus,Shorebirds and relatives,,False
+Sooty Tern,Onychoprion fuscatus,Shorebirds and relatives,,False
+Bridled Tern,Onychoprion anaethetus,Shorebirds and relatives,,False
+Little Tern,Sternula albifrons,Shorebirds and relatives,,False
+Australian Fairy Tern,Sternula nereis,Shorebirds and relatives,Vulnerable,False
+Gull-billed Tern,Gelochelidon nilotica,Shorebirds and relatives,,False
+Australian Tern,Gelochelidon macrotarsa,Shorebirds and relatives,,False
+Caspian Tern,Hydroprogne caspia,Shorebirds and relatives,,False
+Whiskered Tern,Chlidonias hybrida,Shorebirds and relatives,,False
+White-winged Tern,Chlidonias leucopterus,Shorebirds and relatives,,False
+Common Tern,Sterna hirundo,Shorebirds and relatives,,False
+Black-naped Tern,Sterna sumatrana,Shorebirds and relatives,,False
+Roseate Tern,Sterna dougallii,Shorebirds and relatives,,False
+White-fronted Tern,Sterna striata,Shorebirds and relatives,Near-threatened,False
+Lesser Crested Tern,Thalasseus bengalensis,Shorebirds and relatives,,False
+Great Crested Tern,Thalasseus bergii,Shorebirds and relatives,,False
+Northern Royal Albatross,Diomedea sanfordi,Petrels and albatrosses,Endangered,False
+Southern Royal Albatross,Diomedea epomophora,Petrels and albatrosses,Vulnerable,False
+Snowy Albatross,Diomedea exulans,Petrels and albatrosses,Vulnerable,False
+Antipodean Albatross,Diomedea antipodensis,Petrels and albatrosses,Endangered,False
+Sooty Albatross,Phoebetria fusca,Petrels and albatrosses,Endangered,False
+Light-mantled Albatross,Phoebetria palpebrata,Petrels and albatrosses,Near-threatened,False
+Indian Yellow-nosed Albatross,Thalassarche carteri,Petrels and albatrosses,Endangered,False
+Gray-headed Albatross,Thalassarche chrysostoma,Petrels and albatrosses,Endangered,False
+Buller's Albatross,Thalassarche bulleri,Petrels and albatrosses,Near-threatened,False
+White-capped Albatross,Thalassarche cauta,Petrels and albatrosses,,False
+Black-browed Albatross,Thalassarche melanophris,Petrels and albatrosses,,False
+Wilson's Storm-Petrel,Oceanites oceanicus,Petrels and albatrosses,,False
+Gray-backed Storm-Petrel,Garrodia nereis,Petrels and albatrosses,,False
+White-faced Storm-Petrel,Pelagodroma marina,Petrels and albatrosses,,False
+White-bellied Storm-Petrel,Fregetta grallaria,Petrels and albatrosses,,False
+Black-bellied Storm-Petrel,Fregetta tropica,Petrels and albatrosses,,False
+Matsudaira's Storm-Petrel,Hydrobates matsudairae,Petrels and albatrosses,Vulnerable,False
+Southern Giant-Petrel,Macronectes giganteus,Petrels and albatrosses,,False
+Northern Giant-Petrel,Macronectes halli,Petrels and albatrosses,,False
+Pintado Petrel,Daption capense,Petrels and albatrosses,,False
+Kerguelen Petrel,Aphrodroma brevirostris,Petrels and albatrosses,,False
+Great-winged Petrel,Pterodroma macroptera,Petrels and albatrosses,,False
+Kermadec Petrel,Pterodroma neglecta,Petrels and albatrosses,,False
+Herald Petrel,Pterodroma heraldica,Petrels and albatrosses,,False
+Providence Petrel,Pterodroma solandri,Petrels and albatrosses,,False
+Soft-plumaged Petrel,Pterodroma mollis,Petrels and albatrosses,,False
+White-headed Petrel,Pterodroma lessonii,Petrels and albatrosses,,False
+Mottled Petrel,Pterodroma inexpectata,Petrels and albatrosses,Near-threatened,False
+White-necked Petrel,Pterodroma cervicalis,Petrels and albatrosses,,False
+Black-winged Petrel,Pterodroma nigripennis,Petrels and albatrosses,,False
+Gould's Petrel,Pterodroma leucoptera,Petrels and albatrosses,Vulnerable,False
+Blue Petrel,Halobaena caerulea,Petrels and albatrosses,,False
+Fairy Prion,Pachyptila turtur,Petrels and albatrosses,,False
+Salvin's Prion,Pachyptila salvini,Petrels and albatrosses,,False
+Antarctic Prion,Pachyptila desolata,Petrels and albatrosses,,False
+Slender-billed Prion,Pachyptila belcheri,Petrels and albatrosses,,False
+Gray Petrel,Procellaria cinerea,Petrels and albatrosses,Near-threatened,False
+White-chinned Petrel,Procellaria aequinoctialis,Petrels and albatrosses,Vulnerable,False
+Parkinson's Petrel,Procellaria parkinsoni,Petrels and albatrosses,Vulnerable,False
+Streaked Shearwater,Calonectris leucomelas,Petrels and albatrosses,Near-threatened,False
+Flesh-footed Shearwater,Ardenna carneipes,Petrels and albatrosses,Near-threatened,False
+Wedge-tailed Shearwater,Ardenna pacifica,Petrels and albatrosses,,False
+Buller's Shearwater,Ardenna bulleri,Petrels and albatrosses,Vulnerable,False
+Sooty Shearwater,Ardenna grisea,Petrels and albatrosses,Near-threatened,False
+Short-tailed Shearwater,Ardenna tenuirostris,Petrels and albatrosses,,False
+Hutton's Shearwater,Puffinus huttoni,Petrels and albatrosses,Endangered,False
+Fluttering Shearwater,Puffinus gavia,Petrels and albatrosses,,False
+Little Shearwater,Puffinus assimilis,Petrels and albatrosses,,False
+Subantarctic Shearwater,Puffinus elegans,Petrels and albatrosses,,False
+Common Diving-Petrel,Pelecanoides urinatrix,Petrels and albatrosses,,False
+Glossy Ibis,Plegadis falcinellus,"Pelicans, herons and ibises",,False
+Australian Ibis,Threskiornis molucca,"Pelicans, herons and ibises",,False
+Straw-necked Ibis,Threskiornis spinicollis,"Pelicans, herons and ibises",,False
+Royal Spoonbill,Platalea regia,"Pelicans, herons and ibises",,False
+Yellow-billed Spoonbill,Platalea flavipes,"Pelicans, herons and ibises",Endemic,True
+Australasian Bittern,Botaurus poiciloptilus,"Pelicans, herons and ibises",Vulnerable,False
+Black Bittern,Botaurus flavicollis,"Pelicans, herons and ibises",,False
+Black-backed Bittern,Botaurus dubius,"Pelicans, herons and ibises",,False
+Nankeen Night Heron,Nycticorax caledonicus,"Pelicans, herons and ibises",,False
+Pacific Reef-Heron,Egretta sacra,"Pelicans, herons and ibises",,False
+Little Egret,Egretta garzetta,"Pelicans, herons and ibises",,False
+Pied Heron,Egretta picata,"Pelicans, herons and ibises",,False
+White-faced Heron,Egretta novaehollandiae,"Pelicans, herons and ibises",,False
+Little Heron,Butorides atricapilla,"Pelicans, herons and ibises",,False
+Eastern Cattle-Egret,Ardea coromanda,"Pelicans, herons and ibises",,False
+Pacific Heron,Ardea pacifica,"Pelicans, herons and ibises",Breeding endemic,False
+Great Egret,Ardea alba,"Pelicans, herons and ibises",,False
+Medium Egret,Ardea intermedia,"Pelicans, herons and ibises",,False
+Plumed Egret,Ardea plumifera,"Pelicans, herons and ibises",,False
+Great-billed Heron,Ardea sumatrana,"Pelicans, herons and ibises",,False
+Australian Pelican,Pelecanus conspicillatus,"Pelicans, herons and ibises",,False
+Yellow-tailed Black-Cockatoo,Zanda funerea,Parrots and cockatoos,Endemic,True
+Carnaby's Black-Cockatoo,Zanda latirostris,Parrots and cockatoos,Endemic Endangered,True
+Baudin's Black-Cockatoo,Zanda baudinii,Parrots and cockatoos,Endemic Critically endangered,True
+Red-tailed Black-Cockatoo,Calyptorhynchus banksii,Parrots and cockatoos,Endemic,True
+Glossy Black-Cockatoo,Calyptorhynchus lathami,Parrots and cockatoos,Endemic Vulnerable,True
+Cockatiel,Nymphicus hollandicus,Parrots and cockatoos,Endemic,True
+Palm Cockatoo,Probosciger aterrimus,Parrots and cockatoos,Near-threatened,False
+Gang-gang Cockatoo,Callocephalon fimbriatum,Parrots and cockatoos,Endemic Vulnerable,True
+Galah,Eolophus roseicapilla,Parrots and cockatoos,Endemic,True
+Pink Cockatoo,Cacatua leadbeateri,Parrots and cockatoos,Endemic,True
+Western Corella,Cacatua pastinator,Parrots and cockatoos,Endemic,True
+Little Corella,Cacatua sanguinea,Parrots and cockatoos,,False
+Long-billed Corella,Cacatua tenuirostris,Parrots and cockatoos,Endemic,True
+Sulphur-crested Cockatoo,Cacatua galerita,Parrots and cockatoos,,False
+Superb Parrot,Polytelis swainsonii,Parrots and cockatoos,Endemic,True
+Regent Parrot,Polytelis anthopeplus,Parrots and cockatoos,Endemic,True
+Princess Parrot,Polytelis alexandrae,Parrots and cockatoos,Endemic Near-threatened,True
+Australian King-Parrot,Alisterus scapularis,Parrots and cockatoos,Endemic,True
+Red-winged Parrot,Aprosmictus erythropterus,Parrots and cockatoos,,False
+Papuan Eclectus,Eclectus polychloros,Parrots and cockatoos,,False
+Red-cheeked Parrot,Geoffroyus geoffroyi,Parrots and cockatoos,,False
+Ground Parrot,Pezoporus wallicus,Parrots and cockatoos,Endemic,True
+Night Parrot,Pezoporus occidentalis,Parrots and cockatoos,Endemic Critically endangered,True
+Bourke's Parrot,Neopsephotus bourkii,Parrots and cockatoos,Endemic,True
+Blue-winged Parrot,Neophema chrysostoma,Parrots and cockatoos,Endemic Vulnerable,True
+Elegant Parrot,Neophema elegans,Parrots and cockatoos,Endemic,True
+Rock Parrot,Neophema petrophila,Parrots and cockatoos,Endemic,True
+Orange-bellied Parrot,Neophema chrysogaster,Parrots and cockatoos,Endemic Critically endangered,True
+Turquoise Parrot,Neophema pulchella,Parrots and cockatoos,Endemic,True
+Scarlet-chested Parrot,Neophema splendida,Parrots and cockatoos,Endemic,True
+Swift Parrot,Lathamus discolor,Parrots and cockatoos,Endemic Critically endangered,True
+Red-crowned Parakeet,Cyanoramphus novaezelandiae,Parrots and cockatoos,,False
+Norfolk Island Parakeet,Cyanoramphus cookii,Parrots and cockatoos,,False
+Australian Ringneck,Barnardius zonarius,Parrots and cockatoos,Endemic,True
+Green Rosella,Platycercus caledonicus,Parrots and cockatoos,Endemic,True
+Crimson Rosella,Platycercus elegans,Parrots and cockatoos,Endemic,True
+Northern Rosella,Platycercus venustus,Parrots and cockatoos,Endemic,True
+Eastern Rosella,Platycercus eximius,Parrots and cockatoos,Endemic,True
+Pale-headed Rosella,Platycercus adscitus,Parrots and cockatoos,Endemic,True
+Western Rosella,Platycercus icterotis,Parrots and cockatoos,Endemic,True
+Greater Bluebonnet,Northiella haematogaster,Parrots and cockatoos,,False
+Naretha Bluebonnet,Northiella narethae,Parrots and cockatoos,Endemic,True
+Red-rumped Parrot,Psephotus haematonotus,Parrots and cockatoos,Endemic,True
+Mulga Parrot,Psephotellus varius,Parrots and cockatoos,Endemic,True
+Hooded Parrot,Psephotellus dissimilis,Parrots and cockatoos,Endemic,True
+Golden-shouldered Parrot,Psephotellus chrysopterygius,Parrots and cockatoos,Endemic Endangered,True
+Red-capped Parrot,Purpureicephalus spurius,Parrots and cockatoos,Endemic,True
+Double-eyed Fig-Parrot,Cyclopsitta diophthalma,Parrots and cockatoos,,False
+Budgerigar,Melopsittacus undulatus,Parrots and cockatoos,Endemic,True
+Varied Lorikeet,Psitteuteles versicolor,Parrots and cockatoos,Endemic,True
+Little Lorikeet,Psitteuteles pusillus,Parrots and cockatoos,Endemic,True
+Purple-crowned Lorikeet,Psitteuteles porphyrocephalus,Parrots and cockatoos,Endemic,True
+Musk Lorikeet,Trichoglossus concinnus,Parrots and cockatoos,Endemic,True
+Scaly-breasted Lorikeet,Trichoglossus chlorolepidotus,Parrots and cockatoos,Endemic,True
+Coconut Lorikeet,Trichoglossus haematodus,Parrots and cockatoos,,False
+Rainbow Lorikeet,Trichoglossus moluccanus,Parrots and cockatoos,,False
+Red-collared Lorikeet,Trichoglossus rubritorquis,Parrots and cockatoos,Endemic,True
+Papuan Pitta,Erythropitta macklotii,Perching birds,,False
+Noisy Pitta,Pitta versicolor,Perching birds,,False
+Rainbow Pitta,Pitta iris,Perching birds,Endemic,True
+Albert's Lyrebird,Menura alberti,Perching birds,Endemic,True
+Superb Lyrebird,Menura novaehollandiae,Perching birds,Endemic,True
+Rufous Scrub-bird,Atrichornis rufescens,Perching birds,Endemic Endangered,True
+Noisy Scrub-bird,Atrichornis clamosus,Perching birds,Endemic Endangered,True
+Spotted Catbird,Ailuroedus maculosus,Perching birds,Endemic,True
+Black-eared Catbird,Ailuroedus melanotis,Perching birds,,False
+Green Catbird,Ailuroedus crassirostris,Perching birds,Endemic,True
+Tooth-billed Bowerbird,Scenopoeetes dentirostris,Perching birds,Endemic Near-threatened,True
+Golden Bowerbird,Prionodura newtoniana,Perching birds,Endemic Near-threatened,True
+Regent Bowerbird,Sericulus chrysocephalus,Perching birds,Endemic,True
+Satin Bowerbird,Ptilonorhynchus violaceus,Perching birds,Endemic,True
+Western Bowerbird,Chlamydera guttata,Perching birds,Endemic,True
+Spotted Bowerbird,Chlamydera maculata,Perching birds,Endemic,True
+Great Bowerbird,Chlamydera nuchalis,Perching birds,Endemic,True
+Fawn-breasted Bowerbird,Chlamydera cerviniventris,Perching birds,,False
+White-throated Treecreeper,Cormobates leucophaea,Perching birds,Endemic,True
+White-browed Treecreeper,Climacteris affinis,Perching birds,Endemic,True
+Red-browed Treecreeper,Climacteris erythrops,Perching birds,Endemic,True
+Brown Treecreeper,Climacteris picumnus,Perching birds,Endemic,True
+Black-tailed Treecreeper,Climacteris melanurus,Perching birds,Endemic,True
+Rufous Treecreeper,Climacteris rufus,Perching birds,Endemic,True
+Gray Grasswren,Amytornis barbatus,Perching birds,Endemic,True
+Pilbara Grasswren,Amytornis whitei,Perching birds,Endemic,True
+Sandhill Grasswren,Amytornis oweni,Perching birds,Endemic,True
+Opalton Grasswren,Amytornis rowleyi,Perching birds,Endemic,True
+Striated Grasswren,Amytornis striatus,Perching birds,Endemic,True
+White-throated Grasswren,Amytornis woodwardi,Perching birds,Endemic Endangered,True
+Carpentarian Grasswren,Amytornis dorotheae,Perching birds,Endemic Vulnerable,True
+Short-tailed Grasswren,Amytornis merrotsyi,Perching birds,Endemic Near-threatened,True
+Western Grasswren,Amytornis textilis,Perching birds,,False
+Thick-billed Grasswren,Amytornis modestus,Perching birds,Endemic,True
+Black Grasswren,Amytornis housei,Perching birds,Endemic,True
+Eyrean Grasswren,Amytornis goyderi,Perching birds,,False
+Dusky Grasswren,Amytornis purnelli,Perching birds,Endemic,True
+Kalkadoon Grasswren,Amytornis ballarae,Perching birds,Endemic Vulnerable,True
+Southern Emuwren,Stipiturus malachurus,Perching birds,Endemic,True
+Rufous-crowned Emuwren,Stipiturus ruficeps,Perching birds,Endemic,True
+Mallee Emuwren,Stipiturus mallee,Perching birds,Endemic Endangered,True
+Purple-crowned Fairywren,Malurus coronatus,Perching birds,Endemic,True
+Red-winged Fairywren,Malurus elegans,Perching birds,Endemic,True
+Blue-breasted Fairywren,Malurus pulcherrimus,Perching birds,Endemic,True
+Purple-backed Fairywren,Malurus assimilis,Perching birds,,False
+Variegated Fairywren,Malurus lamberti,Perching birds,Endemic,True
+Lovely Fairywren,Malurus amabilis,Perching birds,Endemic,True
+Splendid Fairywren,Malurus splendens,Perching birds,Endemic,True
+Superb Fairywren,Malurus cyaneus,Perching birds,Endemic,True
+White-winged Fairywren,Malurus leucopterus,Perching birds,Endemic,True
+Red-backed Fairywren,Malurus melanocephalus,Perching birds,Endemic,True
+Eastern Spinebill,Acanthorhynchus tenuirostris,Perching birds,Endemic,True
+Western Spinebill,Acanthorhynchus superciliosus,Perching birds,Endemic,True
+Pied Honeyeater,Certhionyx variegatus,Perching birds,Endemic,True
+Yellow-spotted Honeyeater,Meliphaga notata,Perching birds,Endemic,True
+Lewin's Honeyeater,Meliphaga lewinii,Perching birds,Endemic,True
+Kimberley Honeyeater,Meliphaga fordiana,Perching birds,Endemic,True
+White-lined Honeyeater,Meliphaga albilineata,Perching birds,Endemic,True
+Graceful Honeyeater,Meliphaga gracilis,Perching birds,,False
+Cryptic Honeyeater,Meliphaga imitatrix,Perching birds,Endemic,True
+Yellow Honeyeater,Stomiopera flava,Perching birds,Endemic,True
+White-gaped Honeyeater,Stomiopera unicolor,Perching birds,Endemic,True
+White-fronted Honeyeater,Purnella albifrons,Perching birds,Endemic,True
+Yellow-faced Honeyeater,Caligavis chrysops,Perching birds,Endemic,True
+Yellow-tufted Honeyeater,Lichenostomus melanops,Perching birds,Endemic,True
+Purple-gaped Honeyeater,Lichenostomus cratitius,Perching birds,Endemic,True
+Bell Miner,Manorina melanophrys,Perching birds,Endemic,True
+Noisy Miner,Manorina melanocephala,Perching birds,Endemic,True
+Yellow-throated Miner,Manorina flavigula,Perching birds,Endemic,True
+Black-eared Miner,Manorina melanotis,Perching birds,Endemic Endangered,True
+Bridled Honeyeater,Bolemoreus frenatus,Perching birds,Endemic,True
+Eungella Honeyeater,Bolemoreus hindwoodi,Perching birds,Endemic Near-threatened,True
+Spiny-cheeked Honeyeater,Acanthagenys rufogularis,Perching birds,Endemic,True
+Little Wattlebird,Anthochaera chrysoptera,Perching birds,Endemic,True
+Western Wattlebird,Anthochaera lunulata,Perching birds,Endemic,True
+Regent Honeyeater,Anthochaera phrygia,Perching birds,Endemic Critically endangered,True
+Red Wattlebird,Anthochaera carunculata,Perching birds,Endemic,True
+Yellow Wattlebird,Anthochaera paradoxa,Perching birds,Endemic,True
+Varied Honeyeater,Gavicalis versicolor,Perching birds,,False
+Mangrove Honeyeater,Gavicalis fasciogularis,Perching birds,Endemic,True
+Singing Honeyeater,Gavicalis virescens,Perching birds,Endemic,True
+Yellow-plumed Honeyeater,Ptilotula ornata,Perching birds,Endemic,True
+White-plumed Honeyeater,Ptilotula penicillata,Perching birds,Endemic,True
+Yellow-tinted Honeyeater,Ptilotula flavescens,Perching birds,,False
+Fuscous Honeyeater,Ptilotula fusca,Perching birds,Endemic,True
+Gray-headed Honeyeater,Ptilotula keartlandi,Perching birds,Endemic,True
+Gray-fronted Honeyeater,Ptilotula plumula,Perching birds,Endemic,True
+Brown-backed Honeyeater,Ramsayornis modestus,Perching birds,,False
+Bar-breasted Honeyeater,Ramsayornis fasciatus,Perching birds,Endemic,True
+Rufous-banded Honeyeater,Conopophila albogularis,Perching birds,,False
+Rufous-throated Honeyeater,Conopophila rufogularis,Perching birds,Endemic,True
+Gray Honeyeater,Conopophila whitei,Perching birds,Endemic,True
+Gibberbird,Ashbyia lovensis,Perching birds,Endemic,True
+Yellow Chat,Epthianura crocea,Perching birds,Endemic,True
+Crimson Chat,Epthianura tricolor,Perching birds,Endemic,True
+Orange Chat,Epthianura aurifrons,Perching birds,Endemic,True
+White-fronted Chat,Epthianura albifrons,Perching birds,Endemic,True
+Black Honeyeater,Sugomel nigrum,Perching birds,Endemic,True
+Dusky Myzomela,Myzomela obscura,Perching birds,,False
+Red-headed Myzomela,Myzomela erythrocephala,Perching birds,,False
+Scarlet Myzomela,Myzomela sanguinolenta,Perching birds,Endemic,True
+Tawny-crowned Honeyeater,Gliciphila melanops,Perching birds,Endemic,True
+Green-backed Honeyeater,Glycichaera fallax,Perching birds,,False
+Banded Honeyeater,Cissomela pectoralis,Perching birds,Endemic,True
+Brown Honeyeater,Lichmera indistincta,Perching birds,,False
+Crescent Honeyeater,Phylidonyris pyrrhopterus,Perching birds,Endemic,True
+New Holland Honeyeater,Phylidonyris novaehollandiae,Perching birds,Endemic,True
+White-cheeked Honeyeater,Phylidonyris niger,Perching birds,Endemic,True
+White-streaked Honeyeater,Trichodere cockerelli,Perching birds,Endemic,True
+White-eared Honeyeater,Nesoptilotis leucotis,Perching birds,Endemic,True
+Yellow-throated Honeyeater,Nesoptilotis flavicollis,Perching birds,Endemic,True
+Blue-faced Honeyeater,Entomyzon cyanotis,Perching birds,,False
+White-throated Honeyeater,Melithreptus albogularis,Perching birds,,False
+Gilbert's Honeyeater,Melithreptus chloropsis,Perching birds,Endemic,True
+White-naped Honeyeater,Melithreptus lunatus,Perching birds,Endemic,True
+Black-headed Honeyeater,Melithreptus affinis,Perching birds,Endemic,True
+Brown-headed Honeyeater,Melithreptus brevirostris,Perching birds,Endemic,True
+Black-chinned Honeyeater,Melithreptus gularis,Perching birds,Endemic,True
+Strong-billed Honeyeater,Melithreptus validirostris,Perching birds,Endemic Vulnerable,True
+Tawny-breasted Honeyeater,Xanthotis flaviventer,Perching birds,,False
+Macleay's Honeyeater,Xanthotis macleayanus,Perching birds,Endemic,True
+Striped Honeyeater,Plectorhyncha lanceolata,Perching birds,Endemic,True
+Painted Honeyeater,Grantiella picta,Perching birds,Endemic,True
+Little Friarbird,Philemon citreogularis,Perching birds,,False
+Helmeted Friarbird,Philemon buceroides,Perching birds,,False
+Silver-crowned Friarbird,Philemon argenticeps,Perching birds,Endemic,True
+Noisy Friarbird,Philemon corniculatus,Perching birds,,False
+Western Bristlebird,Dasyornis longirostris,Perching birds,Endemic Endangered,True
+Eastern Bristlebird,Dasyornis brachypterus,Perching birds,Endemic Vulnerable,True
+Rufous Bristlebird,Dasyornis broadbenti,Perching birds,Endemic,True
+Spotted Pardalote,Pardalotus punctatus,Perching birds,Endemic,True
+Forty-spotted Pardalote,Pardalotus quadragintus,Perching birds,Endemic Endangered,True
+Red-browed Pardalote,Pardalotus rubricatus,Perching birds,Endemic,True
+Striated Pardalote,Pardalotus striatus,Perching birds,Endemic,True
+Fernwren,Oreoscopus gutturalis,Perching birds,Endemic Endangered,True
+Pilotbird,Pycnoptilus floccosus,Perching birds,Endemic Vulnerable,True
+Redthroat,Pyrrholaemus brunneus,Perching birds,Endemic,True
+Speckled Warbler,Pyrrholaemus sagittatus,Perching birds,Endemic,True
+Shy Heathwren,Hylacola cauta,Perching birds,Endemic,True
+Chestnut-rumped Heathwren,Hylacola pyrrhopygia,Perching birds,Endemic,True
+Striated Fieldwren,Calamanthus fuliginosus,Perching birds,Endemic,True
+Rufous Fieldwren,Calamanthus campestris,Perching birds,Endemic,True
+Western Fieldwren,Calamanthus montanellus,Perching birds,Endemic,True
+Weebill,Smicrornis brevirostris,Perching birds,Endemic,True
+Yellow-throated Scrubwren,Neosericornis citreogularis,Perching birds,Endemic,True
+Rockwarbler,Origma solitaria,Perching birds,Endemic,True
+Tasmanian Scrubwren,Sericornis humilis,Perching birds,Endemic,True
+White-browed Scrubwren,Sericornis frontalis,Perching birds,,False
+Spotted Scrubwren,Sericornis maculatus,Perching birds,,False
+Atherton Scrubwren,Sericornis keri,Perching birds,Endemic Vulnerable,True
+Tropical Scrubwren,Sericornis beccarii,Perching birds,,False
+Large-billed Scrubwren,Sericornis magnirostra,Perching birds,Endemic,True
+Scrubtit,Acanthornis magna,Perching birds,Endemic,True
+Southern Whiteface,Aphelocephala leucopsis,Perching birds,Endemic Vulnerable,True
+Banded Whiteface,Aphelocephala nigricincta,Perching birds,Endemic,True
+Chestnut-breasted Whiteface,Aphelocephala pectoralis,Perching birds,Endemic Near-threatened,True
+Yellow-rumped Thornbill,Acanthiza chrysorrhoa,Perching birds,Endemic,True
+Yellow Thornbill,Acanthiza nana,Perching birds,Endemic,True
+Striated Thornbill,Acanthiza lineata,Perching birds,Endemic,True
+Inland Thornbill,Acanthiza apicalis,Perching birds,Endemic,True
+Tasmanian Thornbill,Acanthiza ewingii,Perching birds,Endemic,True
+Mountain Thornbill,Acanthiza katherina,Perching birds,Endemic Vulnerable,True
+Brown Thornbill,Acanthiza pusilla,Perching birds,Endemic,True
+Slaty-backed Thornbill,Acanthiza robustirostris,Perching birds,Endemic,True
+Slender-billed Thornbill,Acanthiza iredalei,Perching birds,Endemic,True
+Chestnut-rumped Thornbill,Acanthiza uropygialis,Perching birds,Endemic,True
+Western Thornbill,Acanthiza inornata,Perching birds,Endemic,True
+Buff-rumped Thornbill,Acanthiza reguloides,Perching birds,Endemic,True
+Brown Gerygone,Gerygone mouki,Perching birds,Endemic,True
+Green-backed Gerygone,Gerygone chloronota,Perching birds,,False
+Fairy Gerygone,Gerygone palpebrosa,Perching birds,,False
+Large-billed Gerygone,Gerygone magnirostris,Perching birds,,False
+White-throated Gerygone,Gerygone olivacea,Perching birds,,False
+Dusky Gerygone,Gerygone tenebrosa,Perching birds,Endemic,True
+Mangrove Gerygone,Gerygone levigaster,Perching birds,,False
+Western Gerygone,Gerygone fusca,Perching birds,Endemic,True
+Norfolk Island Gerygone,Gerygone modesta,Perching birds,Endemic,True
+Gray-crowned Babbler,Pomatostomus temporalis,Perching birds,,False
+White-browed Babbler,Pomatostomus superciliosus,Perching birds,Endemic,True
+Hall's Babbler,Pomatostomus halli,Perching birds,Endemic,True
+Chestnut-crowned Babbler,Pomatostomus ruficeps,Perching birds,Endemic,True
+Australian Logrunner,Orthonyx temminckii,Perching birds,Endemic,True
+Chowchilla,Orthonyx spaldingii,Perching birds,Endemic,True
+Spotted Quail-thrush,Cinclosoma punctatum,Perching birds,Endemic,True
+Chestnut Quail-thrush,Cinclosoma castanotum,Perching birds,Endemic,True
+Copperback Quail-thrush,Cinclosoma clarum,Perching birds,,False
+Chestnut-breasted Quail-thrush,Cinclosoma castaneothorax,Perching birds,Endemic,True
+Western Quail-thrush,Cinclosoma marginatum,Perching birds,Endemic,True
+Cinnamon Quail-thrush,Cinclosoma cinnamomeum,Perching birds,Endemic,True
+Nullarbor Quail-thrush,Cinclosoma alisteri,Perching birds,Endemic,True
+Ground Cuckooshrike,Coracina maxima,Perching birds,Endemic,True
+Barred Cuckooshrike,Coracina lineata,Perching birds,,False
+Black-faced Cuckooshrike,Coracina novaehollandiae,Perching birds,,False
+White-bellied Cuckooshrike,Coracina papuensis,Perching birds,,False
+White-winged Triller,Lalage tricolor,Perching birds,,False
+Varied Triller,Lalage leucomela,Perching birds,,False
+Sahul Cicadabird,Edolisoma tenuirostre,Perching birds,,False
+Papuan Sittella,Daphoenositta papuensis,Perching birds,,False
+Varied Sittella,Daphoenositta chrysoptera,Perching birds,Endemic,True
+Eastern Whipbird,Psophodes olivaceus,Perching birds,Endemic,True
+Western Whipbird,Psophodes nigrogularis,Perching birds,Endemic,True
+Chiming Wedgebill,Psophodes occidentalis,Perching birds,Endemic,True
+Chirruping Wedgebill,Psophodes cristatus,Perching birds,Endemic,True
+Crested Bellbird,Oreoica gutturalis,Perching birds,Endemic,True
+Eastern Shrike-tit,Falcunculus frontatus,Perching birds,Endemic,True
+Western Shrike-tit,Falcunculus leucogaster,Perching birds,Endemic,True
+Northern Shrike-tit,Falcunculus whitei,Perching birds,Endemic,True
+Sandstone Shrikethrush,Colluricincla woodwardi,Perching birds,Endemic,True
+Bower's Shrikethrush,Colluricincla boweri,Perching birds,Endemic Vulnerable,True
+Gray Shrikethrush,Colluricincla harmonica,Perching birds,,False
+Little Shrikethrush,Colluricincla megarhyncha,Perching birds,,False
+Olive Whistler,Pachycephala olivacea,Perching birds,Endemic,True
+Red-lored Whistler,Pachycephala rufogularis,Perching birds,Endemic Vulnerable,True
+Gilbert's Whistler,Pachycephala inornata,Perching birds,Endemic,True
+Golden Whistler,Pachycephala pectoralis,Perching birds,,False
+Black-tailed Whistler,Pachycephala melanura,Perching birds,,False
+Gray Whistler,Pachycephala simplex,Perching birds,,False
+Rufous Whistler,Pachycephala rufiventris,Perching birds,,False
+White-breasted Whistler,Pachycephala lanioides,Perching birds,Endemic,True
+Olive-backed Oriole,Oriolus sagittatus,Perching birds,,False
+Green Oriole,Oriolus flavocinctus,Perching birds,,False
+Australasian Figbird,Sphecotheres vieilloti,Perching birds,,False
+Yellow-breasted Boatbill,Machaerirhynchus flaviventer,Perching birds,,False
+White-breasted Woodswallow,Artamus leucorynchus,Perching birds,,False
+Masked Woodswallow,Artamus personatus,Perching birds,Endemic,True
+White-browed Woodswallow,Artamus superciliosus,Perching birds,Endemic,True
+Black-faced Woodswallow,Artamus cinereus,Perching birds,,False
+Dusky Woodswallow,Artamus cyanopterus,Perching birds,Endemic,True
+Little Woodswallow,Artamus minor,Perching birds,Endemic,True
+Black-backed Butcherbird,Cracticus mentalis,Perching birds,,False
+Gray Butcherbird,Cracticus torquatus,Perching birds,Endemic,True
+Silver-backed Butcherbird,Cracticus argenteus,Perching birds,Endemic,True
+Pied Butcherbird,Cracticus nigrogularis,Perching birds,Endemic,True
+Black Butcherbird,Melloria quoyi,Perching birds,,False
+Australian Magpie,Gymnorhina tibicen,Perching birds,,False
+Pied Currawong,Strepera graculina,Perching birds,Endemic,True
+Black Currawong,Strepera fuliginosa,Perching birds,Endemic,True
+Gray Currawong,Strepera versicolor,Perching birds,Endemic,True
+Northern Fantail,Rhipidura rufiventris,Perching birds,,False
+Willie-wagtail,Rhipidura leucophrys,Perching birds,,False
+Arafura Fantail,Rhipidura dryas,Perching birds,,False
+Australian Rufous Fantail,Rhipidura rufifrons,Perching birds,,False
+Gray Fantail,Rhipidura albiscapa,Perching birds,,False
+Mangrove Fantail,Rhipidura phasiana,Perching birds,,False
+Spangled Drongo,Dicrurus bracteatus,Perching birds,,False
+Trumpet Manucode,Phonygammus keraudrenii,Perching birds,,False
+Paradise Riflebird,Ptiloris paradiseus,Perching birds,Endemic,True
+Victoria's Riflebird,Ptiloris victoriae,Perching birds,Endemic Vulnerable,True
+Magnificent Riflebird,Ptiloris magnificus,Perching birds,,False
+White-eared Monarch,Carterornis leucotis,Perching birds,Endemic,True
+Black-faced Monarch,Monarcha melanopsis,Perching birds,,False
+Black-winged Monarch,Monarcha frater,Perching birds,,False
+Australian Spectacled Monarch,Symposiachrus trivirgatus,Perching birds,,False
+Louisiade Spectacled Monarch,Symposiachrus melanopterus,Perching birds,,False
+Frilled Monarch,Arses telescopthalmus,Perching birds,,False
+Frill-necked Monarch,Arses lorealis,Perching birds,Endemic,True
+Pied Monarch,Arses kaupi,Perching birds,Endemic,True
+Magpie-lark,Grallina cyanoleuca,Perching birds,,False
+Leaden Flycatcher,Myiagra rubecula,Perching birds,,False
+Broad-billed Flycatcher,Myiagra ruficollis,Perching birds,,False
+Satin Flycatcher,Myiagra cyanoleuca,Perching birds,,False
+Restless Flycatcher,Myiagra inquieta,Perching birds,Endemic,True
+Paperbark Flycatcher,Myiagra nana,Perching birds,,False
+Shining Flycatcher,Myiagra alecto,Perching birds,,False
+White-winged Chough,Corcorax melanorhamphos,Perching birds,Endemic,True
+Apostlebird,Struthidea cinerea,Perching birds,Endemic,True
+Torresian Crow,Corvus orru,Perching birds,,False
+Little Crow,Corvus bennetti,Perching birds,Endemic,True
+Australian Raven,Corvus coronoides,Perching birds,Endemic,True
+Little Raven,Corvus mellori,Perching birds,Endemic,True
+Forest Raven,Corvus tasmanicus,Perching birds,Endemic,True
+Norfolk Robin,Petroica multicolor,Perching birds,Endemic Endangered,True
+Red-capped Robin,Petroica goodenovii,Perching birds,Endemic,True
+Rose Robin,Petroica rosea,Perching birds,Endemic,True
+Pink Robin,Petroica rodinogaster,Perching birds,Endemic,True
+Flame Robin,Petroica phoenicea,Perching birds,Endemic,True
+Scarlet Robin,Petroica boodang,Perching birds,Endemic,True
+Yellow-legged Flyrobin,Kempiella griseoceps,Perching birds,,False
+Lemon-bellied Flyrobin,Microeca flavigaster,Perching birds,,False
+Jacky-winter,Microeca fascinans,Perching birds,,False
+Southern Scrub-Robin,Drymodes brunneopygia,Perching birds,Endemic,True
+Northern Scrub-Robin,Drymodes superciliaris,Perching birds,Endemic,True
+Gray-headed Robin,Heteromyias cinereifrons,Perching birds,Endemic Near-threatened,True
+White-browed Robin,Poecilodryas superciliosa,Perching birds,Endemic,True
+Buff-sided Robin,Poecilodryas cerviniventris,Perching birds,Endemic,True
+Dusky Robin,Melanodryas vittata,Perching birds,Endemic Vulnerable,True
+Hooded Robin,Melanodryas cucullata,Perching birds,Endemic,True
+Mangrove Robin,Melanodryas pulverulenta,Perching birds,,False
+Eastern Yellow Robin,Eopsaltria australis,Perching birds,Endemic,True
+Western Yellow Robin,Eopsaltria griseogularis,Perching birds,Endemic,True
+White-breasted Robin,Eopsaltria georgiana,Perching birds,Endemic,True
+Pale-yellow Robin,Eopsaltria capito,Perching birds,Endemic,True
+White-faced Robin,Eopsaltria leucops,Perching birds,,False
+Singing Bushlark,Mirafra javanica,Perching birds,,False
+Zitting Cisticola,Cisticola juncidis,Perching birds,,False
+Golden-headed Cisticola,Cisticola exilis,Perching birds,,False
+Australian Reed Warbler,Acrocephalus australis,Perching birds,,False
+Spinifexbird,Poodytes carteri,Perching birds,Endemic,True
+Little Grassbird,Poodytes gramineus,Perching birds,,False
+Brown Songlark,Cincloramphus cruralis,Perching birds,Endemic,True
+Rufous Songlark,Cincloramphus mathewsi,Perching birds,Endemic,True
+Tawny Grassbird,Cincloramphus timoriensis,Perching birds,,False
+White-backed Swallow,Cheramoeca leucosterna,Perching birds,Endemic,True
+Welcome Swallow,Hirundo neoxena,Perching birds,,False
+Barn Swallow,Hirundo rustica,Perching birds,,False
+Fairy Martin,Petrochelidon ariel,Perching birds,Breeding endemic,False
+Tree Martin,Petrochelidon nigricans,Perching birds,,False
+Australian Yellow White-eye,Zosterops luteus,Perching birds,Endemic,True
+Silvereye,Zosterops lateralis,Perching birds,,False
+Christmas Island White-eye,Zosterops natalis,Perching birds,Endemic,True
+Slender-billed White-eye,Zosterops tenuirostris,Perching birds,Endemic Vulnerable,True
+Metallic Starling,Aplonis metallica,Perching birds,,False
+Singing Starling,Aplonis cantoroides,Perching birds,,False
+Bassian Thrush,Zoothera lunulata,Perching birds,Endemic,True
+Russet-tailed Thrush,Zoothera heinei,Perching birds,,False
+Christmas Island-Thrush,Turdus erythropleurus,Perching birds,Endemic,True
+Tasman Sea Island-Thrush,Turdus poliocephalus,Perching birds,,False
+Red-capped Flowerpecker,Dicaeum geelvinkianum,Perching birds,,False
+Mistletoebird,Dicaeum hirundinaceum,Perching birds,,False
+Ornate Sunbird,Cinnyris ornatus,Perching birds,,False
+Sahul Sunbird,Cinnyris frenatus,Perching birds,,False
+Pictorella Munia,Heteromunia pectoralis,Perching birds,Endemic,True
+Diamond Firetail,Stagonopleura guttata,Perching birds,Endemic Vulnerable,True
+Red-eared Firetail,Stagonopleura oculata,Perching birds,Endemic,True
+Beautiful Firetail,Stagonopleura bella,Perching birds,Endemic,True
+Crimson Finch,Neochmia phaeton,Perching birds,,False
+Red-browed Firetail,Neochmia temporalis,Perching birds,Endemic,True
+Painted Firetail,Emblema pictum,Perching birds,Endemic,True
+Star Finch,Emblema ruficauda,Perching birds,Endemic,True
+Plum-headed Finch,Emblema modestum,Perching birds,Endemic,True
+Double-barred Finch,Stizoptera bichenovii,Perching birds,Endemic,True
+Zebra Finch,Taeniopygia guttata,Perching birds,,False
+Masked Finch,Poephila personata,Perching birds,Endemic,True
+Long-tailed Finch,Poephila acuticauda,Perching birds,Endemic,True
+Black-throated Finch,Poephila cincta,Perching birds,Endemic,True
+Yellow-rumped Munia,Lonchura flaviprymna,Perching birds,Endemic,True
+Chestnut-breasted Munia,Lonchura castaneothorax,Perching birds,,False
+Gouldian Finch,Chloebia gouldiae,Perching birds,Endemic,True
+Blue-faced Parrotfinch,Erythrura trichroa,Perching birds,,False
+Eastern Yellow Wagtail,Motacilla tschutschensis,Perching birds,,False
+Australian Pipit,Anthus australis,Perching birds,,False

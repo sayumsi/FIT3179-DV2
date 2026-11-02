@@ -1,0 +1,231 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "A horizontal lollipop plot with a line from zero to each value and a circle at the endpoint. Bird observations by state, April 2025.",
+  "data": {
+    "values": [
+      {
+        "state": "New South Wales",
+        "abbr": "NSW",
+        "records": 23626,
+        "species": 344,
+        "species_at_500": 154.6
+      },
+      {
+        "state": "Victoria",
+        "abbr": "VIC",
+        "records": 19826,
+        "species": 272,
+        "species_at_500": 129.9
+      },
+      {
+        "state": "Queensland",
+        "abbr": "QLD",
+        "records": 10782,
+        "species": 359,
+        "species_at_500": 169.6
+      },
+      {
+        "state": "Western Australia",
+        "abbr": "WA",
+        "records": 10502,
+        "species": 236,
+        "species_at_500": 118.5
+      },
+      {
+        "state": "South Australia",
+        "abbr": "SA",
+        "records": 7756,
+        "species": 265,
+        "species_at_500": 140.8
+      },
+      {
+        "state": "Tasmania",
+        "abbr": "TAS",
+        "records": 6416,
+        "species": 141,
+        "species_at_500": 88.1
+      },
+      {
+        "state": "Northern Territory",
+        "abbr": "NT",
+        "records": 827,
+        "species": 89,
+        "species_at_500": 76.7
+      },
+      {
+        "state": "Australian Capital Territory",
+        "abbr": "ACT",
+        "records": 533,
+        "species": 96,
+        "species_at_500": 93.6
+      }
+    ]
+  },
+  "width": 360,
+  "height": 288,
+  "padding": {
+    "left": 0,
+    "top": 10,
+    "right": 6,
+    "bottom": 6
+  },
+  "encoding": {
+    "y": {
+      "field": "abbr",
+      "type": "nominal",
+      "sort": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "WA",
+        "SA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "scale": {
+        "paddingInner": 0.3,
+        "paddingOuter": 0.15
+      },
+      "axis": {
+        "title": null,
+        "domain": false,
+        "ticks": false,
+        "labelPadding": 9,
+        "labelFont": "DM Sans",
+        "labelFontSize": 12,
+        "labelFontWeight": "bold",
+        "labelColor": "#223E55"
+      }
+    },
+    "x": {
+      "field": "records",
+      "type": "quantitative",
+      "scale": {
+        "domain": [
+          0,
+          28000
+        ],
+        "nice": false
+      },
+      "axis": {
+        "title": "Number of occurrence records",
+        "titleFont": "DM Sans",
+        "titleFontSize": 12,
+        "titleColor": "#344A5A",
+        "titlePadding": 12,
+        "labelFont": "DM Sans",
+        "labelFontSize": 11,
+        "labelColor": "#566E82",
+        "values": [
+          0,
+          5000,
+          10000,
+          15000,
+          20000,
+          25000
+        ],
+        "format": "~s",
+        "grid": true,
+        "gridColor": "#E6EEF4",
+        "domain": false,
+        "ticks": false
+      }
+    },
+    "tooltip": [
+      {
+        "field": "state",
+        "type": "nominal",
+        "title": "State or territory"
+      },
+      {
+        "field": "records",
+        "type": "quantitative",
+        "title": "Bird records",
+        "format": ","
+      },
+      {
+        "field": "species",
+        "type": "quantitative",
+        "title": "Total species"
+      },
+      {
+        "field": "species_at_500",
+        "type": "quantitative",
+        "title": "Species per 500 records",
+        "format": ".1f"
+      }
+    ]
+  },
+  "layer": [
+    {
+      "mark": {
+        "type": "rule",
+        "strokeWidth": 4,
+        "strokeCap": "round"
+      },
+      "encoding": {
+        "x": {
+          "datum": 0
+        },
+        "x2": {
+          "field": "records"
+        },
+        "color": {
+          "condition": [
+            {
+              "test": "datum.abbr === 'NSW'",
+              "value": "#8A4C79"
+            }
+          ],
+          "value": "#426B92"
+        }
+      }
+    },
+    {
+      "mark": {
+        "type": "circle",
+        "size": 170,
+        "filled": true
+      },
+      "encoding": {
+        "color": {
+          "condition": [
+            {
+              "test": "datum.abbr === 'NSW'",
+              "value": "#8A4C79"
+            }
+          ],
+          "value": "#426B92"
+        }
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "baseline": "middle",
+        "dx": 10,
+        "font": "DM Sans",
+        "fontSize": 11,
+        "fontWeight": "bold",
+        "color": "#223E55"
+      },
+      "encoding": {
+        "text": {
+          "field": "records",
+          "type": "quantitative",
+          "format": ","
+        }
+      }
+    }
+  ],
+  "config": {
+    "view": {
+      "stroke": null
+    },
+    "axis": {
+      "labelLimit": 100
+    }
+  }
+}

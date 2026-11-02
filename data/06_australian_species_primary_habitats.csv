@@ -1,0 +1,998 @@
+common_name,scientific_name,status,group,birdbase_common,birdbase_scientific,primary_habitat,display_habitat,match_field,birdbase_id
+Common Ostrich,Struthio camelus,Introduced species,STRUTHIONIFORMES: Struthionidae,Common Ostrich,Struthio camelus,Savanna,Open landscapes,F,1
+Southern Cassowary,Casuarius casuarius,,CASUARIIFORMES: Casuariidae,Southern Cassowary,Casuarius casuarius,Forest,Forests,F,26
+Emu,Dromaius novaehollandiae,Endemic,CASUARIIFORMES: Casuariidae,Common Emu,Dromaius novaehollandiae,Savanna,Open landscapes,F,31
+Magpie Goose,Anseranas semipalmata,,ANSERIFORMES: Anseranatidae,Magpie Goose,Anseranas semipalmata,Wetland,Wetlands and rivers,F,227
+Spotted Whistling-Duck,Dendrocygna guttata,,ANSERIFORMES: Anatidae,Spotted Whistling-duck,Dendrocygna guttata,Wetland,Wetlands and rivers,F,232
+Plumed Whistling-Duck,Dendrocygna eytoni,Breeding endemic,ANSERIFORMES: Anatidae,Plumed Whistling-duck,Dendrocygna eytoni,Grassland,Open landscapes,F,235
+Wandering Whistling-Duck,Dendrocygna arcuata,,ANSERIFORMES: Anatidae,Wandering Whistling-duck,Dendrocygna arcuata,Wetland,Wetlands and rivers,F,236
+Canada Goose,Branta canadensis,Rare/Accidental,ANSERIFORMES: Anatidae,Canada Goose,Branta canadensis,Wetland,Wetlands and rivers,F,254
+Cape Barren Goose,Cereopsis novaehollandiae,Endemic,ANSERIFORMES: Anatidae,Cape Barren Goose,Cereopsis novaehollandiae,Shrub,Open landscapes,F,244
+Freckled Duck,Stictonetta naevosa,Endemic,ANSERIFORMES: Anatidae,Freckled Duck,Stictonetta naevosa,Wetland,Wetlands and rivers,F,307
+Mute Swan,Cygnus olor,Introduced species,ANSERIFORMES: Anatidae,Mute Swan,Cygnus olor,Wetland,Wetlands and rivers,F,300
+Black Swan,Cygnus atratus,Endemic,ANSERIFORMES: Anatidae,Black Swan,Cygnus atratus,Wetland,Wetlands and rivers,F,298
+Radjah Shelduck,Radjah radjah,,ANSERIFORMES: Anatidae,Radjah Shelduck,Radjah radjah,Coastal,Seas and coasts,F,343
+Australian Shelduck,Tadorna tadornoides,Breeding endemic,ANSERIFORMES: Anatidae,Australian Shelduck,Tadorna tadornoides,Wetland,Wetlands and rivers,F,349
+Paradise Shelduck,Tadorna variegata,Rare/Accidental,ANSERIFORMES: Anatidae,Paradise Shelduck,Tadorna variegata,Coastal,Seas and coasts,F,350
+Green Pygmy-Goose,Nettapus pulchellus,,ANSERIFORMES: Anatidae,Green Pygmy-goose,Nettapus pulchellus,Wetland,Wetlands and rivers,F,365
+Cotton Pygmy-Goose,Nettapus coromandelianus,,ANSERIFORMES: Anatidae,Cotton Pygmy-goose,Nettapus coromandelianus,Wetland,Wetlands and rivers,F,362
+Maned Duck,Chenonetta jubata,Endemic,ANSERIFORMES: Anatidae,Maned Duck,Chenonetta jubata,Wetland,Wetlands and rivers,F,359
+Garganey,Spatula querquedula,Rare/Accidental,ANSERIFORMES: Anatidae,Garganey,Spatula querquedula,Wetland,Wetlands and rivers,F,375
+Australasian Shoveler,Spatula rhynchotis,,ANSERIFORMES: Anatidae,Australasian Shoveler,Spatula rhynchotis,Wetland,Wetlands and rivers,F,391
+Northern Shoveler,Spatula clypeata,Rare/Accidental,ANSERIFORMES: Anatidae,Northern Shoveler,Spatula clypeata,Wetland,Wetlands and rivers,F,394
+Eurasian Wigeon,Mareca penelope,Rare/Accidental,ANSERIFORMES: Anatidae,Eurasian Wigeon,Mareca penelope,Wetland,Wetlands and rivers,F,399
+Pacific Black Duck,Anas superciliosa,,ANSERIFORMES: Anatidae,Pacific Black Duck,Anas superciliosa,Wetland,Wetlands and rivers,F,410
+Mallard,Anas platyrhynchos,Introduced species,ANSERIFORMES: Anatidae,Mallard,Anas platyrhynchos,Wetland,Wetlands and rivers,F,424
+Northern Pintail,Anas acuta,Rare/Accidental,ANSERIFORMES: Anatidae,Northern Pintail,Anas acuta,Wetland,Wetlands and rivers,F,446
+Green-winged Teal,Anas crecca,Rare/Accidental,ANSERIFORMES: Anatidae,Common Teal,Anas crecca,Wetland,Wetlands and rivers,F,448
+Gray Teal,Anas gracilis,,ANSERIFORMES: Anatidae,Grey Teal,Anas gracilis,Wetland,Wetlands and rivers,F,465
+Chestnut Teal,Anas castanea,Endemic,ANSERIFORMES: Anatidae,Chestnut Teal,Anas castanea,Coastal,Seas and coasts,F,468
+Pink-eared Duck,Malacorhynchus membranaceus,Endemic,ANSERIFORMES: Anatidae,Pink-eared Duck,Malacorhynchus membranaceus,Wetland,Wetlands and rivers,F,352
+Hardhead,Aythya australis,,ANSERIFORMES: Anatidae,Hardhead,Aythya australis,Wetland,Wetlands and rivers,F,488
+Tufted Duck,Aythya fuligula,Rare/Accidental,ANSERIFORMES: Anatidae,Tufted Duck,Aythya fuligula,Wetland,Wetlands and rivers,F,496
+Blue-billed Duck,Oxyura australis,Endemic,ANSERIFORMES: Anatidae,Blue-billed Duck,Oxyura australis,Wetland,Wetlands and rivers,F,551
+Musk Duck,Biziura lobata,Endemic,ANSERIFORMES: Anatidae,Musk Duck,Biziura lobata,Wetland,Wetlands and rivers,F,554
+Australian Brushturkey,Alectura lathami,Endemic,GALLIFORMES: Megapodiidae,Australian Brushturkey,Alectura lathami,Forest,Forests,F,557
+Malleefowl,Leipoa ocellata,Endemic Vulnerable,GALLIFORMES: Megapodiidae,Malleefowl,Leipoa ocellata,Forest,Forests,F,575
+Orange-footed Megapode,Megapodius reinwardt,,GALLIFORMES: Megapodiidae,Orange-footed Scrubfowl,Megapodius reinwardt,Forest,Forests,F,619
+Helmeted Guineafowl,Numida meleagris,Introduced species,GALLIFORMES: Numididae,Helmeted Guineafowl,Numida meleagris,Savanna,Open landscapes,F,770
+California Quail,Callipepla californica,Introduced species,GALLIFORMES: Odontophoridae,California Quail,Callipepla californica,Shrub,Open landscapes,F,852
+Ring-necked Pheasant,Phasianus colchicus,Introduced species,GALLIFORMES: Phasianidae,Common Pheasant,Phasianus colchicus,Artificial,Artificial habitats,F,1316
+Indian Peafowl,Pavo cristatus,Introduced species,GALLIFORMES: Phasianidae,Indian Peafowl,Pavo cristatus,Forest,Forests,F,1431
+Green Junglefowl,Gallus varius,Introduced species,GALLIFORMES: Phasianidae,Green Junglefowl,Gallus varius,Shrub,Open landscapes,F,1480
+Red Junglefowl,Gallus gallus,Introduced species,GALLIFORMES: Phasianidae,Red Junglefowl,Gallus gallus,Forest,Forests,F,1481
+Brown Quail,Synoicus ypsilophorus,,GALLIFORMES: Phasianidae,Brown Quail,Synoicus ypsilophorus,Grassland,Open landscapes,F,1599
+Blue-breasted Quail,Synoicus chinensis,,GALLIFORMES: Phasianidae,Asian Blue Quail,Synoicus chinensis,Grassland,Open landscapes,F,1614
+Stubble Quail,Coturnix pectoralis,Endemic,GALLIFORMES: Phasianidae,Stubble Quail,Coturnix pectoralis,Grassland,Open landscapes,F,1643
+Rock Pigeon,Columba livia,Introduced species,COLUMBIFORMES: Columbidae,Rock Pigeon,Columba livia,Rocky,Rocky and arid,F,4421
+Metallic Pigeon,Columba vitiensis,Extirpated,COLUMBIFORMES: Columbidae,Metallic Pigeon,Columba vitiensis,Forest,Forests,F,4490
+White-headed Pigeon,Columba leucomela,Endemic,COLUMBIFORMES: Columbidae,White-headed Pigeon,Columba leucomela,Forest,Forests,F,4500
+Oriental Turtle-Dove,Streptopelia orientalis,Rare/Accidental,COLUMBIFORMES: Columbidae,Oriental Turtle-dove,Streptopelia orientalis,Woodland,Open landscapes,F,4615
+Red Collared-Dove,Streptopelia tranquebarica,Rare/Accidental,COLUMBIFORMES: Columbidae,Red Collared-dove,Streptopelia tranquebarica,Woodland,Open landscapes,F,4669
+Spotted Dove,Spilopelia chinensis,Introduced species,COLUMBIFORMES: Columbidae,Eastern Spotted Dove,Spilopelia chinensis,Forest,Forests,F,4673
+Laughing Dove,Spilopelia senegalensis,Introduced species,COLUMBIFORMES: Columbidae,Laughing Dove,Spilopelia senegalensis,Savanna,Open landscapes,F,4683
+Brown Cuckoo-Dove,Macropygia phasianella,Endemic,COLUMBIFORMES: Columbidae,Brown Cuckoo-Dove,Macropygia phasianella,Forest,Forests,F,4739
+Asian Emerald Dove,Chalcophaps indica,,COLUMBIFORMES: Columbidae,Grey-capped Emerald Dove,Chalcophaps indica,Forest,Forests,F,4794
+Pacific Emerald Dove,Chalcophaps longirostris,,COLUMBIFORMES: Columbidae,Brown-capped Emerald Dove,Chalcophaps longirostris,Forest,Forests,F,4802
+Stephan's Dove,Chalcophaps stephani,Rare/Accidental,COLUMBIFORMES: Columbidae,Stephan's Dove,Chalcophaps stephani,Forest,Forests,F,4807
+Norfolk Ground Dove,Pampusana norfolkensis,Endemic,COLUMBIFORMES: Columbidae,Norfolk Ground Dove,Pampusana norfolkensis,Forest,Forests,F,5094
+Common Bronzewing,Phaps chalcoptera,Endemic,COLUMBIFORMES: Columbidae,Common Bronzewing,Phaps chalcoptera,Forest,Forests,F,4815
+Brush Bronzewing,Phaps elegans,Endemic,COLUMBIFORMES: Columbidae,Brush Bronzewing,Phaps elegans,Woodland,Open landscapes,F,4819
+Flock Bronzewing,Phaps histrionica,Endemic,COLUMBIFORMES: Columbidae,Flock Bronzewing,Phaps histrionica,Grassland,Open landscapes,F,4823
+Crested Pigeon,Ocyphaps lophotes,Endemic,COLUMBIFORMES: Columbidae,Crested Pigeon,Ocyphaps lophotes,Grassland,Open landscapes,F,4826
+Spinifex Pigeon,Geophaps plumifera,Endemic,COLUMBIFORMES: Columbidae,Spinifex Pigeon,Geophaps plumifera,Grassland,Open landscapes,F,4829
+Squatter Pigeon,Geophaps scripta,Endemic,COLUMBIFORMES: Columbidae,Squatter Pigeon,Geophaps scripta,Woodland,Open landscapes,F,4835
+Partridge Pigeon,Geophaps smithii,Endemic,COLUMBIFORMES: Columbidae,Partridge Pigeon,Geophaps smithii,Forest,Forests,F,4838
+Chestnut-quilled Rock-Pigeon,Petrophassa rufipennis,Endemic,COLUMBIFORMES: Columbidae,Chestnut-quilled Rock-pigeon,Petrophassa rufipennis,Rocky,Rocky and arid,F,4846
+White-quilled Rock-Pigeon,Petrophassa albipennis,Endemic,COLUMBIFORMES: Columbidae,White-quilled Rock-pigeon,Petrophassa albipennis,Rocky,Rocky and arid,F,4847
+Wonga Pigeon,Leucosarcia melanoleuca,Endemic,COLUMBIFORMES: Columbidae,Wonga Pigeon,Leucosarcia melanoleuca,Forest,Forests,F,4845
+Diamond Dove,Geopelia cuneata,Endemic,COLUMBIFORMES: Columbidae,Diamond Dove,Geopelia cuneata,Grassland,Open landscapes,F,4851
+Peaceful Dove,Geopelia placida,,COLUMBIFORMES: Columbidae,Peaceful Dove,Geopelia placida,Woodland,Open landscapes,F,4856
+Bar-shouldered Dove,Geopelia humeralis,,COLUMBIFORMES: Columbidae,Bar-shouldered Dove,Geopelia humeralis,Woodland,Open landscapes,F,4864
+Nicobar Pigeon,Caloenas nicobarica,Rare/Accidental Near-threatened,COLUMBIFORMES: Columbidae,Nicobar Pigeon,Caloenas nicobarica,Forest,Forests,F,5062
+Wompoo Fruit-Dove,Megaloprepia magnifica,,COLUMBIFORMES: Columbidae,Wompoo Fruit-dove,Megaloprepia magnifica,Forest,Forests,G,5323
+Black-banded Fruit-Dove,Ptilinopus alligator,Endemic,COLUMBIFORMES: Columbidae,Black-banded Fruit-dove,Ptilinopus alligator,Forest,Forests,F,5292
+Superb Fruit-Dove,Ptilinopus superbus,,COLUMBIFORMES: Columbidae,Eastern Superb Fruit-dove,Ptilinopus superbus,Forest,Forests,F,5343
+Orange-bellied Fruit-Dove,Ptilinopus iozonus,Rare/Accidental,COLUMBIFORMES: Columbidae,Orange-bellied Fruit-dove,Ptilinopus iozonus,Forest,Forests,F,5434
+Orange-fronted Fruit-Dove,Ptilinopus aurantiifrons,Rare/Accidental,COLUMBIFORMES: Columbidae,Orange-fronted Fruit-dove,Ptilinopus aurantiifrons,Forest,Forests,F,5341
+Rose-crowned Fruit-Dove,Ptilinopus regina,,COLUMBIFORMES: Columbidae,Rose-crowned Fruit-dove,Ptilinopus regina,Forest,Forests,F,5366
+Elegant Imperial-Pigeon,Ducula concinna,Rare/Accidental,COLUMBIFORMES: Columbidae,Blue-tailed Imperial-pigeon,Ducula concinna,Forest,Forests,F,5507
+Pacific Imperial-Pigeon,Ducula pacifica,,COLUMBIFORMES: Columbidae,Pacific Imperial-pigeon,Ducula pacifica,Forest,Forests,F,5511
+Island Imperial-Pigeon,Ducula pistrinaria,,COLUMBIFORMES: Columbidae,Island Imperial-pigeon,Ducula pistrinaria,Forest,Forests,F,5545
+Christmas Island Imperial-Pigeon,Ducula whartoni,Endemic,COLUMBIFORMES: Columbidae,Christmas Island Imperial-pigeon,Ducula whartoni,Forest,Forests,F,5553
+Collared Imperial-Pigeon,Ducula mullerii,,COLUMBIFORMES: Columbidae,Collared Imperial-pigeon,Ducula mullerii,Forest,Forests,F,5569
+Zoe's Imperial-Pigeon,Ducula zoeae,Rare/Accidental,COLUMBIFORMES: Columbidae,Zoe's Imperial-pigeon,Ducula zoeae,Forest,Forests,F,5572
+Torresian Imperial-Pigeon,Ducula spilorrhoa,,COLUMBIFORMES: Columbidae,Torresian Imperial-pigeon,Ducula spilorrhoa,Forest,Forests,F,5593
+Topknot Pigeon,Lopholaimus antarcticus,Endemic,COLUMBIFORMES: Columbidae,Topknot Pigeon,Lopholaimus antarcticus,Forest,Forests,F,5598
+New Zealand Pigeon,Hemiphaga novaeseelandiae,Extirpated,COLUMBIFORMES: Columbidae,New Zealand Pigeon,Hemiphaga novaeseelandiae,Forest,Forests,F,5601
+Australian Bustard,Ardeotis australis,,OTIDIFORMES: Otididae,Australian Bustard,Ardeotis australis,Grassland,Open landscapes,F,3803
+Lesser Coucal,Centropus bengalensis,Rare/Accidental,CUCULIFORMES: Cuculidae,Lesser Coucal,Centropus bengalensis,Grassland,Open landscapes,F,3973
+Pheasant Coucal,Centropus phasianinus,,CUCULIFORMES: Cuculidae,Pheasant Coucal,Centropus phasianinus,Shrub,Open landscapes,F,3986
+Chestnut-winged Cuckoo,Clamator coromandus,Rare/Accidental,CUCULIFORMES: Cuculidae,Chestnut-winged Cuckoo,Clamator coromandus,Woodland,Open landscapes,F,4070
+Asian Koel,Eudynamys scolopaceus,Rare/Accidental,CUCULIFORMES: Cuculidae,Western Koel,Eudynamys scolopaceus,Forest,Forests,F,4157
+Pacific Koel,Eudynamys orientalis,,CUCULIFORMES: Cuculidae,Eastern Koel,Eudynamys orientalis,Forest,Forests,F,4170
+Long-tailed Koel,Urodynamis taitensis,Rare/Accidental,CUCULIFORMES: Cuculidae,Long-tailed Koel,Urodynamis taitensis,Forest,Forests,F,4180
+Channel-billed Cuckoo,Scythrops novaehollandiae,,CUCULIFORMES: Cuculidae,Channel-billed Cuckoo,Scythrops novaehollandiae,Forest,Forests,F,4181
+Horsfield's Bronze-Cuckoo,Chalcites basalis,,CUCULIFORMES: Cuculidae,Horsfield's Bronze-cuckoo,Chalcites basalis,Woodland,Open landscapes,F,4203
+Black-eared Cuckoo,Chalcites osculans,Breeding endemic,CUCULIFORMES: Cuculidae,Black-eared Cuckoo,Chalcites osculans,Shrub,Open landscapes,F,4204
+Shining Bronze-Cuckoo,Chalcites lucidus,,CUCULIFORMES: Cuculidae,Shining Bronze-cuckoo,Chalcites lucidus,Forest,Forests,F,4206
+Little Bronze-Cuckoo,Chalcites minutillus,,CUCULIFORMES: Cuculidae,Little Bronze-cuckoo,Chalcites minutillus,Forest,Forests,F,4212
+Pallid Cuckoo,Heteroscenes pallidus,,CUCULIFORMES: Cuculidae,Pallid Cuckoo,Heteroscenes pallidus,Forest,Forests,F,4229
+Chestnut-breasted Cuckoo,Cacomantis castaneiventris,,CUCULIFORMES: Cuculidae,Chestnut-breasted Cuckoo,Cacomantis castaneiventris,Forest,Forests,F,4233
+Fan-tailed Cuckoo,Cacomantis flabelliformis,,CUCULIFORMES: Cuculidae,Fan-tailed Cuckoo,Cacomantis flabelliformis,Forest,Forests,F,4237
+Sahul Brush Cuckoo,Cacomantis variolosus,,CUCULIFORMES: Cuculidae,Sahul Brush Cuckoo,Cacomantis variolosus,Forest,Forests,F,4264
+Large Hawk-Cuckoo,Hierococcyx sparverioides,Rare/Accidental,CUCULIFORMES: Cuculidae,Large Hawk-Cuckoo,Hierococcyx sparverioides,Woodland,Open landscapes,F,4307
+Hodgson's Hawk-Cuckoo,Hierococcyx nisicolor,Rare/Accidental,CUCULIFORMES: Cuculidae,Whistling Hawk-Cuckoo,Hierococcyx nisicolor,Forest,Forests,F,4320
+Indian Cuckoo,Cuculus micropterus,Rare/Accidental,CUCULIFORMES: Cuculidae,Indian Cuckoo,Cuculus micropterus,Forest,Forests,F,4331
+Common Cuckoo,Cuculus canorus,Rare/Accidental,CUCULIFORMES: Cuculidae,Common Cuckoo,Cuculus canorus,Forest,Forests,F,4345
+Oriental Cuckoo,Cuculus optatus,,CUCULIFORMES: Cuculidae,Oriental Cuckoo,Cuculus optatus,Woodland,Open landscapes,F,4340
+Spotted Nightjar,Eurostopodus argus,,CAPRIMULGIFORMES: Caprimulgidae,Spotted Nightjar,Eurostopodus argus,Woodland,Open landscapes,F,1803
+White-throated Nightjar,Eurostopodus mystacalis,,CAPRIMULGIFORMES: Caprimulgidae,White-throated Nightjar,Eurostopodus mystacalis,Forest,Forests,F,1806
+Gray Nightjar,Caprimulgus jotaka,Rare/Accidental,CAPRIMULGIFORMES: Caprimulgidae,Grey Nightjar,Caprimulgus jotaka,Forest,Forests,F,2002
+Large-tailed Nightjar,Caprimulgus macrurus,,CAPRIMULGIFORMES: Caprimulgidae,Large-tailed Nightjar,Caprimulgus macrurus,Woodland,Open landscapes,F,2038
+Savanna Nightjar,Caprimulgus affinis,Rare/Accidental,CAPRIMULGIFORMES: Caprimulgidae,Savanna Nightjar,Caprimulgus affinis,Grassland,Open landscapes,F,2100
+Tawny Frogmouth,Podargus strigoides,Endemic,PODARGIFORMES: Podargidae,Tawny Frogmouth,Podargus strigoides,Forest,Forests,F,2175
+Marbled Frogmouth,Podargus ocellatus,,PODARGIFORMES: Podargidae,Marbled Frogmouth,Podargus ocellatus,Forest,Forests,F,2164
+Papuan Frogmouth,Podargus papuensis,,PODARGIFORMES: Podargidae,Papuan Frogmouth,Podargus papuensis,Savanna,Open landscapes,F,2171
+Australian Owlet-nightjar,Aegotheles cristatus,,AEGOTHELIFORMES: Aegothelidae,Australian Owlet-nightjar,Aegotheles cristatus,Woodland,Open landscapes,F,2237
+Papuan Spinetail,Mearnsia novaeguineae,Rare/Accidental,APODIFORMES: Apodidae,Papuan Spinetail,Mearnsia novaeguineae,Forest,Forests,F,2458
+White-throated Needletail,Hirundapus caudacutus,,APODIFORMES: Apodidae,White-throated Needletail,Hirundapus caudacutus,Woodland,Open landscapes,F,2480
+Christmas Island Swiftlet,Collocalia natalis,Endemic,APODIFORMES: Apodidae,Christmas Island Swiftlet,Collocalia natalis,Forest,Forests,F,2341
+Glossy Swiftlet,Collocalia esculenta,,APODIFORMES: Apodidae,Glossy Swiftlet,Collocalia esculenta,Forest,Forests,F,2313
+Australian Swiftlet,Aerodramus terraereginae,Endemic,APODIFORMES: Apodidae,Australian Swiftlet,Aerodramus terraereginae,Savanna,Open landscapes,F,2376
+Uniform Swiftlet,Aerodramus vanikorensis,Rare/Accidental,APODIFORMES: Apodidae,Uniform Swiftlet,Aerodramus vanikorensis,Forest,Forests,F,2400
+White-nest Swiftlet,Aerodramus fuciphagus,Rare/Accidental,APODIFORMES: Apodidae,Edible-nest Swiftlet,Aerodramus fuciphagus,Forest,Forests,F,2438
+Common Swift,Apus apus,Rare/Accidental,APODIFORMES: Apodidae,Common Swift,Apus apus,Plains,Open landscapes,F,2598
+Pacific Swift,Apus pacificus,,APODIFORMES: Apodidae,Pacific Swift,Apus pacificus,Forest,Forests,F,2628
+House Swift,Apus nipalensis,Rare/Accidental,APODIFORMES: Apodidae,House Swift,Apus nipalensis,Artificial,Artificial habitats,F,2647
+Corn Crake,Crex crex,Rare/Accidental,GRUIFORMES: Rallidae,Corncrake,Crex crex,Grassland,Open landscapes,F,5789
+Slaty-breasted Rail,Lewinia striata,Rare/Accidental,GRUIFORMES: Rallidae,Slaty-breasted Rail,Lewinia striata,Wetland,Wetlands and rivers,F,5791
+Lewin's Rail,Lewinia pectoralis,,GRUIFORMES: Rallidae,Lewin's Rail,Lewinia pectoralis,Wetland,Wetlands and rivers,F,5802
+Chestnut Rail,Gallirallus castaneoventris,,GRUIFORMES: Rallidae,Chestnut Rail,Eulabeornis castaneoventris,Coastal,Seas and coasts,F,5822
+Weka,Gallirallus australis,Extirpated Vulnerable,GRUIFORMES: Rallidae,Weka,Gallirallus australis,Forest,Forests,F,5816
+Lord Howe Rail,Gallirallus sylvestris,Endemic Endangered,GRUIFORMES: Rallidae,Lord Howe Woodhen,Hypotaenidia sylvestris,Forest,Forests,F,5871
+Buff-banded Rail,Gallirallus philippensis,,GRUIFORMES: Rallidae,Buff-banded Rail,Hypotaenidia philippensis,Wetland,Wetlands and rivers,F,5834
+Black-tailed Nativehen,Tribonyx ventralis,Endemic,GRUIFORMES: Rallidae,Black-tailed Native-hen,Tribonyx ventralis,Wetland,Wetlands and rivers,F,5885
+Tasmanian Nativehen,Tribonyx mortierii,Endemic,GRUIFORMES: Rallidae,Tasmanian Native-hen,Tribonyx mortierii,Wetland,Wetlands and rivers,F,5890
+Australian Crake,Porzana fluminea,Endemic,GRUIFORMES: Rallidae,Australian Crake,Porzana fluminea,Wetland,Wetlands and rivers,F,5882
+Lesser Moorhen,Paragallinula angulata,Rare/Accidental,GRUIFORMES: Rallidae,Lesser Moorhen,Paragallinula angulata,Wetland,Wetlands and rivers,F,5891
+Eurasian Moorhen,Gallinula chloropus,Rare/Accidental,GRUIFORMES: Rallidae,Common Moorhen,Gallinula chloropus,Wetland,Wetlands and rivers,F,5904
+Dusky Moorhen,Gallinula tenebrosa,,GRUIFORMES: Rallidae,Dusky Moorhen,Gallinula tenebrosa,Wetland,Wetlands and rivers,F,5892
+Eurasian Coot,Fulica atra,,GRUIFORMES: Rallidae,Eurasian Coot,Fulica atra,Wetland,Wetlands and rivers,F,5924
+Black-backed Swamphen,Porphyrio indicus,Rare/Accidental,GRUIFORMES: Rallidae,Black-backed Swamphen,Porphyrio indicus,Wetland,Wetlands and rivers,F,5955
+Australasian Swamphen,Porphyrio melanotus,,GRUIFORMES: Rallidae,Australasian Swamphen,Porphyrio melanotus,Wetland,Wetlands and rivers,F,5960
+Lord Howe Swamphen,Porphyrio albus,Endemic Extinct,GRUIFORMES: Rallidae,White Swamphen,Porphyrio albus,Forest,Forests,F,5975
+White-browed Crake,Poliolimnas cinereus,,GRUIFORMES: Rallidae,White-browed Crake,Amaurornis cinerea,Coastal,Seas and coasts,F,6105
+Watercock,Gallicrex cinerea,Rare/Accidental,GRUIFORMES: Rallidae,Watercock,Gallicrex cinerea,Wetland,Wetlands and rivers,F,6115
+White-breasted Waterhen,Amaurornis phoenicurus,,GRUIFORMES: Rallidae,White-breasted Waterhen,Amaurornis phoenicurus,Wetland,Wetlands and rivers,F,6116
+Pale-vented Bush-hen,Amaurornis moluccana,,GRUIFORMES: Rallidae,Pale-vented Bush-hen,Amaurornis moluccana,Wetland,Wetlands and rivers,F,6128
+Red-necked Crake,Rallina tricolor,,GRUIFORMES: Rallidae,Red-necked Crake,Rallina tricolor,Forest,Forests,F,6087
+Red-legged Crake,Rallina fasciata,Rare/Accidental,GRUIFORMES: Rallidae,Red-legged Crake,Rallina fasciata,Wetland,Wetlands and rivers,F,6086
+Ruddy-breasted Crake,Zapornia fusca,Rare/Accidental,GRUIFORMES: Rallidae,Ruddy-breasted Crake,Zapornia fusca,Wetland,Wetlands and rivers,F,6035
+Baillon's Crake,Zapornia pusilla,,GRUIFORMES: Rallidae,Baillon's Crake,Zapornia pusilla,Wetland,Wetlands and rivers,F,6046
+Spotless Crake,Zapornia tabuensis,,GRUIFORMES: Rallidae,Spotless Crake,Zapornia tabuensis,Wetland,Wetlands and rivers,F,6058
+Brolga,Antigone rubicunda,,GRUIFORMES: Gruidae,Brolga,Grus rubicunda,Wetland,Wetlands and rivers,F,6170
+Sarus Crane,Antigone antigone,Vulnerable,GRUIFORMES: Gruidae,Sarus Crane,Grus antigone,Wetland,Wetlands and rivers,F,6166
+Beach Thick-knee,Esacus magnirostris,Near-threatened,CHARADRIIFORMES: Burhinidae,Beach Thick-knee,Esacus magnirostris,Coastal,Seas and coasts,F,6358
+Bush Thick-knee,Burhinus grallarius,,CHARADRIIFORMES: Burhinidae,Bush Thick-knee,Burhinus grallarius,Woodland,Open landscapes,F,6369
+Pied Stilt,Himantopus leucocephalus,,CHARADRIIFORMES: Recurvirostridae,Pied Stilt,Himantopus leucocephalus,Wetland,Wetlands and rivers,F,6432
+Banded Stilt,Cladorhynchus leucocephalus,Endemic,CHARADRIIFORMES: Recurvirostridae,Banded Stilt,Cladorhynchus leucocephalus,Wetland,Wetlands and rivers,F,6441
+Red-necked Avocet,Recurvirostra novaehollandiae,Endemic,CHARADRIIFORMES: Recurvirostridae,Red-necked Avocet,Recurvirostra novaehollandiae,Wetland,Wetlands and rivers,F,6444
+Pied Oystercatcher,Haematopus longirostris,,CHARADRIIFORMES: Haematopodidae,Pied Oystercatcher,Haematopus longirostris,Coastal,Seas and coasts,F,6420
+South Island Oystercatcher,Haematopus finschi,Rare/Accidental,CHARADRIIFORMES: Haematopodidae,South Island Oystercatcher,Haematopus finschi,Wetland,Wetlands and rivers,F,6418
+Sooty Oystercatcher,Haematopus fuliginosus,Endemic,CHARADRIIFORMES: Haematopodidae,Sooty Oystercatcher,Haematopus fuliginosus,Coastal,Seas and coasts,F,6426
+Black-bellied Plover,Pluvialis squatarola,Vulnerable,CHARADRIIFORMES: Charadriidae,Grey Plover,Pluvialis squatarola,Grassland,Open landscapes,F,6446
+American Golden-Plover,Pluvialis dominica,Rare/Accidental,CHARADRIIFORMES: Charadriidae,American Golden Plover,Pluvialis dominica,Grassland,Open landscapes,F,6456
+Pacific Golden-Plover,Pluvialis fulva,,CHARADRIIFORMES: Charadriidae,Pacific Golden Plover,Pluvialis fulva,Grassland,Open landscapes,F,6454
+Common Ringed Plover,Charadrius hiaticula,Rare/Accidental,CHARADRIIFORMES: Charadriidae,Common Ringed Plover,Charadrius hiaticula,Coastal,Seas and coasts,F,6468
+Semipalmated Plover,Charadrius semipalmatus,Rare/Accidental,CHARADRIIFORMES: Charadriidae,Semipalmated Plover,Charadrius semipalmatus,Wetland,Wetlands and rivers,F,6472
+Hooded Plover,Thinornis cucullatus,Endemic Near-threatened,CHARADRIIFORMES: Charadriidae,Hooded Plover,Thinornis cucullatus,Coastal,Seas and coasts,F,6477
+Black-fronted Dotterel,Thinornis melanops,,CHARADRIIFORMES: Charadriidae,Black-fronted Dotterel,Elseyornis melanops,Wetland,Wetlands and rivers,F,6486
+Little Ringed Plover,Thinornis dubius,Rare/Accidental,CHARADRIIFORMES: Charadriidae,Little Ringed Plover,Charadrius dubius,Wetland,Wetlands and rivers,F,6490
+Gray-headed Lapwing,Vanellus cinereus,Rare/Accidental,CHARADRIIFORMES: Charadriidae,Grey-headed Lapwing,Vanellus cinereus,Wetland,Wetlands and rivers,F,6523
+Banded Lapwing,Vanellus tricolor,Endemic,CHARADRIIFORMES: Charadriidae,Banded Lapwing,Vanellus tricolor,Grassland,Open landscapes,F,6530
+Masked Lapwing,Vanellus miles,,CHARADRIIFORMES: Charadriidae,Masked Lapwing,Vanellus miles,Grassland,Open landscapes,F,6531
+Red-kneed Dotterel,Erythrogonys cinctus,,CHARADRIIFORMES: Charadriidae,Red-kneed Dotterel,Erythrogonys cinctus,Wetland,Wetlands and rivers,F,6544
+Inland Dotterel,Peltohyas australis,Endemic,CHARADRIIFORMES: Charadriidae,Inland Dotterel,Peltohyas australis,Plains,Open landscapes,F,6545
+Caspian Plover,Anarhynchus asiaticus,Rare/Accidental,CHARADRIIFORMES: Charadriidae,Caspian Plover,Charadrius asiaticus,Desert,Rocky and arid,F,6548
+Oriental Plover,Anarhynchus veredus,,CHARADRIIFORMES: Charadriidae,Oriental Plover,Charadrius veredus,Wetland,Wetlands and rivers,F,6549
+Siberian Sand-Plover,Anarhynchus mongolus,Endangered,CHARADRIIFORMES: Charadriidae,Siberian Sandplover,Charadrius mongolus,Plains,Open landscapes,F,6554
+Tibetan Sand-Plover,Anarhynchus atrifrons,Rare/Accidental,CHARADRIIFORMES: Charadriidae,Tibetan Sandplover,Charadrius atrifrons,Grassland,Open landscapes,F,6550
+Greater Sand-Plover,Anarhynchus leschenaultii,,CHARADRIIFORMES: Charadriidae,Greater Sandplover,Charadrius leschenaultii,Plains,Open landscapes,F,6557
+Double-banded Plover,Anarhynchus bicinctus,Near-threatened,CHARADRIIFORMES: Charadriidae,Double-banded Plover,Charadrius bicinctus,Riparian,Wetlands and rivers,F,6561
+Red-capped Plover,Anarhynchus ruficapillus,,CHARADRIIFORMES: Charadriidae,Red-capped Plover,Charadrius ruficapillus,Coastal,Seas and coasts,F,6584
+Javan Plover,Anarhynchus javanicus,Rare/Accidental,CHARADRIIFORMES: Charadriidae,Javan Plover,Charadrius javanicus,Coastal,Seas and coasts,F,6602
+Kentish Plover,Anarhynchus alexandrinus,Rare/Accidental,CHARADRIIFORMES: Charadriidae,Kentish Plover,Charadrius alexandrinus,Coastal,Seas and coasts,F,6603
+Plains-wanderer,Pedionomus torquatus,Endemic Endangered,CHARADRIIFORMES: Pedionomidae,Plains-wanderer,Pedionomus torquatus,Grassland,Open landscapes,F,6639
+Australian Painted-Snipe,Rostratula australis,Endemic Endangered,CHARADRIIFORMES: Rostratulidae,Australian Painted-snipe,Rostratula australis,Artificial,Artificial habitats,F,6616
+Pheasant-tailed Jacana,Hydrophasianus chirurgus,Rare/Accidental,CHARADRIIFORMES: Jacanidae,Pheasant-tailed Jacana,Hydrophasianus chirurgus,Wetland,Wetlands and rivers,F,6619
+Comb-crested Jacana,Irediparra gallinacea,,CHARADRIIFORMES: Jacanidae,Comb-crested Jacana,Irediparra gallinacea,Wetland,Wetlands and rivers,F,6632
+Upland Sandpiper,Bartramia longicauda,Rare/Accidental,CHARADRIIFORMES: Scolopacidae,Upland Sandpiper,Bartramia longicauda,Grassland,Open landscapes,F,6656
+Hudsonian Whimbrel,Numenius hudsonicus,Rare/Accidental,CHARADRIIFORMES: Scolopacidae,Hudsonian Whimbrel,Numenius hudsonicus,Coastal,Seas and coasts,E,6664
+Eurasian Whimbrel,Numenius phaeopus,,CHARADRIIFORMES: Scolopacidae,Eurasian Whimbrel,Numenius phaeopus,Grassland,Open landscapes,F,6658
+Little Curlew,Numenius minutus,,CHARADRIIFORMES: Scolopacidae,Little Curlew,Numenius minutus,Grassland,Open landscapes,F,6667
+Far Eastern Curlew,Numenius madagascariensis,Endangered,CHARADRIIFORMES: Scolopacidae,Far Eastern Curlew,Numenius madagascariensis,Wetland,Wetlands and rivers,F,6672
+Eurasian Curlew,Numenius arquata,Rare/Accidental Near-threatened,CHARADRIIFORMES: Scolopacidae,Eurasian Curlew,Numenius arquata,Wetland,Wetlands and rivers,F,6674
+Bar-tailed Godwit,Limosa lapponica,Near-threatened,CHARADRIIFORMES: Scolopacidae,Bar-tailed Godwit,Limosa lapponica,Grassland,Open landscapes,F,6678
+Black-tailed Godwit,Limosa limosa,Near-threatened,CHARADRIIFORMES: Scolopacidae,Black-tailed Godwit,Limosa limosa,Wetland,Wetlands and rivers,F,6685
+Hudsonian Godwit,Limosa haemastica,Rare/Accidental Vulnerable,CHARADRIIFORMES: Scolopacidae,Hudsonian Godwit,Limosa haemastica,Wetland,Wetlands and rivers,F,6690
+Asian Dowitcher,Limnodromus semipalmatus,Near-threatened,CHARADRIIFORMES: Scolopacidae,Asian Dowitcher,Limnodromus semipalmatus,Wetland,Wetlands and rivers,F,6694
+Short-billed Dowitcher,Limnodromus griseus,Rare/Accidental Vulnerable,CHARADRIIFORMES: Scolopacidae,Short-billed Dowitcher,Limnodromus griseus,Wetland,Wetlands and rivers,F,6697
+Long-billed Dowitcher,Limnodromus scolopaceus,Rare/Accidental Near-threatened,CHARADRIIFORMES: Scolopacidae,Long-billed Dowitcher,Limnodromus scolopaceus,Wetland,Wetlands and rivers,F,6695
+Swinhoe's Snipe,Gallinago megala,,CHARADRIIFORMES: Scolopacidae,Swinhoe's Snipe,Gallinago megala,Woodland,Open landscapes,F,6736
+Pin-tailed Snipe,Gallinago stenura,Rare/Accidental,CHARADRIIFORMES: Scolopacidae,Pin-tailed Snipe,Gallinago stenura,Wetland,Wetlands and rivers,F,6737
+Latham's Snipe,Gallinago hardwickii,Near-threatened,CHARADRIIFORMES: Scolopacidae,Latham's Snipe,Gallinago hardwickii,Artificial,Artificial habitats,F,6738
+Wilson's Phalarope,Phalaropus tricolor,Rare/Accidental,CHARADRIIFORMES: Scolopacidae,Wilson's Phalarope,Steganopus tricolor,Wetland,Wetlands and rivers,F,6760
+Red Phalarope,Phalaropus fulicarius,Rare/Accidental,CHARADRIIFORMES: Scolopacidae,Red Phalarope,Phalaropus fulicarius,Coastal,Seas and coasts,F,6761
+Red-necked Phalarope,Phalaropus lobatus,,CHARADRIIFORMES: Scolopacidae,Red-necked Phalarope,Phalaropus lobatus,Wetland,Wetlands and rivers,F,6762
+Terek Sandpiper,Xenus cinereus,,CHARADRIIFORMES: Scolopacidae,Terek Sandpiper,Xenus cinereus,Grassland,Open landscapes,F,6763
+Common Sandpiper,Actitis hypoleucos,,CHARADRIIFORMES: Scolopacidae,Common Sandpiper,Actitis hypoleucos,Wetland,Wetlands and rivers,F,6764
+Green Sandpiper,Tringa ochropus,Rare/Accidental,CHARADRIIFORMES: Scolopacidae,Green Sandpiper,Tringa ochropus,Wetland,Wetlands and rivers,F,6766
+Gray-tailed Tattler,Tringa brevipes,,CHARADRIIFORMES: Scolopacidae,Grey-tailed Tattler,Tringa brevipes,Riparian,Wetlands and rivers,F,6770
+Wandering Tattler,Tringa incana,,CHARADRIIFORMES: Scolopacidae,Wandering Tattler,Tringa incana,Riparian,Wetlands and rivers,F,6771
+Marsh Sandpiper,Tringa stagnatilis,,CHARADRIIFORMES: Scolopacidae,Marsh Sandpiper,Tringa stagnatilis,Wetland,Wetlands and rivers,F,6772
+Wood Sandpiper,Tringa glareola,,CHARADRIIFORMES: Scolopacidae,Wood Sandpiper,Tringa glareola,Wetland,Wetlands and rivers,F,6773
+Common Redshank,Tringa totanus,Rare/Accidental,CHARADRIIFORMES: Scolopacidae,Common Redshank,Tringa totanus,Coastal,Seas and coasts,F,6774
+Lesser Yellowlegs,Tringa flavipes,Rare/Accidental Vulnerable,CHARADRIIFORMES: Scolopacidae,Lesser Yellowlegs,Tringa flavipes,Wetland,Wetlands and rivers,F,6782
+Nordmann's Greenshank,Tringa guttifer,Rare/Accidental Endangered,CHARADRIIFORMES: Scolopacidae,Spotted Greenshank,Tringa guttifer,Wetland,Wetlands and rivers,F,6783
+Spotted Redshank,Tringa erythropus,Rare/Accidental,CHARADRIIFORMES: Scolopacidae,Spotted Redshank,Tringa erythropus,Grassland,Open landscapes,F,6788
+Common Greenshank,Tringa nebularia,,CHARADRIIFORMES: Scolopacidae,Common Greenshank,Tringa nebularia,Forest,Forests,F,6789
+Ruddy Turnstone,Arenaria interpres,Near-threatened,CHARADRIIFORMES: Scolopacidae,Ruddy Turnstone,Arenaria interpres,Coastal,Seas and coasts,F,6795
+Great Knot,Calidris tenuirostris,Endangered,CHARADRIIFORMES: Scolopacidae,Great Knot,Calidris tenuirostris,Grassland,Open landscapes,F,6799
+Red Knot,Calidris canutus,Near-threatened,CHARADRIIFORMES: Scolopacidae,Red Knot,Calidris canutus,Coastal,Seas and coasts,F,6800
+Ruff,Calidris pugnax,,CHARADRIIFORMES: Scolopacidae,Ruff,Calidris pugnax,Wetland,Wetlands and rivers,F,6808
+Broad-billed Sandpiper,Calidris falcinellus,Vulnerable,CHARADRIIFORMES: Scolopacidae,Broad-billed Sandpiper,Calidris falcinellus,Wetland,Wetlands and rivers,F,6809
+Sharp-tailed Sandpiper,Calidris acuminata,Vulnerable,CHARADRIIFORMES: Scolopacidae,Sharp-tailed Sandpiper,Calidris acuminata,Wetland,Wetlands and rivers,F,6812
+Curlew Sandpiper,Calidris ferruginea,Vulnerable,CHARADRIIFORMES: Scolopacidae,Curlew Sandpiper,Calidris ferruginea,Coastal,Seas and coasts,F,6814
+Stilt Sandpiper,Calidris himantopus,Rare/Accidental Near-threatened,CHARADRIIFORMES: Scolopacidae,Stilt Sandpiper,Calidris himantopus,Wetland,Wetlands and rivers,F,6813
+Temminck's Stint,Calidris temminckii,Rare/Accidental,CHARADRIIFORMES: Scolopacidae,Temminck's Stint,Calidris temminckii,Grassland,Open landscapes,F,6815
+Long-toed Stint,Calidris subminuta,,CHARADRIIFORMES: Scolopacidae,Long-toed Stint,Calidris subminuta,Wetland,Wetlands and rivers,F,6816
+Red-necked Stint,Calidris ruficollis,Near-threatened,CHARADRIIFORMES: Scolopacidae,Red-necked Stint,Calidris ruficollis,Grassland,Open landscapes,F,6817
+Buff-breasted Sandpiper,Calidris subruficollis,Rare/Accidental Vulnerable,CHARADRIIFORMES: Scolopacidae,Buff-breasted Sandpiper,Calidris subruficollis,Grassland,Open landscapes,F,6819
+Sanderling,Calidris alba,,CHARADRIIFORMES: Scolopacidae,Sanderling,Calidris alba,Coastal,Seas and coasts,F,6820
+Dunlin,Calidris alpina,Rare/Accidental Near-threatened,CHARADRIIFORMES: Scolopacidae,Dunlin,Calidris alpina,Wetland,Wetlands and rivers,F,6823
+Baird's Sandpiper,Calidris bairdii,Rare/Accidental,CHARADRIIFORMES: Scolopacidae,Baird's Sandpiper,Calidris bairdii,Grassland,Open landscapes,F,6841
+Little Stint,Calidris minuta,Rare/Accidental,CHARADRIIFORMES: Scolopacidae,Little Stint,Calidris minuta,Grassland,Open landscapes,F,6842
+White-rumped Sandpiper,Calidris fuscicollis,Rare/Accidental Vulnerable,CHARADRIIFORMES: Scolopacidae,White-rumped Sandpiper,Calidris fuscicollis,Wetland,Wetlands and rivers,F,6844
+Pectoral Sandpiper,Calidris melanotos,,CHARADRIIFORMES: Scolopacidae,Pectoral Sandpiper,Calidris melanotos,Wetland,Wetlands and rivers,F,6845
+Red-backed Buttonquail,Turnix maculosus,,CHARADRIIFORMES: Turnicidae,Red-backed Buttonquail,Turnix maculosus,Grassland,Open landscapes,F,6274
+Little Buttonquail,Turnix velox,Endemic,CHARADRIIFORMES: Turnicidae,Little Buttonquail,Turnix velox,Grassland,Open landscapes,F,6323
+Red-chested Buttonquail,Turnix pyrrhothorax,Endemic,CHARADRIIFORMES: Turnicidae,Red-chested Buttonquail,Turnix pyrrhothorax,Grassland,Open landscapes,F,6327
+Chestnut-backed Buttonquail,Turnix castanotus,Endemic,CHARADRIIFORMES: Turnicidae,Chestnut-backed Buttonquail,Turnix castanotus,Woodland,Open landscapes,F,6338
+Buff-breasted Buttonquail,Turnix olivii,Endemic Critically endangered,CHARADRIIFORMES: Turnicidae,Buff-breasted Buttonquail,Turnix olivii,Grassland,Open landscapes,F,6341
+Painted Buttonquail,Turnix varius,,CHARADRIIFORMES: Turnicidae,Painted Buttonquail,Turnix varius,Shrub,Open landscapes,F,6343
+Black-breasted Buttonquail,Turnix melanogaster,Endemic Vulnerable,CHARADRIIFORMES: Turnicidae,Black-breasted Buttonquail,Turnix melanogaster,Forest,Forests,F,6348
+Australian Pratincole,Glareola isabella,Breeding endemic,CHARADRIIFORMES: Glareolidae,Australian Pratincole,Stiltia isabella,Grassland,Open landscapes,F,6888
+Collared Pratincole,Glareola pratincola,Rare/Accidental,CHARADRIIFORMES: Glareolidae,Collared Pratincole,Glareola pratincola,Grassland,Open landscapes,F,6898
+Oriental Pratincole,Glareola maldivarum,,CHARADRIIFORMES: Glareolidae,Oriental Pratincole,Glareola maldivarum,Grassland,Open landscapes,F,6896
+Long-tailed Jaeger,Stercorarius longicaudus,Rare/Accidental,CHARADRIIFORMES: Stercorariidae,Long-tailed Jaeger,Stercorarius longicaudus,Sea,Seas and coasts,F,7193
+Parasitic Jaeger,Stercorarius parasiticus,,CHARADRIIFORMES: Stercorariidae,Arctic Jaeger,Stercorarius parasiticus,Sea,Seas and coasts,F,7196
+Pomarine Jaeger,Stercorarius pomarinus,,CHARADRIIFORMES: Stercorariidae,Pomarine Jaeger,Stercorarius pomarinus,Coastal,Seas and coasts,F,7197
+Brown Skua,Stercorarius antarcticus,,CHARADRIIFORMES: Stercorariidae,Brown Skua,Catharacta antarctica,Sea,Seas and coasts,F,7202
+South Polar Skua,Stercorarius maccormicki,Rare/Accidental,CHARADRIIFORMES: Stercorariidae,South Polar Skua,Catharacta maccormicki,Sea,Seas and coasts,F,7209
+Sabine's Gull,Xema sabini,Rare/Accidental,CHARADRIIFORMES: Laridae,Sabine's Gull,Xema sabini,Coastal,Seas and coasts,F,7086
+Silver Gull,Chroicocephalus novaehollandiae,,CHARADRIIFORMES: Laridae,Silver Gull,Larus novaehollandiae,Coastal,Seas and coasts,F,7094
+Black-headed Gull,Chroicocephalus ridibundus,Rare/Accidental,CHARADRIIFORMES: Laridae,Black-headed Gull,Larus ridibundus,Wetland,Wetlands and rivers,F,7103
+Laughing Gull,Leucophaeus atricilla,Rare/Accidental,CHARADRIIFORMES: Laridae,Laughing Gull,Larus atricilla,Coastal,Seas and coasts,F,7113
+Franklin's Gull,Leucophaeus pipixcan,Rare/Accidental,CHARADRIIFORMES: Laridae,Franklin's Gull,Larus pipixcan,Coastal,Seas and coasts,F,7116
+Pacific Gull,Larus pacificus,Endemic,CHARADRIIFORMES: Laridae,Pacific Gull,Larus pacificus,Coastal,Seas and coasts,F,7126
+Black-tailed Gull,Larus crassirostris,Rare/Accidental,CHARADRIIFORMES: Laridae,Black-tailed Gull,Larus crassirostris,Coastal,Seas and coasts,F,7130
+Common Gull,Larus canus,Rare/Accidental,CHARADRIIFORMES: Laridae,Common Gull,Larus canus,Coastal,Seas and coasts,F,7133
+Kelp Gull,Larus dominicanus,,CHARADRIIFORMES: Laridae,Kelp Gull,Larus dominicanus,Coastal,Seas and coasts,F,7147
+Lesser Black-backed Gull,Larus fuscus,Rare/Accidental,CHARADRIIFORMES: Laridae,Lesser Black-backed Gull,Larus fuscus,Coastal,Seas and coasts,F,7173
+Slaty-backed Gull,Larus schistisagus,Rare/Accidental,CHARADRIIFORMES: Laridae,Slaty-backed Gull,Larus schistisagus,Coastal,Seas and coasts,F,7187
+Blue-billed White-Tern,Gygis candida,,CHARADRIIFORMES: Laridae,Common White Tern,Gygis candida,Sea,Seas and coasts,G,6914
+Brown Noddy,Anous stolidus,,CHARADRIIFORMES: Laridae,Brown Noddy,Anous stolidus,Sea,Seas and coasts,F,6922
+Lesser Noddy,Anous tenuirostris,,CHARADRIIFORMES: Laridae,Lesser Noddy,Anous tenuirostris,Sea,Seas and coasts,F,6928
+Black Noddy,Anous minutus,,CHARADRIIFORMES: Laridae,Black Noddy,Anous minutus,Coastal,Seas and coasts,F,6931
+Gray Noddy,Anous albivitta,,CHARADRIIFORMES: Laridae,Grey Noddy,Anous albivittus,Coastal,Seas and coasts,F,6939
+Blue-gray Noddy,Anous ceruleus,,CHARADRIIFORMES: Laridae,Blue Noddy,Anous ceruleus,Coastal,Seas and coasts,F,6943
+Aleutian Tern,Onychoprion aleuticus,Rare/Accidental Vulnerable,CHARADRIIFORMES: Laridae,Aleutian Tern,Onychoprion aleuticus,Coastal,Seas and coasts,F,6949
+Sooty Tern,Onychoprion fuscatus,,CHARADRIIFORMES: Laridae,Sooty Tern,Onychoprion fuscatus,Sea,Seas and coasts,F,6950
+Bridled Tern,Onychoprion anaethetus,,CHARADRIIFORMES: Laridae,Bridled Tern,Onychoprion anaethetus,Coastal,Seas and coasts,F,6959
+Little Tern,Sternula albifrons,,CHARADRIIFORMES: Laridae,Little Tern,Sternula albifrons,Coastal,Seas and coasts,F,6967
+Saunders's Tern,Sternula saundersi,Rare/Accidental,CHARADRIIFORMES: Laridae,Saunders's Tern,Sternula saundersi,Coastal,Seas and coasts,F,6974
+Australian Fairy Tern,Sternula nereis,Vulnerable,CHARADRIIFORMES: Laridae,Fairy Tern,Sternula nereis,Coastal,Seas and coasts,F,6982
+Gull-billed Tern,Gelochelidon nilotica,,CHARADRIIFORMES: Laridae,Common Gull-billed Tern,Gelochelidon nilotica,Coastal,Seas and coasts,F,6991
+Australian Tern,Gelochelidon macrotarsa,,CHARADRIIFORMES: Laridae,Australian Gull-billed Tern,Gelochelidon macrotarsa,Coastal,Seas and coasts,F,6998
+Caspian Tern,Hydroprogne caspia,,CHARADRIIFORMES: Laridae,Caspian Tern,Hydroprogne caspia,Coastal,Seas and coasts,F,7000
+Whiskered Tern,Chlidonias hybrida,,CHARADRIIFORMES: Laridae,Whiskered Tern,Chlidonias hybrida,Wetland,Wetlands and rivers,F,7004
+Black-fronted Tern,Chlidonias albostriatus,Rare/Accidental Endangered,CHARADRIIFORMES: Laridae,Black-fronted Tern,Chlidonias albostriatus,Riparian,Wetlands and rivers,F,7013
+Black Tern,Chlidonias niger,Rare/Accidental,CHARADRIIFORMES: Laridae,Black Tern,Chlidonias niger,Wetland,Wetlands and rivers,F,7014
+White-winged Tern,Chlidonias leucopterus,,CHARADRIIFORMES: Laridae,White-winged Tern,Chlidonias leucopterus,Wetland,Wetlands and rivers,F,7017
+Arctic Tern,Sterna paradisaea,Rare/Accidental,CHARADRIIFORMES: Laridae,Arctic Tern,Sterna paradisaea,Coastal,Seas and coasts,F,7021
+Antarctic Tern,Sterna vittata,Rare/Accidental,CHARADRIIFORMES: Laridae,Antarctic Tern,Sterna vittata,Rocky,Rocky and arid,F,7023
+Common Tern,Sterna hirundo,,CHARADRIIFORMES: Laridae,Common Tern,Sterna hirundo,Coastal,Seas and coasts,F,7034
+Black-naped Tern,Sterna sumatrana,,CHARADRIIFORMES: Laridae,Black-naped Tern,Sterna sumatrana,Coastal,Seas and coasts,F,7040
+Roseate Tern,Sterna dougallii,,CHARADRIIFORMES: Laridae,Roseate Tern,Sterna dougallii,Coastal,Seas and coasts,F,7043
+White-fronted Tern,Sterna striata,Near-threatened,CHARADRIIFORMES: Laridae,White-fronted Tern,Sterna striata,Coastal,Seas and coasts,F,7049
+Lesser Crested Tern,Thalasseus bengalensis,,CHARADRIIFORMES: Laridae,Lesser Crested Tern,Thalasseus bengalensis,Coastal,Seas and coasts,F,7061
+Great Crested Tern,Thalasseus bergii,,CHARADRIIFORMES: Laridae,Greater Crested Tern,Thalasseus bergii,Coastal,Seas and coasts,F,7070
+Greater Flamingo,Phoenicopterus roseus,Rare/Accidental,PHOENICOPTERIFORMES: Phoenicopteridae,Greater Flamingo,Phoenicopterus roseus,Wetland,Wetlands and rivers,F,6262
+Little Grebe,Tachybaptus ruficollis,Rare/Accidental,PODICIPEDIFORMES: Podicipedidae,Little Grebe,Tachybaptus ruficollis,Wetland,Wetlands and rivers,F,6191
+Australasian Grebe,Tachybaptus novaehollandiae,,PODICIPEDIFORMES: Podicipedidae,Australasian Grebe,Tachybaptus novaehollandiae,Wetland,Wetlands and rivers,F,6203
+Hoary-headed Grebe,Poliocephalus poliocephalus,Endemic,PODICIPEDIFORMES: Podicipedidae,Hoary-headed Grebe,Poliocephalus poliocephalus,Wetland,Wetlands and rivers,F,6228
+Great Crested Grebe,Podiceps cristatus,,PODICIPEDIFORMES: Podicipedidae,Great Crested Grebe,Podiceps cristatus,Wetland,Wetlands and rivers,F,6236
+White-tailed Tropicbird,Phaethon lepturus,,PHAETHONTIFORMES: Phaethontidae,White-tailed Tropicbird,Phaethon lepturus,Sea,Seas and coasts,F,7286
+Red-billed Tropicbird,Phaethon aethereus,Rare/Accidental,PHAETHONTIFORMES: Phaethontidae,Red-billed Tropicbird,Phaethon aethereus,Sea,Seas and coasts,F,7277
+Red-tailed Tropicbird,Phaethon rubricauda,,PHAETHONTIFORMES: Phaethontidae,Red-tailed Tropicbird,Phaethon rubricauda,Sea,Seas and coasts,F,7281
+King Penguin,Aptenodytes patagonicus,Rare/Accidental,SPHENISCIFORMES: Spheniscidae,King Penguin,Aptenodytes patagonicus,Sea,Seas and coasts,F,7301
+Emperor Penguin,Aptenodytes forsteri,Rare/Accidental Near-threatened,SPHENISCIFORMES: Spheniscidae,Emperor Penguin,Aptenodytes forsteri,Sea,Seas and coasts,F,7304
+Adelie Penguin,Pygoscelis adeliae,Rare/Accidental,SPHENISCIFORMES: Spheniscidae,Adelie Penguin,Pygoscelis adeliae,Sea,Seas and coasts,F,7305
+Gentoo Penguin,Pygoscelis papua,Rare/Accidental,SPHENISCIFORMES: Spheniscidae,Gentoo Penguin,Pygoscelis papua,Sea,Seas and coasts,F,7307
+Chinstrap Penguin,Pygoscelis antarcticus,Rare/Accidental,SPHENISCIFORMES: Spheniscidae,Chinstrap Penguin,Pygoscelis antarcticus,Sea,Seas and coasts,F,7306
+Little Penguin,Eudyptula minor,,SPHENISCIFORMES: Spheniscidae,Little Penguin,Eudyptula minor,Sea,Seas and coasts,F,7312
+Magellanic Penguin,Spheniscus magellanicus,Rare/Accidental,SPHENISCIFORMES: Spheniscidae,Magellanic Penguin,Spheniscus magellanicus,Sea,Seas and coasts,F,7322
+Fiordland Penguin,Eudyptes pachyrhynchus,Rare/Accidental Near-threatened,SPHENISCIFORMES: Spheniscidae,Fiordland Penguin,Eudyptes pachyrhynchus,Sea,Seas and coasts,F,7335
+Erect-crested Penguin,Eudyptes sclateri,Rare/Accidental Endangered,SPHENISCIFORMES: Spheniscidae,Erect-crested Penguin,Eudyptes sclateri,Sea,Seas and coasts,F,7339
+Macaroni Penguin,Eudyptes chrysolophus,Vulnerable,SPHENISCIFORMES: Spheniscidae,Macaroni Penguin,Eudyptes chrysolophus,Sea,Seas and coasts,F,7325
+Royal Penguin,Eudyptes schlegeli,Breeding endemic,SPHENISCIFORMES: Spheniscidae,Royal Penguin,Eudyptes schlegeli,Sea,Seas and coasts,F,7327
+Western Rockhopper Penguin,Eudyptes chrysocome,Rare/Accidental,SPHENISCIFORMES: Spheniscidae,Southern Rockhopper Penguin,Eudyptes chrysocome,Sea,Seas and coasts,F,7333
+Eastern Rockhopper Penguin,Eudyptes filholi,Rare/Accidental,SPHENISCIFORMES: Spheniscidae,Eastern Rockhopper Penguin,Eudyptes filholi,Sea,Seas and coasts,E,7331
+Moseley's Rockhopper Penguin,Eudyptes moseleyi,Rare/Accidental Endangered,SPHENISCIFORMES: Spheniscidae,Northern Rockhopper Penguin,Eudyptes moseleyi,Sea,Seas and coasts,F,7329
+Snares Penguin,Eudyptes robustus,Rare/Accidental Vulnerable,SPHENISCIFORMES: Spheniscidae,Snares Penguin,Eudyptes robustus,Sea,Seas and coasts,F,7337
+Northern Royal Albatross,Diomedea sanfordi,Endangered,PROCELLARIIFORMES: Diomedeidae,Northern Royal Albatross,Diomedea sanfordi,Sea,Seas and coasts,F,7373
+Southern Royal Albatross,Diomedea epomophora,Vulnerable,PROCELLARIIFORMES: Diomedeidae,Southern Royal Albatross,Diomedea epomophora,Sea,Seas and coasts,F,7375
+Snowy Albatross,Diomedea exulans,Vulnerable,PROCELLARIIFORMES: Diomedeidae,Snowy Albatross,Diomedea exulans,Sea,Seas and coasts,F,7377
+Tristan Albatross,Diomedea dabbenena,Rare/Accidental Critically endangered,PROCELLARIIFORMES: Diomedeidae,Tristan Albatross,Diomedea dabbenena,Sea,Seas and coasts,F,7380
+Antipodean Albatross,Diomedea antipodensis,Endangered,PROCELLARIIFORMES: Diomedeidae,Antipodean Albatross,Diomedea antipodensis,Sea,Seas and coasts,F,7382
+Amsterdam Albatross,Diomedea amsterdamensis,Rare/Accidental Endangered,PROCELLARIIFORMES: Diomedeidae,Amsterdam Albatross,Diomedea amsterdamensis,Sea,Seas and coasts,F,7385
+Laysan Albatross,Phoebastria immutabilis,Rare/Accidental Near-threatened,PROCELLARIIFORMES: Diomedeidae,Laysan Albatross,Phoebastria immutabilis,Sea,Seas and coasts,F,7388
+Sooty Albatross,Phoebetria fusca,Endangered,PROCELLARIIFORMES: Diomedeidae,Sooty Albatross,Phoebetria fusca,Sea,Seas and coasts,F,7391
+Light-mantled Albatross,Phoebetria palpebrata,Near-threatened,PROCELLARIIFORMES: Diomedeidae,Light-mantled Albatross,Phoebetria palpebrata,Sea,Seas and coasts,F,7392
+Atlantic Yellow-nosed Albatross,Thalassarche chlororhynchos,Rare/Accidental Endangered,PROCELLARIIFORMES: Diomedeidae,Atlantic Yellow-nosed Albatross,Thalassarche chlororhynchos,Sea,Seas and coasts,F,7393
+Indian Yellow-nosed Albatross,Thalassarche carteri,Endangered,PROCELLARIIFORMES: Diomedeidae,Indian Yellow-nosed Albatross,Thalassarche carteri,Sea,Seas and coasts,F,7395
+Gray-headed Albatross,Thalassarche chrysostoma,Endangered,PROCELLARIIFORMES: Diomedeidae,Grey-headed Albatross,Thalassarche chrysostoma,Sea,Seas and coasts,F,7397
+Buller's Albatross,Thalassarche bulleri,Near-threatened,PROCELLARIIFORMES: Diomedeidae,Buller's Albatross,Thalassarche bulleri,Sea,Seas and coasts,F,7398
+White-capped Albatross,Thalassarche cauta,,PROCELLARIIFORMES: Diomedeidae,Shy Albatross,Thalassarche cauta,Sea,Seas and coasts,F,7402
+Salvin's Albatross,Thalassarche salvini,Rare/Accidental Vulnerable,PROCELLARIIFORMES: Diomedeidae,Salvin's Albatross,Thalassarche salvini,Sea,Seas and coasts,F,7406
+Chatham Albatross,Thalassarche eremita,Rare/Accidental Vulnerable,PROCELLARIIFORMES: Diomedeidae,Chatham Albatross,Thalassarche eremita,Sea,Seas and coasts,F,7408
+Black-browed Albatross,Thalassarche melanophris,,PROCELLARIIFORMES: Diomedeidae,Black-browed Albatross,Thalassarche melanophris,Sea,Seas and coasts,F,7410
+Wilson's Storm-Petrel,Oceanites oceanicus,,PROCELLARIIFORMES: Oceanitidae,Wilson's Storm-petrel,Oceanites oceanicus,Sea,Seas and coasts,F,7340
+Gray-backed Storm-Petrel,Garrodia nereis,,PROCELLARIIFORMES: Oceanitidae,Grey-backed Storm-petrel,Garrodia nereis,Sea,Seas and coasts,F,7350
+White-faced Storm-Petrel,Pelagodroma marina,,PROCELLARIIFORMES: Oceanitidae,White-faced Storm-petrel,Pelagodroma marina,Sea,Seas and coasts,F,7351
+White-bellied Storm-Petrel,Fregetta grallaria,,PROCELLARIIFORMES: Oceanitidae,White-bellied Storm-petrel,Fregetta grallaria,Sea,Seas and coasts,F,7358
+New Zealand Storm-Petrel,Fregetta maoriana,Rare/Accidental Critically endangered (possibly extinct),PROCELLARIIFORMES: Oceanitidae,New Zealand Storm-petrel,Fregetta maoriana,Sea,Seas and coasts,F,7371
+New Caledonian Storm-Petrel,Fregetta lineata,Rare/Accidental Data deficient,PROCELLARIIFORMES: Oceanitidae,New Caledonian Storm-petrel,Fregetta lineata,Sea,Seas and coasts,F,7370
+Black-bellied Storm-Petrel,Fregetta tropica,,PROCELLARIIFORMES: Oceanitidae,Black-bellied Storm-petrel,Fregetta tropica,Sea,Seas and coasts,F,7367
+Polynesian Storm-Petrel,Nesofregetta fuliginosa,Rare/Accidental Endangered,PROCELLARIIFORMES: Oceanitidae,Polynesian Storm-petrel,Nesofregetta fuliginosa,Sea,Seas and coasts,F,7372
+Leach's Storm-Petrel,Hydrobates leucorhous,Rare/Accidental Vulnerable,PROCELLARIIFORMES: Hydrobatidae,Leach's Storm-petrel,Hydrobates leucorhous,Sea,Seas and coasts,F,7423
+Swinhoe's Storm-Petrel,Hydrobates monorhis,Rare/Accidental Near-threatened,PROCELLARIIFORMES: Hydrobatidae,Swinhoe's Storm-petrel,Hydrobates monorhis,Sea,Seas and coasts,F,7421
+Band-rumped Storm-Petrel,Hydrobates castro,Rare/Accidental,PROCELLARIIFORMES: Hydrobatidae,Band-rumped Storm-petrel,Hydrobates castro,Sea,Seas and coasts,F,7432
+Matsudaira's Storm-Petrel,Hydrobates matsudairae,Vulnerable,PROCELLARIIFORMES: Hydrobatidae,Matsudaira's Storm-petrel,Hydrobates matsudairae,Sea,Seas and coasts,F,7422
+Tristram's Storm-Petrel,Hydrobates tristrami,Rare/Accidental,PROCELLARIIFORMES: Hydrobatidae,Tristram's Storm-petrel,Hydrobates tristrami,Sea,Seas and coasts,F,7442
+Southern Giant-Petrel,Macronectes giganteus,,PROCELLARIIFORMES: Procellariidae,Southern Giant Petrel,Macronectes giganteus,Sea,Seas and coasts,F,7444
+Northern Giant-Petrel,Macronectes halli,,PROCELLARIIFORMES: Procellariidae,Northern Giant Petrel,Macronectes halli,Sea,Seas and coasts,F,7445
+Southern Fulmar,Fulmarus glacialoides,Rare/Accidental,PROCELLARIIFORMES: Procellariidae,Southern Fulmar,Fulmarus glacialoides,Sea,Seas and coasts,F,7451
+Antarctic Petrel,Thalassoica antarctica,Rare/Accidental,PROCELLARIIFORMES: Procellariidae,Antarctic Petrel,Thalassoica antarctica,Sea,Seas and coasts,F,7452
+Pintado Petrel,Daption capense,,PROCELLARIIFORMES: Procellariidae,Cape Petrel,Daption capense,Sea,Seas and coasts,F,7453
+Snow Petrel,Pagodroma nivea,Rare/Accidental,PROCELLARIIFORMES: Procellariidae,Snow Petrel,Pagodroma nivea,Sea,Seas and coasts,F,7456
+Kerguelen Petrel,Aphrodroma brevirostris,,PROCELLARIIFORMES: Procellariidae,Kerguelen Petrel,Aphrodroma brevirostris,Sea,Seas and coasts,F,7478
+Great-winged Petrel,Pterodroma macroptera,,PROCELLARIIFORMES: Procellariidae,Great-winged Petrel,Pterodroma macroptera,Sea,Seas and coasts,F,7479
+Gray-faced Petrel,Pterodroma gouldi,Rare/Accidental,PROCELLARIIFORMES: Procellariidae,Grey-faced Petrel,Pterodroma gouldi,Sea,Seas and coasts,F,7482
+Kermadec Petrel,Pterodroma neglecta,,PROCELLARIIFORMES: Procellariidae,Kermadec Petrel,Pterodroma neglecta,Sea,Seas and coasts,F,7506
+Trindade Petrel,Pterodroma arminjoniana,Rare/Accidental Vulnerable,PROCELLARIIFORMES: Procellariidae,Trindade Petrel,Pterodroma arminjoniana,Sea,Seas and coasts,F,7511
+Herald Petrel,Pterodroma heraldica,,PROCELLARIIFORMES: Procellariidae,Herald Petrel,Pterodroma heraldica,Sea,Seas and coasts,F,7509
+Providence Petrel,Pterodroma solandri,,PROCELLARIIFORMES: Procellariidae,Providence Petrel,Pterodroma solandri,Sea,Seas and coasts,F,7485
+Soft-plumaged Petrel,Pterodroma mollis,,PROCELLARIIFORMES: Procellariidae,Soft-plumaged Petrel,Pterodroma mollis,Sea,Seas and coasts,F,7488
+Barau's Petrel,Pterodroma baraui,Rare/Accidental Endangered,PROCELLARIIFORMES: Procellariidae,Barau's Petrel,Pterodroma baraui,Sea,Seas and coasts,F,7515
+White-headed Petrel,Pterodroma lessonii,,PROCELLARIIFORMES: Procellariidae,White-headed Petrel,Pterodroma lessonii,Sea,Seas and coasts,F,7481
+Mottled Petrel,Pterodroma inexpectata,Near-threatened,PROCELLARIIFORMES: Procellariidae,Mottled Petrel,Pterodroma inexpectata,Sea,Seas and coasts,F,7520
+Juan Fernandez Petrel,Pterodroma externa,Rare/Accidental Vulnerable,PROCELLARIIFORMES: Procellariidae,Juan Fernandez Petrel,Pterodroma externa,Sea,Seas and coasts,F,7502
+Atlantic Petrel,Pterodroma incerta,Rare/Accidental Endangered,PROCELLARIIFORMES: Procellariidae,Atlantic Petrel,Pterodroma incerta,Sea,Seas and coasts,F,7484
+White-necked Petrel,Pterodroma cervicalis,,PROCELLARIIFORMES: Procellariidae,White-necked Petrel,Pterodroma cervicalis,Sea,Seas and coasts,F,7521
+Black-winged Petrel,Pterodroma nigripennis,,PROCELLARIIFORMES: Procellariidae,Black-winged Petrel,Pterodroma nigripennis,Sea,Seas and coasts,F,7523
+Cook's Petrel,Pterodroma cookii,Rare/Accidental Vulnerable,PROCELLARIIFORMES: Procellariidae,Cook's Petrel,Pterodroma cookii,Sea,Seas and coasts,F,7532
+Gould's Petrel,Pterodroma leucoptera,Vulnerable,PROCELLARIIFORMES: Procellariidae,White-winged Petrel,Pterodroma leucoptera,Sea,Seas and coasts,F,7526
+Collared Petrel,Pterodroma brevipes,Rare/Accidental Vulnerable,PROCELLARIIFORMES: Procellariidae,Collared Petrel,Pterodroma brevipes,Sea,Seas and coasts,F,7529
+Stejneger's Petrel,Pterodroma longirostris,Rare/Accidental Vulnerable,PROCELLARIIFORMES: Procellariidae,Stejneger's Petrel,Pterodroma longirostris,Sea,Seas and coasts,F,7534
+Pycroft's Petrel,Pterodroma pycrofti,Rare/Accidental Vulnerable,PROCELLARIIFORMES: Procellariidae,Pycroft's Petrel,Pterodroma pycrofti,Sea,Seas and coasts,F,7536
+Phoenix Petrel,Pterodroma alba,Rare/Accidental Vulnerable,PROCELLARIIFORMES: Procellariidae,Phoenix Petrel,Pterodroma alba,Sea,Seas and coasts,F,7514
+Vanuatu Petrel,Pterodroma occulta,Rare/Accidental,PROCELLARIIFORMES: Procellariidae,Vanuatu petrel,Pterodroma occulta,Sea,Seas and coasts,F,7504
+Blue Petrel,Halobaena caerulea,,PROCELLARIIFORMES: Procellariidae,Blue Petrel,Halobaena caerulea,Sea,Seas and coasts,F,7459
+Fairy Prion,Pachyptila turtur,,PROCELLARIIFORMES: Procellariidae,Fairy Prion,Pachyptila turtur,Sea,Seas and coasts,F,7471
+Broad-billed Prion,Pachyptila vittata,Rare/Accidental,PROCELLARIIFORMES: Procellariidae,Broad-billed Prion,Pachyptila vittata,Sea,Seas and coasts,F,7460
+Salvin's Prion,Pachyptila salvini,,PROCELLARIIFORMES: Procellariidae,Salvin's Prion,Pachyptila salvini,Sea,Seas and coasts,F,7462
+MacGillivray's Prion,Pachyptila macgillivrayi,Rare/Accidental Critically endangered,PROCELLARIIFORMES: Procellariidae,MacGillivray's Prion,Pachyptila macgillivrayi,Sea,Seas and coasts,F,7464
+Antarctic Prion,Pachyptila desolata,,PROCELLARIIFORMES: Procellariidae,Antarctic Prion,Pachyptila desolata,Sea,Seas and coasts,F,7466
+Slender-billed Prion,Pachyptila belcheri,,PROCELLARIIFORMES: Procellariidae,Slender-billed Prion,Pachyptila belcheri,Sea,Seas and coasts,F,7470
+Fulmar Prion,Pachyptila crassirostris,Rare/Accidental,PROCELLARIIFORMES: Procellariidae,Fulmar Prion,Pachyptila crassirostris,Sea,Seas and coasts,F,7474
+Bulwer's Petrel,Bulweria bulwerii,Rare/Accidental,PROCELLARIIFORMES: Procellariidae,Bulwer's Petrel,Bulweria bulwerii,Sea,Seas and coasts,F,7633
+Jouanin's Petrel,Bulweria fallax,Rare/Accidental Near-threatened,PROCELLARIIFORMES: Procellariidae,Jouanin's Petrel,Bulweria fallax,Sea,Seas and coasts,F,7635
+Tahiti Petrel,Pseudobulweria rostrata,Rare/Accidental Near-threatened,PROCELLARIIFORMES: Procellariidae,Tahiti Petrel,Pseudobulweria rostrata,Sea,Seas and coasts,F,7541
+Gray Petrel,Procellaria cinerea,Near-threatened,PROCELLARIIFORMES: Procellariidae,Grey Petrel,Procellaria cinerea,Sea,Seas and coasts,F,7547
+White-chinned Petrel,Procellaria aequinoctialis,Vulnerable,PROCELLARIIFORMES: Procellariidae,White-chinned Petrel,Procellaria aequinoctialis,Sea,Seas and coasts,F,7548
+Parkinson's Petrel,Procellaria parkinsoni,Vulnerable,PROCELLARIIFORMES: Procellariidae,Black Petrel,Procellaria parkinsoni,Sea,Seas and coasts,F,7553
+Westland Petrel,Procellaria westlandica,Rare/Accidental Endangered,PROCELLARIIFORMES: Procellariidae,Westland Petrel,Procellaria westlandica,Sea,Seas and coasts,F,7554
+Streaked Shearwater,Calonectris leucomelas,Near-threatened,PROCELLARIIFORMES: Procellariidae,Streaked Shearwater,Calonectris leucomelas,Sea,Seas and coasts,F,7555
+Cory's Shearwater,Calonectris borealis,Rare/Accidental,PROCELLARIIFORMES: Procellariidae,Cory's Shearwater,Calonectris borealis,Sea,Seas and coasts,F,7556
+Pink-footed Shearwater,Ardenna creatopus,Rare/Accidental Vulnerable,PROCELLARIIFORMES: Procellariidae,Pink-footed Shearwater,Ardenna creatopus,Sea,Seas and coasts,F,7568
+Flesh-footed Shearwater,Ardenna carneipes,Near-threatened,PROCELLARIIFORMES: Procellariidae,Flesh-footed Shearwater,Ardenna carneipes,Sea,Seas and coasts,F,7569
+Great Shearwater,Ardenna gravis,Rare/Accidental,PROCELLARIIFORMES: Procellariidae,Great Shearwater,Ardenna gravis,Sea,Seas and coasts,F,7570
+Wedge-tailed Shearwater,Ardenna pacifica,,PROCELLARIIFORMES: Procellariidae,Wedge-tailed Shearwater,Ardenna pacifica,Sea,Seas and coasts,F,7562
+Buller's Shearwater,Ardenna bulleri,Vulnerable,PROCELLARIIFORMES: Procellariidae,Buller's Shearwater,Ardenna bulleri,Sea,Seas and coasts,F,7565
+Sooty Shearwater,Ardenna grisea,Near-threatened,PROCELLARIIFORMES: Procellariidae,Sooty Shearwater,Ardenna grisea,Sea,Seas and coasts,F,7566
+Short-tailed Shearwater,Ardenna tenuirostris,,PROCELLARIIFORMES: Procellariidae,Short-tailed Shearwater,Ardenna tenuirostris,Sea,Seas and coasts,F,7567
+Manx Shearwater,Puffinus puffinus,Rare/Accidental,PROCELLARIIFORMES: Procellariidae,Manx Shearwater,Puffinus puffinus,Sea,Seas and coasts,F,7572
+Hutton's Shearwater,Puffinus huttoni,Endangered,PROCELLARIIFORMES: Procellariidae,Hutton's Shearwater,Puffinus huttoni,Sea,Seas and coasts,F,7589
+Newell's Shearwater,Puffinus newelli,Rare/Accidental Critically endangered,PROCELLARIIFORMES: Procellariidae,Newell's Shearwater,Puffinus newelli,Sea,Seas and coasts,F,7584
+Fluttering Shearwater,Puffinus gavia,,PROCELLARIIFORMES: Procellariidae,Fluttering Shearwater,Puffinus gavia,Sea,Seas and coasts,F,7588
+Little Shearwater,Puffinus assimilis,,PROCELLARIIFORMES: Procellariidae,Little Shearwater,Puffinus assimilis,Sea,Seas and coasts,F,7609
+Subantarctic Shearwater,Puffinus elegans,,PROCELLARIIFORMES: Procellariidae,Subantarctic Shearwater,Puffinus elegans,Sea,Seas and coasts,F,7614
+Tropical Shearwater,Puffinus bailloni,Rare/Accidental,PROCELLARIIFORMES: Procellariidae,Tropical Shearwater,Puffinus bailloni,Sea,Seas and coasts,F,7596
+Heinroth's Shearwater,Puffinus heinrothi,Rare/Accidental Vulnerable,PROCELLARIIFORMES: Procellariidae,Heinroth's Shearwater,Puffinus heinrothi,Sea,Seas and coasts,F,7607
+Common Diving-Petrel,Pelecanoides urinatrix,,PROCELLARIIFORMES: Procellariidae,Common Diving-petrel,Pelecanoides urinatrix,Sea,Seas and coasts,F,7626
+South Georgia Diving-Petrel,Pelecanoides georgicus,Rare/Accidental,PROCELLARIIFORMES: Procellariidae,South Georgia Diving-petrel,Pelecanoides georgicus,Sea,Seas and coasts,F,7622
+Black-necked Stork,Ephippiorhynchus asiaticus,,CICONIIFORMES: Ciconiidae,Black-necked Stork,Ephippiorhynchus asiaticus,Wetland,Wetlands and rivers,F,7649
+Lesser Frigatebird,Fregata ariel,,SULIFORMES: Fregatidae,Lesser Frigatebird,Fregata ariel,Sea,Seas and coasts,F,7673
+Great Frigatebird,Fregata minor,,SULIFORMES: Fregatidae,Great Frigatebird,Fregata minor,Sea,Seas and coasts,F,7678
+Christmas Island Frigatebird,Fregata andrewsi,Breeding endemic Vulnerable,SULIFORMES: Fregatidae,Christmas Island Frigatebird,Fregata andrewsi,Sea,Seas and coasts,F,7684
+Abbott's Booby,Papasula abbotti,Breeding endemic Endangered,SULIFORMES: Sulidae,Abbott's Booby,Papasula abbotti,Sea,Seas and coasts,F,7685
+Cape Gannet,Morus capensis,Rare/Accidental Endangered,SULIFORMES: Sulidae,Cape Gannet,Morus capensis,Sea,Seas and coasts,F,7687
+Australasian Gannet,Morus serrator,,SULIFORMES: Sulidae,Australasian Gannet,Morus serrator,Sea,Seas and coasts,F,7688
+Red-footed Booby,Sula sula,,SULIFORMES: Sulidae,Red-footed Booby,Sula sula,Sea,Seas and coasts,F,7689
+Brown Booby,Sula leucogaster,,SULIFORMES: Sulidae,Brown Booby,Sula leucogaster,Sea,Seas and coasts,F,7693
+Cocos Booby,Sula brewsteri,Rare/Accidental,SULIFORMES: Sulidae,Cocos Booby,Sula brewsteri,Sea,Seas and coasts,F,7696
+Masked Booby,Sula dactylatra,,SULIFORMES: Sulidae,Masked Booby,Sula dactylatra,Sea,Seas and coasts,F,7699
+Nazca Booby,Sula granti,Rare/Accidental,SULIFORMES: Sulidae,Nazca Booby,Sula granti,Sea,Seas and coasts,F,7704
+Australasian Darter,Anhinga novaehollandiae,,SULIFORMES: Anhingidae,Australasian Darter,Anhinga novaehollandiae,Wetland,Wetlands and rivers,F,7713
+Little Pied Cormorant,Microcarbo melanoleucos,,SULIFORMES: Phalacrocoracidae,Little Pied Cormorant,Microcarbo melanoleucos,Wetland,Wetlands and rivers,F,7729
+Great Cormorant,Phalacrocorax carbo,,SULIFORMES: Phalacrocoracidae,Great Cormorant,Phalacrocorax carbo,Coastal,Seas and coasts,F,7755
+Spotted Shag,Phalacrocorax punctatus,Rare/Accidental,SULIFORMES: Phalacrocoracidae,Spotted Shag,Phalacrocorax punctatus,Sea,Seas and coasts,F,7744
+Little Black Cormorant,Phalacrocorax sulcirostris,,SULIFORMES: Phalacrocoracidae,Little Black Cormorant,Phalacrocorax sulcirostris,Wetland,Wetlands and rivers,F,7751
+Pied Cormorant,Phalacrocorax varius,,SULIFORMES: Phalacrocoracidae,Great Pied Cormorant,Phalacrocorax varius,Coastal,Seas and coasts,F,7748
+Black-faced Cormorant,Phalacrocorax fuscescens,Endemic,SULIFORMES: Phalacrocoracidae,Black-faced Cormorant,Phalacrocorax fuscescens,Coastal,Seas and coasts,F,7747
+Imperial Cormorant,Leucocarbo atriceps,,SULIFORMES: Phalacrocoracidae,Imperial Shag,Leucocarbo atriceps,Sea,Seas and coasts,F,7793
+Glossy Ibis,Plegadis falcinellus,,PELECANIFORMES: Threskiornithidae,Glossy Ibis,Plegadis falcinellus,Wetland,Wetlands and rivers,F,7861
+Australian Ibis,Threskiornis molucca,,PELECANIFORMES: Threskiornithidae,Australian Ibis,Threskiornis moluccus,Wetland,Wetlands and rivers,F,7817
+Straw-necked Ibis,Threskiornis spinicollis,,PELECANIFORMES: Threskiornithidae,Straw-necked Ibis,Threskiornis spinicollis,Grassland,Open landscapes,F,7821
+Royal Spoonbill,Platalea regia,,PELECANIFORMES: Threskiornithidae,Royal Spoonbill,Platalea regia,Wetland,Wetlands and rivers,F,7873
+Yellow-billed Spoonbill,Platalea flavipes,Endemic,PELECANIFORMES: Threskiornithidae,Yellow-billed Spoonbill,Platalea flavipes,Wetland,Wetlands and rivers,F,7875
+Australasian Bittern,Botaurus poiciloptilus,Vulnerable,PELECANIFORMES: Ardeidae,Australasian Bittern,Botaurus poiciloptilus,Wetland,Wetlands and rivers,F,7897
+Black Bittern,Botaurus flavicollis,,PELECANIFORMES: Ardeidae,Black Bittern,Ixobrychus flavicollis,Wetland,Wetlands and rivers,F,7910
+Cinnamon Bittern,Botaurus cinnamomeus,Rare/Accidental,PELECANIFORMES: Ardeidae,Cinnamon Bittern,Ixobrychus cinnamomeus,Artificial,Artificial habitats,F,7914
+Schrenck's Bittern,Botaurus eurhythmus,Rare/Accidental Near-threatened,PELECANIFORMES: Ardeidae,Schrenck's Bittern,Ixobrychus eurhythmus,Wetland,Wetlands and rivers,F,7915
+Yellow Bittern,Botaurus sinensis,Rare/Accidental,PELECANIFORMES: Ardeidae,Yellow Bittern,Ixobrychus sinensis,Wetland,Wetlands and rivers,F,7921
+Black-backed Bittern,Botaurus dubius,,PELECANIFORMES: Ardeidae,Australian Little Bittern,Ixobrychus dubius,Wetland,Wetlands and rivers,F,7922
+Black-crowned Night Heron,Nycticorax nycticorax,Rare/Accidental,PELECANIFORMES: Ardeidae,Black-crowned Night Heron,Nycticorax nycticorax,Wetland,Wetlands and rivers,F,7934
+Nankeen Night Heron,Nycticorax caledonicus,,PELECANIFORMES: Ardeidae,Nankeen Night Heron,Nycticorax caledonicus,Wetland,Wetlands and rivers,F,7943
+Malayan Night Heron,Gorsachius melanolophus,Rare/Accidental,PELECANIFORMES: Ardeidae,Malay Night Heron,Gorsachius melanolophus,Wetland,Wetlands and rivers,F,7950
+Japanese Night Heron,Gorsachius goisagi,Rare/Accidental Vulnerable,PELECANIFORMES: Ardeidae,Japanese Night Heron,Gorsachius goisagi,Riparian,Wetlands and rivers,F,7953
+Pacific Reef-Heron,Egretta sacra,,PELECANIFORMES: Ardeidae,Pacific Reef-egret,Egretta sacra,Coastal,Seas and coasts,F,7969
+Little Egret,Egretta garzetta,,PELECANIFORMES: Ardeidae,Little Egret,Egretta garzetta,Wetland,Wetlands and rivers,F,7976
+Western Reef-Heron,Egretta gularis,Rare/Accidental,PELECANIFORMES: Ardeidae,Western Reef-egret,Egretta gularis,Coastal,Seas and coasts,F,7982
+Pied Heron,Egretta picata,,PELECANIFORMES: Ardeidae,Pied Heron,Egretta picata,Coastal,Seas and coasts,F,7985
+White-faced Heron,Egretta novaehollandiae,,PELECANIFORMES: Ardeidae,White-faced Heron,Egretta novaehollandiae,Wetland,Wetlands and rivers,F,7986
+Little Heron,Butorides atricapilla,,PELECANIFORMES: Ardeidae,Little Heron,Butorides atricapilla,Wetland,Wetlands and rivers,E,7993
+Indian Pond-Heron,Ardeola grayii,Rare/Accidental,PELECANIFORMES: Ardeidae,Indian Pond Heron,Ardeola grayii,Wetland,Wetlands and rivers,F,8039
+Chinese Pond-Heron,Ardeola bacchus,Rare/Accidental,PELECANIFORMES: Ardeidae,Chinese Pond Heron,Ardeola bacchus,Wetland,Wetlands and rivers,F,8040
+Javan Pond-Heron,Ardeola speciosa,Rare/Accidental,PELECANIFORMES: Ardeidae,Javan Pond Heron,Ardeola speciosa,Wetland,Wetlands and rivers,F,8041
+Eastern Cattle-Egret,Ardea coromanda,,PELECANIFORMES: Ardeidae,Eastern Cattle Egret,Ardea coromanda,Coastal,Seas and coasts,F,8062
+Pacific Heron,Ardea pacifica,Breeding endemic,PELECANIFORMES: Ardeidae,White-necked Heron,Ardea pacifica,Wetland,Wetlands and rivers,F,8044
+Great Egret,Ardea alba,,PELECANIFORMES: Ardeidae,Great White Egret,Ardea alba,Wetland,Wetlands and rivers,F,8045
+Medium Egret,Ardea intermedia,,PELECANIFORMES: Ardeidae,Intermediate Egret,Ardea intermedia,Wetland,Wetlands and rivers,F,8055
+Plumed Egret,Ardea plumifera,,PELECANIFORMES: Ardeidae,Plumed Egret,Ardea plumifera,Wetland,Wetlands and rivers,F,8057
+Gray Heron,Ardea cinerea,Rare/Accidental,PELECANIFORMES: Ardeidae,Grey Heron,Ardea cinerea,Wetland,Wetlands and rivers,F,8064
+Purple Heron,Ardea purpurea,Rare/Accidental,PELECANIFORMES: Ardeidae,Purple Heron,Ardea purpurea,Wetland,Wetlands and rivers,F,8077
+Great-billed Heron,Ardea sumatrana,,PELECANIFORMES: Ardeidae,Great-billed Heron,Ardea sumatrana,Coastal,Seas and coasts,F,8084
+Australian Pelican,Pelecanus conspicillatus,,PELECANIFORMES: Pelecanidae,Australian Pelican,Pelecanus conspicillatus,Wetland,Wetlands and rivers,F,8099
+Osprey,Pandion haliaetus,,ACCIPITRIFORMES: Pandionidae,Osprey,Pandion haliaetus,Coastal,Seas and coasts,F,8129
+Black-shouldered Kite,Elanus axillaris,Endemic,ACCIPITRIFORMES: Accipitridae,Black-shouldered Kite,Elanus axillaris,Grassland,Open landscapes,F,8149
+Letter-winged Kite,Elanus scriptus,Endemic Near-threatened,ACCIPITRIFORMES: Accipitridae,Letter-winged Kite,Elanus scriptus,Grassland,Open landscapes,F,8150
+Pacific Baza,Aviceda subcristata,,ACCIPITRIFORMES: Accipitridae,Pacific Baza,Aviceda subcristata,Forest,Forests,F,8187
+Oriental Honey-buzzard,Pernis ptilorhynchus,Rare/Accidental,ACCIPITRIFORMES: Accipitridae,Oriental Honey-buzzard,Pernis ptilorhynchus,Woodland,Open landscapes,F,8210
+Black-breasted Kite,Hamirostra melanosternon,Endemic,ACCIPITRIFORMES: Accipitridae,Black-breasted Buzzard,Hamirostra melanosternon,Woodland,Open landscapes,F,8225
+Square-tailed Kite,Lophoictinia isura,Endemic,ACCIPITRIFORMES: Accipitridae,Square-tailed Kite,Lophoictinia isura,Forest,Forests,F,8226
+Long-tailed Honey-buzzard,Henicopernis longicauda,Rare/Accidental,ACCIPITRIFORMES: Accipitridae,Long-tailed Honey-buzzard,Henicopernis longicauda,Forest,Forests,F,8227
+Little Eagle,Hieraaetus morphnoides,Endemic,ACCIPITRIFORMES: Accipitridae,Little Eagle,Hieraaetus morphnoides,Forest,Forests,F,8364
+Gurney's Eagle,Aquila gurneyi,Rare/Accidental Near-threatened,ACCIPITRIFORMES: Accipitridae,Gurney's Eagle,Aquila gurneyi,Forest,Forests,F,8390
+Wedge-tailed Eagle,Aquila audax,,ACCIPITRIFORMES: Accipitridae,Wedge-tailed Eagle,Aquila audax,Forest,Forests,F,8391
+Collared Sparrowhawk,Tachyspiza cirrocephala,,ACCIPITRIFORMES: Accipitridae,Collared Sparrowhawk,Accipiter cirrocephalus,Forest,Forests,F,8462
+Japanese Sparrowhawk,Tachyspiza gularis,Rare/Accidental,ACCIPITRIFORMES: Accipitridae,Japanese Sparrowhawk,Accipiter gularis,Forest,Forests,F,8471
+Chinese Sparrowhawk,Tachyspiza soloensis,Rare/Accidental,ACCIPITRIFORMES: Accipitridae,Chinese Sparrowhawk,Accipiter soloensis,Forest,Forests,F,8488
+Gray Goshawk,Tachyspiza novaehollandiae,,ACCIPITRIFORMES: Accipitridae,Grey Goshawk,Accipiter novaehollandiae,Forest,Forests,F,8497
+Brown Goshawk,Tachyspiza fasciata,,ACCIPITRIFORMES: Accipitridae,Brown Goshawk,Accipiter fasciatus,Forest,Forests,F,8537
+Red Goshawk,Erythrotriorchis radiatus,Endemic Endangered,ACCIPITRIFORMES: Accipitridae,Red Goshawk,Erythrotriorchis radiatus,Forest,Forests,F,8552
+Swamp Harrier,Circus approximans,,ACCIPITRIFORMES: Accipitridae,Swamp Harrier,Circus approximans,Wetland,Wetlands and rivers,F,8632
+Spotted Harrier,Circus assimilis,,ACCIPITRIFORMES: Accipitridae,Spotted Harrier,Circus assimilis,Grassland,Open landscapes,F,8613
+Black Kite,Milvus migrans,,ACCIPITRIFORMES: Accipitridae,Black Kite,Milvus migrans,Woodland,Open landscapes,F,8650
+Brahminy Kite,Haliastur indus,,ACCIPITRIFORMES: Accipitridae,Brahminy Kite,Haliastur indus,Coastal,Seas and coasts,F,8660
+Whistling Kite,Haliastur sphenurus,,ACCIPITRIFORMES: Accipitridae,Whistling Kite,Haliastur sphenurus,Wetland,Wetlands and rivers,F,8665
+White-bellied Sea-Eagle,Icthyophaga leucogaster,,ACCIPITRIFORMES: Accipitridae,White-bellied Sea-eagle,Haliaeetus leucogaster,Coastal,Seas and coasts,F,8678
+Sooty Owl,Tyto tenebricosa,,STRIGIFORMES: Tytonidae,Greater Sooty-owl,Tyto tenebricosa,Forest,Forests,F,8864
+Australian Masked-Owl,Tyto novaehollandiae,,STRIGIFORMES: Tytonidae,Australasian Masked-owl,Tyto novaehollandiae,Forest,Forests,F,8879
+Australasian Grass-Owl,Tyto longimembris,,STRIGIFORMES: Tytonidae,Australasian Grass-owl,Tyto longimembris,Grassland,Open landscapes,F,8941
+Eastern Barn Owl,Tyto javanica,,STRIGIFORMES: Tytonidae,Eastern Barn-Owl,Tyto javanica,Grassland,Open landscapes,F,8918
+Oriental Scops-Owl,Otus sunia,Rare/Accidental,STRIGIFORMES: Strigidae,Oriental Scops-owl,Otus sunia,Forest,Forests,F,9343
+Buffy Fish-Owl,Ketupa ketupu,Rare/Accidental,STRIGIFORMES: Strigidae,Buffy Fish-owl,Ketupa ketupu,Riparian,Wetlands and rivers,F,9557
+Rufous Owl,Ninox rufa,,STRIGIFORMES: Strigidae,Rufous Owl,Ninox rufa,Forest,Forests,F,8963
+Powerful Owl,Ninox strenua,Endemic,STRIGIFORMES: Strigidae,Powerful Owl,Ninox strenua,Forest,Forests,F,8969
+Barking Owl,Ninox connivens,,STRIGIFORMES: Strigidae,Barking Owl,Ninox connivens,Forest,Forests,F,8970
+Australian Boobook,Ninox boobook,Rare/Accidental,STRIGIFORMES: Strigidae,Southern Boobook,Ninox boobook,Forest,Forests,F,8980
+Tasmanian Boobook,Ninox leucopsis,Endemic,STRIGIFORMES: Strigidae,Tasmanian Boobook,Ninox leucopsis,Forest,Forests,F,8996
+Morepork,Ninox novaeseelandiae,,STRIGIFORMES: Strigidae,Morepork,Ninox novaeseelandiae,Forest,Forests,F,8998
+Northern Boobook,Ninox japonica,Rare/Accidental,STRIGIFORMES: Strigidae,Northern Boobook,Ninox japonica,Forest,Forests,F,9003
+Christmas Island Boobook,Ninox natalis,Endemic Vulnerable,STRIGIFORMES: Strigidae,Christmas Island Boobook,Ninox natalis,Forest,Forests,F,9053
+Common Hoopoe,Upupa epops,Rare/Accidental,BUCEROTIFORMES: Upupidae,Common Hoopoe,Upupa epops,Grassland,Open landscapes,F,10020
+Blyth's Hornbill,Rhyticeros plicatus,Rare/Accidental,BUCEROTIFORMES: Bucerotidae,Papuan Hornbill,Rhyticeros plicatus,Forest,Forests,F,10191
+Rainbow Bee-eater,Merops ornatus,,CORACIIFORMES: Meropidae,Rainbow Bee-eater,Merops ornatus,Savanna,Open landscapes,F,10909
+Common Kingfisher,Alcedo atthis,Rare/Accidental,CORACIIFORMES: Alcedinidae,Common Kingfisher,Alcedo atthis,Riparian,Wetlands and rivers,F,10642
+Azure Kingfisher,Ceyx azureus,,CORACIIFORMES: Alcedinidae,Azure Kingfisher,Ceyx azureus,Wetland,Wetlands and rivers,F,10716
+Little Kingfisher,Ceyx pusillus,,CORACIIFORMES: Alcedinidae,Little Kingfisher,Ceyx pusillus,Coastal,Seas and coasts,F,10727
+Laughing Kookaburra,Dacelo novaeguineae,Endemic,CORACIIFORMES: Alcedinidae,Laughing Kookaburra,Dacelo novaeguineae,Forest,Forests,F,10361
+Blue-winged Kookaburra,Dacelo leachii,,CORACIIFORMES: Alcedinidae,Blue-winged Kookaburra,Dacelo leachii,Woodland,Open landscapes,F,10364
+Black-capped Kingfisher,Halcyon pileata,Rare/Accidental Vulnerable,CORACIIFORMES: Alcedinidae,Black-capped Kingfisher,Halcyon pileata,Woodland,Open landscapes,F,10422
+Red-backed Kingfisher,Todiramphus pyrrhopygius,Endemic,CORACIIFORMES: Alcedinidae,Red-backed Kingfisher,Todiramphus pyrrhopygius,Woodland,Open landscapes,F,10578
+Forest Kingfisher,Todiramphus macleayii,,CORACIIFORMES: Alcedinidae,Forest Kingfisher,Todiramphus macleayii,Riparian,Wetlands and rivers,F,10468
+Torresian Kingfisher,Todiramphus sordidus,,CORACIIFORMES: Alcedinidae,Torresian Kingfisher,Todiramphus sordidus,Coastal,Seas and coasts,F,10492
+Sacred Kingfisher,Todiramphus sanctus,,CORACIIFORMES: Alcedinidae,Sacred Kingfisher,Todiramphus sanctus,Woodland,Open landscapes,F,10547
+Collared Kingfisher,Todiramphus chloris,,CORACIIFORMES: Alcedinidae,Collared Kingfisher,Todiramphus chloris,Coastal,Seas and coasts,F,10477
+Yellow-billed Kingfisher,Syma torotoro,,CORACIIFORMES: Alcedinidae,Yellow-billed Kingfisher,Syma torotoro,Forest,Forests,F,10581
+Little Paradise-Kingfisher,Tanysiptera hydrocharis,Rare/Accidental Data deficient,CORACIIFORMES: Alcedinidae,Little Paradise-kingfisher,Tanysiptera hydrocharis,Forest,Forests,F,10340
+Buff-breasted Paradise-Kingfisher,Tanysiptera sylvia,,CORACIIFORMES: Alcedinidae,Buff-breasted Paradise-kingfisher,Tanysiptera sylvia,Forest,Forests,F,10341
+European Roller,Coracias garrulus,Rare/Accidental,CORACIIFORMES: Coraciidae,European Roller,Coracias garrulus,Woodland,Open landscapes,F,10245
+Dollarbird,Eurystomus orientalis,,CORACIIFORMES: Coraciidae,Oriental Dollarbird,Eurystomus orientalis,Woodland,Open landscapes,F,10259
+Nankeen Kestrel,Falco cenchroides,,FALCONIFORMES: Falconidae,Nankeen Kestrel,Falco cenchroides,Woodland,Open landscapes,F,12889
+Amur Falcon,Falco amurensis,Rare/Accidental,FALCONIFORMES: Falconidae,Amur Falcon,Falco amurensis,Woodland,Open landscapes,F,12924
+Eurasian Hobby,Falco subbuteo,Rare/Accidental,FALCONIFORMES: Falconidae,Eurasian Hobby,Falco subbuteo,Plains,Open landscapes,F,12947
+Australian Hobby,Falco longipennis,,FALCONIFORMES: Falconidae,Australian Hobby,Falco longipennis,Forest,Forests,F,12954
+Brown Falcon,Falco berigora,,FALCONIFORMES: Falconidae,Brown Falcon,Falco berigora,Woodland,Open landscapes,F,12959
+Gray Falcon,Falco hypoleucos,Endemic Vulnerable,FALCONIFORMES: Falconidae,Grey Falcon,Falco hypoleucos,Woodland,Open landscapes,F,12966
+Black Falcon,Falco subniger,Endemic,FALCONIFORMES: Falconidae,Black Falcon,Falco subniger,Woodland,Open landscapes,F,12967
+Peregrine Falcon,Falco peregrinus,,FALCONIFORMES: Falconidae,Peregrine Falcon,Falco peregrinus,Plains,Open landscapes,F,12987
+Norfolk Island Kaka,Nestor productus,Endemic Extinct,PSITTACIFORMES: Strigopidae,Norfolk Island Kaka,Nestor productus,Forest,Forests,F,13015
+Yellow-tailed Black-Cockatoo,Zanda funerea,Endemic,PSITTACIFORMES: Cacatuidae,Yellow-tailed Black-cockatoo,Zanda funerea,Forest,Forests,F,13016
+Carnaby's Black-Cockatoo,Zanda latirostris,Endemic Endangered,PSITTACIFORMES: Cacatuidae,Carnaby's Black-cockatoo,Zanda latirostris,Savanna,Open landscapes,F,13023
+Baudin's Black-Cockatoo,Zanda baudinii,Endemic Critically endangered,PSITTACIFORMES: Cacatuidae,Baudin's Black-cockatoo,Zanda baudinii,Forest,Forests,F,13022
+Red-tailed Black-Cockatoo,Calyptorhynchus banksii,Endemic,PSITTACIFORMES: Cacatuidae,Red-tailed Black-cockatoo,Calyptorhynchus banksii,Forest,Forests,F,13024
+Glossy Black-Cockatoo,Calyptorhynchus lathami,Endemic Vulnerable,PSITTACIFORMES: Cacatuidae,Glossy Black-cockatoo,Calyptorhynchus lathami,Woodland,Open landscapes,F,13035
+Cockatiel,Nymphicus hollandicus,Endemic,PSITTACIFORMES: Cacatuidae,Cockatiel,Nymphicus hollandicus,Woodland,Open landscapes,F,13039
+Palm Cockatoo,Probosciger aterrimus,Near-threatened,PSITTACIFORMES: Cacatuidae,Palm Cockatoo,Probosciger aterrimus,Forest,Forests,F,13040
+Gang-gang Cockatoo,Callocephalon fimbriatum,Endemic Vulnerable,PSITTACIFORMES: Cacatuidae,Gang-gang Cockatoo,Callocephalon fimbriatum,Woodland,Open landscapes,F,13047
+Galah,Eolophus roseicapilla,Endemic,PSITTACIFORMES: Cacatuidae,Galah,Eolophus roseicapilla,Woodland,Open landscapes,F,13050
+Pink Cockatoo,Cacatua leadbeateri,Endemic,PSITTACIFORMES: Cacatuidae,Pink Cockatoo,Cacatua leadbeateri,Shrub,Open landscapes,F,13055
+Western Corella,Cacatua pastinator,Endemic,PSITTACIFORMES: Cacatuidae,Western Corella,Cacatua pastinator,Woodland,Open landscapes,F,13064
+Little Corella,Cacatua sanguinea,,PSITTACIFORMES: Cacatuidae,Little Corella,Cacatua sanguinea,Savanna,Open landscapes,F,13067
+Long-billed Corella,Cacatua tenuirostris,Endemic,PSITTACIFORMES: Cacatuidae,Long-billed Corella,Cacatua tenuirostris,Savanna,Open landscapes,F,13074
+Sulphur-crested Cockatoo,Cacatua galerita,,PSITTACIFORMES: Cacatuidae,Sulphur-crested Cockatoo,Cacatua galerita,Forest,Forests,F,13089
+Superb Parrot,Polytelis swainsonii,Endemic,PSITTACIFORMES: Psittaculidae,Superb Parrot,Polytelis swainsonii,Riparian,Wetlands and rivers,F,13630
+Regent Parrot,Polytelis anthopeplus,Endemic,PSITTACIFORMES: Psittaculidae,Regent Parrot,Polytelis anthopeplus,Woodland,Open landscapes,F,13631
+Princess Parrot,Polytelis alexandrae,Endemic Near-threatened,PSITTACIFORMES: Psittaculidae,Princess Parrot,Polytelis alexandrae,Desert,Rocky and arid,F,13634
+Australian King-Parrot,Alisterus scapularis,Endemic,PSITTACIFORMES: Psittaculidae,Australian King-parrot,Alisterus scapularis,Forest,Forests,F,13647
+Red-winged Parrot,Aprosmictus erythropterus,,PSITTACIFORMES: Psittaculidae,Red-winged Parrot,Aprosmictus erythropterus,Forest,Forests,F,13653
+Papuan Eclectus,Eclectus polychloros,,PSITTACIFORMES: Psittaculidae,Papuan Eclectus,Eclectus polychloros,Forest,Forests,F,13688
+Red-cheeked Parrot,Geoffroyus geoffroyi,,PSITTACIFORMES: Psittaculidae,Red-cheeked Parrot,Geoffroyus geoffroyi,Forest,Forests,F,13697
+Ground Parrot,Pezoporus wallicus,Endemic,PSITTACIFORMES: Psittaculidae,Ground Parrot,Pezoporus wallicus,Shrub,Open landscapes,F,13922
+Night Parrot,Pezoporus occidentalis,Endemic Critically endangered,PSITTACIFORMES: Psittaculidae,Night Parrot,Pezoporus occidentalis,Shrub,Open landscapes,F,13927
+Bourke's Parrot,Neopsephotus bourkii,Endemic,PSITTACIFORMES: Psittaculidae,Bourke's Parrot,Neopsephotus bourkii,Shrub,Open landscapes,F,13928
+Blue-winged Parrot,Neophema chrysostoma,Endemic Vulnerable,PSITTACIFORMES: Psittaculidae,Blue-winged Parrot,Neophema chrysostoma,Woodland,Open landscapes,F,13929
+Elegant Parrot,Neophema elegans,Endemic,PSITTACIFORMES: Psittaculidae,Elegant Parrot,Neophema elegans,Woodland,Open landscapes,F,13932
+Rock Parrot,Neophema petrophila,Endemic,PSITTACIFORMES: Psittaculidae,Rock Parrot,Neophema petrophila,Coastal,Seas and coasts,F,13935
+Orange-bellied Parrot,Neophema chrysogaster,Endemic Critically endangered,PSITTACIFORMES: Psittaculidae,Orange-bellied Parrot,Neophema chrysogaster,Woodland,Open landscapes,F,13938
+Turquoise Parrot,Neophema pulchella,Endemic,PSITTACIFORMES: Psittaculidae,Turquoise Parrot,Neophema pulchella,Forest,Forests,F,13941
+Scarlet-chested Parrot,Neophema splendida,Endemic,PSITTACIFORMES: Psittaculidae,Scarlet-chested Parrot,Neophema splendida,Shrub,Open landscapes,F,13942
+Swift Parrot,Lathamus discolor,Endemic Critically endangered,PSITTACIFORMES: Psittaculidae,Swift Parrot,Lathamus discolor,Forest,Forests,F,13886
+Red-crowned Parakeet,Cyanoramphus novaezelandiae,,PSITTACIFORMES: Psittaculidae,Red-fronted Parakeet,Cyanoramphus novaezelandiae,Forest,Forests,F,13913
+Norfolk Island Parakeet,Cyanoramphus cookii,,PSITTACIFORMES: Psittaculidae,Norfolk Parakeet,Cyanoramphus cookii,Forest,Forests,F,13900
+Australian Ringneck,Barnardius zonarius,Endemic,PSITTACIFORMES: Psittaculidae,Australian Ringneck,Barnardius zonarius,Forest,Forests,F,13875
+Green Rosella,Platycercus caledonicus,Endemic,PSITTACIFORMES: Psittaculidae,Green Rosella,Platycercus caledonicus,Woodland,Open landscapes,F,13848
+Crimson Rosella,Platycercus elegans,Endemic,PSITTACIFORMES: Psittaculidae,Crimson Rosella,Platycercus elegans,Forest,Forests,F,13851
+Northern Rosella,Platycercus venustus,Endemic,PSITTACIFORMES: Psittaculidae,Northern Rosella,Platycercus venustus,Woodland,Open landscapes,F,13861
+Eastern Rosella,Platycercus eximius,Endemic,PSITTACIFORMES: Psittaculidae,Eastern Rosella,Platycercus eximius,Woodland,Open landscapes,F,13868
+Pale-headed Rosella,Platycercus adscitus,Endemic,PSITTACIFORMES: Psittaculidae,Pale-headed Rosella,Platycercus adscitus,Woodland,Open landscapes,F,13864
+Western Rosella,Platycercus icterotis,Endemic,PSITTACIFORMES: Psittaculidae,Western Rosella,Platycercus icterotis,Forest,Forests,F,13872
+Greater Bluebonnet,Northiella haematogaster,,PSITTACIFORMES: Psittaculidae,Bluebonnet,Northiella haematogaster,Woodland,Open landscapes,F,13832
+Naretha Bluebonnet,Northiella narethae,Endemic,PSITTACIFORMES: Psittaculidae,Naretha Bluebonnet,Northiella narethae,Woodland,Open landscapes,F,13836
+Red-rumped Parrot,Psephotus haematonotus,Endemic,PSITTACIFORMES: Psittaculidae,Red-rumped Parrot,Psephotus haematonotus,Woodland,Open landscapes,F,13829
+Mulga Parrot,Psephotellus varius,Endemic,PSITTACIFORMES: Psittaculidae,Mulga Parrot,Psephotellus varius,Grassland,Open landscapes,F,13838
+Hooded Parrot,Psephotellus dissimilis,Endemic,PSITTACIFORMES: Psittaculidae,Hooded Parrot,Psephotellus dissimilis,Woodland,Open landscapes,F,13842
+Golden-shouldered Parrot,Psephotellus chrysopterygius,Endemic Endangered,PSITTACIFORMES: Psittaculidae,Golden-shouldered Parrot,Psephotellus chrysopterygius,Forest,Forests,F,13844
+Paradise Parrot,Psephotellus pulcherrimus,Endemic Extinct,PSITTACIFORMES: Psittaculidae,Paradise Parrot,Psephotellus pulcherrimus,Forest,Forests,F,13846
+Red-capped Parrot,Purpureicephalus spurius,Endemic,PSITTACIFORMES: Psittaculidae,Red-capped Parrot,Purpureicephalus spurius,Forest,Forests,F,13847
+Double-eyed Fig-Parrot,Cyclopsitta diophthalma,,PSITTACIFORMES: Psittaculidae,Double-eyed Fig-parrot,Cyclopsitta diophthalma,Forest,Forests,F,14132
+Budgerigar,Melopsittacus undulatus,Endemic,PSITTACIFORMES: Psittaculidae,Budgerigar,Melopsittacus undulatus,Savanna,Open landscapes,F,14107
+Varied Lorikeet,Psitteuteles versicolor,Endemic,PSITTACIFORMES: Psittaculidae,Varied Lorikeet,Psitteuteles versicolor,Woodland,Open landscapes,F,14018
+Little Lorikeet,Psitteuteles pusillus,Endemic,PSITTACIFORMES: Psittaculidae,Little Lorikeet,Glossopsitta pusilla,Woodland,Open landscapes,F,14020
+Purple-crowned Lorikeet,Psitteuteles porphyrocephalus,Endemic,PSITTACIFORMES: Psittaculidae,Purple-crowned Lorikeet,Glossopsitta porphyrocephala,Woodland,Open landscapes,F,14019
+Musk Lorikeet,Trichoglossus concinnus,Endemic,PSITTACIFORMES: Psittaculidae,Musk Lorikeet,Glossopsitta concinna,Woodland,Open landscapes,F,14040
+Scaly-breasted Lorikeet,Trichoglossus chlorolepidotus,Endemic,PSITTACIFORMES: Psittaculidae,Scaly-breasted Lorikeet,Trichoglossus chlorolepidotus,Woodland,Open landscapes,F,14072
+Coconut Lorikeet,Trichoglossus haematodus,,PSITTACIFORMES: Psittaculidae,Coconut Lorikeet,Trichoglossus haematodus,Woodland,Open landscapes,F,14075
+Rainbow Lorikeet,Trichoglossus moluccanus,,PSITTACIFORMES: Psittaculidae,Rainbow Lorikeet,Trichoglossus moluccanus,Forest,Forests,F,14090
+Red-collared Lorikeet,Trichoglossus rubritorquis,Endemic,PSITTACIFORMES: Psittaculidae,Red-collared Lorikeet,Trichoglossus rubritorquis,Forest,Forests,F,14093
+Papuan Pitta,Erythropitta macklotii,,PASSERIFORMES: Pittidae,Papuan Pitta,Erythropitta macklotii,Forest,Forests,F,14365
+Blue-winged Pitta,Pitta moluccensis,Rare/Accidental,PASSERIFORMES: Pittidae,Blue-winged Pitta,Pitta moluccensis,Forest,Forests,F,14399
+Fairy Pitta,Pitta nympha,Rare/Accidental Vulnerable,PASSERIFORMES: Pittidae,Fairy Pitta,Pitta nympha,Forest,Forests,F,14421
+Western Hooded Pitta,Pitta sordida,Rare/Accidental,PASSERIFORMES: Pittidae,Western Hooded Pitta,Pitta sordida,Forest,Forests,F,14403
+Noisy Pitta,Pitta versicolor,,PASSERIFORMES: Pittidae,Noisy Pitta,Pitta versicolor,Forest,Forests,F,14422
+Rainbow Pitta,Pitta iris,Endemic,PASSERIFORMES: Pittidae,Rainbow Pitta,Pitta iris,Forest,Forests,F,14450
+Albert's Lyrebird,Menura alberti,Endemic,PASSERIFORMES: Menuridae,Albert's Lyrebird,Menura alberti,Forest,Forests,F,18686
+Superb Lyrebird,Menura novaehollandiae,Endemic,PASSERIFORMES: Menuridae,Superb Lyrebird,Menura novaehollandiae,Forest,Forests,F,18687
+Rufous Scrub-bird,Atrichornis rufescens,Endemic Endangered,PASSERIFORMES: Atrichornithidae,Rufous Scrub-bird,Atrichornis rufescens,Forest,Forests,F,18691
+Noisy Scrub-bird,Atrichornis clamosus,Endemic Endangered,PASSERIFORMES: Atrichornithidae,Noisy Scrub-bird,Atrichornis clamosus,Shrub,Open landscapes,F,18695
+Spotted Catbird,Ailuroedus maculosus,Endemic,PASSERIFORMES: Ptilonorhynchidae,Spotted Catbird,Ailuroedus maculosus,Forest,Forests,F,18707
+Black-eared Catbird,Ailuroedus melanotis,,PASSERIFORMES: Ptilonorhynchidae,Black-eared Catbird,Ailuroedus melanotis,Forest,Forests,F,18719
+Green Catbird,Ailuroedus crassirostris,Endemic,PASSERIFORMES: Ptilonorhynchidae,Green Catbird,Ailuroedus crassirostris,Forest,Forests,F,18705
+Tooth-billed Bowerbird,Scenopoeetes dentirostris,Endemic Near-threatened,PASSERIFORMES: Ptilonorhynchidae,Tooth-billed Bowerbird,Scenopoeetes dentirostris,Forest,Forests,F,18723
+Golden Bowerbird,Prionodura newtoniana,Endemic Near-threatened,PASSERIFORMES: Ptilonorhynchidae,Golden Bowerbird,Prionodura newtoniana,Forest,Forests,F,18740
+Regent Bowerbird,Sericulus chrysocephalus,Endemic,PASSERIFORMES: Ptilonorhynchidae,Regent Bowerbird,Sericulus chrysocephalus,Forest,Forests,F,18746
+Satin Bowerbird,Ptilonorhynchus violaceus,Endemic,PASSERIFORMES: Ptilonorhynchidae,Satin Bowerbird,Ptilonorhynchus violaceus,Forest,Forests,F,18749
+Western Bowerbird,Chlamydera guttata,Endemic,PASSERIFORMES: Ptilonorhynchidae,Western Bowerbird,Chlamydera guttata,Shrub,Open landscapes,F,18752
+Spotted Bowerbird,Chlamydera maculata,Endemic,PASSERIFORMES: Ptilonorhynchidae,Spotted Bowerbird,Chlamydera maculata,Shrub,Open landscapes,F,18762
+Great Bowerbird,Chlamydera nuchalis,Endemic,PASSERIFORMES: Ptilonorhynchidae,Great Bowerbird,Chlamydera nuchalis,Shrub,Open landscapes,F,18756
+Fawn-breasted Bowerbird,Chlamydera cerviniventris,,PASSERIFORMES: Ptilonorhynchidae,Fawn-breasted Bowerbird,Chlamydera cerviniventris,Shrub,Open landscapes,F,18767
+White-throated Treecreeper,Cormobates leucophaea,Endemic,PASSERIFORMES: Climacteridae,White-throated Treecreeper,Cormobates leucophaea,Forest,Forests,F,18768
+White-browed Treecreeper,Climacteris affinis,Endemic,PASSERIFORMES: Climacteridae,White-browed Treecreeper,Climacteris affinis,Shrub,Open landscapes,F,18782
+Red-browed Treecreeper,Climacteris erythrops,Endemic,PASSERIFORMES: Climacteridae,Red-browed Treecreeper,Climacteris erythrops,Forest,Forests,F,18779
+Brown Treecreeper,Climacteris picumnus,Endemic,PASSERIFORMES: Climacteridae,Brown Treecreeper,Climacteris picumnus,Forest,Forests,F,18786
+Black-tailed Treecreeper,Climacteris melanurus,Endemic,PASSERIFORMES: Climacteridae,Black-tailed Treecreeper,Climacteris melanurus,Forest,Forests,F,18790
+Rufous Treecreeper,Climacteris rufus,Endemic,PASSERIFORMES: Climacteridae,Rufous Treecreeper,Climacteris rufus,Woodland,Open landscapes,F,18785
+Gray Grasswren,Amytornis barbatus,Endemic,PASSERIFORMES: Maluridae,Grey Grasswren,Amytornis barbatus,Grassland,Open landscapes,F,18868
+Pilbara Grasswren,Amytornis whitei,Endemic,PASSERIFORMES: Maluridae,Rufous Grasswren,Amytornis whitei,Rocky,Rocky and arid,F,18877
+Sandhill Grasswren,Amytornis oweni,Endemic,PASSERIFORMES: Maluridae,Sandhill Grasswren,Amytornis oweni,Desert,Rocky and arid,F,18880
+Opalton Grasswren,Amytornis rowleyi,Endemic,PASSERIFORMES: Maluridae,Opalton Grasswren,Amytornis rowleyi,Grassland,Open landscapes,F,18883
+Striated Grasswren,Amytornis striatus,Endemic,PASSERIFORMES: Maluridae,Striated Grasswren,Amytornis striatus,Woodland,Open landscapes,F,18885
+White-throated Grasswren,Amytornis woodwardi,Endemic Endangered,PASSERIFORMES: Maluridae,White-throated Grasswren,Amytornis woodwardi,Rocky,Rocky and arid,F,18872
+Carpentarian Grasswren,Amytornis dorotheae,Endemic Vulnerable,PASSERIFORMES: Maluridae,Carpentarian Grasswren,Amytornis dorotheae,Rocky,Rocky and arid,F,18873
+Short-tailed Grasswren,Amytornis merrotsyi,Endemic Near-threatened,PASSERIFORMES: Maluridae,Short-tailed Grasswren,Amytornis merrotsyi,Grassland,Open landscapes,F,18874
+Western Grasswren,Amytornis textilis,,PASSERIFORMES: Maluridae,Western Grasswren,Amytornis textilis,Shrub,Open landscapes,F,18889
+Thick-billed Grasswren,Amytornis modestus,Endemic,PASSERIFORMES: Maluridae,Thick-billed Grasswren,Amytornis modestus,Shrub,Open landscapes,F,18895
+Black Grasswren,Amytornis housei,Endemic,PASSERIFORMES: Maluridae,Black Grasswren,Amytornis housei,Rocky,Rocky and arid,F,18871
+Eyrean Grasswren,Amytornis goyderi,,PASSERIFORMES: Maluridae,Eyrean Grasswren,Amytornis goyderi,Grassland,Open landscapes,F,18888
+Dusky Grasswren,Amytornis purnelli,Endemic,PASSERIFORMES: Maluridae,Dusky Grasswren,Amytornis purnelli,Shrub,Open landscapes,F,18903
+Kalkadoon Grasswren,Amytornis ballarae,Endemic Vulnerable,PASSERIFORMES: Maluridae,Kalkadoon Grasswren,Amytornis ballarae,Grassland,Open landscapes,F,18905
+Southern Emuwren,Stipiturus malachurus,Endemic,PASSERIFORMES: Maluridae,Southern Emu-wren,Stipiturus malachurus,Shrub,Open landscapes,F,18857
+Rufous-crowned Emuwren,Stipiturus ruficeps,Endemic,PASSERIFORMES: Maluridae,Rufous-crowned Emu-wren,Stipiturus ruficeps,Desert,Rocky and arid,F,18867
+Mallee Emuwren,Stipiturus mallee,Endemic Endangered,PASSERIFORMES: Maluridae,Mallee Emu-wren,Stipiturus mallee,Grassland,Open landscapes,F,18866
+Purple-crowned Fairywren,Malurus coronatus,Endemic,PASSERIFORMES: Maluridae,Purple-crowned Fairywren,Malurus coronatus,Riparian,Wetlands and rivers,F,18832
+Red-winged Fairywren,Malurus elegans,Endemic,PASSERIFORMES: Maluridae,Red-winged Fairywren,Malurus elegans,Forest,Forests,F,18815
+Blue-breasted Fairywren,Malurus pulcherrimus,Endemic,PASSERIFORMES: Maluridae,Blue-breasted Fairywren,Malurus pulcherrimus,Woodland,Open landscapes,F,18814
+Purple-backed Fairywren,Malurus assimilis,,PASSERIFORMES: Maluridae,Purple-backed Fairywren,Malurus assimilis,Shrub,Open landscapes,F,18807
+Variegated Fairywren,Malurus lamberti,Endemic,PASSERIFORMES: Maluridae,Variegated Fairywren,Malurus lamberti,Shrub,Open landscapes,F,18812
+Lovely Fairywren,Malurus amabilis,Endemic,PASSERIFORMES: Maluridae,Lovely Fairywren,Malurus amabilis,Forest,Forests,F,18804
+Splendid Fairywren,Malurus splendens,Endemic,PASSERIFORMES: Maluridae,Splendid Fairywren,Malurus splendens,Shrub,Open landscapes,F,18823
+Superb Fairywren,Malurus cyaneus,Endemic,PASSERIFORMES: Maluridae,Superb Fairywren,Malurus cyaneus,Shrub,Open landscapes,F,18816
+White-winged Fairywren,Malurus leucopterus,Endemic,PASSERIFORMES: Maluridae,White-winged Fairywren,Malurus leucopterus,Shrub,Open landscapes,F,18850
+Red-backed Fairywren,Malurus melanocephalus,Endemic,PASSERIFORMES: Maluridae,Red-backed Fairywren,Malurus melanocephalus,Woodland,Open landscapes,F,18847
+Eastern Spinebill,Acanthorhynchus tenuirostris,Endemic,PASSERIFORMES: Meliphagidae,Eastern Spinebill,Acanthorhynchus tenuirostris,Forest,Forests,F,18915
+Western Spinebill,Acanthorhynchus superciliosus,Endemic,PASSERIFORMES: Meliphagidae,Western Spinebill,Acanthorhynchus superciliosus,Shrub,Open landscapes,F,18923
+Pied Honeyeater,Certhionyx variegatus,Endemic,PASSERIFORMES: Meliphagidae,Pied Honeyeater,Certhionyx variegatus,Shrub,Open landscapes,F,19022
+Yellow-spotted Honeyeater,Meliphaga notata,Endemic,PASSERIFORMES: Meliphagidae,Yellow-spotted Honeyeater,Meliphaga notata,Forest,Forests,F,19347
+Lewin's Honeyeater,Meliphaga lewinii,Endemic,PASSERIFORMES: Meliphagidae,Lewin's Honeyeater,Meliphaga lewinii,Forest,Forests,F,19350
+Kimberley Honeyeater,Meliphaga fordiana,Endemic,PASSERIFORMES: Meliphagidae,Kimberley Honeyeater,Microptilotis fordianus,Rocky,Rocky and arid,F,19406
+White-lined Honeyeater,Meliphaga albilineata,Endemic,PASSERIFORMES: Meliphagidae,White-lined Honeyeater,Microptilotis albilineatus,Forest,Forests,F,19405
+Graceful Honeyeater,Meliphaga gracilis,,PASSERIFORMES: Meliphagidae,Graceful Honeyeater,Microptilotis gracilis,Shrub,Open landscapes,F,19395
+Cryptic Honeyeater,Meliphaga imitatrix,Endemic,PASSERIFORMES: Meliphagidae,Cryptic Honeyeater,Microptilotis imitatrix,Forest,Forests,F,19397
+Yellow Honeyeater,Stomiopera flava,Endemic,PASSERIFORMES: Meliphagidae,Yellow Honeyeater,Stomiopera flava,Forest,Forests,F,19341
+White-gaped Honeyeater,Stomiopera unicolor,Endemic,PASSERIFORMES: Meliphagidae,White-gaped Honeyeater,Stomiopera unicolor,Forest,Forests,F,19340
+White-fronted Honeyeater,Purnella albifrons,Endemic,PASSERIFORMES: Meliphagidae,White-fronted Honeyeater,Purnella albifrons,Shrub,Open landscapes,F,19355
+Yellow-faced Honeyeater,Caligavis chrysops,Endemic,PASSERIFORMES: Meliphagidae,Yellow-faced Honeyeater,Caligavis chrysops,Forest,Forests,F,19447
+Yellow-tufted Honeyeater,Lichenostomus melanops,Endemic,PASSERIFORMES: Meliphagidae,Yellow-tufted Honeyeater,Lichenostomus melanops,Forest,Forests,F,19356
+Purple-gaped Honeyeater,Lichenostomus cratitius,Endemic,PASSERIFORMES: Meliphagidae,Purple-gaped Honeyeater,Lichenostomus cratitius,Woodland,Open landscapes,F,19362
+Bell Miner,Manorina melanophrys,Endemic,PASSERIFORMES: Meliphagidae,Bell Miner,Manorina melanophrys,Forest,Forests,F,19501
+Noisy Miner,Manorina melanocephala,Endemic,PASSERIFORMES: Meliphagidae,Noisy Miner,Manorina melanocephala,Woodland,Open landscapes,F,19502
+Yellow-throated Miner,Manorina flavigula,Endemic,PASSERIFORMES: Meliphagidae,Yellow-throated Miner,Manorina flavigula,Woodland,Open landscapes,F,19508
+Black-eared Miner,Manorina melanotis,Endemic Endangered,PASSERIFORMES: Meliphagidae,Black-eared Miner,Manorina melanotis,Woodland,Open landscapes,F,19517
+Bridled Honeyeater,Bolemoreus frenatus,Endemic,PASSERIFORMES: Meliphagidae,Bridled Honeyeater,Bolemoreus frenatus,Forest,Forests,F,19474
+Eungella Honeyeater,Bolemoreus hindwoodi,Endemic Near-threatened,PASSERIFORMES: Meliphagidae,Eungella Honeyeater,Bolemoreus hindwoodi,Forest,Forests,F,19475
+Spiny-cheeked Honeyeater,Acanthagenys rufogularis,Endemic,PASSERIFORMES: Meliphagidae,Spiny-cheeked Honeyeater,Acanthagenys rufogularis,Shrub,Open landscapes,F,19473
+Little Wattlebird,Anthochaera chrysoptera,Endemic,PASSERIFORMES: Meliphagidae,Little Wattlebird,Anthochaera chrysoptera,Shrub,Open landscapes,F,19459
+Western Wattlebird,Anthochaera lunulata,Endemic,PASSERIFORMES: Meliphagidae,Western Wattlebird,Anthochaera lunulata,Forest,Forests,F,19463
+Regent Honeyeater,Anthochaera phrygia,Endemic Critically endangered,PASSERIFORMES: Meliphagidae,Regent Honeyeater,Anthochaera phrygia,Forest,Forests,F,19472
+Red Wattlebird,Anthochaera carunculata,Endemic,PASSERIFORMES: Meliphagidae,Red Wattlebird,Anthochaera carunculata,Forest,Forests,F,19465
+Yellow Wattlebird,Anthochaera paradoxa,Endemic,PASSERIFORMES: Meliphagidae,Yellow Wattlebird,Anthochaera paradoxa,Forest,Forests,F,19469
+Varied Honeyeater,Gavicalis versicolor,,PASSERIFORMES: Meliphagidae,Varied Honeyeater,Gavicalis versicolor,Coastal,Seas and coasts,F,19408
+Mangrove Honeyeater,Gavicalis fasciogularis,Endemic,PASSERIFORMES: Meliphagidae,Mangrove Honeyeater,Gavicalis fasciogularis,Coastal,Seas and coasts,F,19413
+Singing Honeyeater,Gavicalis virescens,Endemic,PASSERIFORMES: Meliphagidae,Singing Honeyeater,Gavicalis virescens,Shrub,Open landscapes,F,19414
+Yellow-plumed Honeyeater,Ptilotula ornata,Endemic,PASSERIFORMES: Meliphagidae,Yellow-plumed Honeyeater,Ptilotula ornata,Woodland,Open landscapes,F,19436
+White-plumed Honeyeater,Ptilotula penicillata,Endemic,PASSERIFORMES: Meliphagidae,White-plumed Honeyeater,Ptilotula penicillata,Forest,Forests,F,19437
+Yellow-tinted Honeyeater,Ptilotula flavescens,,PASSERIFORMES: Meliphagidae,Yellow-tinted Honeyeater,Ptilotula flavescens,Forest,Forests,F,19421
+Fuscous Honeyeater,Ptilotula fusca,Endemic,PASSERIFORMES: Meliphagidae,Fuscous Honeyeater,Ptilotula fusca,Forest,Forests,F,19427
+Gray-headed Honeyeater,Ptilotula keartlandi,Endemic,PASSERIFORMES: Meliphagidae,Grey-headed Honeyeater,Ptilotula keartlandi,Woodland,Open landscapes,F,19431
+Gray-fronted Honeyeater,Ptilotula plumula,Endemic,PASSERIFORMES: Meliphagidae,Grey-fronted Honeyeater,Ptilotula plumula,Woodland,Open landscapes,F,19432
+Brown-backed Honeyeater,Ramsayornis modestus,,PASSERIFORMES: Meliphagidae,Brown-backed Honeyeater,Ramsayornis modestus,Shrub,Open landscapes,F,18977
+Bar-breasted Honeyeater,Ramsayornis fasciatus,Endemic,PASSERIFORMES: Meliphagidae,Bar-breasted Honeyeater,Ramsayornis fasciatus,Forest,Forests,F,18973
+Rufous-banded Honeyeater,Conopophila albogularis,,PASSERIFORMES: Meliphagidae,Rufous-banded Honeyeater,Conopophila albogularis,Forest,Forests,F,18966
+Rufous-throated Honeyeater,Conopophila rufogularis,Endemic,PASSERIFORMES: Meliphagidae,Rufous-throated Honeyeater,Conopophila rufogularis,Woodland,Open landscapes,F,18969
+Gray Honeyeater,Conopophila whitei,Endemic,PASSERIFORMES: Meliphagidae,Grey Honeyeater,Conopophila whitei,Woodland,Open landscapes,F,18972
+Gibberbird,Ashbyia lovensis,Endemic,PASSERIFORMES: Meliphagidae,Gibberbird,Ashbyia lovensis,Desert,Rocky and arid,F,18954
+Yellow Chat,Epthianura crocea,Endemic,PASSERIFORMES: Meliphagidae,Yellow Chat,Epthianura crocea,Wetland,Wetlands and rivers,F,18957
+Crimson Chat,Epthianura tricolor,Endemic,PASSERIFORMES: Meliphagidae,Crimson Chat,Epthianura tricolor,Shrub,Open landscapes,F,18955
+Orange Chat,Epthianura aurifrons,Endemic,PASSERIFORMES: Meliphagidae,Orange Chat,Epthianura aurifrons,Shrub,Open landscapes,F,18956
+White-fronted Chat,Epthianura albifrons,Endemic,PASSERIFORMES: Meliphagidae,White-fronted Chat,Epthianura albifrons,Wetland,Wetlands and rivers,F,18962
+Black Honeyeater,Sugomel nigrum,Endemic,PASSERIFORMES: Meliphagidae,Black Honeyeater,Sugomel nigrum,Shrub,Open landscapes,F,19038
+Dusky Myzomela,Myzomela obscura,,PASSERIFORMES: Meliphagidae,Dusky Myzomela,Myzomela obscura,Forest,Forests,F,19060
+Red-headed Myzomela,Myzomela erythrocephala,,PASSERIFORMES: Meliphagidae,Red-headed Myzomela,Myzomela erythrocephala,Coastal,Seas and coasts,F,19084
+Scarlet Myzomela,Myzomela sanguinolenta,Endemic,PASSERIFORMES: Meliphagidae,Scarlet Myzomela,Myzomela sanguinolenta,Forest,Forests,F,19108
+Tawny-crowned Honeyeater,Gliciphila melanops,Endemic,PASSERIFORMES: Meliphagidae,Tawny-crowned Honeyeater,Gliciphila melanops,Shrub,Open landscapes,F,19005
+Green-backed Honeyeater,Glycichaera fallax,,PASSERIFORMES: Meliphagidae,Green-backed Honeyeater,Glycichaera fallax,Forest,Forests,F,18924
+Banded Honeyeater,Cissomela pectoralis,Endemic,PASSERIFORMES: Meliphagidae,Banded Honeyeater,Cissomela pectoralis,Grassland,Open landscapes,F,19282
+Brown Honeyeater,Lichmera indistincta,,PASSERIFORMES: Meliphagidae,Brown Honeyeater,Lichmera indistincta,Woodland,Open landscapes,F,19258
+Crescent Honeyeater,Phylidonyris pyrrhopterus,Endemic,PASSERIFORMES: Meliphagidae,Crescent Honeyeater,Phylidonyris pyrrhopterus,Forest,Forests,F,19239
+New Holland Honeyeater,Phylidonyris novaehollandiae,Endemic,PASSERIFORMES: Meliphagidae,New Holland Honeyeater,Phylidonyris novaehollandiae,Shrub,Open landscapes,F,19245
+White-cheeked Honeyeater,Phylidonyris niger,Endemic,PASSERIFORMES: Meliphagidae,White-cheeked Honeyeater,Phylidonyris niger,Shrub,Open landscapes,F,19251
+White-streaked Honeyeater,Trichodere cockerelli,Endemic,PASSERIFORMES: Meliphagidae,White-streaked Honeyeater,Trichodere cockerelli,Forest,Forests,F,19238
+White-eared Honeyeater,Nesoptilotis leucotis,Endemic,PASSERIFORMES: Meliphagidae,White-eared Honeyeater,Nesoptilotis leucotis,Shrub,Open landscapes,F,19298
+Yellow-throated Honeyeater,Nesoptilotis flavicollis,Endemic,PASSERIFORMES: Meliphagidae,Yellow-throated Honeyeater,Nesoptilotis flavicollis,Forest,Forests,F,19304
+Blue-faced Honeyeater,Entomyzon cyanotis,,PASSERIFORMES: Meliphagidae,Blue-faced Honeyeater,Entomyzon cyanotis,Forest,Forests,F,19305
+White-throated Honeyeater,Melithreptus albogularis,,PASSERIFORMES: Meliphagidae,White-throated Honeyeater,Melithreptus albogularis,Forest,Forests,F,19328
+Gilbert's Honeyeater,Melithreptus chloropsis,Endemic,PASSERIFORMES: Meliphagidae,Gilbert's Honeyeater,Melithreptus chloropsis,Forest,Forests,F,19335
+White-naped Honeyeater,Melithreptus lunatus,Endemic,PASSERIFORMES: Meliphagidae,White-naped Honeyeater,Melithreptus lunatus,Forest,Forests,F,19333
+Black-headed Honeyeater,Melithreptus affinis,Endemic,PASSERIFORMES: Meliphagidae,Black-headed Honeyeater,Melithreptus affinis,Forest,Forests,F,19337
+Brown-headed Honeyeater,Melithreptus brevirostris,Endemic,PASSERIFORMES: Meliphagidae,Brown-headed Honeyeater,Melithreptus brevirostris,Forest,Forests,F,19322
+Black-chinned Honeyeater,Melithreptus gularis,Endemic,PASSERIFORMES: Meliphagidae,Black-chinned Honeyeater,Melithreptus gularis,Forest,Forests,F,19312
+Strong-billed Honeyeater,Melithreptus validirostris,Endemic Vulnerable,PASSERIFORMES: Meliphagidae,Strong-billed Honeyeater,Melithreptus validirostris,Forest,Forests,F,19319
+Tawny-breasted Honeyeater,Xanthotis flaviventer,,PASSERIFORMES: Meliphagidae,Tawny-breasted Honeyeater,Xanthotis flaviventer,Forest,Forests,F,19222
+Macleay's Honeyeater,Xanthotis macleayanus,Endemic,PASSERIFORMES: Meliphagidae,Macleay's Honeyeater,Xanthotis macleayanus,Forest,Forests,F,19221
+Striped Honeyeater,Plectorhyncha lanceolata,Endemic,PASSERIFORMES: Meliphagidae,Striped Honeyeater,Plectorhyncha lanceolata,Forest,Forests,F,19236
+Painted Honeyeater,Grantiella picta,Endemic,PASSERIFORMES: Meliphagidae,Painted Honeyeater,Grantiella picta,Woodland,Open landscapes,F,19237
+Little Friarbird,Philemon citreogularis,,PASSERIFORMES: Meliphagidae,Little Friarbird,Philemon citreogularis,Forest,Forests,F,19156
+Helmeted Friarbird,Philemon buceroides,,PASSERIFORMES: Meliphagidae,Helmeted Friarbird,Philemon buceroides,Forest,Forests,F,19176
+Silver-crowned Friarbird,Philemon argenticeps,Endemic,PASSERIFORMES: Meliphagidae,Silver-crowned Friarbird,Philemon argenticeps,Forest,Forests,F,19204
+Noisy Friarbird,Philemon corniculatus,,PASSERIFORMES: Meliphagidae,Noisy Friarbird,Philemon corniculatus,Forest,Forests,F,19209
+Western Bristlebird,Dasyornis longirostris,Endemic Endangered,PASSERIFORMES: Dasyornithidae,Western Bristlebird,Dasyornis longirostris,Shrub,Open landscapes,F,19522
+Eastern Bristlebird,Dasyornis brachypterus,Endemic Vulnerable,PASSERIFORMES: Dasyornithidae,Eastern Bristlebird,Dasyornis brachypterus,Forest,Forests,F,19519
+Rufous Bristlebird,Dasyornis broadbenti,Endemic,PASSERIFORMES: Dasyornithidae,Rufous Bristlebird,Dasyornis broadbenti,Shrub,Open landscapes,F,19524
+Spotted Pardalote,Pardalotus punctatus,Endemic,PASSERIFORMES: Pardalotidae,Spotted Pardalote,Pardalotus punctatus,Forest,Forests,F,19529
+Forty-spotted Pardalote,Pardalotus quadragintus,Endemic Endangered,PASSERIFORMES: Pardalotidae,Forty-spotted Pardalote,Pardalotus quadragintus,Forest,Forests,F,19534
+Red-browed Pardalote,Pardalotus rubricatus,Endemic,PASSERIFORMES: Pardalotidae,Red-browed Pardalote,Pardalotus rubricatus,Shrub,Open landscapes,F,19537
+Striated Pardalote,Pardalotus striatus,Endemic,PASSERIFORMES: Pardalotidae,Striated Pardalote,Pardalotus striatus,Forest,Forests,F,19542
+Fernwren,Oreoscopus gutturalis,Endemic Endangered,PASSERIFORMES: Acanthizidae,Fernwren,Oreoscopus gutturalis,Forest,Forests,F,19561
+Pilotbird,Pycnoptilus floccosus,Endemic Vulnerable,PASSERIFORMES: Acanthizidae,Pilotbird,Pycnoptilus floccosus,Shrub,Open landscapes,F,19562
+Redthroat,Pyrrholaemus brunneus,Endemic,PASSERIFORMES: Acanthizidae,Redthroat,Pyrrholaemus brunneus,Woodland,Open landscapes,F,19565
+Speckled Warbler,Pyrrholaemus sagittatus,Endemic,PASSERIFORMES: Acanthizidae,Speckled Warbler,Pyrrholaemus sagittatus,Woodland,Open landscapes,F,19566
+Shy Heathwren,Hylacola cauta,Endemic,PASSERIFORMES: Acanthizidae,Shy Heathwren,Hylacola cauta,Shrub,Open landscapes,F,19567
+Chestnut-rumped Heathwren,Hylacola pyrrhopygia,Endemic,PASSERIFORMES: Acanthizidae,Chestnut-rumped Heathwren,Hylacola pyrrhopygia,Shrub,Open landscapes,F,19572
+Striated Fieldwren,Calamanthus fuliginosus,Endemic,PASSERIFORMES: Acanthizidae,Striated Fieldwren,Calamanthus fuliginosus,Shrub,Open landscapes,F,19576
+Rufous Fieldwren,Calamanthus campestris,Endemic,PASSERIFORMES: Acanthizidae,Rufous Fieldwren,Calamanthus campestris,Shrub,Open landscapes,F,19581
+Western Fieldwren,Calamanthus montanellus,Endemic,PASSERIFORMES: Acanthizidae,Western Fieldwren,Calamanthus montanellus,Shrub,Open landscapes,F,19590
+Weebill,Smicrornis brevirostris,Endemic,PASSERIFORMES: Acanthizidae,Weebill,Smicrornis brevirostris,Woodland,Open landscapes,F,19592
+Yellow-throated Scrubwren,Neosericornis citreogularis,Endemic,PASSERIFORMES: Acanthizidae,Yellow-throated Scrubwren,Neosericornis citreogularis,Forest,Forests,F,19601
+Rockwarbler,Origma solitaria,Endemic,PASSERIFORMES: Acanthizidae,Rockwarbler,Origma solitaria,Rocky,Rocky and arid,F,19620
+Tasmanian Scrubwren,Sericornis humilis,Endemic,PASSERIFORMES: Acanthizidae,Tasmanian Scrubwren,Sericornis humilis,Forest,Forests,F,19621
+White-browed Scrubwren,Sericornis frontalis,,PASSERIFORMES: Acanthizidae,White-browed Scrubwren,Sericornis frontalis,Shrub,Open landscapes,F,19624
+Spotted Scrubwren,Sericornis maculatus,,PASSERIFORMES: Acanthizidae,Spotted Scrubwren,Sericornis maculatus,Forest,Forests,F,19636
+Atherton Scrubwren,Sericornis keri,Endemic Vulnerable,PASSERIFORMES: Acanthizidae,Atherton Scrubwren,Sericornis keri,Forest,Forests,F,19641
+Tropical Scrubwren,Sericornis beccarii,,PASSERIFORMES: Acanthizidae,Tropical Scrubwren,Sericornis beccarii,Forest,Forests,F,19642
+Large-billed Scrubwren,Sericornis magnirostra,Endemic,PASSERIFORMES: Acanthizidae,Large-billed Scrubwren,Sericornis magnirostra,Forest,Forests,F,19650
+Scrubtit,Acanthornis magna,Endemic,PASSERIFORMES: Acanthizidae,Scrubtit,Acanthornis magna,Forest,Forests,F,19686
+Southern Whiteface,Aphelocephala leucopsis,Endemic Vulnerable,PASSERIFORMES: Acanthizidae,Southern Whiteface,Aphelocephala leucopsis,Woodland,Open landscapes,F,19689
+Banded Whiteface,Aphelocephala nigricincta,Endemic,PASSERIFORMES: Acanthizidae,Banded Whiteface,Aphelocephala nigricincta,Shrub,Open landscapes,F,19693
+Chestnut-breasted Whiteface,Aphelocephala pectoralis,Endemic Near-threatened,PASSERIFORMES: Acanthizidae,Chestnut-breasted Whiteface,Aphelocephala pectoralis,Shrub,Open landscapes,F,19694
+Yellow-rumped Thornbill,Acanthiza chrysorrhoa,Endemic,PASSERIFORMES: Acanthizidae,Yellow-rumped Thornbill,Acanthiza chrysorrhoa,Woodland,Open landscapes,F,19695
+Yellow Thornbill,Acanthiza nana,Endemic,PASSERIFORMES: Acanthizidae,Yellow Thornbill,Acanthiza nana,Shrub,Open landscapes,F,19707
+Striated Thornbill,Acanthiza lineata,Endemic,PASSERIFORMES: Acanthizidae,Striated Thornbill,Acanthiza lineata,Forest,Forests,F,19711
+Inland Thornbill,Acanthiza apicalis,Endemic,PASSERIFORMES: Acanthizidae,Inland Thornbill,Acanthiza apicalis,Woodland,Open landscapes,F,19717
+Tasmanian Thornbill,Acanthiza ewingii,Endemic,PASSERIFORMES: Acanthizidae,Tasmanian Thornbill,Acanthiza ewingii,Forest,Forests,F,19724
+Mountain Thornbill,Acanthiza katherina,Endemic Vulnerable,PASSERIFORMES: Acanthizidae,Mountain Thornbill,Acanthiza katherina,Forest,Forests,F,19727
+Brown Thornbill,Acanthiza pusilla,Endemic,PASSERIFORMES: Acanthizidae,Brown Thornbill,Acanthiza pusilla,Shrub,Open landscapes,F,19728
+Slaty-backed Thornbill,Acanthiza robustirostris,Endemic,PASSERIFORMES: Acanthizidae,Slaty-backed Thornbill,Acanthiza robustirostris,Woodland,Open landscapes,F,19736
+Slender-billed Thornbill,Acanthiza iredalei,Endemic,PASSERIFORMES: Acanthizidae,Slender-billed Thornbill,Acanthiza iredalei,Shrub,Open landscapes,F,19737
+Chestnut-rumped Thornbill,Acanthiza uropygialis,Endemic,PASSERIFORMES: Acanthizidae,Chestnut-rumped Thornbill,Acanthiza uropygialis,Woodland,Open landscapes,F,19741
+Western Thornbill,Acanthiza inornata,Endemic,PASSERIFORMES: Acanthizidae,Western Thornbill,Acanthiza inornata,Woodland,Open landscapes,F,19744
+Buff-rumped Thornbill,Acanthiza reguloides,Endemic,PASSERIFORMES: Acanthizidae,Buff-rumped Thornbill,Acanthiza reguloides,Forest,Forests,F,19747
+Brown Gerygone,Gerygone mouki,Endemic,PASSERIFORMES: Acanthizidae,Brown Gerygone,Gerygone mouki,Forest,Forests,F,19759
+Green-backed Gerygone,Gerygone chloronota,,PASSERIFORMES: Acanthizidae,Green-backed Gerygone,Gerygone chloronota,Forest,Forests,F,19763
+Fairy Gerygone,Gerygone palpebrosa,,PASSERIFORMES: Acanthizidae,Fairy Gerygone,Gerygone palpebrosa,Forest,Forests,F,19768
+Large-billed Gerygone,Gerygone magnirostris,,PASSERIFORMES: Acanthizidae,Large-billed Gerygone,Gerygone magnirostris,Forest,Forests,F,19775
+White-throated Gerygone,Gerygone olivacea,,PASSERIFORMES: Acanthizidae,White-throated Gerygone,Gerygone olivacea,Woodland,Open landscapes,F,19797
+Dusky Gerygone,Gerygone tenebrosa,Endemic,PASSERIFORMES: Acanthizidae,Dusky Gerygone,Gerygone tenebrosa,Coastal,Seas and coasts,F,19807
+Mangrove Gerygone,Gerygone levigaster,,PASSERIFORMES: Acanthizidae,Mangrove Gerygone,Gerygone levigaster,Coastal,Seas and coasts,F,19818
+Western Gerygone,Gerygone fusca,Endemic,PASSERIFORMES: Acanthizidae,Western Gerygone,Gerygone fusca,Woodland,Open landscapes,F,19822
+Lord Howe Gerygone,Gerygone insularis,Endemic Extinct,PASSERIFORMES: Acanthizidae,Lord Howe Gerygone,Gerygone insularis,Forest,Forests,F,19829
+Norfolk Island Gerygone,Gerygone modesta,Endemic,PASSERIFORMES: Acanthizidae,Norfolk Island Gerygone,Gerygone modesta,Forest,Forests,F,19831
+Gray-crowned Babbler,Pomatostomus temporalis,,PASSERIFORMES: Pomatostomidae,Grey-crowned Babbler,Pomatostomus temporalis,Woodland,Open landscapes,F,19839
+White-browed Babbler,Pomatostomus superciliosus,Endemic,PASSERIFORMES: Pomatostomidae,White-browed Babbler,Pomatostomus superciliosus,Forest,Forests,F,19852
+Hall's Babbler,Pomatostomus halli,Endemic,PASSERIFORMES: Pomatostomidae,Hall's Babbler,Pomatostomus halli,Shrub,Open landscapes,F,19851
+Chestnut-crowned Babbler,Pomatostomus ruficeps,Endemic,PASSERIFORMES: Pomatostomidae,Chestnut-crowned Babbler,Pomatostomus ruficeps,Shrub,Open landscapes,F,19858
+Australian Logrunner,Orthonyx temminckii,Endemic,PASSERIFORMES: Orthonychidae,Australian Logrunner,Orthonyx temminckii,Forest,Forests,F,19863
+Chowchilla,Orthonyx spaldingii,Endemic,PASSERIFORMES: Orthonychidae,Chowchilla,Orthonyx spaldingii,Forest,Forests,F,19865
+Spotted Quail-thrush,Cinclosoma punctatum,Endemic,PASSERIFORMES: Cinclosomatidae,Spotted Quail-thrush,Cinclosoma punctatum,Forest,Forests,F,19982
+Chestnut Quail-thrush,Cinclosoma castanotum,Endemic,PASSERIFORMES: Cinclosomatidae,Chestnut Quail-thrush,Cinclosoma castanotum,Woodland,Open landscapes,F,19986
+Copperback Quail-thrush,Cinclosoma clarum,,PASSERIFORMES: Cinclosomatidae,Copperback Quail-thrush,Cinclosoma clarum,Woodland,Open landscapes,F,19989
+Chestnut-breasted Quail-thrush,Cinclosoma castaneothorax,Endemic,PASSERIFORMES: Cinclosomatidae,Chestnut-breasted Quail-thrush,Cinclosoma castaneothorax,Shrub,Open landscapes,F,20000
+Western Quail-thrush,Cinclosoma marginatum,Endemic,PASSERIFORMES: Cinclosomatidae,Western Quail-thrush,Cinclosoma marginatum,Woodland,Open landscapes,F,20002
+Cinnamon Quail-thrush,Cinclosoma cinnamomeum,Endemic,PASSERIFORMES: Cinclosomatidae,Cinnamon Quail-thrush,Cinclosoma cinnamomeum,Shrub,Open landscapes,F,19994
+Nullarbor Quail-thrush,Cinclosoma alisteri,Endemic,PASSERIFORMES: Cinclosomatidae,Nullarbor Quail-thrush,Cinclosoma alisteri,Plains,Open landscapes,F,19998
+Ground Cuckooshrike,Coracina maxima,Endemic,PASSERIFORMES: Campephagidae,Ground Cuckooshrike,Coracina maxima,Savanna,Open landscapes,F,20617
+Barred Cuckooshrike,Coracina lineata,,PASSERIFORMES: Campephagidae,Barred Cuckooshrike,Coracina lineata,Forest,Forests,F,20620
+Black-faced Cuckooshrike,Coracina novaehollandiae,,PASSERIFORMES: Campephagidae,Black-faced Cuckooshrike,Coracina novaehollandiae,Forest,Forests,F,20631
+White-bellied Cuckooshrike,Coracina papuensis,,PASSERIFORMES: Campephagidae,White-bellied Cuckooshrike,Coracina papuensis,Woodland,Open landscapes,F,20703
+Long-tailed Triller,Lalage leucopyga,Extirpated,PASSERIFORMES: Campephagidae,Long-tailed Triller,Lalage leucopyga,Forest,Forests,F,20871
+White-winged Triller,Lalage tricolor,,PASSERIFORMES: Campephagidae,White-winged Triller,Lalage tricolor,Savanna,Open landscapes,F,20878
+Varied Triller,Lalage leucomela,,PASSERIFORMES: Campephagidae,Varied Triller,Lalage leucomela,Forest,Forests,F,20887
+Sahul Cicadabird,Edolisoma tenuirostre,,PASSERIFORMES: Campephagidae,Slender-billed Cicadabird,Edolisoma tenuirostre,Forest,Forests,F,20840
+Papuan Sittella,Daphoenositta papuensis,,PASSERIFORMES: Neosittidae,Papuan Sittella,Daphoenositta papuensis,Forest,Forests,F,20951
+Varied Sittella,Daphoenositta chrysoptera,Endemic,PASSERIFORMES: Neosittidae,Varied Sittella,Daphoenositta chrysoptera,Forest,Forests,F,20940
+Eastern Whipbird,Psophodes olivaceus,Endemic,PASSERIFORMES: Psophodidae,Eastern Whipbird,Psophodes olivaceus,Forest,Forests,F,19948
+Western Whipbird,Psophodes nigrogularis,Endemic,PASSERIFORMES: Psophodidae,Western Whipbird,Psophodes nigrogularis,Shrub,Open landscapes,F,19952
+Chiming Wedgebill,Psophodes occidentalis,Endemic,PASSERIFORMES: Psophodidae,Chiming Wedgebill,Psophodes occidentalis,Shrub,Open landscapes,F,19959
+Chirruping Wedgebill,Psophodes cristatus,Endemic,PASSERIFORMES: Psophodidae,Chirruping Wedgebill,Psophodes cristatus,Shrub,Open landscapes,F,19958
+Crested Bellbird,Oreoica gutturalis,Endemic,PASSERIFORMES: Oreoicidae,Crested Bellbird,Oreoica gutturalis,Shrub,Open landscapes,F,20975
+Eastern Shrike-tit,Falcunculus frontatus,Endemic,PASSERIFORMES: Falcunculidae,Eastern Shrike-tit,Falcunculus frontatus,Woodland,Open landscapes,F,20982
+Western Shrike-tit,Falcunculus leucogaster,Endemic,PASSERIFORMES: Falcunculidae,Western Shrike-tit,Falcunculus leucogaster,Woodland,Open landscapes,F,20980
+Northern Shrike-tit,Falcunculus whitei,Endemic,PASSERIFORMES: Falcunculidae,Northern Shrike-tit,Falcunculus whitei,Woodland,Open landscapes,F,20978
+Sandstone Shrikethrush,Colluricincla woodwardi,Endemic,PASSERIFORMES: Pachycephalidae,Sandstone Shrike-thrush,Colluricincla woodwardi,Rocky,Rocky and arid,F,21306
+Bower's Shrikethrush,Colluricincla boweri,Endemic Vulnerable,PASSERIFORMES: Pachycephalidae,Bower's Shrike-thrush,Colluricincla boweri,Forest,Forests,F,21250
+Gray Shrikethrush,Colluricincla harmonica,,PASSERIFORMES: Pachycephalidae,Grey Shrike-thrush,Colluricincla harmonica,Forest,Forests,F,21292
+Little Shrikethrush,Colluricincla megarhyncha,,PASSERIFORMES: Pachycephalidae,Little Shrike-thrush,Colluricincla megarhyncha,Forest,Forests,F,21254
+Olive Whistler,Pachycephala olivacea,Endemic,PASSERIFORMES: Pachycephalidae,Olive Whistler,Pachycephala olivacea,Shrub,Open landscapes,F,20994
+Red-lored Whistler,Pachycephala rufogularis,Endemic Vulnerable,PASSERIFORMES: Pachycephalidae,Red-lored Whistler,Pachycephala rufogularis,Shrub,Open landscapes,F,21000
+Gilbert's Whistler,Pachycephala inornata,Endemic,PASSERIFORMES: Pachycephalidae,Gilbert's Whistler,Pachycephala inornata,Shrub,Open landscapes,F,21001
+Golden Whistler,Pachycephala pectoralis,,PASSERIFORMES: Pachycephalidae,Golden Whistler,Pachycephala pectoralis,Forest,Forests,F,21104
+Black-tailed Whistler,Pachycephala melanura,,PASSERIFORMES: Pachycephalidae,Black-tailed Whistler,Pachycephala melanura,Coastal,Seas and coasts,F,21178
+Gray Whistler,Pachycephala simplex,,PASSERIFORMES: Pachycephalidae,Grey Whistler,Pachycephala simplex,Forest,Forests,F,21047
+Rufous Whistler,Pachycephala rufiventris,,PASSERIFORMES: Pachycephalidae,Rufous Whistler,Pachycephala rufiventris,Forest,Forests,F,21203
+White-breasted Whistler,Pachycephala lanioides,Endemic,PASSERIFORMES: Pachycephalidae,White-breasted Whistler,Pachycephala lanioides,Coastal,Seas and coasts,F,21236
+Olive-backed Oriole,Oriolus sagittatus,,PASSERIFORMES: Oriolidae,Olive-backed Oriole,Oriolus sagittatus,Woodland,Open landscapes,F,21648
+Green Oriole,Oriolus flavocinctus,,PASSERIFORMES: Oriolidae,Green Oriole,Oriolus flavocinctus,Forest,Forests,F,21660
+Black-naped Oriole,Oriolus chinensis,Rare/Accidental,PASSERIFORMES: Oriolidae,Black-naped Oriole,Oriolus chinensis,Forest,Forests,F,21738
+Australasian Figbird,Sphecotheres vieilloti,,PASSERIFORMES: Oriolidae,Australasian Figbird,Sphecotheres vieilloti,Forest,Forests,F,21609
+Yellow-breasted Boatbill,Machaerirhynchus flaviventer,,PASSERIFORMES: Machaerirhynchidae,Yellow-breasted Boatbill,Machaerirhynchus flaviventer,Forest,Forests,F,20284
+White-breasted Woodswallow,Artamus leucorynchus,,PASSERIFORMES: Artamidae,White-breasted Woodswallow,Artamus leucoryn,Savanna,Open landscapes,F,20405
+Masked Woodswallow,Artamus personatus,Endemic,PASSERIFORMES: Artamidae,Masked Woodswallow,Artamus personatus,Woodland,Open landscapes,F,20423
+White-browed Woodswallow,Artamus superciliosus,Endemic,PASSERIFORMES: Artamidae,White-browed Woodswallow,Artamus superciliosus,Woodland,Open landscapes,F,20424
+Black-faced Woodswallow,Artamus cinereus,,PASSERIFORMES: Artamidae,Black-faced Woodswallow,Artamus cinereus,Savanna,Open landscapes,F,20425
+Dusky Woodswallow,Artamus cyanopterus,Endemic,PASSERIFORMES: Artamidae,Dusky Woodswallow,Artamus cyanopterus,Woodland,Open landscapes,F,20432
+Little Woodswallow,Artamus minor,Endemic,PASSERIFORMES: Artamidae,Little Woodswallow,Artamus minor,Woodland,Open landscapes,F,20435
+Black-backed Butcherbird,Cracticus mentalis,,PASSERIFORMES: Artamidae,Black-backed Butcherbird,Cracticus mentalis,Woodland,Open landscapes,F,20465
+Gray Butcherbird,Cracticus torquatus,Endemic,PASSERIFORMES: Artamidae,Grey Butcherbird,Cracticus torquatus,Woodland,Open landscapes,F,20458
+Silver-backed Butcherbird,Cracticus argenteus,Endemic,PASSERIFORMES: Artamidae,Silver-backed Butcherbird,Cracticus argenteus,Forest,Forests,F,20462
+Pied Butcherbird,Cracticus nigrogularis,Endemic,PASSERIFORMES: Artamidae,Pied Butcherbird,Cracticus nigrogularis,Woodland,Open landscapes,F,20468
+Black Butcherbird,Melloria quoyi,,PASSERIFORMES: Artamidae,Black Butcherbird,Melloria quoyi,Forest,Forests,F,20440
+Australian Magpie,Gymnorhina tibicen,,PASSERIFORMES: Artamidae,Australian Magpie,Gymnorhina tibicen,Woodland,Open landscapes,F,20447
+Pied Currawong,Strepera graculina,Endemic,PASSERIFORMES: Artamidae,Pied Currawong,Strepera graculina,Forest,Forests,F,20476
+Black Currawong,Strepera fuliginosa,Endemic,PASSERIFORMES: Artamidae,Black Currawong,Strepera fuliginosa,Forest,Forests,F,20483
+Gray Currawong,Strepera versicolor,Endemic,PASSERIFORMES: Artamidae,Grey Currawong,Strepera versicolor,Forest,Forests,F,20487
+Northern Fantail,Rhipidura rufiventris,,PASSERIFORMES: Rhipiduridae,Timor Fantail,Rhipidura rufiventris,Woodland,Open landscapes,F,21975
+Willie-wagtail,Rhipidura leucophrys,,PASSERIFORMES: Rhipiduridae,Willie Wagtail,Rhipidura leucophrys,Savanna,Open landscapes,F,21966
+Supertramp Fantail,Rhipidura semicollaris,Rare/Accidental,PASSERIFORMES: Rhipiduridae,Supertramp Fantail,Rhipidura semicollaris,Coastal,Seas and coasts,F,22099
+Arafura Fantail,Rhipidura dryas,,PASSERIFORMES: Rhipiduridae,Arafura Fantail,Rhipidura dryas,Coastal,Seas and coasts,F,22096
+Australian Rufous Fantail,Rhipidura rufifrons,,PASSERIFORMES: Rhipiduridae,Rufous Fantail,Rhipidura rufifrons,Forest,Forests,F,22111
+Gray Fantail,Rhipidura albiscapa,,PASSERIFORMES: Rhipiduridae,Grey Fantail,Rhipidura albiscapa,Forest,Forests,F,22032
+Mangrove Fantail,Rhipidura phasiana,,PASSERIFORMES: Rhipiduridae,Mangrove Fantail,Rhipidura phasiana,Coastal,Seas and coasts,F,22046
+New Zealand Fantail,Rhipidura fuliginosa,Extirpated,PASSERIFORMES: Rhipiduridae,New Zealand Fantail,Rhipidura fuliginosa,Woodland,Open landscapes,F,22041
+Crow-billed Drongo,Dicrurus annectens,Rare/Accidental,PASSERIFORMES: Dicruridae,Crow-billed Drongo,Dicrurus annectens,Forest,Forests,F,21782
+Spangled Drongo,Dicrurus bracteatus,,PASSERIFORMES: Dicruridae,Spangled Drongo,Dicrurus bracteatus,Forest,Forests,F,21805
+Trumpet Manucode,Phonygammus keraudrenii,,PASSERIFORMES: Paradisaeidae,Trumpet Manucode,Phonygammus keraudrenii,Forest,Forests,F,23181
+Paradise Riflebird,Ptiloris paradiseus,Endemic,PASSERIFORMES: Paradisaeidae,Paradise Riflebird,Lophorina paradisea,Forest,Forests,F,23241
+Victoria's Riflebird,Ptiloris victoriae,Endemic Vulnerable,PASSERIFORMES: Paradisaeidae,Victoria's Riflebird,Lophorina victoriae,Forest,Forests,F,23242
+Magnificent Riflebird,Ptiloris magnificus,,PASSERIFORMES: Paradisaeidae,Magnificent Riflebird,Lophorina magnifica,Forest,Forests,F,23243
+White-eared Monarch,Carterornis leucotis,Endemic,PASSERIFORMES: Monarchidae,White-eared Monarch,Carterornis leucotis,Shrub,Open landscapes,F,22408
+Island Monarch,Monarcha cinerascens,Rare/Accidental,PASSERIFORMES: Monarchidae,Island Monarch,Monarcha cinerascens,Forest,Forests,F,22370
+Black-faced Monarch,Monarcha melanopsis,,PASSERIFORMES: Monarchidae,Black-faced Monarch,Monarcha melanopsis,Forest,Forests,F,22388
+Black-winged Monarch,Monarcha frater,,PASSERIFORMES: Monarchidae,Black-winged Monarch,Monarcha frater,Forest,Forests,F,22389
+Australian Spectacled Monarch,Symposiachrus trivirgatus,,PASSERIFORMES: Monarchidae,Spectacled Monarch,Symposiachrus trivirgatus,Forest,Forests,F,22327
+Louisiade Spectacled Monarch,Symposiachrus melanopterus,,PASSERIFORMES: Monarchidae,Louisiade Monarch,Symposiachrus melanopterus,Forest,Forests,F,22325
+Frilled Monarch,Arses telescopthalmus,,PASSERIFORMES: Monarchidae,Frilled Monarch,Arses telescopthalmus,Forest,Forests,F,22427
+Frill-necked Monarch,Arses lorealis,Endemic,PASSERIFORMES: Monarchidae,Frill-necked Monarch,Arses lorealis,Forest,Forests,F,22436
+Pied Monarch,Arses kaupi,Endemic,PASSERIFORMES: Monarchidae,Pied Monarch,Arses kaupi,Forest,Forests,F,22438
+Magpie-lark,Grallina cyanoleuca,,PASSERIFORMES: Monarchidae,Magpie-lark,Grallina cyanoleuca,Savanna,Open landscapes,F,22441
+Leaden Flycatcher,Myiagra rubecula,,PASSERIFORMES: Monarchidae,Leaden Flycatcher,Myiagra rubecula,Forest,Forests,F,22459
+Broad-billed Flycatcher,Myiagra ruficollis,,PASSERIFORMES: Monarchidae,Broad-billed Flycatcher,Myiagra ruficollis,Coastal,Seas and coasts,F,22492
+Satin Flycatcher,Myiagra cyanoleuca,,PASSERIFORMES: Monarchidae,Satin Flycatcher,Myiagra cyanoleuca,Shrub,Open landscapes,F,22496
+Restless Flycatcher,Myiagra inquieta,Endemic,PASSERIFORMES: Monarchidae,Restless Flycatcher,Myiagra inquieta,Woodland,Open landscapes,F,22514
+Paperbark Flycatcher,Myiagra nana,,PASSERIFORMES: Monarchidae,Paperbark Flycatcher,Myiagra nana,Riparian,Wetlands and rivers,F,22512
+Shining Flycatcher,Myiagra alecto,,PASSERIFORMES: Monarchidae,Shining Flycatcher,Myiagra alecto,Riparian,Wetlands and rivers,F,22497
+White-winged Chough,Corcorax melanorhamphos,Endemic,PASSERIFORMES: Corcoracidae,White-winged Chough,Corcorax melanorhamphos,Woodland,Open landscapes,F,23148
+Apostlebird,Struthidea cinerea,Endemic,PASSERIFORMES: Corcoracidae,Apostlebird,Struthidea cinerea,Shrub,Open landscapes,F,23151
+Tiger Shrike,Lanius tigrinus,Rare/Accidental,PASSERIFORMES: Laniidae,Tiger Shrike,Lanius tigrinus,Woodland,Open landscapes,F,22616
+Brown Shrike,Lanius cristatus,Rare/Accidental,PASSERIFORMES: Laniidae,Brown Shrike,Lanius cristatus,Shrub,Open landscapes,F,22636
+House Crow,Corvus splendens,Rare/Accidental,PASSERIFORMES: Corvidae,House Crow,Corvus splendens,Artificial,Artificial habitats,F,23020
+Torresian Crow,Corvus orru,,PASSERIFORMES: Corvidae,Torresian Crow,Corvus orru,Forest,Forests,F,23109
+Little Crow,Corvus bennetti,Endemic,PASSERIFORMES: Corvidae,Little Crow,Corvus bennetti,Shrub,Open landscapes,F,23115
+Australian Raven,Corvus coronoides,Endemic,PASSERIFORMES: Corvidae,Australian Raven,Corvus coronoides,Shrub,Open landscapes,F,23121
+Little Raven,Corvus mellori,Endemic,PASSERIFORMES: Corvidae,Little Raven,Corvus mellori,Shrub,Open landscapes,F,23120
+Forest Raven,Corvus tasmanicus,Endemic,PASSERIFORMES: Corvidae,Forest Raven,Corvus tasmanicus,Woodland,Open landscapes,F,23116
+Norfolk Robin,Petroica multicolor,Endemic Endangered,PASSERIFORMES: Petroicidae,Norfolk Island Robin,Petroica multicolor,Forest,Forests,F,23345
+Red-capped Robin,Petroica goodenovii,Endemic,PASSERIFORMES: Petroicidae,Red-capped Robin,Petroica goodenovii,Savanna,Open landscapes,F,23347
+Rose Robin,Petroica rosea,Endemic,PASSERIFORMES: Petroicidae,Rose Robin,Petroica rosea,Forest,Forests,F,23364
+Pink Robin,Petroica rodinogaster,Endemic,PASSERIFORMES: Petroicidae,Pink Robin,Petroica rodinogaster,Forest,Forests,F,23365
+Flame Robin,Petroica phoenicea,Endemic,PASSERIFORMES: Petroicidae,Flame Robin,Petroica phoenicea,Shrub,Open landscapes,F,23368
+Scarlet Robin,Petroica boodang,Endemic,PASSERIFORMES: Petroicidae,Scarlet Robin,Petroica boodang,Forest,Forests,F,23369
+Yellow-legged Flyrobin,Kempiella griseoceps,,PASSERIFORMES: Petroicidae,Yellow-legged Flyrobin,Kempiella griseoceps,Forest,Forests,F,23377
+Lemon-bellied Flyrobin,Microeca flavigaster,,PASSERIFORMES: Petroicidae,Lemon-bellied Flyrobin,Microeca flavigaster,Forest,Forests,F,23387
+Jacky-winter,Microeca fascinans,,PASSERIFORMES: Petroicidae,Jacky Winter,Microeca fascinans,Forest,Forests,F,23396
+Southern Scrub-Robin,Drymodes brunneopygia,Endemic,PASSERIFORMES: Petroicidae,Southern Scrub-robin,Drymodes brunneopygia,Shrub,Open landscapes,F,23409
+Northern Scrub-Robin,Drymodes superciliaris,Endemic,PASSERIFORMES: Petroicidae,Northern Scrub-robin,Drymodes superciliaris,Forest,Forests,F,23406
+Gray-headed Robin,Heteromyias cinereifrons,Endemic Near-threatened,PASSERIFORMES: Petroicidae,Grey-headed Robin,Heteromyias cinereifrons,Forest,Forests,F,23419
+White-browed Robin,Poecilodryas superciliosa,Endemic,PASSERIFORMES: Petroicidae,White-browed Robin,Poecilodryas superciliosa,Riparian,Wetlands and rivers,F,23432
+Buff-sided Robin,Poecilodryas cerviniventris,Endemic,PASSERIFORMES: Petroicidae,Buff-sided Robin,Poecilodryas cerviniventris,Forest,Forests,F,23434
+Dusky Robin,Melanodryas vittata,Endemic Vulnerable,PASSERIFORMES: Petroicidae,Dusky Robin,Melanodryas vittata,Forest,Forests,F,23442
+Hooded Robin,Melanodryas cucullata,Endemic,PASSERIFORMES: Petroicidae,Hooded Robin,Melanodryas cucullata,Shrub,Open landscapes,F,23436
+Mangrove Robin,Melanodryas pulverulenta,,PASSERIFORMES: Petroicidae,Mangrove Robin,Peneoenanthe pulverulenta,Coastal,Seas and coasts,F,23461
+Eastern Yellow Robin,Eopsaltria australis,Endemic,PASSERIFORMES: Petroicidae,Eastern Yellow Robin,Eopsaltria australis,Shrub,Open landscapes,F,23467
+Western Yellow Robin,Eopsaltria griseogularis,Endemic,PASSERIFORMES: Petroicidae,Western Yellow Robin,Eopsaltria griseogularis,Forest,Forests,F,23474
+White-breasted Robin,Eopsaltria georgiana,Endemic,PASSERIFORMES: Petroicidae,White-breasted Robin,Quoyornis georgianus,Forest,Forests,F,23477
+Pale-yellow Robin,Eopsaltria capito,Endemic,PASSERIFORMES: Petroicidae,Pale-yellow Robin,Tregellasia capito,Forest,Forests,F,23478
+White-faced Robin,Eopsaltria leucops,,PASSERIFORMES: Petroicidae,White-faced Robin,Tregellasia leucops,Forest,Forests,F,23481
+Singing Bushlark,Mirafra javanica,,PASSERIFORMES: Alaudidae,Horsfield's Bushlark,Mirafra javanica,Grassland,Open landscapes,F,24133
+Eurasian Skylark,Alauda arvensis,Introduced species,PASSERIFORMES: Alaudidae,Eurasian Skylark,Alauda arvensis,Plains,Open landscapes,F,24293
+Zitting Cisticola,Cisticola juncidis,,PASSERIFORMES: Cisticolidae,Zitting Cisticola,Cisticola juncidis,Grassland,Open landscapes,F,26528
+Golden-headed Cisticola,Cisticola exilis,,PASSERIFORMES: Cisticolidae,Golden-headed Cisticola,Cisticola exilis,Grassland,Open landscapes,F,26590
+Oriental Reed Warbler,Acrocephalus orientalis,Rare/Accidental,PASSERIFORMES: Acrocephalidae,Oriental Reed-warbler,Acrocephalus orientalis,Wetland,Wetlands and rivers,F,25963
+Australian Reed Warbler,Acrocephalus australis,,PASSERIFORMES: Acrocephalidae,Australasian Reed-warbler,Acrocephalus australis,Wetland,Wetlands and rivers,F,25974
+Pallas's Grasshopper Warbler,Helopsaltes certhiola,Rare/Accidental,PASSERIFORMES: Locustellidae,Pallas's Grasshopper-warbler,Helopsaltes certhiola,Shrub,Open landscapes,F,26121
+Middendorff's Grasshopper Warbler,Helopsaltes ochotensis,Rare/Accidental,PASSERIFORMES: Locustellidae,Middendorff's Grasshopper-warbler,Helopsaltes ochotensis,Grassland,Open landscapes,F,26127
+Spinifexbird,Poodytes carteri,Endemic,PASSERIFORMES: Locustellidae,Spinifexbird,Poodytes carteri,Grassland,Open landscapes,F,26190
+Little Grassbird,Poodytes gramineus,,PASSERIFORMES: Locustellidae,Little Grassbird,Poodytes gramineus,Wetland,Wetlands and rivers,F,26200
+Brown Songlark,Cincloramphus cruralis,Endemic,PASSERIFORMES: Locustellidae,Brown Songlark,Cincloramphus cruralis,Grassland,Open landscapes,F,26209
+Rufous Songlark,Cincloramphus mathewsi,Endemic,PASSERIFORMES: Locustellidae,Rufous Songlark,Cincloramphus mathewsi,Grassland,Open landscapes,F,26214
+Tawny Grassbird,Cincloramphus timoriensis,,PASSERIFORMES: Locustellidae,Tawny Grassbird,Cincloramphus timoriensis,Wetland,Wetlands and rivers,F,26225
+White-backed Swallow,Cheramoeca leucosterna,Endemic,PASSERIFORMES: Hirundinidae,White-backed Swallow,Cheramoeca leucosterna,Savanna,Open landscapes,F,25094
+Welcome Swallow,Hirundo neoxena,,PASSERIFORMES: Hirundinidae,Welcome Swallow,Hirundo neoxena,Wetland,Wetlands and rivers,F,25251
+Barn Swallow,Hirundo rustica,,PASSERIFORMES: Hirundinidae,Barn Swallow,Hirundo rustica,Plains,Open landscapes,F,25255
+Asian House-Martin,Delichon dasypus,Rare/Accidental,PASSERIFORMES: Hirundinidae,Asian House Martin,Delichon dasypus,Rocky,Rocky and arid,F,25287
+Eastern Red-rumped Swallow,Cecropis daurica,Rare/Accidental,PASSERIFORMES: Hirundinidae,Eastern Red-rumped Swallow,Cecropis daurica,Plains,Open landscapes,F,25297
+Fairy Martin,Petrochelidon ariel,Breeding endemic,PASSERIFORMES: Hirundinidae,Fairy Martin,Petrochelidon ariel,Savanna,Open landscapes,F,25339
+Tree Martin,Petrochelidon nigricans,,PASSERIFORMES: Hirundinidae,Tree Martin,Petrochelidon nigricans,Shrub,Open landscapes,F,25340
+Red-whiskered Bulbul,Pycnonotus jocosus,Introduced species,PASSERIFORMES: Pycnonotidae,Red-whiskered Bulbul,Pycnonotus jocosus,Shrub,Open landscapes,F,24982
+Red-vented Bulbul,Pycnonotus cafer,Extirpated,PASSERIFORMES: Pycnonotidae,Red-vented Bulbul,Pycnonotus cafer,Shrub,Open landscapes,F,25000
+Yellow-browed Warbler,Phylloscopus inornatus,Rare/Accidental,PASSERIFORMES: Phylloscopidae,Yellow-browed Warbler,Phylloscopus inornatus,Shrub,Open landscapes,F,25681
+Dusky Warbler,Phylloscopus fuscatus,Rare/Accidental,PASSERIFORMES: Phylloscopidae,Dusky Warbler,Phylloscopus fuscatus,Riparian,Wetlands and rivers,F,25708
+Willow Warbler,Phylloscopus trochilus,Rare/Accidental,PASSERIFORMES: Phylloscopidae,Willow Warbler,Phylloscopus trochilus,Forest,Forests,F,25714
+Eastern Crowned Warbler,Phylloscopus coronatus,Rare/Accidental,PASSERIFORMES: Phylloscopidae,Eastern Crowned Warbler,Phylloscopus coronatus,Woodland,Open landscapes,F,25736
+Arctic Warbler,Phylloscopus borealis,Rare/Accidental,PASSERIFORMES: Phylloscopidae,Arctic Warbler,Phylloscopus borealis,Shrub,Open landscapes,F,25806
+Kamchatka Leaf Warbler,Phylloscopus examinandus,Rare/Accidental,PASSERIFORMES: Phylloscopidae,Kamchatka Leaf-warbler,Phylloscopus examinandus,Forest,Forests,F,25805
+Ashy-bellied White-eye,Zosterops citrinella,Outlying islands only,PASSERIFORMES: Zosteropidae,Ashy-bellied White-eye,Zosterops citrinella,Shrub,Open landscapes,F,27600
+Australian Yellow White-eye,Zosterops luteus,Endemic,PASSERIFORMES: Zosteropidae,Australian Yellow White-eye,Zosterops luteus,Coastal,Seas and coasts,F,27607
+Silvereye,Zosterops lateralis,,PASSERIFORMES: Zosteropidae,Silvereye,Zosterops lateralis,Shrub,Open landscapes,F,27610
+Christmas Island White-eye,Zosterops natalis,Endemic,PASSERIFORMES: Zosteropidae,Christmas Island White-eye,Zosterops natalis,Forest,Forests,F,27717
+White-chested White-eye,Zosterops albogularis,Endemic Extinct,PASSERIFORMES: Zosteropidae,White-chested White-eye,Zosterops albogularis,Forest,Forests,F,27739
+Robust White-eye,Zosterops strenuus,Endemic Extinct,PASSERIFORMES: Zosteropidae,Robust White-eye,Zosterops strenuus,Forest,Forests,F,27741
+Slender-billed White-eye,Zosterops tenuirostris,Endemic Vulnerable,PASSERIFORMES: Zosteropidae,Slender-billed White-eye,Zosterops tenuirostris,Forest,Forests,F,27742
+Metallic Starling,Aplonis metallica,,PASSERIFORMES: Sturnidae,Metallic Starling,Aplonis metallica,Forest,Forests,F,29798
+Singing Starling,Aplonis cantoroides,,PASSERIFORMES: Sturnidae,Singing Starling,Aplonis cantoroides,Forest,Forests,F,29806
+Tasman Starling,Aplonis fusca,Endemic Extinct,PASSERIFORMES: Sturnidae,Tasman Starling,Aplonis fusca,Forest,Forests,F,29828
+European Starling,Sturnus vulgaris,Introduced species,PASSERIFORMES: Sturnidae,Common Starling,Sturnus vulgaris,Artificial,Artificial habitats,F,29990
+Rosy Starling,Pastor roseus,Rare/Accidental,PASSERIFORMES: Sturnidae,Rosy Starling,Pastor roseus,Plains,Open landscapes,F,29989
+Daurian Starling,Agropsar sturninus,Rare/Accidental,PASSERIFORMES: Sturnidae,Purple-backed Starling,Agropsar sturninus,Forest,Forests,F,29971
+Chestnut-cheeked Starling,Agropsar philippensis,Rare/Accidental,PASSERIFORMES: Sturnidae,Chestnut-cheeked Starling,Agropsar philippensis,Woodland,Open landscapes,F,29972
+Common Myna,Acridotheres tristis,Introduced species,PASSERIFORMES: Sturnidae,Common Myna,Acridotheres tristis,Artificial,Artificial habitats,F,29949
+Javan Myna,Acridotheres javanicus,Introduced species Vulnerable,PASSERIFORMES: Sturnidae,Javan Myna,Acridotheres javanicus,Artificial,Artificial habitats,F,29938
+Bassian Thrush,Zoothera lunulata,Endemic,PASSERIFORMES: Turdidae,Bassian Thrush,Zoothera lunulata,Forest,Forests,F,30388
+Russet-tailed Thrush,Zoothera heinei,,PASSERIFORMES: Turdidae,Russet-tailed Thrush,Zoothera heinei,Forest,Forests,F,30381
+Siberian Thrush,Geokichla sibirica,Rare/Accidental,PASSERIFORMES: Turdidae,Siberian Thrush,Geokichla sibirica,Grassland,Open landscapes,F,30397
+Song Thrush,Turdus philomelos,Introduced species,PASSERIFORMES: Turdidae,Song Thrush,Turdus philomelos,Forest,Forests,F,30475
+Eurasian Blackbird,Turdus merula,Introduced species,PASSERIFORMES: Turdidae,Eurasian Blackbird,Turdus merula,Forest,Forests,F,30537
+Christmas Island-Thrush,Turdus erythropleurus,Endemic,PASSERIFORMES: Turdidae,Christmas Island Thrush,Turdus erythropleurus,Forest,Forests,F,30584
+Tasman Sea Island-Thrush,Turdus poliocephalus,,PASSERIFORMES: Turdidae,Tasman Sea Island Thrush,Turdus poliocephalus,Forest,Forests,F,30627
+Eyebrowed Thrush,Turdus obscurus,Rare/Accidental,PASSERIFORMES: Turdidae,Eyebrowed Thrush,Turdus obscurus,Forest,Forests,F,30562
+Gray-streaked Flycatcher,Muscicapa griseisticta,Rare/Accidental,PASSERIFORMES: Muscicapidae,Grey-streaked Flycatcher,Muscicapa griseisticta,Forest,Forests,F,31060
+Dark-sided Flycatcher,Muscicapa sibirica,Rare/Accidental,PASSERIFORMES: Muscicapidae,Dark-sided Flycatcher,Muscicapa sibirica,Forest,Forests,F,31061
+Asian Brown Flycatcher,Muscicapa dauurica,Rare/Accidental,PASSERIFORMES: Muscicapidae,Asian Brown Flycatcher,Muscicapa dauurica,Forest,Forests,F,31072
+Brown-streaked Flycatcher,Muscicapa williamsoni,Rare/Accidental,PASSERIFORMES: Muscicapidae,Brown-streaked Flycatcher,Muscicapa williamsoni,Forest,Forests,F,31076
+Blue-and-white Flycatcher,Cyanoptila cyanomelana,Rare/Accidental,PASSERIFORMES: Muscicapidae,Blue-and-white Flycatcher,Cyanoptila cyanomelana,Forest,Forests,F,31144
+Siberian Blue Robin,Larvivora cyane,Rare/Accidental,PASSERIFORMES: Muscicapidae,Siberian Blue Robin,Larvivora cyane,Forest,Forests,F,31572
+Siberian Rubythroat,Calliope calliope,Rare/Accidental,PASSERIFORMES: Muscicapidae,Siberian Rubythroat,Calliope calliope,Grassland,Open landscapes,F,31477
+Narcissus Flycatcher,Ficedula narcissina,Rare/Accidental,PASSERIFORMES: Muscicapidae,Narcissus Flycatcher,Ficedula narcissina,Forest,Forests,F,31593
+Mugimaki Flycatcher,Ficedula mugimaki,Rare/Accidental,PASSERIFORMES: Muscicapidae,Mugimaki Flycatcher,Ficedula mugimaki,Forest,Forests,F,31619
+Blue Rock-Thrush,Monticola solitarius,Rare/Accidental,PASSERIFORMES: Muscicapidae,Blue Rock-thrush,Monticola solitarius,Rocky,Rocky and arid,F,31768
+Amur Stonechat,Saxicola stejnegeri,Rare/Accidental,PASSERIFORMES: Muscicapidae,Amur Stonechat,Saxicola stejnegeri,Grassland,Open landscapes,F,31808
+Northern Wheatear,Oenanthe oenanthe,Rare/Accidental,PASSERIFORMES: Muscicapidae,Northern Wheatear,Oenanthe oenanthe,Grassland,Open landscapes,F,31898
+Isabelline Wheatear,Oenanthe isabellina,Rare/Accidental,PASSERIFORMES: Muscicapidae,Isabelline Wheatear,Oenanthe isabellina,Plains,Open landscapes,F,31914
+Red-capped Flowerpecker,Dicaeum geelvinkianum,,PASSERIFORMES: Dicaeidae,Red-capped Flowerpecker,Dicaeum geelvinkianum,Forest,Forests,F,32195
+Mistletoebird,Dicaeum hirundinaceum,,PASSERIFORMES: Dicaeidae,Mistletoebird,Dicaeum hirundinaceum,Forest,Forests,F,32232
+Ornate Sunbird,Cinnyris ornatus,,PASSERIFORMES: Nectariniidae,Ornate Sunbird,Cinnyris ornatus,Forest,Forests,F,32623
+Sahul Sunbird,Cinnyris frenatus,,PASSERIFORMES: Nectariniidae,Sahul Sunbird,Cinnyris frenatus,Forest,Forests,F,32638
+Pictorella Munia,Heteromunia pectoralis,Endemic,PASSERIFORMES: Estrildidae,Pictorella Mannikin,Heteromunia pectoralis,Woodland,Open landscapes,F,33310
+Diamond Firetail,Stagonopleura guttata,Endemic Vulnerable,PASSERIFORMES: Estrildidae,Diamond Firetail,Stagonopleura guttata,Forest,Forests,F,33315
+Red-eared Firetail,Stagonopleura oculata,Endemic,PASSERIFORMES: Estrildidae,Red-eared Firetail,Stagonopleura oculata,Shrub,Open landscapes,F,33316
+Beautiful Firetail,Stagonopleura bella,Endemic,PASSERIFORMES: Estrildidae,Beautiful Firetail,Stagonopleura bella,Shrub,Open landscapes,F,33317
+Crimson Finch,Neochmia phaeton,,PASSERIFORMES: Estrildidae,Black-bellied Crimson Finch,Neochmia phaeton,Riparian,Wetlands and rivers,F,33321
+Red-browed Firetail,Neochmia temporalis,Endemic,PASSERIFORMES: Estrildidae,Red-browed Finch,Neochmia temporalis,Woodland,Open landscapes,F,33326
+Painted Firetail,Emblema pictum,Endemic,PASSERIFORMES: Estrildidae,Painted Finch,Emblema pictum,Rocky,Rocky and arid,F,33330
+Star Finch,Emblema ruficauda,Endemic,PASSERIFORMES: Estrildidae,Star Finch,Neochmia ruficauda,Riparian,Wetlands and rivers,F,33331
+Plum-headed Finch,Emblema modestum,Endemic,PASSERIFORMES: Estrildidae,Plum-headed Finch,Neochmia modesta,Savanna,Open landscapes,G,33335
+Double-barred Finch,Stizoptera bichenovii,Endemic,PASSERIFORMES: Estrildidae,Double-barred Finch,Taeniopygia bichenovii,Shrub,Open landscapes,F,33336
+Zebra Finch,Taeniopygia guttata,,PASSERIFORMES: Estrildidae,Timor Zebra Finch,Taeniopygia guttata,Grassland,Open landscapes,F,33339
+Masked Finch,Poephila personata,Endemic,PASSERIFORMES: Estrildidae,Masked Finch,Poephila personata,Forest,Forests,F,33343
+Long-tailed Finch,Poephila acuticauda,Endemic,PASSERIFORMES: Estrildidae,Long-tailed Finch,Poephila acuticauda,Woodland,Open landscapes,F,33346
+Black-throated Finch,Poephila cincta,Endemic,PASSERIFORMES: Estrildidae,Black-throated Finch,Poephila cincta,Woodland,Open landscapes,F,33349
+Java Sparrow,Padda oryzivora,Introduced species Endangered,PASSERIFORMES: Estrildidae,Java Sparrow,Padda oryzivora,Grassland,Open landscapes,F,33373
+Scaly-breasted Munia,Lonchura punctulata,Introduced species,PASSERIFORMES: Estrildidae,Scaly-breasted Munia,Lonchura punctulata,Shrub,Open landscapes,F,33383
+Chestnut Munia,Lonchura atricapilla,Introduced species,PASSERIFORMES: Estrildidae,Chestnut Munia,Lonchura atricapilla,Wetland,Wetlands and rivers,F,33425
+White-headed Munia,Lonchura maja,Rare/Accidental,PASSERIFORMES: Estrildidae,White-headed Munia,Lonchura maja,Grassland,Open landscapes,F,33438
+Pale-headed Munia,Lonchura pallida,Rare/Accidental,PASSERIFORMES: Estrildidae,Pale-headed Munia,Lonchura pallida,Shrub,Open landscapes,F,33441
+Yellow-rumped Munia,Lonchura flaviprymna,Endemic,PASSERIFORMES: Estrildidae,Yellow-rumped Mannikin,Lonchura flaviprymna,Wetland,Wetlands and rivers,F,33471
+Chestnut-breasted Munia,Lonchura castaneothorax,,PASSERIFORMES: Estrildidae,Chestnut-breasted Mannikin,Lonchura castaneothorax,Wetland,Wetlands and rivers,F,33473
+Gouldian Finch,Chloebia gouldiae,Endemic,PASSERIFORMES: Estrildidae,Gouldian Finch,Chloebia gouldiae,Savanna,Open landscapes,F,33484
+Blue-faced Parrotfinch,Erythrura trichroa,,PASSERIFORMES: Estrildidae,Blue-faced Parrotfinch,Erythrura trichroa,Forest,Forests,F,33512
+House Sparrow,Passer domesticus,Introduced species,PASSERIFORMES: Passeridae,House Sparrow,Passer domesticus,Artificial,Artificial habitats,F,32939
+Eurasian Tree Sparrow,Passer montanus,Introduced species,PASSERIFORMES: Passeridae,Eurasian Tree Sparrow,Passer montanus,Artificial,Artificial habitats,F,32910
+Forest Wagtail,Dendronanthus indicus,Rare/Accidental,PASSERIFORMES: Motacillidae,Forest Wagtail,Dendronanthus indicus,Forest,Forests,F,33876
+Gray Wagtail,Motacilla cinerea,Rare/Accidental,PASSERIFORMES: Motacillidae,Grey Wagtail,Motacilla cinerea,Riparian,Wetlands and rivers,F,33907
+Eastern Yellow Wagtail,Motacilla tschutschensis,,PASSERIFORMES: Motacillidae,Eastern Yellow Wagtail,Motacilla tschutschensis,Wetland,Wetlands and rivers,F,33889
+Citrine Wagtail,Motacilla citreola,Rare/Accidental,PASSERIFORMES: Motacillidae,Citrine Wagtail,Motacilla citreola,Wetland,Wetlands and rivers,F,33897
+White Wagtail,Motacilla alba,Rare/Accidental,PASSERIFORMES: Motacillidae,White Wagtail,Motacilla alba,Riparian,Wetlands and rivers,F,33918
+Australian Pipit,Anthus australis,,PASSERIFORMES: Motacillidae,Australian Pipit,Anthus australis,Grassland,Open landscapes,F,33972
+New Zealand Pipit,Anthus novaeseelandiae,Rare/Accidental,PASSERIFORMES: Motacillidae,Australasian Pipit,Anthus novaeseelandiae,Grassland,Open landscapes,F,33979
+Blyth's Pipit,Anthus godlewskii,Rare/Accidental,PASSERIFORMES: Motacillidae,Blyth's Pipit,Anthus godlewskii,Rocky,Rocky and arid,F,34007
+Tree Pipit,Anthus trivialis,Rare/Accidental,PASSERIFORMES: Motacillidae,Tree Pipit,Anthus trivialis,Woodland,Open landscapes,F,34067
+Pechora Pipit,Anthus gustavi,Rare/Accidental,PASSERIFORMES: Motacillidae,Pechora Pipit,Anthus gustavi,Shrub,Open landscapes,F,34075
+Red-throated Pipit,Anthus cervinus,Rare/Accidental,PASSERIFORMES: Motacillidae,Red-throated Pipit,Anthus cervinus,Wetland,Wetlands and rivers,F,34080
+Common Chaffinch,Fringilla coelebs,Rare/Accidental,PASSERIFORMES: Fringillidae,Common Chaffinch,Fringilla coelebs,Woodland,Open landscapes,F,34153
+European Greenfinch,Chloris chloris,Introduced species,PASSERIFORMES: Fringillidae,European Greenfinch,Chloris chloris,Forest,Forests,F,34462
+Redpoll,Acanthis flammea,Introduced species,PASSERIFORMES: Fringillidae,Redpoll,Acanthis flammea,Plains,Open landscapes,F,34641
+European Goldfinch,Carduelis carduelis,Introduced species,PASSERIFORMES: Fringillidae,European Goldfinch,Carduelis carduelis,Woodland,Open landscapes,F,34692
+Yellowhammer,Emberiza citrinella,Rare/Accidental,PASSERIFORMES: Emberizidae,Yellowhammer,Emberiza citrinella,Woodland,Open landscapes,F,34913
+Yellow-breasted Bunting,Emberiza aureola,Rare/Accidental Critically endangered,PASSERIFORMES: Emberizidae,Yellow-breasted Bunting,Emberiza aureola,Grassland,Open landscapes,F,35001

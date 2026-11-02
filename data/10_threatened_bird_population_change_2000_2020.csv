@@ -1,0 +1,9 @@
+state_abbrev,state,reporting_region,percent_change,monitored_taxa,time_series,start_year,end_year,source
+SA,South Australia,South Australia,-69.6,28,2165,2000,2020,https://tsx.org.au/visualising-the-index/the-2023-threatened-bird-index/
+QLD,Queensland,Queensland,-65.7,25,3177,2000,2020,https://tsx.org.au/visualising-the-index/the-2023-threatened-bird-index/
+NSW,New South Wales,New South Wales + ACT,-56.3,35,4505,2000,2020,https://tsx.org.au/visualising-the-index/the-2023-threatened-bird-index/
+ACT,Australian Capital Territory,New South Wales + ACT,-56.3,35,4505,2000,2020,https://tsx.org.au/visualising-the-index/the-2023-threatened-bird-index/
+VIC,Victoria,Victoria,-47.9,32,4307,2000,2020,https://tsx.org.au/visualising-the-index/the-2023-threatened-bird-index/
+WA,Western Australia,Western Australia,-29.9,23,2742,2000,2020,https://tsx.org.au/visualising-the-index/the-2023-threatened-bird-index/
+TAS,Tasmania,Tasmania,-27.6,21,376,2000,2020,https://tsx.org.au/visualising-the-index/the-2023-threatened-bird-index/
+NT,Northern Territory,Northern Territory,-3.4,18,432,2000,2020,https://tsx.org.au/visualising-the-index/the-2023-threatened-bird-index/

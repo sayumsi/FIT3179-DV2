@@ -1,0 +1,131 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "April 2025 ALA human-observation records. Six species led at least one state (including NT ties). Cell colour shows RAW number of occurrence records per species per state; it does not control for state reporting effort or estimate bird population size.",
+  "background": "#FFFFFF",
+  "data": {
+    "url": "data/03_state_leaders_heatmap.csv",
+    "format": {
+      "type": "csv",
+      "parse": {
+        "records": "number",
+        "records_per_1000": "number"
+      }
+    }
+  },
+  "width": 220,
+  "height": 348,
+  "mark": {
+    "type": "rect",
+    "stroke": "#FFFFFF",
+    "strokeWidth": 2,
+    "cornerRadius": 0
+  },
+  "encoding": {
+    "x": {
+      "field": "state",
+      "type": "nominal",
+      "sort": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "WA",
+        "SA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "title": null,
+      "axis": {
+        "orient": "top",
+        "labelAngle": 0,
+        "labelFontSize": 11,
+        "labelFontWeight": 700,
+        "labelColor": "#193D58",
+        "labelPadding": 9,
+        "tickSize": 0,
+        "domain": false,
+        "grid": false
+      }
+    },
+    "y": {
+      "field": "species",
+      "type": "nominal",
+      "sort": [
+        "Australian Magpie",
+        "Magpie-lark",
+        "Rainbow Lorikeet",
+        "Australian Raven",
+        "Brown Honeyeater",
+        "Forest Raven"
+      ],
+      "title": null,
+      "axis": {
+        "labelFontSize": 11,
+        "labelColor": "#193D58",
+        "labelLimit": 115,
+        "labelPadding": 5,
+        "ticks": false,
+        "domain": false,
+        "grid": false
+      }
+    },
+    "color": {
+      "field": "records",
+      "type": "quantitative",
+      "scale": {
+        "type": "threshold",
+        "domain": [
+          0.001,
+          25,
+          100,
+          250,
+          400,
+          600
+        ],
+        "range": [
+          "#F8FAFC",
+          "#DCECF5",
+          "#B2D3E7",
+          "#86B3D0",
+          "#6099BF",
+          "#376F9B",
+          "#174F79"
+        ]
+      },
+      "legend": null
+    },
+    "tooltip": [
+      {
+        "field": "state_name",
+        "type": "nominal",
+        "title": "State / territory"
+      },
+      {
+        "field": "species",
+        "type": "nominal",
+        "title": "Bird species"
+      },
+      {
+        "field": "records",
+        "type": "quantitative",
+        "title": "Recorded sightings",
+        "format": ",d"
+      }
+    ]
+  },
+  "config": {
+    "view": {
+      "stroke": null
+    },
+    "axis": {
+      "labelFont": "DM Sans",
+      "titleFont": "DM Sans"
+    },
+    "legend": {
+      "labelFont": "DM Sans",
+      "titleFont": "DM Sans",
+      "labelFontSize": 11,
+      "titleFontSize": 14
+    }
+  }
+}

@@ -1,0 +1,13 @@
+month,month_name,month_number,summer_visitors,regular_species_total,resident_species,winter_visitors,passage_migrants,source_url
+Jan,January,1,28,100,69,2,1,https://www.birdfact.com/birds-in/australia/january
+Feb,February,2,24,96,68,2,2,https://www.birdfact.com/birds-in/australia/february
+Mar,March,3,20,92,68,2,2,https://www.birdfact.com/birds-in/australia/march
+Apr,April,4,17,90,69,2,2,https://www.birdfact.com/birds-in/australia/april
+May,May,5,11,87,69,3,4,https://www.birdfact.com/birds-in/australia/may
+Jun,June,6,10,83,69,3,1,https://www.birdfact.com/birds-in/australia/june
+Jul,July,7,11,85,69,3,2,https://www.birdfact.com/birds-in/australia/july
+Aug,August,8,12,86,69,3,2,https://www.birdfact.com/birds-in/australia/august
+Sep,September,9,16,90,69,2,3,https://www.birdfact.com/birds-in/australia/september
+Oct,October,10,22,97,69,2,4,https://www.birdfact.com/birds-in/australia/october
+Nov,November,11,28,104,69,2,5,https://www.birdfact.com/birds-in/australia/november
+Dec,December,12,28,100,69,2,1,https://www.birdfact.com/birds-in/australia/december

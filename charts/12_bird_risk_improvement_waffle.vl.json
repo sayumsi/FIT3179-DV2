@@ -1,0 +1,80 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Chart 12. Among 199 Australian bird species and subspecies assessed across 1990–2020, 25 had reduced extinction risk in at least one decade; 174 had no recorded improvement. Two-category 100-tile waffle.",
+  "width": 288,
+  "height": 288,
+  "data": {
+    "url": "data/12_waffle_tiles.csv",
+    "format": {
+      "type": "csv"
+    }
+  },
+  "mark": {
+    "type": "rect",
+    "cornerRadius": 4,
+    "stroke": "#FFFFFF",
+    "strokeWidth": 2.5
+  },
+  "encoding": {
+    "x": {
+      "field": "column",
+      "type": "ordinal",
+      "sort": "ascending",
+      "axis": null,
+      "scale": {
+        "paddingInner": 0,
+        "paddingOuter": 0
+      }
+    },
+    "y": {
+      "field": "row",
+      "type": "ordinal",
+      "sort": "ascending",
+      "axis": null,
+      "scale": {
+        "paddingInner": 0,
+        "paddingOuter": 0
+      }
+    },
+    "color": {
+      "field": "category",
+      "type": "nominal",
+      "legend": null,
+      "scale": {
+        "domain": [
+          "Improved at least once",
+          "No recorded improvement"
+        ],
+        "range": [
+          "#8A4C79",
+          "#547F9F"
+        ]
+      }
+    },
+    "tooltip": [
+      {
+        "field": "category",
+        "type": "nominal",
+        "title": "Extinction-risk change"
+      },
+      {
+        "field": "taxa",
+        "type": "quantitative",
+        "title": "Species and subspecies",
+        "format": ",d"
+      },
+      {
+        "field": "share_percent",
+        "type": "quantitative",
+        "title": "Share of assessed birds (%)",
+        "format": ".1f"
+      }
+    ]
+  },
+  "config": {
+    "view": {
+      "stroke": null
+    },
+    "background": null
+  }
+}

@@ -1,0 +1,622 @@
+common_name,scientific_name,bird_group,australia_only,avibase_status,birddatabase_primary_habitat,habitat_group
+Magpie Goose,Anseranas semipalmata,"Ducks, geese and swans",False,,Wetland,Wetlands and rivers
+Spotted Whistling-Duck,Dendrocygna guttata,"Ducks, geese and swans",False,,Wetland,Wetlands and rivers
+Plumed Whistling-Duck,Dendrocygna eytoni,"Ducks, geese and swans",False,Breeding endemic,Grassland,Open landscapes
+Wandering Whistling-Duck,Dendrocygna arcuata,"Ducks, geese and swans",False,,Wetland,Wetlands and rivers
+Cape Barren Goose,Cereopsis novaehollandiae,"Ducks, geese and swans",True,Endemic,Shrub,Open landscapes
+Freckled Duck,Stictonetta naevosa,"Ducks, geese and swans",True,Endemic,Wetland,Wetlands and rivers
+Black Swan,Cygnus atratus,"Ducks, geese and swans",True,Endemic,Wetland,Wetlands and rivers
+Radjah Shelduck,Radjah radjah,"Ducks, geese and swans",False,,Coastal,Seas and coasts
+Australian Shelduck,Tadorna tadornoides,"Ducks, geese and swans",False,Breeding endemic,Wetland,Wetlands and rivers
+Green Pygmy-Goose,Nettapus pulchellus,"Ducks, geese and swans",False,,Wetland,Wetlands and rivers
+Cotton Pygmy-Goose,Nettapus coromandelianus,"Ducks, geese and swans",False,,Wetland,Wetlands and rivers
+Maned Duck,Chenonetta jubata,"Ducks, geese and swans",True,Endemic,Wetland,Wetlands and rivers
+Australasian Shoveler,Spatula rhynchotis,"Ducks, geese and swans",False,,Wetland,Wetlands and rivers
+Pacific Black Duck,Anas superciliosa,"Ducks, geese and swans",False,,Wetland,Wetlands and rivers
+Gray Teal,Anas gracilis,"Ducks, geese and swans",False,,Wetland,Wetlands and rivers
+Chestnut Teal,Anas castanea,"Ducks, geese and swans",True,Endemic,Coastal,Seas and coasts
+Pink-eared Duck,Malacorhynchus membranaceus,"Ducks, geese and swans",True,Endemic,Wetland,Wetlands and rivers
+Hardhead,Aythya australis,"Ducks, geese and swans",False,,Wetland,Wetlands and rivers
+Blue-billed Duck,Oxyura australis,"Ducks, geese and swans",True,Endemic,Wetland,Wetlands and rivers
+Musk Duck,Biziura lobata,"Ducks, geese and swans",True,Endemic,Wetland,Wetlands and rivers
+White-headed Pigeon,Columba leucomela,Pigeons and doves,True,Endemic,Forest,Forests
+Brown Cuckoo-Dove,Macropygia phasianella,Pigeons and doves,True,Endemic,Forest,Forests
+Asian Emerald Dove,Chalcophaps indica,Pigeons and doves,False,,Forest,Forests
+Pacific Emerald Dove,Chalcophaps longirostris,Pigeons and doves,False,,Forest,Forests
+Norfolk Ground Dove,Pampusana norfolkensis,Pigeons and doves,True,Endemic,Forest,Forests
+Common Bronzewing,Phaps chalcoptera,Pigeons and doves,True,Endemic,Forest,Forests
+Brush Bronzewing,Phaps elegans,Pigeons and doves,True,Endemic,Woodland,Open landscapes
+Flock Bronzewing,Phaps histrionica,Pigeons and doves,True,Endemic,Grassland,Open landscapes
+Crested Pigeon,Ocyphaps lophotes,Pigeons and doves,True,Endemic,Grassland,Open landscapes
+Spinifex Pigeon,Geophaps plumifera,Pigeons and doves,True,Endemic,Grassland,Open landscapes
+Squatter Pigeon,Geophaps scripta,Pigeons and doves,True,Endemic,Woodland,Open landscapes
+Partridge Pigeon,Geophaps smithii,Pigeons and doves,True,Endemic,Forest,Forests
+Chestnut-quilled Rock-Pigeon,Petrophassa rufipennis,Pigeons and doves,True,Endemic,Rocky,Rocky and arid
+White-quilled Rock-Pigeon,Petrophassa albipennis,Pigeons and doves,True,Endemic,Rocky,Rocky and arid
+Wonga Pigeon,Leucosarcia melanoleuca,Pigeons and doves,True,Endemic,Forest,Forests
+Diamond Dove,Geopelia cuneata,Pigeons and doves,True,Endemic,Grassland,Open landscapes
+Peaceful Dove,Geopelia placida,Pigeons and doves,False,,Woodland,Open landscapes
+Bar-shouldered Dove,Geopelia humeralis,Pigeons and doves,False,,Woodland,Open landscapes
+Wompoo Fruit-Dove,Megaloprepia magnifica,Pigeons and doves,False,,Forest,Forests
+Black-banded Fruit-Dove,Ptilinopus alligator,Pigeons and doves,True,Endemic,Forest,Forests
+Superb Fruit-Dove,Ptilinopus superbus,Pigeons and doves,False,,Forest,Forests
+Rose-crowned Fruit-Dove,Ptilinopus regina,Pigeons and doves,False,,Forest,Forests
+Pacific Imperial-Pigeon,Ducula pacifica,Pigeons and doves,False,,Forest,Forests
+Island Imperial-Pigeon,Ducula pistrinaria,Pigeons and doves,False,,Forest,Forests
+Christmas Island Imperial-Pigeon,Ducula whartoni,Pigeons and doves,True,Endemic,Forest,Forests
+Collared Imperial-Pigeon,Ducula mullerii,Pigeons and doves,False,,Forest,Forests
+Torresian Imperial-Pigeon,Ducula spilorrhoa,Pigeons and doves,False,,Forest,Forests
+Topknot Pigeon,Lopholaimus antarcticus,Pigeons and doves,True,Endemic,Forest,Forests
+Lewin's Rail,Lewinia pectoralis,Rails and cranes,False,,Wetland,Wetlands and rivers
+Chestnut Rail,Gallirallus castaneoventris,Rails and cranes,False,,Coastal,Seas and coasts
+Lord Howe Rail,Gallirallus sylvestris,Rails and cranes,True,Endemic Endangered,Forest,Forests
+Buff-banded Rail,Gallirallus philippensis,Rails and cranes,False,,Wetland,Wetlands and rivers
+Black-tailed Nativehen,Tribonyx ventralis,Rails and cranes,True,Endemic,Wetland,Wetlands and rivers
+Tasmanian Nativehen,Tribonyx mortierii,Rails and cranes,True,Endemic,Wetland,Wetlands and rivers
+Australian Crake,Porzana fluminea,Rails and cranes,True,Endemic,Wetland,Wetlands and rivers
+Dusky Moorhen,Gallinula tenebrosa,Rails and cranes,False,,Wetland,Wetlands and rivers
+Eurasian Coot,Fulica atra,Rails and cranes,False,,Wetland,Wetlands and rivers
+Australasian Swamphen,Porphyrio melanotus,Rails and cranes,False,,Wetland,Wetlands and rivers
+White-browed Crake,Poliolimnas cinereus,Rails and cranes,False,,Coastal,Seas and coasts
+White-breasted Waterhen,Amaurornis phoenicurus,Rails and cranes,False,,Wetland,Wetlands and rivers
+Pale-vented Bush-hen,Amaurornis moluccana,Rails and cranes,False,,Wetland,Wetlands and rivers
+Red-necked Crake,Rallina tricolor,Rails and cranes,False,,Forest,Forests
+Baillon's Crake,Zapornia pusilla,Rails and cranes,False,,Wetland,Wetlands and rivers
+Spotless Crake,Zapornia tabuensis,Rails and cranes,False,,Wetland,Wetlands and rivers
+Brolga,Antigone rubicunda,Rails and cranes,False,,Wetland,Wetlands and rivers
+Sarus Crane,Antigone antigone,Rails and cranes,False,Vulnerable,Wetland,Wetlands and rivers
+Beach Thick-knee,Esacus magnirostris,Shorebirds and relatives,False,Near-threatened,Coastal,Seas and coasts
+Bush Thick-knee,Burhinus grallarius,Shorebirds and relatives,False,,Woodland,Open landscapes
+Pied Stilt,Himantopus leucocephalus,Shorebirds and relatives,False,,Wetland,Wetlands and rivers
+Banded Stilt,Cladorhynchus leucocephalus,Shorebirds and relatives,True,Endemic,Wetland,Wetlands and rivers
+Red-necked Avocet,Recurvirostra novaehollandiae,Shorebirds and relatives,True,Endemic,Wetland,Wetlands and rivers
+Pied Oystercatcher,Haematopus longirostris,Shorebirds and relatives,False,,Coastal,Seas and coasts
+Sooty Oystercatcher,Haematopus fuliginosus,Shorebirds and relatives,True,Endemic,Coastal,Seas and coasts
+Black-bellied Plover,Pluvialis squatarola,Shorebirds and relatives,False,Vulnerable,Grassland,Open landscapes
+Pacific Golden-Plover,Pluvialis fulva,Shorebirds and relatives,False,,Grassland,Open landscapes
+Hooded Plover,Thinornis cucullatus,Shorebirds and relatives,True,Endemic Near-threatened,Coastal,Seas and coasts
+Black-fronted Dotterel,Thinornis melanops,Shorebirds and relatives,False,,Wetland,Wetlands and rivers
+Banded Lapwing,Vanellus tricolor,Shorebirds and relatives,True,Endemic,Grassland,Open landscapes
+Masked Lapwing,Vanellus miles,Shorebirds and relatives,False,,Grassland,Open landscapes
+Red-kneed Dotterel,Erythrogonys cinctus,Shorebirds and relatives,False,,Wetland,Wetlands and rivers
+Inland Dotterel,Peltohyas australis,Shorebirds and relatives,True,Endemic,Plains,Open landscapes
+Oriental Plover,Anarhynchus veredus,Shorebirds and relatives,False,,Wetland,Wetlands and rivers
+Siberian Sand-Plover,Anarhynchus mongolus,Shorebirds and relatives,False,Endangered,Plains,Open landscapes
+Greater Sand-Plover,Anarhynchus leschenaultii,Shorebirds and relatives,False,,Plains,Open landscapes
+Double-banded Plover,Anarhynchus bicinctus,Shorebirds and relatives,False,Near-threatened,Riparian,Wetlands and rivers
+Red-capped Plover,Anarhynchus ruficapillus,Shorebirds and relatives,False,,Coastal,Seas and coasts
+Plains-wanderer,Pedionomus torquatus,Shorebirds and relatives,True,Endemic Endangered,Grassland,Open landscapes
+Australian Painted-Snipe,Rostratula australis,Shorebirds and relatives,True,Endemic Endangered,Artificial,Artificial habitats
+Comb-crested Jacana,Irediparra gallinacea,Shorebirds and relatives,False,,Wetland,Wetlands and rivers
+Eurasian Whimbrel,Numenius phaeopus,Shorebirds and relatives,False,,Grassland,Open landscapes
+Little Curlew,Numenius minutus,Shorebirds and relatives,False,,Grassland,Open landscapes
+Far Eastern Curlew,Numenius madagascariensis,Shorebirds and relatives,False,Endangered,Wetland,Wetlands and rivers
+Bar-tailed Godwit,Limosa lapponica,Shorebirds and relatives,False,Near-threatened,Grassland,Open landscapes
+Black-tailed Godwit,Limosa limosa,Shorebirds and relatives,False,Near-threatened,Wetland,Wetlands and rivers
+Asian Dowitcher,Limnodromus semipalmatus,Shorebirds and relatives,False,Near-threatened,Wetland,Wetlands and rivers
+Swinhoe's Snipe,Gallinago megala,Shorebirds and relatives,False,,Woodland,Open landscapes
+Latham's Snipe,Gallinago hardwickii,Shorebirds and relatives,False,Near-threatened,Artificial,Artificial habitats
+Red-necked Phalarope,Phalaropus lobatus,Shorebirds and relatives,False,,Wetland,Wetlands and rivers
+Terek Sandpiper,Xenus cinereus,Shorebirds and relatives,False,,Grassland,Open landscapes
+Common Sandpiper,Actitis hypoleucos,Shorebirds and relatives,False,,Wetland,Wetlands and rivers
+Gray-tailed Tattler,Tringa brevipes,Shorebirds and relatives,False,,Riparian,Wetlands and rivers
+Wandering Tattler,Tringa incana,Shorebirds and relatives,False,,Riparian,Wetlands and rivers
+Marsh Sandpiper,Tringa stagnatilis,Shorebirds and relatives,False,,Wetland,Wetlands and rivers
+Wood Sandpiper,Tringa glareola,Shorebirds and relatives,False,,Wetland,Wetlands and rivers
+Common Greenshank,Tringa nebularia,Shorebirds and relatives,False,,Forest,Forests
+Ruddy Turnstone,Arenaria interpres,Shorebirds and relatives,False,Near-threatened,Coastal,Seas and coasts
+Great Knot,Calidris tenuirostris,Shorebirds and relatives,False,Endangered,Grassland,Open landscapes
+Red Knot,Calidris canutus,Shorebirds and relatives,False,Near-threatened,Coastal,Seas and coasts
+Ruff,Calidris pugnax,Shorebirds and relatives,False,,Wetland,Wetlands and rivers
+Broad-billed Sandpiper,Calidris falcinellus,Shorebirds and relatives,False,Vulnerable,Wetland,Wetlands and rivers
+Sharp-tailed Sandpiper,Calidris acuminata,Shorebirds and relatives,False,Vulnerable,Wetland,Wetlands and rivers
+Curlew Sandpiper,Calidris ferruginea,Shorebirds and relatives,False,Vulnerable,Coastal,Seas and coasts
+Long-toed Stint,Calidris subminuta,Shorebirds and relatives,False,,Wetland,Wetlands and rivers
+Red-necked Stint,Calidris ruficollis,Shorebirds and relatives,False,Near-threatened,Grassland,Open landscapes
+Sanderling,Calidris alba,Shorebirds and relatives,False,,Coastal,Seas and coasts
+Pectoral Sandpiper,Calidris melanotos,Shorebirds and relatives,False,,Wetland,Wetlands and rivers
+Red-backed Buttonquail,Turnix maculosus,Shorebirds and relatives,False,,Grassland,Open landscapes
+Little Buttonquail,Turnix velox,Shorebirds and relatives,True,Endemic,Grassland,Open landscapes
+Red-chested Buttonquail,Turnix pyrrhothorax,Shorebirds and relatives,True,Endemic,Grassland,Open landscapes
+Chestnut-backed Buttonquail,Turnix castanotus,Shorebirds and relatives,True,Endemic,Woodland,Open landscapes
+Buff-breasted Buttonquail,Turnix olivii,Shorebirds and relatives,True,Endemic Critically endangered,Grassland,Open landscapes
+Painted Buttonquail,Turnix varius,Shorebirds and relatives,False,,Shrub,Open landscapes
+Black-breasted Buttonquail,Turnix melanogaster,Shorebirds and relatives,True,Endemic Vulnerable,Forest,Forests
+Australian Pratincole,Glareola isabella,Shorebirds and relatives,False,Breeding endemic,Grassland,Open landscapes
+Oriental Pratincole,Glareola maldivarum,Shorebirds and relatives,False,,Grassland,Open landscapes
+Parasitic Jaeger,Stercorarius parasiticus,Shorebirds and relatives,False,,Sea,Seas and coasts
+Pomarine Jaeger,Stercorarius pomarinus,Shorebirds and relatives,False,,Coastal,Seas and coasts
+Brown Skua,Stercorarius antarcticus,Shorebirds and relatives,False,,Sea,Seas and coasts
+Silver Gull,Chroicocephalus novaehollandiae,Shorebirds and relatives,False,,Coastal,Seas and coasts
+Pacific Gull,Larus pacificus,Shorebirds and relatives,True,Endemic,Coastal,Seas and coasts
+Kelp Gull,Larus dominicanus,Shorebirds and relatives,False,,Coastal,Seas and coasts
+Blue-billed White-Tern,Gygis candida,Shorebirds and relatives,False,,Sea,Seas and coasts
+Brown Noddy,Anous stolidus,Shorebirds and relatives,False,,Sea,Seas and coasts
+Lesser Noddy,Anous tenuirostris,Shorebirds and relatives,False,,Sea,Seas and coasts
+Black Noddy,Anous minutus,Shorebirds and relatives,False,,Coastal,Seas and coasts
+Gray Noddy,Anous albivitta,Shorebirds and relatives,False,,Coastal,Seas and coasts
+Blue-gray Noddy,Anous ceruleus,Shorebirds and relatives,False,,Coastal,Seas and coasts
+Sooty Tern,Onychoprion fuscatus,Shorebirds and relatives,False,,Sea,Seas and coasts
+Bridled Tern,Onychoprion anaethetus,Shorebirds and relatives,False,,Coastal,Seas and coasts
+Little Tern,Sternula albifrons,Shorebirds and relatives,False,,Coastal,Seas and coasts
+Australian Fairy Tern,Sternula nereis,Shorebirds and relatives,False,Vulnerable,Coastal,Seas and coasts
+Gull-billed Tern,Gelochelidon nilotica,Shorebirds and relatives,False,,Coastal,Seas and coasts
+Australian Tern,Gelochelidon macrotarsa,Shorebirds and relatives,False,,Coastal,Seas and coasts
+Caspian Tern,Hydroprogne caspia,Shorebirds and relatives,False,,Coastal,Seas and coasts
+Whiskered Tern,Chlidonias hybrida,Shorebirds and relatives,False,,Wetland,Wetlands and rivers
+White-winged Tern,Chlidonias leucopterus,Shorebirds and relatives,False,,Wetland,Wetlands and rivers
+Common Tern,Sterna hirundo,Shorebirds and relatives,False,,Coastal,Seas and coasts
+Black-naped Tern,Sterna sumatrana,Shorebirds and relatives,False,,Coastal,Seas and coasts
+Roseate Tern,Sterna dougallii,Shorebirds and relatives,False,,Coastal,Seas and coasts
+White-fronted Tern,Sterna striata,Shorebirds and relatives,False,Near-threatened,Coastal,Seas and coasts
+Lesser Crested Tern,Thalasseus bengalensis,Shorebirds and relatives,False,,Coastal,Seas and coasts
+Great Crested Tern,Thalasseus bergii,Shorebirds and relatives,False,,Coastal,Seas and coasts
+Northern Royal Albatross,Diomedea sanfordi,Petrels and albatrosses,False,Endangered,Sea,Seas and coasts
+Southern Royal Albatross,Diomedea epomophora,Petrels and albatrosses,False,Vulnerable,Sea,Seas and coasts
+Snowy Albatross,Diomedea exulans,Petrels and albatrosses,False,Vulnerable,Sea,Seas and coasts
+Antipodean Albatross,Diomedea antipodensis,Petrels and albatrosses,False,Endangered,Sea,Seas and coasts
+Sooty Albatross,Phoebetria fusca,Petrels and albatrosses,False,Endangered,Sea,Seas and coasts
+Light-mantled Albatross,Phoebetria palpebrata,Petrels and albatrosses,False,Near-threatened,Sea,Seas and coasts
+Indian Yellow-nosed Albatross,Thalassarche carteri,Petrels and albatrosses,False,Endangered,Sea,Seas and coasts
+Gray-headed Albatross,Thalassarche chrysostoma,Petrels and albatrosses,False,Endangered,Sea,Seas and coasts
+Buller's Albatross,Thalassarche bulleri,Petrels and albatrosses,False,Near-threatened,Sea,Seas and coasts
+White-capped Albatross,Thalassarche cauta,Petrels and albatrosses,False,,Sea,Seas and coasts
+Black-browed Albatross,Thalassarche melanophris,Petrels and albatrosses,False,,Sea,Seas and coasts
+Wilson's Storm-Petrel,Oceanites oceanicus,Petrels and albatrosses,False,,Sea,Seas and coasts
+Gray-backed Storm-Petrel,Garrodia nereis,Petrels and albatrosses,False,,Sea,Seas and coasts
+White-faced Storm-Petrel,Pelagodroma marina,Petrels and albatrosses,False,,Sea,Seas and coasts
+White-bellied Storm-Petrel,Fregetta grallaria,Petrels and albatrosses,False,,Sea,Seas and coasts
+Black-bellied Storm-Petrel,Fregetta tropica,Petrels and albatrosses,False,,Sea,Seas and coasts
+Matsudaira's Storm-Petrel,Hydrobates matsudairae,Petrels and albatrosses,False,Vulnerable,Sea,Seas and coasts
+Southern Giant-Petrel,Macronectes giganteus,Petrels and albatrosses,False,,Sea,Seas and coasts
+Northern Giant-Petrel,Macronectes halli,Petrels and albatrosses,False,,Sea,Seas and coasts
+Pintado Petrel,Daption capense,Petrels and albatrosses,False,,Sea,Seas and coasts
+Kerguelen Petrel,Aphrodroma brevirostris,Petrels and albatrosses,False,,Sea,Seas and coasts
+Great-winged Petrel,Pterodroma macroptera,Petrels and albatrosses,False,,Sea,Seas and coasts
+Kermadec Petrel,Pterodroma neglecta,Petrels and albatrosses,False,,Sea,Seas and coasts
+Herald Petrel,Pterodroma heraldica,Petrels and albatrosses,False,,Sea,Seas and coasts
+Providence Petrel,Pterodroma solandri,Petrels and albatrosses,False,,Sea,Seas and coasts
+Soft-plumaged Petrel,Pterodroma mollis,Petrels and albatrosses,False,,Sea,Seas and coasts
+White-headed Petrel,Pterodroma lessonii,Petrels and albatrosses,False,,Sea,Seas and coasts
+Mottled Petrel,Pterodroma inexpectata,Petrels and albatrosses,False,Near-threatened,Sea,Seas and coasts
+White-necked Petrel,Pterodroma cervicalis,Petrels and albatrosses,False,,Sea,Seas and coasts
+Black-winged Petrel,Pterodroma nigripennis,Petrels and albatrosses,False,,Sea,Seas and coasts
+Gould's Petrel,Pterodroma leucoptera,Petrels and albatrosses,False,Vulnerable,Sea,Seas and coasts
+Blue Petrel,Halobaena caerulea,Petrels and albatrosses,False,,Sea,Seas and coasts
+Fairy Prion,Pachyptila turtur,Petrels and albatrosses,False,,Sea,Seas and coasts
+Salvin's Prion,Pachyptila salvini,Petrels and albatrosses,False,,Sea,Seas and coasts
+Antarctic Prion,Pachyptila desolata,Petrels and albatrosses,False,,Sea,Seas and coasts
+Slender-billed Prion,Pachyptila belcheri,Petrels and albatrosses,False,,Sea,Seas and coasts
+Gray Petrel,Procellaria cinerea,Petrels and albatrosses,False,Near-threatened,Sea,Seas and coasts
+White-chinned Petrel,Procellaria aequinoctialis,Petrels and albatrosses,False,Vulnerable,Sea,Seas and coasts
+Parkinson's Petrel,Procellaria parkinsoni,Petrels and albatrosses,False,Vulnerable,Sea,Seas and coasts
+Streaked Shearwater,Calonectris leucomelas,Petrels and albatrosses,False,Near-threatened,Sea,Seas and coasts
+Flesh-footed Shearwater,Ardenna carneipes,Petrels and albatrosses,False,Near-threatened,Sea,Seas and coasts
+Wedge-tailed Shearwater,Ardenna pacifica,Petrels and albatrosses,False,,Sea,Seas and coasts
+Buller's Shearwater,Ardenna bulleri,Petrels and albatrosses,False,Vulnerable,Sea,Seas and coasts
+Sooty Shearwater,Ardenna grisea,Petrels and albatrosses,False,Near-threatened,Sea,Seas and coasts
+Short-tailed Shearwater,Ardenna tenuirostris,Petrels and albatrosses,False,,Sea,Seas and coasts
+Hutton's Shearwater,Puffinus huttoni,Petrels and albatrosses,False,Endangered,Sea,Seas and coasts
+Fluttering Shearwater,Puffinus gavia,Petrels and albatrosses,False,,Sea,Seas and coasts
+Little Shearwater,Puffinus assimilis,Petrels and albatrosses,False,,Sea,Seas and coasts
+Subantarctic Shearwater,Puffinus elegans,Petrels and albatrosses,False,,Sea,Seas and coasts
+Common Diving-Petrel,Pelecanoides urinatrix,Petrels and albatrosses,False,,Sea,Seas and coasts
+Glossy Ibis,Plegadis falcinellus,"Pelicans, herons and ibises",False,,Wetland,Wetlands and rivers
+Australian Ibis,Threskiornis molucca,"Pelicans, herons and ibises",False,,Wetland,Wetlands and rivers
+Straw-necked Ibis,Threskiornis spinicollis,"Pelicans, herons and ibises",False,,Grassland,Open landscapes
+Royal Spoonbill,Platalea regia,"Pelicans, herons and ibises",False,,Wetland,Wetlands and rivers
+Yellow-billed Spoonbill,Platalea flavipes,"Pelicans, herons and ibises",True,Endemic,Wetland,Wetlands and rivers
+Australasian Bittern,Botaurus poiciloptilus,"Pelicans, herons and ibises",False,Vulnerable,Wetland,Wetlands and rivers
+Black Bittern,Botaurus flavicollis,"Pelicans, herons and ibises",False,,Wetland,Wetlands and rivers
+Black-backed Bittern,Botaurus dubius,"Pelicans, herons and ibises",False,,Wetland,Wetlands and rivers
+Nankeen Night Heron,Nycticorax caledonicus,"Pelicans, herons and ibises",False,,Wetland,Wetlands and rivers
+Pacific Reef-Heron,Egretta sacra,"Pelicans, herons and ibises",False,,Coastal,Seas and coasts
+Little Egret,Egretta garzetta,"Pelicans, herons and ibises",False,,Wetland,Wetlands and rivers
+Pied Heron,Egretta picata,"Pelicans, herons and ibises",False,,Coastal,Seas and coasts
+White-faced Heron,Egretta novaehollandiae,"Pelicans, herons and ibises",False,,Wetland,Wetlands and rivers
+Little Heron,Butorides atricapilla,"Pelicans, herons and ibises",False,,Wetland,Wetlands and rivers
+Eastern Cattle-Egret,Ardea coromanda,"Pelicans, herons and ibises",False,,Coastal,Seas and coasts
+Pacific Heron,Ardea pacifica,"Pelicans, herons and ibises",False,Breeding endemic,Wetland,Wetlands and rivers
+Great Egret,Ardea alba,"Pelicans, herons and ibises",False,,Wetland,Wetlands and rivers
+Medium Egret,Ardea intermedia,"Pelicans, herons and ibises",False,,Wetland,Wetlands and rivers
+Plumed Egret,Ardea plumifera,"Pelicans, herons and ibises",False,,Wetland,Wetlands and rivers
+Great-billed Heron,Ardea sumatrana,"Pelicans, herons and ibises",False,,Coastal,Seas and coasts
+Australian Pelican,Pelecanus conspicillatus,"Pelicans, herons and ibises",False,,Wetland,Wetlands and rivers
+Yellow-tailed Black-Cockatoo,Zanda funerea,Parrots and cockatoos,True,Endemic,Forest,Forests
+Carnaby's Black-Cockatoo,Zanda latirostris,Parrots and cockatoos,True,Endemic Endangered,Savanna,Open landscapes
+Baudin's Black-Cockatoo,Zanda baudinii,Parrots and cockatoos,True,Endemic Critically endangered,Forest,Forests
+Red-tailed Black-Cockatoo,Calyptorhynchus banksii,Parrots and cockatoos,True,Endemic,Forest,Forests
+Glossy Black-Cockatoo,Calyptorhynchus lathami,Parrots and cockatoos,True,Endemic Vulnerable,Woodland,Open landscapes
+Cockatiel,Nymphicus hollandicus,Parrots and cockatoos,True,Endemic,Woodland,Open landscapes
+Palm Cockatoo,Probosciger aterrimus,Parrots and cockatoos,False,Near-threatened,Forest,Forests
+Gang-gang Cockatoo,Callocephalon fimbriatum,Parrots and cockatoos,True,Endemic Vulnerable,Woodland,Open landscapes
+Galah,Eolophus roseicapilla,Parrots and cockatoos,True,Endemic,Woodland,Open landscapes
+Pink Cockatoo,Cacatua leadbeateri,Parrots and cockatoos,True,Endemic,Shrub,Open landscapes
+Western Corella,Cacatua pastinator,Parrots and cockatoos,True,Endemic,Woodland,Open landscapes
+Little Corella,Cacatua sanguinea,Parrots and cockatoos,False,,Savanna,Open landscapes
+Long-billed Corella,Cacatua tenuirostris,Parrots and cockatoos,True,Endemic,Savanna,Open landscapes
+Sulphur-crested Cockatoo,Cacatua galerita,Parrots and cockatoos,False,,Forest,Forests
+Superb Parrot,Polytelis swainsonii,Parrots and cockatoos,True,Endemic,Riparian,Wetlands and rivers
+Regent Parrot,Polytelis anthopeplus,Parrots and cockatoos,True,Endemic,Woodland,Open landscapes
+Princess Parrot,Polytelis alexandrae,Parrots and cockatoos,True,Endemic Near-threatened,Desert,Rocky and arid
+Australian King-Parrot,Alisterus scapularis,Parrots and cockatoos,True,Endemic,Forest,Forests
+Red-winged Parrot,Aprosmictus erythropterus,Parrots and cockatoos,False,,Forest,Forests
+Papuan Eclectus,Eclectus polychloros,Parrots and cockatoos,False,,Forest,Forests
+Red-cheeked Parrot,Geoffroyus geoffroyi,Parrots and cockatoos,False,,Forest,Forests
+Ground Parrot,Pezoporus wallicus,Parrots and cockatoos,True,Endemic,Shrub,Open landscapes
+Night Parrot,Pezoporus occidentalis,Parrots and cockatoos,True,Endemic Critically endangered,Shrub,Open landscapes
+Bourke's Parrot,Neopsephotus bourkii,Parrots and cockatoos,True,Endemic,Shrub,Open landscapes
+Blue-winged Parrot,Neophema chrysostoma,Parrots and cockatoos,True,Endemic Vulnerable,Woodland,Open landscapes
+Elegant Parrot,Neophema elegans,Parrots and cockatoos,True,Endemic,Woodland,Open landscapes
+Rock Parrot,Neophema petrophila,Parrots and cockatoos,True,Endemic,Coastal,Seas and coasts
+Orange-bellied Parrot,Neophema chrysogaster,Parrots and cockatoos,True,Endemic Critically endangered,Woodland,Open landscapes
+Turquoise Parrot,Neophema pulchella,Parrots and cockatoos,True,Endemic,Forest,Forests
+Scarlet-chested Parrot,Neophema splendida,Parrots and cockatoos,True,Endemic,Shrub,Open landscapes
+Swift Parrot,Lathamus discolor,Parrots and cockatoos,True,Endemic Critically endangered,Forest,Forests
+Red-crowned Parakeet,Cyanoramphus novaezelandiae,Parrots and cockatoos,False,,Forest,Forests
+Norfolk Island Parakeet,Cyanoramphus cookii,Parrots and cockatoos,False,,Forest,Forests
+Australian Ringneck,Barnardius zonarius,Parrots and cockatoos,True,Endemic,Forest,Forests
+Green Rosella,Platycercus caledonicus,Parrots and cockatoos,True,Endemic,Woodland,Open landscapes
+Crimson Rosella,Platycercus elegans,Parrots and cockatoos,True,Endemic,Forest,Forests
+Northern Rosella,Platycercus venustus,Parrots and cockatoos,True,Endemic,Woodland,Open landscapes
+Eastern Rosella,Platycercus eximius,Parrots and cockatoos,True,Endemic,Woodland,Open landscapes
+Pale-headed Rosella,Platycercus adscitus,Parrots and cockatoos,True,Endemic,Woodland,Open landscapes
+Western Rosella,Platycercus icterotis,Parrots and cockatoos,True,Endemic,Forest,Forests
+Greater Bluebonnet,Northiella haematogaster,Parrots and cockatoos,False,,Woodland,Open landscapes
+Naretha Bluebonnet,Northiella narethae,Parrots and cockatoos,True,Endemic,Woodland,Open landscapes
+Red-rumped Parrot,Psephotus haematonotus,Parrots and cockatoos,True,Endemic,Woodland,Open landscapes
+Mulga Parrot,Psephotellus varius,Parrots and cockatoos,True,Endemic,Grassland,Open landscapes
+Hooded Parrot,Psephotellus dissimilis,Parrots and cockatoos,True,Endemic,Woodland,Open landscapes
+Golden-shouldered Parrot,Psephotellus chrysopterygius,Parrots and cockatoos,True,Endemic Endangered,Forest,Forests
+Red-capped Parrot,Purpureicephalus spurius,Parrots and cockatoos,True,Endemic,Forest,Forests
+Double-eyed Fig-Parrot,Cyclopsitta diophthalma,Parrots and cockatoos,False,,Forest,Forests
+Budgerigar,Melopsittacus undulatus,Parrots and cockatoos,True,Endemic,Savanna,Open landscapes
+Varied Lorikeet,Psitteuteles versicolor,Parrots and cockatoos,True,Endemic,Woodland,Open landscapes
+Little Lorikeet,Psitteuteles pusillus,Parrots and cockatoos,True,Endemic,Woodland,Open landscapes
+Purple-crowned Lorikeet,Psitteuteles porphyrocephalus,Parrots and cockatoos,True,Endemic,Woodland,Open landscapes
+Musk Lorikeet,Trichoglossus concinnus,Parrots and cockatoos,True,Endemic,Woodland,Open landscapes
+Scaly-breasted Lorikeet,Trichoglossus chlorolepidotus,Parrots and cockatoos,True,Endemic,Woodland,Open landscapes
+Coconut Lorikeet,Trichoglossus haematodus,Parrots and cockatoos,False,,Woodland,Open landscapes
+Rainbow Lorikeet,Trichoglossus moluccanus,Parrots and cockatoos,False,,Forest,Forests
+Red-collared Lorikeet,Trichoglossus rubritorquis,Parrots and cockatoos,True,Endemic,Forest,Forests
+Papuan Pitta,Erythropitta macklotii,Perching birds,False,,Forest,Forests
+Noisy Pitta,Pitta versicolor,Perching birds,False,,Forest,Forests
+Rainbow Pitta,Pitta iris,Perching birds,True,Endemic,Forest,Forests
+Albert's Lyrebird,Menura alberti,Perching birds,True,Endemic,Forest,Forests
+Superb Lyrebird,Menura novaehollandiae,Perching birds,True,Endemic,Forest,Forests
+Rufous Scrub-bird,Atrichornis rufescens,Perching birds,True,Endemic Endangered,Forest,Forests
+Noisy Scrub-bird,Atrichornis clamosus,Perching birds,True,Endemic Endangered,Shrub,Open landscapes
+Spotted Catbird,Ailuroedus maculosus,Perching birds,True,Endemic,Forest,Forests
+Black-eared Catbird,Ailuroedus melanotis,Perching birds,False,,Forest,Forests
+Green Catbird,Ailuroedus crassirostris,Perching birds,True,Endemic,Forest,Forests
+Tooth-billed Bowerbird,Scenopoeetes dentirostris,Perching birds,True,Endemic Near-threatened,Forest,Forests
+Golden Bowerbird,Prionodura newtoniana,Perching birds,True,Endemic Near-threatened,Forest,Forests
+Regent Bowerbird,Sericulus chrysocephalus,Perching birds,True,Endemic,Forest,Forests
+Satin Bowerbird,Ptilonorhynchus violaceus,Perching birds,True,Endemic,Forest,Forests
+Western Bowerbird,Chlamydera guttata,Perching birds,True,Endemic,Shrub,Open landscapes
+Spotted Bowerbird,Chlamydera maculata,Perching birds,True,Endemic,Shrub,Open landscapes
+Great Bowerbird,Chlamydera nuchalis,Perching birds,True,Endemic,Shrub,Open landscapes
+Fawn-breasted Bowerbird,Chlamydera cerviniventris,Perching birds,False,,Shrub,Open landscapes
+White-throated Treecreeper,Cormobates leucophaea,Perching birds,True,Endemic,Forest,Forests
+White-browed Treecreeper,Climacteris affinis,Perching birds,True,Endemic,Shrub,Open landscapes
+Red-browed Treecreeper,Climacteris erythrops,Perching birds,True,Endemic,Forest,Forests
+Brown Treecreeper,Climacteris picumnus,Perching birds,True,Endemic,Forest,Forests
+Black-tailed Treecreeper,Climacteris melanurus,Perching birds,True,Endemic,Forest,Forests
+Rufous Treecreeper,Climacteris rufus,Perching birds,True,Endemic,Woodland,Open landscapes
+Gray Grasswren,Amytornis barbatus,Perching birds,True,Endemic,Grassland,Open landscapes
+Pilbara Grasswren,Amytornis whitei,Perching birds,True,Endemic,Rocky,Rocky and arid
+Sandhill Grasswren,Amytornis oweni,Perching birds,True,Endemic,Desert,Rocky and arid
+Opalton Grasswren,Amytornis rowleyi,Perching birds,True,Endemic,Grassland,Open landscapes
+Striated Grasswren,Amytornis striatus,Perching birds,True,Endemic,Woodland,Open landscapes
+White-throated Grasswren,Amytornis woodwardi,Perching birds,True,Endemic Endangered,Rocky,Rocky and arid
+Carpentarian Grasswren,Amytornis dorotheae,Perching birds,True,Endemic Vulnerable,Rocky,Rocky and arid
+Short-tailed Grasswren,Amytornis merrotsyi,Perching birds,True,Endemic Near-threatened,Grassland,Open landscapes
+Western Grasswren,Amytornis textilis,Perching birds,False,,Shrub,Open landscapes
+Thick-billed Grasswren,Amytornis modestus,Perching birds,True,Endemic,Shrub,Open landscapes
+Black Grasswren,Amytornis housei,Perching birds,True,Endemic,Rocky,Rocky and arid
+Eyrean Grasswren,Amytornis goyderi,Perching birds,False,,Grassland,Open landscapes
+Dusky Grasswren,Amytornis purnelli,Perching birds,True,Endemic,Shrub,Open landscapes
+Kalkadoon Grasswren,Amytornis ballarae,Perching birds,True,Endemic Vulnerable,Grassland,Open landscapes
+Southern Emuwren,Stipiturus malachurus,Perching birds,True,Endemic,Shrub,Open landscapes
+Rufous-crowned Emuwren,Stipiturus ruficeps,Perching birds,True,Endemic,Desert,Rocky and arid
+Mallee Emuwren,Stipiturus mallee,Perching birds,True,Endemic Endangered,Grassland,Open landscapes
+Purple-crowned Fairywren,Malurus coronatus,Perching birds,True,Endemic,Riparian,Wetlands and rivers
+Red-winged Fairywren,Malurus elegans,Perching birds,True,Endemic,Forest,Forests
+Blue-breasted Fairywren,Malurus pulcherrimus,Perching birds,True,Endemic,Woodland,Open landscapes
+Purple-backed Fairywren,Malurus assimilis,Perching birds,False,,Shrub,Open landscapes
+Variegated Fairywren,Malurus lamberti,Perching birds,True,Endemic,Shrub,Open landscapes
+Lovely Fairywren,Malurus amabilis,Perching birds,True,Endemic,Forest,Forests
+Splendid Fairywren,Malurus splendens,Perching birds,True,Endemic,Shrub,Open landscapes
+Superb Fairywren,Malurus cyaneus,Perching birds,True,Endemic,Shrub,Open landscapes
+White-winged Fairywren,Malurus leucopterus,Perching birds,True,Endemic,Shrub,Open landscapes
+Red-backed Fairywren,Malurus melanocephalus,Perching birds,True,Endemic,Woodland,Open landscapes
+Eastern Spinebill,Acanthorhynchus tenuirostris,Perching birds,True,Endemic,Forest,Forests
+Western Spinebill,Acanthorhynchus superciliosus,Perching birds,True,Endemic,Shrub,Open landscapes
+Pied Honeyeater,Certhionyx variegatus,Perching birds,True,Endemic,Shrub,Open landscapes
+Yellow-spotted Honeyeater,Meliphaga notata,Perching birds,True,Endemic,Forest,Forests
+Lewin's Honeyeater,Meliphaga lewinii,Perching birds,True,Endemic,Forest,Forests
+Kimberley Honeyeater,Meliphaga fordiana,Perching birds,True,Endemic,Rocky,Rocky and arid
+White-lined Honeyeater,Meliphaga albilineata,Perching birds,True,Endemic,Forest,Forests
+Graceful Honeyeater,Meliphaga gracilis,Perching birds,False,,Shrub,Open landscapes
+Cryptic Honeyeater,Meliphaga imitatrix,Perching birds,True,Endemic,Forest,Forests
+Yellow Honeyeater,Stomiopera flava,Perching birds,True,Endemic,Forest,Forests
+White-gaped Honeyeater,Stomiopera unicolor,Perching birds,True,Endemic,Forest,Forests
+White-fronted Honeyeater,Purnella albifrons,Perching birds,True,Endemic,Shrub,Open landscapes
+Yellow-faced Honeyeater,Caligavis chrysops,Perching birds,True,Endemic,Forest,Forests
+Yellow-tufted Honeyeater,Lichenostomus melanops,Perching birds,True,Endemic,Forest,Forests
+Purple-gaped Honeyeater,Lichenostomus cratitius,Perching birds,True,Endemic,Woodland,Open landscapes
+Bell Miner,Manorina melanophrys,Perching birds,True,Endemic,Forest,Forests
+Noisy Miner,Manorina melanocephala,Perching birds,True,Endemic,Woodland,Open landscapes
+Yellow-throated Miner,Manorina flavigula,Perching birds,True,Endemic,Woodland,Open landscapes
+Black-eared Miner,Manorina melanotis,Perching birds,True,Endemic Endangered,Woodland,Open landscapes
+Bridled Honeyeater,Bolemoreus frenatus,Perching birds,True,Endemic,Forest,Forests
+Eungella Honeyeater,Bolemoreus hindwoodi,Perching birds,True,Endemic Near-threatened,Forest,Forests
+Spiny-cheeked Honeyeater,Acanthagenys rufogularis,Perching birds,True,Endemic,Shrub,Open landscapes
+Little Wattlebird,Anthochaera chrysoptera,Perching birds,True,Endemic,Shrub,Open landscapes
+Western Wattlebird,Anthochaera lunulata,Perching birds,True,Endemic,Forest,Forests
+Regent Honeyeater,Anthochaera phrygia,Perching birds,True,Endemic Critically endangered,Forest,Forests
+Red Wattlebird,Anthochaera carunculata,Perching birds,True,Endemic,Forest,Forests
+Yellow Wattlebird,Anthochaera paradoxa,Perching birds,True,Endemic,Forest,Forests
+Varied Honeyeater,Gavicalis versicolor,Perching birds,False,,Coastal,Seas and coasts
+Mangrove Honeyeater,Gavicalis fasciogularis,Perching birds,True,Endemic,Coastal,Seas and coasts
+Singing Honeyeater,Gavicalis virescens,Perching birds,True,Endemic,Shrub,Open landscapes
+Yellow-plumed Honeyeater,Ptilotula ornata,Perching birds,True,Endemic,Woodland,Open landscapes
+White-plumed Honeyeater,Ptilotula penicillata,Perching birds,True,Endemic,Forest,Forests
+Yellow-tinted Honeyeater,Ptilotula flavescens,Perching birds,False,,Forest,Forests
+Fuscous Honeyeater,Ptilotula fusca,Perching birds,True,Endemic,Forest,Forests
+Gray-headed Honeyeater,Ptilotula keartlandi,Perching birds,True,Endemic,Woodland,Open landscapes
+Gray-fronted Honeyeater,Ptilotula plumula,Perching birds,True,Endemic,Woodland,Open landscapes
+Brown-backed Honeyeater,Ramsayornis modestus,Perching birds,False,,Shrub,Open landscapes
+Bar-breasted Honeyeater,Ramsayornis fasciatus,Perching birds,True,Endemic,Forest,Forests
+Rufous-banded Honeyeater,Conopophila albogularis,Perching birds,False,,Forest,Forests
+Rufous-throated Honeyeater,Conopophila rufogularis,Perching birds,True,Endemic,Woodland,Open landscapes
+Gray Honeyeater,Conopophila whitei,Perching birds,True,Endemic,Woodland,Open landscapes
+Gibberbird,Ashbyia lovensis,Perching birds,True,Endemic,Desert,Rocky and arid
+Yellow Chat,Epthianura crocea,Perching birds,True,Endemic,Wetland,Wetlands and rivers
+Crimson Chat,Epthianura tricolor,Perching birds,True,Endemic,Shrub,Open landscapes
+Orange Chat,Epthianura aurifrons,Perching birds,True,Endemic,Shrub,Open landscapes
+White-fronted Chat,Epthianura albifrons,Perching birds,True,Endemic,Wetland,Wetlands and rivers
+Black Honeyeater,Sugomel nigrum,Perching birds,True,Endemic,Shrub,Open landscapes
+Dusky Myzomela,Myzomela obscura,Perching birds,False,,Forest,Forests
+Red-headed Myzomela,Myzomela erythrocephala,Perching birds,False,,Coastal,Seas and coasts
+Scarlet Myzomela,Myzomela sanguinolenta,Perching birds,True,Endemic,Forest,Forests
+Tawny-crowned Honeyeater,Gliciphila melanops,Perching birds,True,Endemic,Shrub,Open landscapes
+Green-backed Honeyeater,Glycichaera fallax,Perching birds,False,,Forest,Forests
+Banded Honeyeater,Cissomela pectoralis,Perching birds,True,Endemic,Grassland,Open landscapes
+Brown Honeyeater,Lichmera indistincta,Perching birds,False,,Woodland,Open landscapes
+Crescent Honeyeater,Phylidonyris pyrrhopterus,Perching birds,True,Endemic,Forest,Forests
+New Holland Honeyeater,Phylidonyris novaehollandiae,Perching birds,True,Endemic,Shrub,Open landscapes
+White-cheeked Honeyeater,Phylidonyris niger,Perching birds,True,Endemic,Shrub,Open landscapes
+White-streaked Honeyeater,Trichodere cockerelli,Perching birds,True,Endemic,Forest,Forests
+White-eared Honeyeater,Nesoptilotis leucotis,Perching birds,True,Endemic,Shrub,Open landscapes
+Yellow-throated Honeyeater,Nesoptilotis flavicollis,Perching birds,True,Endemic,Forest,Forests
+Blue-faced Honeyeater,Entomyzon cyanotis,Perching birds,False,,Forest,Forests
+White-throated Honeyeater,Melithreptus albogularis,Perching birds,False,,Forest,Forests
+Gilbert's Honeyeater,Melithreptus chloropsis,Perching birds,True,Endemic,Forest,Forests
+White-naped Honeyeater,Melithreptus lunatus,Perching birds,True,Endemic,Forest,Forests
+Black-headed Honeyeater,Melithreptus affinis,Perching birds,True,Endemic,Forest,Forests
+Brown-headed Honeyeater,Melithreptus brevirostris,Perching birds,True,Endemic,Forest,Forests
+Black-chinned Honeyeater,Melithreptus gularis,Perching birds,True,Endemic,Forest,Forests
+Strong-billed Honeyeater,Melithreptus validirostris,Perching birds,True,Endemic Vulnerable,Forest,Forests
+Tawny-breasted Honeyeater,Xanthotis flaviventer,Perching birds,False,,Forest,Forests
+Macleay's Honeyeater,Xanthotis macleayanus,Perching birds,True,Endemic,Forest,Forests
+Striped Honeyeater,Plectorhyncha lanceolata,Perching birds,True,Endemic,Forest,Forests
+Painted Honeyeater,Grantiella picta,Perching birds,True,Endemic,Woodland,Open landscapes
+Little Friarbird,Philemon citreogularis,Perching birds,False,,Forest,Forests
+Helmeted Friarbird,Philemon buceroides,Perching birds,False,,Forest,Forests
+Silver-crowned Friarbird,Philemon argenticeps,Perching birds,True,Endemic,Forest,Forests
+Noisy Friarbird,Philemon corniculatus,Perching birds,False,,Forest,Forests
+Western Bristlebird,Dasyornis longirostris,Perching birds,True,Endemic Endangered,Shrub,Open landscapes
+Eastern Bristlebird,Dasyornis brachypterus,Perching birds,True,Endemic Vulnerable,Forest,Forests
+Rufous Bristlebird,Dasyornis broadbenti,Perching birds,True,Endemic,Shrub,Open landscapes
+Spotted Pardalote,Pardalotus punctatus,Perching birds,True,Endemic,Forest,Forests
+Forty-spotted Pardalote,Pardalotus quadragintus,Perching birds,True,Endemic Endangered,Forest,Forests
+Red-browed Pardalote,Pardalotus rubricatus,Perching birds,True,Endemic,Shrub,Open landscapes
+Striated Pardalote,Pardalotus striatus,Perching birds,True,Endemic,Forest,Forests
+Fernwren,Oreoscopus gutturalis,Perching birds,True,Endemic Endangered,Forest,Forests
+Pilotbird,Pycnoptilus floccosus,Perching birds,True,Endemic Vulnerable,Shrub,Open landscapes
+Redthroat,Pyrrholaemus brunneus,Perching birds,True,Endemic,Woodland,Open landscapes
+Speckled Warbler,Pyrrholaemus sagittatus,Perching birds,True,Endemic,Woodland,Open landscapes
+Shy Heathwren,Hylacola cauta,Perching birds,True,Endemic,Shrub,Open landscapes
+Chestnut-rumped Heathwren,Hylacola pyrrhopygia,Perching birds,True,Endemic,Shrub,Open landscapes
+Striated Fieldwren,Calamanthus fuliginosus,Perching birds,True,Endemic,Shrub,Open landscapes
+Rufous Fieldwren,Calamanthus campestris,Perching birds,True,Endemic,Shrub,Open landscapes
+Western Fieldwren,Calamanthus montanellus,Perching birds,True,Endemic,Shrub,Open landscapes
+Weebill,Smicrornis brevirostris,Perching birds,True,Endemic,Woodland,Open landscapes
+Yellow-throated Scrubwren,Neosericornis citreogularis,Perching birds,True,Endemic,Forest,Forests
+Rockwarbler,Origma solitaria,Perching birds,True,Endemic,Rocky,Rocky and arid
+Tasmanian Scrubwren,Sericornis humilis,Perching birds,True,Endemic,Forest,Forests
+White-browed Scrubwren,Sericornis frontalis,Perching birds,False,,Shrub,Open landscapes
+Spotted Scrubwren,Sericornis maculatus,Perching birds,False,,Forest,Forests
+Atherton Scrubwren,Sericornis keri,Perching birds,True,Endemic Vulnerable,Forest,Forests
+Tropical Scrubwren,Sericornis beccarii,Perching birds,False,,Forest,Forests
+Large-billed Scrubwren,Sericornis magnirostra,Perching birds,True,Endemic,Forest,Forests
+Scrubtit,Acanthornis magna,Perching birds,True,Endemic,Forest,Forests
+Southern Whiteface,Aphelocephala leucopsis,Perching birds,True,Endemic Vulnerable,Woodland,Open landscapes
+Banded Whiteface,Aphelocephala nigricincta,Perching birds,True,Endemic,Shrub,Open landscapes
+Chestnut-breasted Whiteface,Aphelocephala pectoralis,Perching birds,True,Endemic Near-threatened,Shrub,Open landscapes
+Yellow-rumped Thornbill,Acanthiza chrysorrhoa,Perching birds,True,Endemic,Woodland,Open landscapes
+Yellow Thornbill,Acanthiza nana,Perching birds,True,Endemic,Shrub,Open landscapes
+Striated Thornbill,Acanthiza lineata,Perching birds,True,Endemic,Forest,Forests
+Inland Thornbill,Acanthiza apicalis,Perching birds,True,Endemic,Woodland,Open landscapes
+Tasmanian Thornbill,Acanthiza ewingii,Perching birds,True,Endemic,Forest,Forests
+Mountain Thornbill,Acanthiza katherina,Perching birds,True,Endemic Vulnerable,Forest,Forests
+Brown Thornbill,Acanthiza pusilla,Perching birds,True,Endemic,Shrub,Open landscapes
+Slaty-backed Thornbill,Acanthiza robustirostris,Perching birds,True,Endemic,Woodland,Open landscapes
+Slender-billed Thornbill,Acanthiza iredalei,Perching birds,True,Endemic,Shrub,Open landscapes
+Chestnut-rumped Thornbill,Acanthiza uropygialis,Perching birds,True,Endemic,Woodland,Open landscapes
+Western Thornbill,Acanthiza inornata,Perching birds,True,Endemic,Woodland,Open landscapes
+Buff-rumped Thornbill,Acanthiza reguloides,Perching birds,True,Endemic,Forest,Forests
+Brown Gerygone,Gerygone mouki,Perching birds,True,Endemic,Forest,Forests
+Green-backed Gerygone,Gerygone chloronota,Perching birds,False,,Forest,Forests
+Fairy Gerygone,Gerygone palpebrosa,Perching birds,False,,Forest,Forests
+Large-billed Gerygone,Gerygone magnirostris,Perching birds,False,,Forest,Forests
+White-throated Gerygone,Gerygone olivacea,Perching birds,False,,Woodland,Open landscapes
+Dusky Gerygone,Gerygone tenebrosa,Perching birds,True,Endemic,Coastal,Seas and coasts
+Mangrove Gerygone,Gerygone levigaster,Perching birds,False,,Coastal,Seas and coasts
+Western Gerygone,Gerygone fusca,Perching birds,True,Endemic,Woodland,Open landscapes
+Norfolk Island Gerygone,Gerygone modesta,Perching birds,True,Endemic,Forest,Forests
+Gray-crowned Babbler,Pomatostomus temporalis,Perching birds,False,,Woodland,Open landscapes
+White-browed Babbler,Pomatostomus superciliosus,Perching birds,True,Endemic,Forest,Forests
+Hall's Babbler,Pomatostomus halli,Perching birds,True,Endemic,Shrub,Open landscapes
+Chestnut-crowned Babbler,Pomatostomus ruficeps,Perching birds,True,Endemic,Shrub,Open landscapes
+Australian Logrunner,Orthonyx temminckii,Perching birds,True,Endemic,Forest,Forests
+Chowchilla,Orthonyx spaldingii,Perching birds,True,Endemic,Forest,Forests
+Spotted Quail-thrush,Cinclosoma punctatum,Perching birds,True,Endemic,Forest,Forests
+Chestnut Quail-thrush,Cinclosoma castanotum,Perching birds,True,Endemic,Woodland,Open landscapes
+Copperback Quail-thrush,Cinclosoma clarum,Perching birds,False,,Woodland,Open landscapes
+Chestnut-breasted Quail-thrush,Cinclosoma castaneothorax,Perching birds,True,Endemic,Shrub,Open landscapes
+Western Quail-thrush,Cinclosoma marginatum,Perching birds,True,Endemic,Woodland,Open landscapes
+Cinnamon Quail-thrush,Cinclosoma cinnamomeum,Perching birds,True,Endemic,Shrub,Open landscapes
+Nullarbor Quail-thrush,Cinclosoma alisteri,Perching birds,True,Endemic,Plains,Open landscapes
+Ground Cuckooshrike,Coracina maxima,Perching birds,True,Endemic,Savanna,Open landscapes
+Barred Cuckooshrike,Coracina lineata,Perching birds,False,,Forest,Forests
+Black-faced Cuckooshrike,Coracina novaehollandiae,Perching birds,False,,Forest,Forests
+White-bellied Cuckooshrike,Coracina papuensis,Perching birds,False,,Woodland,Open landscapes
+White-winged Triller,Lalage tricolor,Perching birds,False,,Savanna,Open landscapes
+Varied Triller,Lalage leucomela,Perching birds,False,,Forest,Forests
+Sahul Cicadabird,Edolisoma tenuirostre,Perching birds,False,,Forest,Forests
+Papuan Sittella,Daphoenositta papuensis,Perching birds,False,,Forest,Forests
+Varied Sittella,Daphoenositta chrysoptera,Perching birds,True,Endemic,Forest,Forests
+Eastern Whipbird,Psophodes olivaceus,Perching birds,True,Endemic,Forest,Forests
+Western Whipbird,Psophodes nigrogularis,Perching birds,True,Endemic,Shrub,Open landscapes
+Chiming Wedgebill,Psophodes occidentalis,Perching birds,True,Endemic,Shrub,Open landscapes
+Chirruping Wedgebill,Psophodes cristatus,Perching birds,True,Endemic,Shrub,Open landscapes
+Crested Bellbird,Oreoica gutturalis,Perching birds,True,Endemic,Shrub,Open landscapes
+Eastern Shrike-tit,Falcunculus frontatus,Perching birds,True,Endemic,Woodland,Open landscapes
+Western Shrike-tit,Falcunculus leucogaster,Perching birds,True,Endemic,Woodland,Open landscapes
+Northern Shrike-tit,Falcunculus whitei,Perching birds,True,Endemic,Woodland,Open landscapes
+Sandstone Shrikethrush,Colluricincla woodwardi,Perching birds,True,Endemic,Rocky,Rocky and arid
+Bower's Shrikethrush,Colluricincla boweri,Perching birds,True,Endemic Vulnerable,Forest,Forests
+Gray Shrikethrush,Colluricincla harmonica,Perching birds,False,,Forest,Forests
+Little Shrikethrush,Colluricincla megarhyncha,Perching birds,False,,Forest,Forests
+Olive Whistler,Pachycephala olivacea,Perching birds,True,Endemic,Shrub,Open landscapes
+Red-lored Whistler,Pachycephala rufogularis,Perching birds,True,Endemic Vulnerable,Shrub,Open landscapes
+Gilbert's Whistler,Pachycephala inornata,Perching birds,True,Endemic,Shrub,Open landscapes
+Golden Whistler,Pachycephala pectoralis,Perching birds,False,,Forest,Forests
+Black-tailed Whistler,Pachycephala melanura,Perching birds,False,,Coastal,Seas and coasts
+Gray Whistler,Pachycephala simplex,Perching birds,False,,Forest,Forests
+Rufous Whistler,Pachycephala rufiventris,Perching birds,False,,Forest,Forests
+White-breasted Whistler,Pachycephala lanioides,Perching birds,True,Endemic,Coastal,Seas and coasts
+Olive-backed Oriole,Oriolus sagittatus,Perching birds,False,,Woodland,Open landscapes
+Green Oriole,Oriolus flavocinctus,Perching birds,False,,Forest,Forests
+Australasian Figbird,Sphecotheres vieilloti,Perching birds,False,,Forest,Forests
+Yellow-breasted Boatbill,Machaerirhynchus flaviventer,Perching birds,False,,Forest,Forests
+White-breasted Woodswallow,Artamus leucorynchus,Perching birds,False,,Savanna,Open landscapes
+Masked Woodswallow,Artamus personatus,Perching birds,True,Endemic,Woodland,Open landscapes
+White-browed Woodswallow,Artamus superciliosus,Perching birds,True,Endemic,Woodland,Open landscapes
+Black-faced Woodswallow,Artamus cinereus,Perching birds,False,,Savanna,Open landscapes
+Dusky Woodswallow,Artamus cyanopterus,Perching birds,True,Endemic,Woodland,Open landscapes
+Little Woodswallow,Artamus minor,Perching birds,True,Endemic,Woodland,Open landscapes
+Black-backed Butcherbird,Cracticus mentalis,Perching birds,False,,Woodland,Open landscapes
+Gray Butcherbird,Cracticus torquatus,Perching birds,True,Endemic,Woodland,Open landscapes
+Silver-backed Butcherbird,Cracticus argenteus,Perching birds,True,Endemic,Forest,Forests
+Pied Butcherbird,Cracticus nigrogularis,Perching birds,True,Endemic,Woodland,Open landscapes
+Black Butcherbird,Melloria quoyi,Perching birds,False,,Forest,Forests
+Australian Magpie,Gymnorhina tibicen,Perching birds,False,,Woodland,Open landscapes
+Pied Currawong,Strepera graculina,Perching birds,True,Endemic,Forest,Forests
+Black Currawong,Strepera fuliginosa,Perching birds,True,Endemic,Forest,Forests
+Gray Currawong,Strepera versicolor,Perching birds,True,Endemic,Forest,Forests
+Northern Fantail,Rhipidura rufiventris,Perching birds,False,,Woodland,Open landscapes
+Willie-wagtail,Rhipidura leucophrys,Perching birds,False,,Savanna,Open landscapes
+Arafura Fantail,Rhipidura dryas,Perching birds,False,,Coastal,Seas and coasts
+Australian Rufous Fantail,Rhipidura rufifrons,Perching birds,False,,Forest,Forests
+Gray Fantail,Rhipidura albiscapa,Perching birds,False,,Forest,Forests
+Mangrove Fantail,Rhipidura phasiana,Perching birds,False,,Coastal,Seas and coasts
+Spangled Drongo,Dicrurus bracteatus,Perching birds,False,,Forest,Forests
+Trumpet Manucode,Phonygammus keraudrenii,Perching birds,False,,Forest,Forests
+Paradise Riflebird,Ptiloris paradiseus,Perching birds,True,Endemic,Forest,Forests
+Victoria's Riflebird,Ptiloris victoriae,Perching birds,True,Endemic Vulnerable,Forest,Forests
+Magnificent Riflebird,Ptiloris magnificus,Perching birds,False,,Forest,Forests
+White-eared Monarch,Carterornis leucotis,Perching birds,True,Endemic,Shrub,Open landscapes
+Black-faced Monarch,Monarcha melanopsis,Perching birds,False,,Forest,Forests
+Black-winged Monarch,Monarcha frater,Perching birds,False,,Forest,Forests
+Australian Spectacled Monarch,Symposiachrus trivirgatus,Perching birds,False,,Forest,Forests
+Louisiade Spectacled Monarch,Symposiachrus melanopterus,Perching birds,False,,Forest,Forests
+Frilled Monarch,Arses telescopthalmus,Perching birds,False,,Forest,Forests
+Frill-necked Monarch,Arses lorealis,Perching birds,True,Endemic,Forest,Forests
+Pied Monarch,Arses kaupi,Perching birds,True,Endemic,Forest,Forests
+Magpie-lark,Grallina cyanoleuca,Perching birds,False,,Savanna,Open landscapes
+Leaden Flycatcher,Myiagra rubecula,Perching birds,False,,Forest,Forests
+Broad-billed Flycatcher,Myiagra ruficollis,Perching birds,False,,Coastal,Seas and coasts
+Satin Flycatcher,Myiagra cyanoleuca,Perching birds,False,,Shrub,Open landscapes
+Restless Flycatcher,Myiagra inquieta,Perching birds,True,Endemic,Woodland,Open landscapes
+Paperbark Flycatcher,Myiagra nana,Perching birds,False,,Riparian,Wetlands and rivers
+Shining Flycatcher,Myiagra alecto,Perching birds,False,,Riparian,Wetlands and rivers
+White-winged Chough,Corcorax melanorhamphos,Perching birds,True,Endemic,Woodland,Open landscapes
+Apostlebird,Struthidea cinerea,Perching birds,True,Endemic,Shrub,Open landscapes
+Torresian Crow,Corvus orru,Perching birds,False,,Forest,Forests
+Little Crow,Corvus bennetti,Perching birds,True,Endemic,Shrub,Open landscapes
+Australian Raven,Corvus coronoides,Perching birds,True,Endemic,Shrub,Open landscapes
+Little Raven,Corvus mellori,Perching birds,True,Endemic,Shrub,Open landscapes
+Forest Raven,Corvus tasmanicus,Perching birds,True,Endemic,Woodland,Open landscapes
+Norfolk Robin,Petroica multicolor,Perching birds,True,Endemic Endangered,Forest,Forests
+Red-capped Robin,Petroica goodenovii,Perching birds,True,Endemic,Savanna,Open landscapes
+Rose Robin,Petroica rosea,Perching birds,True,Endemic,Forest,Forests
+Pink Robin,Petroica rodinogaster,Perching birds,True,Endemic,Forest,Forests
+Flame Robin,Petroica phoenicea,Perching birds,True,Endemic,Shrub,Open landscapes
+Scarlet Robin,Petroica boodang,Perching birds,True,Endemic,Forest,Forests
+Yellow-legged Flyrobin,Kempiella griseoceps,Perching birds,False,,Forest,Forests
+Lemon-bellied Flyrobin,Microeca flavigaster,Perching birds,False,,Forest,Forests
+Jacky-winter,Microeca fascinans,Perching birds,False,,Forest,Forests
+Southern Scrub-Robin,Drymodes brunneopygia,Perching birds,True,Endemic,Shrub,Open landscapes
+Northern Scrub-Robin,Drymodes superciliaris,Perching birds,True,Endemic,Forest,Forests
+Gray-headed Robin,Heteromyias cinereifrons,Perching birds,True,Endemic Near-threatened,Forest,Forests
+White-browed Robin,Poecilodryas superciliosa,Perching birds,True,Endemic,Riparian,Wetlands and rivers
+Buff-sided Robin,Poecilodryas cerviniventris,Perching birds,True,Endemic,Forest,Forests
+Dusky Robin,Melanodryas vittata,Perching birds,True,Endemic Vulnerable,Forest,Forests
+Hooded Robin,Melanodryas cucullata,Perching birds,True,Endemic,Shrub,Open landscapes
+Mangrove Robin,Melanodryas pulverulenta,Perching birds,False,,Coastal,Seas and coasts
+Eastern Yellow Robin,Eopsaltria australis,Perching birds,True,Endemic,Shrub,Open landscapes
+Western Yellow Robin,Eopsaltria griseogularis,Perching birds,True,Endemic,Forest,Forests
+White-breasted Robin,Eopsaltria georgiana,Perching birds,True,Endemic,Forest,Forests
+Pale-yellow Robin,Eopsaltria capito,Perching birds,True,Endemic,Forest,Forests
+White-faced Robin,Eopsaltria leucops,Perching birds,False,,Forest,Forests
+Singing Bushlark,Mirafra javanica,Perching birds,False,,Grassland,Open landscapes
+Zitting Cisticola,Cisticola juncidis,Perching birds,False,,Grassland,Open landscapes
+Golden-headed Cisticola,Cisticola exilis,Perching birds,False,,Grassland,Open landscapes
+Australian Reed Warbler,Acrocephalus australis,Perching birds,False,,Wetland,Wetlands and rivers
+Spinifexbird,Poodytes carteri,Perching birds,True,Endemic,Grassland,Open landscapes
+Little Grassbird,Poodytes gramineus,Perching birds,False,,Wetland,Wetlands and rivers
+Brown Songlark,Cincloramphus cruralis,Perching birds,True,Endemic,Grassland,Open landscapes
+Rufous Songlark,Cincloramphus mathewsi,Perching birds,True,Endemic,Grassland,Open landscapes
+Tawny Grassbird,Cincloramphus timoriensis,Perching birds,False,,Wetland,Wetlands and rivers
+White-backed Swallow,Cheramoeca leucosterna,Perching birds,True,Endemic,Savanna,Open landscapes
+Welcome Swallow,Hirundo neoxena,Perching birds,False,,Wetland,Wetlands and rivers
+Barn Swallow,Hirundo rustica,Perching birds,False,,Plains,Open landscapes
+Fairy Martin,Petrochelidon ariel,Perching birds,False,Breeding endemic,Savanna,Open landscapes
+Tree Martin,Petrochelidon nigricans,Perching birds,False,,Shrub,Open landscapes
+Australian Yellow White-eye,Zosterops luteus,Perching birds,True,Endemic,Coastal,Seas and coasts
+Silvereye,Zosterops lateralis,Perching birds,False,,Shrub,Open landscapes
+Christmas Island White-eye,Zosterops natalis,Perching birds,True,Endemic,Forest,Forests
+Slender-billed White-eye,Zosterops tenuirostris,Perching birds,True,Endemic Vulnerable,Forest,Forests
+Metallic Starling,Aplonis metallica,Perching birds,False,,Forest,Forests
+Singing Starling,Aplonis cantoroides,Perching birds,False,,Forest,Forests
+Bassian Thrush,Zoothera lunulata,Perching birds,True,Endemic,Forest,Forests
+Russet-tailed Thrush,Zoothera heinei,Perching birds,False,,Forest,Forests
+Christmas Island-Thrush,Turdus erythropleurus,Perching birds,True,Endemic,Forest,Forests
+Tasman Sea Island-Thrush,Turdus poliocephalus,Perching birds,False,,Forest,Forests
+Red-capped Flowerpecker,Dicaeum geelvinkianum,Perching birds,False,,Forest,Forests
+Mistletoebird,Dicaeum hirundinaceum,Perching birds,False,,Forest,Forests
+Ornate Sunbird,Cinnyris ornatus,Perching birds,False,,Forest,Forests
+Sahul Sunbird,Cinnyris frenatus,Perching birds,False,,Forest,Forests
+Pictorella Munia,Heteromunia pectoralis,Perching birds,True,Endemic,Woodland,Open landscapes
+Diamond Firetail,Stagonopleura guttata,Perching birds,True,Endemic Vulnerable,Forest,Forests
+Red-eared Firetail,Stagonopleura oculata,Perching birds,True,Endemic,Shrub,Open landscapes
+Beautiful Firetail,Stagonopleura bella,Perching birds,True,Endemic,Shrub,Open landscapes
+Crimson Finch,Neochmia phaeton,Perching birds,False,,Riparian,Wetlands and rivers
+Red-browed Firetail,Neochmia temporalis,Perching birds,True,Endemic,Woodland,Open landscapes
+Painted Firetail,Emblema pictum,Perching birds,True,Endemic,Rocky,Rocky and arid
+Star Finch,Emblema ruficauda,Perching birds,True,Endemic,Riparian,Wetlands and rivers
+Plum-headed Finch,Emblema modestum,Perching birds,True,Endemic,Savanna,Open landscapes
+Double-barred Finch,Stizoptera bichenovii,Perching birds,True,Endemic,Shrub,Open landscapes
+Zebra Finch,Taeniopygia guttata,Perching birds,False,,Grassland,Open landscapes
+Masked Finch,Poephila personata,Perching birds,True,Endemic,Forest,Forests
+Long-tailed Finch,Poephila acuticauda,Perching birds,True,Endemic,Woodland,Open landscapes
+Black-throated Finch,Poephila cincta,Perching birds,True,Endemic,Woodland,Open landscapes
+Yellow-rumped Munia,Lonchura flaviprymna,Perching birds,True,Endemic,Wetland,Wetlands and rivers
+Chestnut-breasted Munia,Lonchura castaneothorax,Perching birds,False,,Wetland,Wetlands and rivers
+Gouldian Finch,Chloebia gouldiae,Perching birds,True,Endemic,Savanna,Open landscapes
+Blue-faced Parrotfinch,Erythrura trichroa,Perching birds,False,,Forest,Forests
+Eastern Yellow Wagtail,Motacilla tschutschensis,Perching birds,False,,Wetland,Wetlands and rivers
+Australian Pipit,Anthus australis,Perching birds,False,,Grassland,Open landscapes

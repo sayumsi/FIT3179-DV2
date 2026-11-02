@@ -1,0 +1,49 @@
+state,state_name,species,scientific_name,records,state_identified_records,share_pct,state_leader,records_per_1000
+NSW,New South Wales,Australian Magpie,Gymnorhina tibicen,761,23624,3.221,True,32.2
+NSW,New South Wales,Magpie-lark,Grallina cyanoleuca,540,23624,2.286,False,22.9
+NSW,New South Wales,Rainbow Lorikeet,Trichoglossus moluccanus,444,23624,1.879,False,18.8
+NSW,New South Wales,Australian Raven,Corvus coronoides,500,23624,2.116,False,21.2
+NSW,New South Wales,Brown Honeyeater,Lichmera indistincta,58,23624,0.246,False,2.5
+NSW,New South Wales,Forest Raven,Corvus tasmanicus,4,23624,0.017,False,0.2
+VIC,Victoria,Australian Magpie,Gymnorhina tibicen,803,19826,4.05,True,40.5
+VIC,Victoria,Magpie-lark,Grallina cyanoleuca,437,19826,2.204,False,22.0
+VIC,Victoria,Rainbow Lorikeet,Trichoglossus moluccanus,395,19826,1.992,False,19.9
+VIC,Victoria,Australian Raven,Corvus coronoides,181,19826,0.913,False,9.1
+VIC,Victoria,Brown Honeyeater,Lichmera indistincta,0,19826,0.0,False,0.0
+VIC,Victoria,Forest Raven,Corvus tasmanicus,30,19826,0.151,False,1.5
+QLD,Queensland,Australian Magpie,Gymnorhina tibicen,248,10757,2.305,False,23.1
+QLD,Queensland,Magpie-lark,Grallina cyanoleuca,223,10757,2.073,False,20.7
+QLD,Queensland,Rainbow Lorikeet,Trichoglossus moluccanus,270,10757,2.51,True,25.1
+QLD,Queensland,Australian Raven,Corvus coronoides,23,10757,0.214,False,2.1
+QLD,Queensland,Brown Honeyeater,Lichmera indistincta,168,10757,1.562,False,15.6
+QLD,Queensland,Forest Raven,Corvus tasmanicus,0,10757,0.0,False,0.0
+WA,Western Australia,Australian Magpie,Gymnorhina tibicen,329,10502,3.133,False,31.3
+WA,Western Australia,Magpie-lark,Grallina cyanoleuca,152,10502,1.447,False,14.5
+WA,Western Australia,Rainbow Lorikeet,Trichoglossus moluccanus,120,10502,1.143,False,11.4
+WA,Western Australia,Australian Raven,Corvus coronoides,434,10502,4.133,True,41.3
+WA,Western Australia,Brown Honeyeater,Lichmera indistincta,196,10502,1.866,False,18.7
+WA,Western Australia,Forest Raven,Corvus tasmanicus,0,10502,0.0,False,0.0
+SA,South Australia,Australian Magpie,Gymnorhina tibicen,255,7756,3.288,True,32.9
+SA,South Australia,Magpie-lark,Grallina cyanoleuca,146,7756,1.882,False,18.8
+SA,South Australia,Rainbow Lorikeet,Trichoglossus moluccanus,148,7756,1.908,False,19.1
+SA,South Australia,Australian Raven,Corvus coronoides,78,7756,1.006,False,10.1
+SA,South Australia,Brown Honeyeater,Lichmera indistincta,0,7756,0.0,False,0.0
+SA,South Australia,Forest Raven,Corvus tasmanicus,7,7756,0.09,False,0.9
+TAS,Tasmania,Australian Magpie,Gymnorhina tibicen,126,6416,1.964,False,19.6
+TAS,Tasmania,Magpie-lark,Grallina cyanoleuca,0,6416,0.0,False,0.0
+TAS,Tasmania,Rainbow Lorikeet,Trichoglossus moluccanus,19,6416,0.296,False,3.0
+TAS,Tasmania,Australian Raven,Corvus coronoides,0,6416,0.0,False,0.0
+TAS,Tasmania,Brown Honeyeater,Lichmera indistincta,0,6416,0.0,False,0.0
+TAS,Tasmania,Forest Raven,Corvus tasmanicus,336,6416,5.237,True,52.4
+NT,Northern Territory,Australian Magpie,Gymnorhina tibicen,2,827,0.242,False,2.4
+NT,Northern Territory,Magpie-lark,Grallina cyanoleuca,58,827,7.013,True,70.1
+NT,Northern Territory,Rainbow Lorikeet,Trichoglossus moluccanus,0,827,0.0,False,0.0
+NT,Northern Territory,Australian Raven,Corvus coronoides,0,827,0.0,False,0.0
+NT,Northern Territory,Brown Honeyeater,Lichmera indistincta,58,827,7.013,True,70.1
+NT,Northern Territory,Forest Raven,Corvus tasmanicus,0,827,0.0,False,0.0
+ACT,Australian Capital Territory,Australian Magpie,Gymnorhina tibicen,42,533,7.88,True,78.8
+ACT,Australian Capital Territory,Magpie-lark,Grallina cyanoleuca,25,533,4.69,False,46.9
+ACT,Australian Capital Territory,Rainbow Lorikeet,Trichoglossus moluccanus,10,533,1.876,False,18.8
+ACT,Australian Capital Territory,Australian Raven,Corvus coronoides,10,533,1.876,False,18.8
+ACT,Australian Capital Territory,Brown Honeyeater,Lichmera indistincta,0,533,0.0,False,0.0
+ACT,Australian Capital Territory,Forest Raven,Corvus tasmanicus,0,533,0.0,False,0.0
